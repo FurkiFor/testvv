@@ -12,7 +12,7 @@ import sys
 
 import numpy as np
 from scipy.io import wavfile
-from scipy.signal import butter, sosfilt
+from scipy.signal import butter, resample_poly, sosfilt
 
 SR = 48000
 
@@ -203,9 +203,16 @@ def main(spec_path, out_path):
     spec_m[:, np.fft.rfftfreq(N, 1 / SR) < 30] = 0  # circular high-pass, no seam
     mix = np.fft.irfft(spec_m, N, axis=1)
     rms = np.sqrt((mix ** 2).mean()) + 1e-9
-    mix *= 10 ** (-19.5 / 20) / rms
-    mix = np.tanh(mix * 1.2) / np.tanh(1.2)
-    mix *= 0.8 / max(0.8, np.abs(mix).max())  # headroom for AAC overshoot
+    base = mix * 10 ** (-19.5 / 20) / rms
+    # Peaky tracks (domino clacks) need more saturation to reach a steady level;
+    # raise the drive until the RMS after a -2 dBTP ceiling is about -20 dBFS.
+    for drive in (1.2, 1.7, 2.4, 3.3, 4.5):
+        out = np.tanh(base * drive) / np.tanh(drive)
+        tp = np.abs(resample_poly(out, 4, 1, axis=1)).max()
+        out *= min(1.0, 10 ** (-2 / 20) / tp)
+        if np.sqrt((out ** 2).mean()) >= 10 ** (-20.5 / 20):
+            break
+    mix = out
     wavfile.write(out_path, SR, (mix.T * 32767).astype(np.int16))
 
 
