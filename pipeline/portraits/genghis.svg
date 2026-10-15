@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Cheerful Genghis Khan with fur hat illustration">
+<defs><linearGradient id="genghis-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9BE7C4"/><stop offset="1" stop-color="#2E8B6A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#genghis-bg)"/>
+<path d="M0 200 Q50 170 100 196 Q150 170 200 200 V250 H0Z" fill="#6FCF97" opacity=".6"/>
+<path d="M22 250 Q28 186 100 178 Q172 186 178 250Z" fill="#B23A48"/>
+<path d="M100 178 L76 250 M100 178 L124 250" stroke="#E8B923" stroke-width="5"/>
+<rect x="88" y="146" width="24" height="36" fill="#D9A47C"/>
+<ellipse cx="100" cy="118" rx="34" ry="38" fill="#E7B48C"/>
+<ellipse cx="65" cy="120" rx="6" ry="9" fill="#D9A47C"/><ellipse cx="135" cy="120" rx="6" ry="9" fill="#D9A47C"/>
+<path d="M78 106 Q87 101 95 106 M105 106 Q113 101 122 106" stroke="#2B1A10" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<path d="M80 115 Q87 111 94 115 M106 115 Q113 111 120 115" stroke="#2B1A10" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M100 117 Q95 129 100 131 Q105 132 107 128" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M80 140 Q100 158 120 140 Q100 148 80 140Z" fill="#fff" stroke="#7A3B2E" stroke-width="2.6"/>
+<path d="M84 136 Q70 140 62 160 M116 136 Q130 140 138 160" stroke="#2B1A10" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M92 150 Q100 170 108 150" stroke="#2B1A10" stroke-width="3" fill="none"/>
+<path d="M58 96 Q56 52 100 50 Q144 52 142 96 Q120 84 100 84 Q80 84 58 96Z" fill="#B23A48"/>
+<path d="M52 98 Q100 76 148 98 Q148 110 140 108 Q100 92 60 108 Q52 110 52 98Z" fill="#8B5A2B"/>
+<g stroke="#6B4220" stroke-width="2"><path d="M60 100 l4 6 M72 95 l3 6 M86 92 l2 6 M100 91 v6 M114 92 l-2 6 M128 95 l-3 6 M140 100 l-4 6"/></g>
+<circle cx="100" cy="50" r="7" fill="#E8B923"/>
+</svg>

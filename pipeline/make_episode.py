@@ -19,9 +19,17 @@ slug = ep['slug']
 B = os.path.join(P, 'build', slug)
 OUT = os.path.join(P, 'out')
 os.makedirs(os.path.join(B, 'vo'), exist_ok=True); os.makedirs(OUT, exist_ok=True)
-for side in ('you', 'them'):
-    ep[side]['svg'] = open(os.path.join(P, 'portraits', ep[side]['portrait'])).read()
-COLD = ep.get('hook', {}).get('mode') == 'none'      # no hook scene, no narrator: open straight on the chat
+GROUP = ep.get('mode') == 'group'                     # group chat: many members, system messages
+if GROUP:
+    for mk, mb in ep['members'].items():
+        mb['svg'] = open(os.path.join(P, 'portraits', mb['portrait'])).read()
+else:
+    for side in ('you', 'them'):
+        ep[side]['svg'] = open(os.path.join(P, 'portraits', ep[side]['portrait'])).read()
+def speaker(m):
+    if GROUP: return ep['members'][m.get('from', ep['me']) if m['k'] == 'in' else ep['me']]
+    return ep['you'] if m['k'] == 'out' else ep['them']
+COLD = GROUP or 'hook' not in ep or ep['hook'].get('mode') == 'none'      # no hook scene, no narrator: open straight on the chat
 CUT = ep.get('ending') == 'cut'                       # no meme card: end right after the last message
 ep['props'] = {}
 for m in ep['chat']:
@@ -34,8 +42,9 @@ if not COLD:
     assert len(ep['notifications']) == 2, 'notifications: exactly 2'
 assert ep.get('ending', 'block') in ('block', 'none', 'cut')
 for m in ep['chat']:
-    assert m['k'] in ('chip', 'in', 'out'), m
-    if m['k'] != 'chip' and not m.get('big'):
+    assert m['k'] in ('chip', 'in', 'out', 'sys'), m
+    if GROUP and m['k'] == 'in': assert m.get('from') in ep['members'], m
+    if m['k'] not in ('chip', 'sys') and not m.get('big'):
         assert m.get('say'), f'missing say: {m}'
 
 # ---------- voice lines ----------
@@ -43,7 +52,7 @@ nar = ep.get('narrator', {'voice': 'am_onyx', 'speed': 1.2})
 LINES = ([] if COLD else [('hook', ep['hook'], nar, 0.0)]) + ([] if CUT else [('meme', ep['meme'], nar, -0.1)])
 for i, m in enumerate(ep['chat']):
     if m.get('say'):
-        LINES.append((f'c{i}', m, ep['you'] if m['k'] == 'out' else ep['them'], 0.0))
+        LINES.append((f'c{i}', m, speaker(m), 0.0))
 
 # `--lines`: write build/<slug>/lines.json (what ElevenLabs must speak) and stop.
 if '--lines' in sys.argv:
@@ -102,21 +111,25 @@ def build_timeline(dur):
         t = hook_end + 0.15
     for i, m in enumerate(ep["chat"]):
         t += m.get("pause", 0)
-        e = {"i": i, "k": m["k"], "text": m["text"], "time": m.get("time", ""), "quote": m.get("quote", ""), "big": m.get("big", False), "photo": m.get("photo", "")}
+        e = {"i": i, "k": m["k"], "text": m["text"], "time": m.get("time", ""), "quote": m.get("quote", ""), "big": m.get("big", False), "photo": m.get("photo", ""),
+             "from": m.get("from", ""), "rename": m.get("rename", "")}
         vd = dur.get(f"c{i}", 0)
         if m["k"] == "chip":
             e["at"] = t; t += 0.45
+        elif m["k"] == "sys":
+            e["at"] = t; tl["sfx"].append(("ding", t)); t += m.get("hold", 1.1)
         elif m["k"] == "out":
-            type_len = max(vd * 0.92, 0.45)
+            type_len = min(max(vd * 0.92, 0.45), 0.8) if GROUP else max(vd * 0.92, 0.45)
             e["typeStart"] = t; e["typeEnd"] = t + type_len
             if vd: tl["vo"].append((f"c{i}", t + 0.05))
-            e["at"] = t + max(type_len, vd) + 0.12
+            e["at"] = t + (type_len if GROUP else max(type_len, vd)) + 0.12
+            if GROUP: e["voEnd"] = t + 0.05 + vd
             tl["sfx"].append(("swoosh", e["at"]))
             n = len(m["text"])
             for c in range(n):
                 if m["text"][c] != ' ':
                     tl["sfx"].append(("key", t + type_len * c / max(n, 1)))
-            t = e["at"] + 0.2
+            t = max(e["at"], e.get("voEnd", 0)) + 0.2
         else:
             typing = m.get("typing", 0.4)
             e["dotsStart"] = t; e["at"] = t + typing
