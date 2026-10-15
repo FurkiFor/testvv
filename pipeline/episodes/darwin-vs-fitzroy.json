@@ -1,0 +1,44 @@
+{
+  "slug": "darwin-vs-fitzroy",
+  "youtube": {
+    "title": "Darwin almost missed evolution because of his NOSE 👃 #shorts",
+    "caption": "The captain of the Beagle almost rejected Charles Darwin... because he didn't like the shape of his nose. 👃⛵\n\nImagine losing the theory of evolution to a nose review.\n\nWould you have let him on the ship? 👇\n\nParody · fictional chat. Based on Darwin's own autobiography: Captain FitzRoy doubted him because of his nose before the 1831 Beagle voyage.\n\n#history #historymemes #charlesdarwin #evolution #science #hmsbeagle #shorts",
+    "tags": ["charles darwin", "robert fitzroy", "hms beagle", "evolution", "history memes", "history group chat", "funny history", "science history", "historical figures texting", "shorts"]
+  },
+  "theme": {"hookBg": "#06201A", "glow": "#3DDC97", "footer": "⛵ 1831 · PLYMOUTH", "footerColor": "#3DDC97", "stamp": "SNIFFED"},
+  "hook": {
+    "lines": ["THIS CAPTAIN ALMOST", "REJECTED DARWIN", "BECAUSE OF HIS NOSE"],
+    "punch": "NOSE CHECK 👃",
+    "say": "This captain almost rejected Charles Darwin. Because of his nose."
+  },
+  "you": {"name": "Darwin", "label": "CHARLES DARWIN", "portrait": "darwin.svg", "face": "42 50 116 116", "voice": "am_liam", "speed": 1.18},
+  "them": {"name": "Capt. FitzRoy", "label": "CAPT. FITZROY", "portrait": "fitzroy.svg", "face": "38 42 124 124", "voice": "bm_daniel", "speed": 1.1,
+           "status": "last seen judging someone's nose", "subtitle": "HMS Beagle · Captain", "about": "noses don't lie. 👃", "aboutDate": "1831"},
+  "notifications": ["about the beagle trip...", "it's ur nose bro 👃"],
+  "chat": [
+    {"k": "chip", "text": "1831"},
+    {"k": "out", "text": "captain fitzroy!! did i get the beagle spot?? 🐢🌍", "say": "Captain FitzRoy! Did I get the Beagle spot?", "time": "9:15 AM"},
+    {"k": "in", "text": "ngl it's a maybe", "say": "not gonna lie, it's a maybe.", "time": "9:40 AM", "typing": 0.8},
+    {"k": "out", "text": "a maybe?? i have a cambridge degree AND a beetle collection 🪲", "say": "a maybe? I have a Cambridge degree, and a beetle collection!", "time": "9:41 AM"},
+    {"k": "in", "text": "it's ur nose bro 👃", "say": "it's your nose, bro.", "time": "9:44 AM", "typing": 1.0, "sfx": "scratch"},
+    {"k": "out", "text": "my WHAT", "say": "my what?", "time": "9:44 AM"},
+    {"k": "in", "text": "i read noses. urs says no energy, no determination", "say": "I read noses. Yours says no energy, no determination.", "time": "9:46 AM"},
+    {"k": "out", "text": "bro that's not science. that's a horoscope for faces 💀", "say": "bro, that's not science. That's a horoscope for faces.", "time": "9:46 AM"},
+    {"k": "in", "text": "it's called physiognomy. very legit 🧐", "say": "it's called physiognomy. Very legit.", "time": "9:50 AM"},
+    {"k": "out", "text": "i'm about to sail around the world for FIVE YEARS", "say": "I'm about to sail around the world for five years!", "time": "9:51 AM"},
+    {"k": "in", "text": "fine. u can come. nose is on probation 👃", "say": "fine. You can come. Nose is on probation.", "time": "10:30 AM", "typing": 1.1},
+    {"k": "out", "text": "bet. gonna figure out how animals adapt to survive", "say": "bet. Gonna figure out how animals adapt to survive.", "time": "10:31 AM"},
+    {"k": "in", "text": "cute. got a theory yet?", "say": "cute. Got a theory yet?", "time": "10:33 AM", "typing": 0.7},
+    {"k": "out", "text": "everything evolves to fit its environment", "say": "everything evolves to fit its environment.", "time": "10:34 AM"},
+    {"k": "in", "quote": "everything evolves to fit its environment", "text": "even noses?", "say": "even noses?", "time": "10:34 AM"},
+    {"k": "out", "text": "yeah. urs evolved to be in everyone's business 👃💀", "say": "yeah. Yours evolved to be in everyone's business.", "time": "10:35 AM", "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "ALMOST LOST EVOLUTION",
+    "bottom": "BECAUSE OF A NOSE",
+    "chips": ["FitzRoy: 1 nose review", "Darwin: rewrote biology"],
+    "say": "Almost lost evolution. Because of a nose."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2}
+}

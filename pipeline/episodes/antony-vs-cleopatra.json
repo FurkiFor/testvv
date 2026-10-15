@@ -1,0 +1,45 @@
+{
+  "slug": "antony-vs-cleopatra",
+  "youtube": {
+    "title": "Mark Antony faked his fishing skills for Cleopatra 🐟 #shorts",
+    "caption": "Bro hired DIVERS to put fish on his hook to impress Cleopatra. She noticed. 🎣💀\n\nThe next day her divers put a salted fish on it in front of everyone.\n\nWho fumbled harder? 👇 Tell us who should be in the next group chat.\n\nParody · fictional chat. Based on Plutarch's story of Antony and Cleopatra's fishing trip in Alexandria, around 41 BC.\n\n#history #historymemes #cleopatra #markantony #ancientrome #ancientegypt #shorts",
+    "tags": ["cleopatra", "mark antony", "history memes", "history group chat", "funny history", "ancient egypt", "ancient rome", "plutarch", "historical figures texting", "shorts"]
+  },
+  "theme": {"hookBg": "#1F1606", "glow": "#E8C547", "footer": "🐟 41 BC · ALEXANDRIA", "footerColor": "#E8C547", "stamp": "EXPOSED"},
+  "hook": {
+    "lines": ["MARK ANTONY FAKED", "HIS FISHING CATCHES", "TO IMPRESS CLEOPATRA"],
+    "punch": "SHE KNEW 💀",
+    "say": "Mark Antony faked his fishing catches to impress Cleopatra. She knew."
+  },
+  "you": {"name": "Antony", "label": "MARK ANTONY", "portrait": "antony.svg", "face": "44 46 112 112", "voice": "am_puck", "speed": 1.2},
+  "them": {"name": "Cleopatra", "label": "CLEOPATRA", "portrait": "cleopatra.svg", "face": "44 50 112 112", "voice": "bf_isabella", "speed": 1.12,
+           "status": "last seen on her throne", "subtitle": "Alexandria · Queen of Egypt", "about": "don't fish with me. 👑", "aboutDate": "41 BC"},
+  "notifications": ["nice fish 🐟", "anything u wanna tell me?"],
+  "chat": [
+    {"k": "chip", "text": "41 BC"},
+    {"k": "out", "text": "yo cleo 😎 caught 6 fish today. no big deal 🎣", "say": "yo Cleo. Caught six fish today. No big deal.", "time": "10:12 AM"},
+    {"k": "in", "text": "6? in one hour? impressive", "say": "six? In one hour? Impressive.", "time": "10:20 AM", "typing": 0.8},
+    {"k": "out", "text": "natural talent ngl. the fish just respect me", "say": "natural talent, not gonna lie. The fish just respect me.", "time": "10:21 AM"},
+    {"k": "in", "text": "the fish respect u? or ur divers do 🙂", "say": "the fish respect you? Or your divers do?", "time": "10:25 AM", "typing": 1.0, "sfx": "scratch"},
+    {"k": "out", "text": "what divers", "say": "what divers.", "time": "10:25 AM"},
+    {"k": "in", "text": "the 3 guys under ur boat sticking fish on ur hook", "say": "the three guys under your boat, sticking fish on your hook.", "time": "10:26 AM"},
+    {"k": "out", "text": "those are... marine consultants", "say": "those are... marine consultants.", "time": "10:27 AM"},
+    {"k": "in", "text": "lol. tomorrow we fish together. my treat 👑", "say": "lol. Tomorrow we fish together. My treat.", "time": "10:30 AM"},
+    {"k": "out", "text": "bet. watch a legend work 🎣", "say": "bet. Watch a legend work.", "time": "10:30 AM"},
+    {"k": "out", "text": "YO I GOT A HUGE ONE", "say": "YO! I got a huge one!", "time": "9:04 AM"},
+    {"k": "out", "text": "wait why is it... already salted", "say": "wait. Why is it... already salted?", "time": "9:05 AM"},
+    {"k": "in", "text": "imported. from the black sea 🐟", "say": "imported. From the Black Sea.", "time": "9:05 AM", "typing": 0.9},
+    {"k": "out", "text": "ur divers put a DRIED FISH on my hook?? in front of the whole court??", "say": "your divers put a dried fish on my hook? In front of the whole court?", "time": "9:06 AM"},
+    {"k": "in", "text": "my divers > ur divers 💅", "say": "my divers, greater than your divers.", "time": "9:06 AM", "sfx": "boom"},
+    {"k": "in", "quote": "bet. watch a legend work 🎣", "text": "leave the fishing to us babe. ur job is catching kingdoms 👑", "say": "leave the fishing to us, babe. Your job is catching kingdoms.", "time": "9:07 AM", "typing": 0.7},
+    {"k": "out", "text": "🐟", "big": true, "time": "9:08 AM", "sfx": "boom"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "FAKED HIS FISHING.",
+    "bottom": "GOT OUT-FAKED.",
+    "chips": ["Antony: 6 fake fish", "Cleopatra: 1 salted W"],
+    "say": "Faked his fishing. Got out-faked."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2}
+}

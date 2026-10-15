@@ -1,0 +1,44 @@
+{
+  "slug": "newton-vs-leibniz",
+  "youtube": {
+    "title": "Newton was the judge in his own calculus beef 🍎 #shorts",
+    "caption": "Leibniz and Newton both invented calculus. Newton's Royal Society \"investigated\"... and the anonymous report was written by Newton. 💀🍎\n\nWho really invented it? 👇 Drop your answer.\n\nParody · fictional chat. Based on the real Newton–Leibniz calculus dispute and the Royal Society's 1712 report, which Newton secretly drafted.\n\n#history #historymemes #isaacnewton #leibniz #calculus #math #science #shorts",
+    "tags": ["isaac newton", "leibniz", "calculus", "history memes", "history group chat", "funny history", "math memes", "science history", "historical figures texting", "shorts"]
+  },
+  "theme": {"hookBg": "#160E22", "glow": "#B57CFF", "footer": "🍎 1712 · LONDON", "footerColor": "#B57CFF", "stamp": "RIGGED"},
+  "hook": {
+    "lines": ["LEIBNIZ AND NEWTON", "BOTH INVENTED CALCULUS", "NEWTON WAS THE JUDGE"],
+    "punch": "RIGGED 💀",
+    "say": "Leibniz and Newton both invented calculus. Newton was also the judge."
+  },
+  "you": {"name": "Leibniz", "label": "LEIBNIZ", "portrait": "leibniz.svg", "face": "40 50 120 120", "voice": "am_eric", "speed": 1.18},
+  "them": {"name": "Isaac Newton", "label": "ISAAC NEWTON", "portrait": "newton.svg", "face": "44 54 112 112", "voice": "bm_george", "speed": 1.1,
+           "status": "last seen under an apple tree", "subtitle": "London · Royal Society (President)", "about": "i was first. 🍎", "aboutDate": "1666"},
+  "notifications": ["i invented it first", "the royal society agrees 🍎"],
+  "chat": [
+    {"k": "chip", "text": "1712"},
+    {"k": "out", "text": "yo isaac. so we both invented calculus lol. collab? 🤝", "say": "yo Isaac. So we both invented calculus, lol. Collab?", "time": "2:10 PM"},
+    {"k": "in", "text": "no. i invented it. u copied", "say": "no. I invented it. You copied.", "time": "2:14 PM", "typing": 0.8},
+    {"k": "out", "text": "bro i published in 1684. u published in like... never", "say": "bro, I published in sixteen eighty four. You published in like... never.", "time": "2:15 PM"},
+    {"k": "in", "text": "i had it in my notebook in 1666. it counts", "say": "I had it in my notebook in sixteen sixty six. It counts.", "time": "2:16 PM"},
+    {"k": "out", "text": "a notebook nobody saw 💀 that's giving \"my gf goes to another school\"", "say": "a notebook nobody saw. That's giving, my girlfriend goes to another school.", "time": "2:16 PM"},
+    {"k": "in", "text": "the royal society investigated. they ruled for me 🍎", "say": "the Royal Society investigated. They ruled for me.", "time": "2:20 PM"},
+    {"k": "out", "text": "and who's the president of the royal society", "say": "and who's the president of the Royal Society?", "time": "2:21 PM"},
+    {"k": "in", "quote": "and who's the president of the royal society", "text": "irrelevant", "say": "irrelevant.", "time": "2:40 PM", "typing": 1.1, "sfx": "scratch"},
+    {"k": "out", "text": "isaac it's u. UR the president", "say": "Isaac, it's you. You're the president.", "time": "2:41 PM"},
+    {"k": "out", "text": "and the report literally sounds like u wrote it", "say": "and the report literally sounds like you wrote it.", "time": "2:41 PM"},
+    {"k": "in", "text": "written by an anonymous, unbiased committee", "say": "written by an anonymous, unbiased committee.", "time": "2:45 PM", "typing": 0.9},
+    {"k": "out", "text": "the committee has ur handwriting bro 💀", "say": "the committee has your handwriting, bro.", "time": "2:45 PM", "sfx": "boom"},
+    {"k": "out", "text": "whatever. everyone uses MY notation. dx. ∫. ratio 😎", "say": "whatever. Everyone uses my notation. D x. The integral sign. Ratio.", "time": "2:46 PM"},
+    {"k": "in", "text": "notation is mid. i discovered gravity. checkmate", "say": "notation is mid. I discovered gravity. Checkmate.", "time": "2:50 PM", "typing": 0.7},
+    {"k": "out", "text": "u didn't invent gravity bro. it was already there 💀", "say": "you didn't invent gravity, bro. It was already there.", "time": "2:50 PM", "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "NEWTON WROTE THE REPORT",
+    "bottom": "THAT SAID NEWTON WON",
+    "chips": ["Newton: 1 rigged verdict", "Leibniz: everyone uses dx"],
+    "say": "Newton wrote the report that said Newton won."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2}
+}

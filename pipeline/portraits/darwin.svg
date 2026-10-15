@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Charles Darwin with a big beard illustration">
+<defs><linearGradient id="darwin-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8E6CF"/><stop offset="1" stop-color="#2E9C78"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#darwin-bg)"/>
+<g transform="translate(162 214)"><ellipse rx="26" ry="16" fill="#6B8E3A" stroke="#3E5A1E" stroke-width="3"/><path d="M-14 -6 L-4 -14 L8 -12 L16 -4" stroke="#3E5A1E" stroke-width="2" fill="none"/><circle cx="30" cy="-6" r="8" fill="#9AB86A" stroke="#3E5A1E" stroke-width="2"/><circle cx="33" cy="-8" r="1.6" fill="#111"/></g>
+<path d="M26 250 Q30 194 100 186 Q170 194 174 250Z" fill="#2C2C2C"/>
+<rect x="88" y="148" width="24" height="38" fill="#E2B48E"/>
+<ellipse cx="64" cy="116" rx="7" ry="10" fill="#E2B48E"/><ellipse cx="136" cy="116" rx="7" ry="10" fill="#E2B48E"/>
+<ellipse cx="100" cy="110" rx="35" ry="44" fill="#F0C59E"/>
+<ellipse cx="88" cy="80" rx="12" ry="6" fill="#FADBBE" opacity=".9"/>
+<path d="M64 112 Q60 96 68 92 M136 112 Q140 96 132 92" stroke="#E8E8E2" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M66 98 Q80 86 96 92 M104 92 Q120 86 134 98" stroke="#E8E8E2" stroke-width="9" fill="none" stroke-linecap="round"/>
+<ellipse cx="86" cy="106" rx="6" ry="4.5" fill="#fff"/><ellipse cx="114" cy="106" rx="6" ry="4.5" fill="#fff"/>
+<circle cx="86" cy="107" r="2.6" fill="#2B1A10"/><circle cx="114" cy="107" r="2.6" fill="#2B1A10"/>
+<path d="M100 108 Q92 124 98 128 Q104 130 108 125" stroke="#B9825A" stroke-width="2.6" fill="#E6B48E" stroke-linecap="round"/>
+<path d="M64 118 Q58 176 78 206 Q100 224 122 206 Q142 176 136 118 Q126 136 100 134 Q74 136 64 118Z" fill="#F2F2EE" stroke="#CFCFC8" stroke-width="2"/>
+<path d="M78 134 Q90 128 100 132 Q110 128 122 134" stroke="#F2F2EE" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M92 144 Q100 141 108 144" stroke="#6E4030" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M82 156 Q86 176 84 192 M100 150 Q102 176 100 200 M118 156 Q114 176 116 192" stroke="#D9D9D2" stroke-width="2" fill="none"/>
+</svg>

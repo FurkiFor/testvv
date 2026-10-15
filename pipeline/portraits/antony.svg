@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Mark Antony with a fishing rod illustration">
+<defs><linearGradient id="antony-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FD0F0"/><stop offset="1" stop-color="#2F86C4"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#antony-bg)"/>
+<path d="M0 205 Q25 196 50 205 T100 205 T150 205 T200 205 V250 H0Z" fill="#1E5F99"/>
+<path d="M150 250 L188 20" stroke="#7A4A22" stroke-width="5" stroke-linecap="round"/>
+<path d="M188 20 Q196 90 182 150" stroke="#EEE" stroke-width="1.5" fill="none"/>
+<g transform="translate(182 160) rotate(80)"><ellipse rx="14" ry="7" fill="#9FC0CC" stroke="#4E7380" stroke-width="2"/><path d="M12 0 l9 -7 v14z" fill="#9FC0CC" stroke="#4E7380" stroke-width="2"/><circle cx="-7" cy="-1" r="2" fill="#222"/></g>
+<path d="M30 250 Q34 190 100 182 Q166 190 170 250Z" fill="#B22222"/>
+<path d="M58 250 Q62 200 100 196 Q138 200 142 250Z" fill="#C9A13B"/>
+<g stroke="#8E7024" stroke-width="2"><path d="M70 212 H130 M68 226 H132 M66 240 H134"/></g>
+<rect x="88" y="150" width="24" height="36" fill="#D9A27A"/>
+<ellipse cx="66" cy="116" rx="7" ry="10" fill="#D9A27A"/><ellipse cx="134" cy="116" rx="7" ry="10" fill="#D9A27A"/>
+<ellipse cx="100" cy="114" rx="34" ry="42" fill="#E8B48A"/>
+<path d="M60 96 Q58 56 100 50 Q142 56 140 96 L136 100 Q130 74 100 74 Q70 74 64 100Z" fill="#C9A13B" stroke="#8E7024" stroke-width="2"/>
+<path d="M70 52 Q100 12 130 52" fill="#D42A2A" stroke="#8E1414" stroke-width="2"/>
+<g stroke="#8E1414" stroke-width="1.5"><path d="M80 44 L84 30 M92 40 L94 22 M104 40 L106 22 M116 44 L118 30"/></g>
+<path d="M62 100 L60 132 L70 126 Z M138 100 L140 132 L130 126Z" fill="#C9A13B" stroke="#8E7024" stroke-width="2"/>
+<path d="M76 98 Q86 92 96 98 M104 96 Q114 90 124 94" stroke="#4A2A14" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="86" cy="108" rx="7" ry="5" fill="#fff"/><ellipse cx="114" cy="108" rx="7" ry="5" fill="#fff"/>
+<circle cx="89" cy="108" r="3" fill="#2B1A10"/><circle cx="117" cy="108" r="3" fill="#2B1A10"/>
+<path d="M100 112 Q95 126 99 129 Q104 131 107 127" stroke="#B57E58" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M82 136 Q100 150 120 134" stroke="#6E2E22" stroke-width="3.4" fill="#fff" stroke-linecap="round"/>
+<path d="M86 138 Q100 146 116 137" stroke="#ddd" stroke-width="1" fill="none"/>
+<path d="M74 140 Q100 168 126 140" stroke="#5A3A20" stroke-width="2" fill="none" opacity=".35"/>
+</svg>
