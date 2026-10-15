@@ -1,0 +1,5 @@
+.models/
+.fonts/
+build/
+out/
+__pycache__/

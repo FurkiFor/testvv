@@ -1,0 +1,45 @@
+{
+  "slug": "alexander-vs-diogenes",
+  "youtube": {
+    "title": "Alexander the Great slid into Diogenes' DMs 💀 #shorts",
+    "caption": "The king of the whole world texted a guy who lives in a jar. It did NOT go well. ☀️🏺\n\nAlexander offered gold, palaces, a whole empire... Diogenes just wanted his sun back.\n\nWho won this one? 👇 Comment who should be in the next group chat.\n\nParody · fictional chat. Based on the famous (and probably exaggerated) meeting of Alexander and Diogenes in Corinth, 336 BC.\n\n#history #historymemes #alexanderthegreat #diogenes #philosophy #shorts #funny",
+    "tags": ["alexander the great", "diogenes", "history memes", "history group chat", "funny history", "ancient greece", "philosophy memes", "historical figures texting", "shorts"]
+  },
+  "theme": {"hookBg": "#1A1206", "glow": "#F2A93B", "footer": "☀️ 336 BC · CORINTH", "footerColor": "#F2A93B", "stamp": "REJECTED"},
+  "hook": {
+    "lines": ["THE KING OF THE WORLD", "SLID INTO THE DMs OF", "A GUY WHO LIVES IN A JAR"],
+    "punch": "HE GOT COOKED 💀",
+    "say": "The king of the whole world slid into the DMs of a guy who lives in a jar. He got cooked."
+  },
+  "you": {"name": "Alexander", "label": "ALEXANDER", "portrait": "alexander.svg", "face": "44 50 112 112", "voice": "am_puck", "speed": 1.22},
+  "them": {"name": "Diogenes", "label": "DIOGENES", "portrait": "diogenes.svg", "face": "50 64 112 112", "voice": "bm_george", "speed": 1.1,
+           "status": "last seen in the jar", "subtitle": "Corinth · Jar #1", "about": "don't block my sun. ☀️", "aboutDate": "336 BC"},
+  "notifications": ["move.", "ur blocking my sun lil bro"],
+  "chat": [
+    {"k": "chip", "text": "336 BC"},
+    {"k": "out", "text": "yo it's Alexander 👑 king of Macedon, Greece, and soon the whole map 😎", "say": "yo, it's Alexander. King of Macedon, Greece, and soon, the whole map.", "time": "11:02 AM"},
+    {"k": "out", "text": "name ur price king. palace, gold, army, a whole ahh empire. whatever u want", "say": "name your price, king. Palace, gold, army, a whole ahh empire. Whatever you want.", "time": "11:02 AM"},
+    {"k": "in", "text": "move", "say": "move.", "time": "11:40 AM", "typing": 1.04},
+    {"k": "in", "text": "ur blocking my sun lil bro", "say": "you're blocking my sun, lil bro.", "time": "11:40 AM"},
+    {"k": "out", "text": "bro do u KNOW who I am??", "say": "bro, do you KNOW who I am?", "time": "11:41 AM"},
+    {"k": "in", "text": "yeah. a mid guy standing in my sun", "say": "yeah. A mid guy, standing in my sun.", "time": "12:15 PM", "typing": 0.65},
+    {"k": "out", "text": "I conquered PERSIA at 25 💀", "say": "I conquered Persia at twenty five!", "time": "12:16 PM"},
+    {"k": "in", "text": "and I'm 60, live in a jar, pay 0 rent. who's winning rn", "say": "and I'm sixty, live in a jar, pay zero rent. Who's winning right now?", "time": "12:16 PM"},
+    {"k": "out", "text": "nobody tells me no", "say": "nobody tells me no.", "time": "12:17 PM"},
+    {"k": "in", "text": "no", "say": "no.", "time": "1:50 PM", "typing": 1.17, "sfx": "scratch"},
+    {"k": "in", "text": "there. now somebody did 🙂", "say": "there. Now somebody did.", "time": "1:50 PM"},
+    {"k": "out", "text": "ngl if I wasn't Alexander I'd wanna be Diogenes", "say": "not gonna lie, if I wasn't Alexander, I'd wanna be Diogenes.", "time": "1:52 PM"},
+    {"k": "in", "quote": "ngl if I wasn't Alexander I'd wanna be Diogenes", "text": "and if I wasn't Diogenes I'd STILL wanna be Diogenes", "say": "and if I wasn't Diogenes, I'd still wanna be Diogenes.", "time": "4:30 PM", "typing": 0.78, "sfx": "boom"},
+    {"k": "out", "text": "fine. I'm off to conquer India", "say": "fine. I'm off to conquer India.", "time": "4:31 PM"},
+    {"k": "in", "text": "bet. take ur shadow with u ☀️", "say": "bet. Take your shadow with you.", "time": "4:31 PM"},
+    {"k": "out", "text": "😐", "big": true, "time": "4:32 PM", "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "CONQUERED THE WORLD.",
+    "bottom": "GOT FUMBLED BY A JAR GUY.",
+    "chips": ["Alexander: 3 continents", "Diogenes: 1 jar, 0 cares"],
+    "say": "Conquered the world. Got fumbled by a jar guy."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2}
+}

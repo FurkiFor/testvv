@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>History Group Chat render</title>
+<style>
+@font-face{font-family:Anton;src:url(__FONTS__/fontsource-anton-5.3.0/files/anton-latin-400-normal.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Manrope;src:url(__FONTS__/fontsource-manrope-5.3.0/files/manrope-latin-500-normal.woff2) format('woff2');font-weight:500}
+@font-face{font-family:Manrope;src:url(__FONTS__/fontsource-manrope-5.3.0/files/manrope-latin-600-normal.woff2) format('woff2');font-weight:600}
+@font-face{font-family:Manrope;src:url(__FONTS__/fontsource-manrope-5.3.0/files/manrope-latin-700-normal.woff2) format('woff2');font-weight:700}
+@font-face{font-family:Manrope;src:url(__FONTS__/fontsource-manrope-5.3.0/files/manrope-latin-800-normal.woff2) format('woff2');font-weight:800}
+html,body{margin:0;background:#000}
+#stage{width:540px;height:960px;position:relative;overflow:hidden;font-family:Manrope,'Noto Color Emoji',sans-serif;color:#111B21}
+.anton{font-family:Anton,'Noto Color Emoji',sans-serif}
+.abs{position:absolute;inset:0}
+.col{display:flex;flex-direction:column}
+.row{display:flex;align-items:center}
+.bubble-in{align-self:flex-start;flex:none;max-width:78%;background:#FFFFFF;border-radius:4px 14px 14px 14px;padding:9px 13px 6px;display:flex;flex-direction:column;gap:6px;box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.bubble-out{align-self:flex-end;flex:none;max-width:78%;background:#D9FDD3;border-radius:14px 4px 14px 14px;padding:9px 13px 6px;display:flex;flex-direction:column;box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.meta{align-self:flex-end;font-size:12px;color:#667781}
+.key{height:44px;border-radius:6px;box-shadow:0 1px 0 #898A8D;display:flex;align-items:center;justify-content:center;color:#000;font-size:21px}
+.card{background:#FFFFFF;margin-top:10px;padding:16px 24px}
+#warm{position:absolute;left:-9999px;top:0}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="warm"></div>
+<script>
+const TL = __TIMELINE__;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const prog=(t,t0,d)=>clamp((t-t0)/d);
+const easeOut=p=>1-Math.pow(1-p,3);
+const back=p=>{const c=1.9;return 1+(c+1)*Math.pow(p-1,3)+c*Math.pow(p-1,2)};
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+/* ---------- Character portraits (from episode SVG files) ---------- */
+const EP = __EPISODE__;
+function portrait(svg, vb, w, h){
+ return svg.replace(/<svg([^>]*)>/, (m, attrs)=>'<svg'+attrs.replace(/\s(viewBox|width|height|preserveAspectRatio)="[^"]*"/g,'')+` viewBox="${vb}" width="${w}" height="${h}" preserveAspectRatio="xMidYMid slice">`);
+}
+const youFull=(w,h)=>portrait(EP.you.svg,'0 0 200 250',w,h), themFull=(w,h)=>portrait(EP.them.svg,'0 0 200 250',w,h);
+const youFace=(s)=>portrait(EP.you.svg,EP.you.face,s,s), themFace=(s)=>portrait(EP.them.svg,EP.them.face,s,s);
+const dioAvatar=(s)=>`<div style="width:${s}px;height:${s}px;border-radius:50%;overflow:hidden;flex:none;background:#DFE5E7">${themFace(s)}</div>`;
+
+/* ---------- Scenes ---------- */
+function hook(t){
+ const lines=EP.hook.lines;
+ let h='';
+ lines.forEach((l,i)=>{const p=easeOut(prog(t,i*0.15,0.3));h+=`<div class="anton" style="font-size:49px;line-height:1.02;opacity:${p};transform:scale(${1.4-0.4*p});transform-origin:left center">${l}</div>`});
+ const pc=easeOut(prog(t,0.45,0.3));
+ h+=`<div style="align-self:flex-start;margin-top:4px;opacity:${pc};transform:scale(${1.4-0.4*pc});transform-origin:left center"><div class="anton" style="font-size:52px;line-height:1;background:#FFD84D;color:${EP.theme.hookBg};padding:4px 14px 2px;transform:rotate(-2deg)">${esc(EP.hook.punch)}</div></div>`;
+ const notif=(t0,inner,m)=>{const p=easeOut(prog(t,t0,0.35));return `<div style="opacity:${p};transform:translateY(${-40*(1-p)}px) scale(${0.95+0.05*p});margin:0 ${m}px">${inner}</div>`};
+ const n1=notif(0.8,`<div style="background:#fff;color:#111B21;border-radius:20px;padding:14px 16px;display:flex;gap:12px;align-items:center">${dioAvatar(46)}<div class="col" style="gap:2px;flex:1"><div style="display:flex;justify-content:space-between;font-size:15px"><span style="font-weight:800">${esc(EP.them.name)}</span><span style="color:#667781">now</span></div><div style="font-size:18px;font-weight:600">${esc(EP.notifications[0])}</div></div></div>`,0);
+ const n2=notif(1.3,`<div style="background:#fff;color:#111B21;border-radius:20px;padding:12px 16px" class="col"><div style="display:flex;justify-content:space-between;font-size:14px"><span style="font-weight:800">${esc(EP.them.name)}</span><span style="color:#667781">now</span></div><div style="font-size:17px;font-weight:600">${esc(EP.notifications[1])}</div></div>`,12);
+ const n3=notif(1.8,`<div style="background:#fff;color:#111B21;border-radius:20px;padding:10px 16px;display:flex;justify-content:space-between;font-size:14px"><span style="font-weight:800">${esc(EP.them.name)}</span><span style="color:#667781">+${EP.chat.filter(m=>m.k==='in').length} more messages</span></div>`,26);
+ const photo=(t0,rot,svg,name)=>{const p=prog(t,t0,0.45);const s=p<=0?0.4:back(p)*0.6+0.4;return `<div style="opacity:${clamp(p*2)};transform:scale(${s})"><div style="width:200px;height:250px;border-radius:18px;border:4px solid #fff;overflow:hidden;transform:rotate(${rot}deg);position:relative;box-shadow:0 12px 30px rgba(0,0,0,.45)">${svg}<div class="anton" style="position:absolute;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);color:#fff;font-size:20px;text-align:center;padding:4px 0 2px;letter-spacing:1px">${name}</div></div></div>`};
+ const sp=prog(t,2.8,0.25);
+ const stamp=`<div class="anton" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-10deg) scale(${2.2-1.2*sp});opacity:${sp};border:4px solid #FF4D4D;color:#FF4D4D;background:${EP.theme.hookBg};border-radius:10px;padding:6px 16px;font-size:36px;letter-spacing:2px">${esc(EP.theme.stamp)}</div>`;
+ // slight push-in for energy
+ const z=1+0.03*prog(t,0,TL.hook.end);
+ return `<div class="abs col" style="background:${EP.theme.hookBg};color:#fff;padding:56px 32px 40px;gap:26px;transform:scale(${z})">
+ <div style="position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:${EP.theme.glow};opacity:.22"></div>
+ <div class="col" style="gap:6px;position:relative">${h}</div>
+ <div class="col" style="gap:10px;position:relative">${n1}${n2}${n3}</div>
+ <div style="flex:1;display:flex;justify-content:center;align-items:center;gap:14px;position:relative">${photo(2.2,-5,youFull(200,250),esc(EP.you.label))}${photo(2.4,5,themFull(200,250),esc(EP.them.label))}${stamp}</div>
+ <div style="display:flex;justify-content:space-between;align-items:center;position:relative"><div class="anton" style="font-size:28px;color:${EP.theme.footerColor}">${esc(EP.theme.footer)}</div><div style="font-size:13px;color:#BFA98A">Parody · fictional chat</div></div>
+ </div>`;
+}
+
+const ROWS=['QWERTYUIOP','ASDFGHJKL','ZXCVBNM'];
+function keyboard(active){
+ const k=(l,w,dark)=>{const on=(l.length===1&&l===active)||(l==='space'&&active===' ');const bg=on?'#9EA3AB':(dark?'#ABB0BA':'#FFFFFF');return `<div class="key" style="width:${w}px;background:${bg};font-size:${l.length>1?16:21}px;${on?'transform:translateY(-2px)':''}">${l}</div>`};
+ let h='';
+ ROWS.forEach((r,ri)=>{let ks=r.split('').map(c=>k(c,44,false)).join('');if(ri===2)ks=k('⇧',56,true)+ks+k('⌫',56,true);h+=`<div style="display:flex;justify-content:center;gap:6px">${ks}</div>`});
+ h+=`<div style="display:flex;justify-content:center;gap:6px">${k('123',96,true)}${k('space',280,false)}${k('return',104,true)}</div>`;
+ return `<div class="col" style="flex:none;background:#D1D3D9;padding:10px 6px 22px;gap:11px">${h}</div>`;
+}
+
+function chat(t){
+ const msgs=TL.msgs; let list='', typingIn=false, draft='', active='', kb=false;
+ for(const m of msgs){
+  if(m.k==='out'&&t>=m.typeStart) kb=true;
+  if(m.k==='out'&&t>=m.typeStart&&t<m.at){const ch=Array.from(m.text);const n=Math.min(ch.length,Math.floor(ch.length*clamp((t-m.typeStart)/(m.typeEnd-m.typeStart))+1));draft=ch.slice(0,n).join('');active=(ch[n-1]||'').toUpperCase()}
+  if(m.k==='in'&&t>=m.dotsStart&&t<m.at) typingIn=true;
+  if(t<m.at) continue;
+  const p=easeOut(prog(t,m.at,0.25)); const st=`opacity:${p};transform:translateY(${16*(1-p)}px) scale(${0.97+0.03*p})`;
+  const ts=m.big?'font-size:40px;padding:0 2px':'padding:0 2px';
+  if(m.k==='chip') list+=`<div style="align-self:center;flex:none;background:#fff;color:#54656F;border-radius:10px;padding:6px 14px;font-size:14px;font-weight:600;${st}">${m.text}</div>`;
+  else if(m.k==='out') list+=`<div class="bubble-out" style="${st}"><span style="${ts}">${esc(m.text)}</span><span class="meta">${m.time} <span style="color:#53BDEB">✓✓</span></span></div>`;
+  else list+=`<div class="bubble-in" style="${st}">${m.quote?`<div style="background:#F0F2F5;border-left:4px solid #06CF9C;border-radius:6px;padding:6px 10px" class="col"><span style="font-size:14px;color:#06A07B;font-weight:700">You</span><span style="font-size:15px;color:#54656F">${esc(m.quote)}</span></div>`:''}<span style="${ts}">${esc(m.text)}</span><span class="meta">${m.time}</span></div>`;
+ }
+ if(typingIn){const ph=i=>{const x=((t*1.0)+i*0.2)%1;const a=x<0.4?x/0.4:(x<0.8?(0.8-x)/0.4:0);return `opacity:${0.35+0.65*a};transform:translateY(${-4*a}px)`};
+  list+=`<div style="align-self:flex-start;flex:none;background:#fff;border-radius:4px 14px 14px 14px;padding:14px 18px;display:flex;gap:6px">${[0,1,2].map(i=>`<span style="width:9px;height:9px;border-radius:50%;background:#8696A0;${ph(i)}"></span>`).join('')}</div>`}
+ const caret=(t%0.8)<0.4?1:0;
+ const input=draft?`<span style="color:#111B21;white-space:nowrap;overflow:hidden;direction:rtl;text-align:left">${esc(draft)}</span><span style="width:2px;height:22px;background:#00A884;margin-left:2px;flex:none;opacity:${caret}"></span>`:`<span style="color:#667781">Message</span>`;
+ const btn=draft?`<svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M3 20l18-8L3 4v6l12 2-12 2z"/></svg>`:`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>`;
+ const tp=prog(t,TL.end.tapHeader,0.5);
+ const tap=tp>0&&tp<1?`<div style="position:absolute;left:110px;top:10px;width:140px;height:140px;border-radius:50%;background:#fff;opacity:${0.55*(1-tp)};transform:scale(${0.3+1.3*tp})"></div>`:'';
+ return `<div class="abs col" style="background:#EFE7DD">
+ <div class="row" style="gap:14px;padding:26px 22px 16px;background:#0B6E5F;color:#fff;flex:none;position:relative;overflow:hidden">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+  ${dioAvatar(52)}
+  <div class="col" style="gap:2px;flex:1"><div style="font-size:22px;font-weight:700">${esc(EP.them.name)}</div><div style="font-size:14px;color:#D7EFEA">${typingIn?'typing…':esc(EP.them.status)}</div></div>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="12" height="10" rx="2"/><path d="M15 11l6-3v8l-6-3"/></svg>
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+  ${tap}
+ </div>
+ <div class="col" style="flex:1;min-height:0;overflow:hidden;justify-content:flex-end;gap:8px;padding:14px 20px 10px;font-size:19px;line-height:1.35">${list}</div>
+ <div class="row" style="gap:10px;padding:8px 12px 10px;flex:none"><div class="row" style="flex:1;min-width:0;background:#fff;border-radius:26px;padding:13px 18px;font-size:17px;min-height:24px">${input}</div><div style="width:50px;height:50px;border-radius:50%;background:#00A884;display:flex;align-items:center;justify-content:center;flex:none">${btn}</div></div>
+ ${kb?keyboard(active):''}
+ </div>`;
+}
+
+function profile(t){
+ const E=TL.end; const vp=prog(t,E.tapVideo,0.5); const vOn=t>=E.tapVideo&&t<E.call;
+ const vrip=vp>0&&vp<1?`<div style="position:absolute;left:2px;top:-16px;width:100px;height:100px;border-radius:50%;background:#00A884;opacity:${0.55*(1-vp)};transform:scale(${0.3+1.3*vp})"></div>`:'';
+ const bp=prog(t,E.blocked,0.3);
+ const blocked=t>=E.blocked?`<div style="position:absolute;left:28px;right:28px;bottom:60px;background:#111B21;color:#fff;border-radius:18px;padding:22px 20px;display:flex;align-items:center;gap:14px;opacity:${bp};transform:scale(${1.3-0.3*easeOut(bp)})"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F15C6D" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg><div class="col" style="gap:2px"><span style="font-size:21px;font-weight:800">${esc(EP.them.name)} blocked you</span><span style="font-size:15px;color:#C9D3D8">You can't message or call this contact</span></div></div>`:'';
+ const btn=(icon,label,extra)=>`<div style="position:relative;overflow:hidden;width:104px;height:74px;border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;font-size:14px;${extra}">${icon}${label}${label==='Video'?vrip:''}</div>`;
+ const ic={a:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00A884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>',v:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00A884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="12" height="10" rx="2"/><path d="M15 11l6-3v8l-6-3"/></svg>',s:'<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00A884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>'};
+ const fp=easeOut(prog(t,E.profile,0.25));
+ return `<div class="abs col" style="background:#F0F2F5;opacity:${t<E.call?fp:1}">
+ <div class="row" style="gap:16px;padding:26px 22px 16px;background:#fff"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#54656F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><div style="font-size:20px;font-weight:700">Contact info</div></div>
+ <div class="col" style="background:#fff;align-items:center;gap:6px;padding:8px 24px 22px">${dioAvatar(150)}<div style="font-size:28px;font-weight:700;margin-top:8px">${esc(EP.them.name)}</div><div style="font-size:16px;color:#667781">${esc(EP.them.subtitle)}</div>
+ <div style="display:flex;gap:12px;margin-top:14px">${btn(ic.a,'Audio','border:1px solid #E2E5E8')}${btn(ic.v,'Video',vOn?'border:1px solid #00A884;background:#D9FDD3':'border:1px solid #E2E5E8')}${btn(ic.s,'Search','border:1px solid #E2E5E8')}</div></div>
+ <div class="card col" style="gap:4px"><div style="font-size:14px;color:#667781">About</div><div style="font-size:20px;font-weight:600">${esc(EP.them.about)}</div><div style="font-size:13px;color:#667781">${esc(EP.them.aboutDate)}</div></div>
+ <div class="card" style="display:flex;justify-content:space-between;font-size:17px"><span>Media, links and docs</span><span style="color:#667781">0</span></div>
+ <div class="card col" style="gap:16px;font-size:17px;color:#EA0038;font-weight:600"><span>Block ${esc(EP.them.name)}</span><span>Report ${esc(EP.them.name)}</span></div>
+ ${blocked}
+ </div>`;
+}
+
+function call(t){
+ const E=TL.end; const declined=t>=E.declined; const status=declined?'Declined':(t>=E.ringing?'Ringing…':'Calling…');
+ const pp=((t-E.call)/1.2)%1; const pulse=declined?'':`<div style="position:absolute;inset:0;border-radius:50%;background:#00A884;opacity:${0.5*(1-pp)};transform:scale(${1+0.5*pp})"></div>`;
+ const shake=declined?Math.sin((t-E.declined)*60)*Math.max(0,1-(t-E.declined)*4)*8:0;
+ return `<div class="abs col" style="background:#0B141A;color:#fff;align-items:center;padding:60px 30px 70px;box-sizing:border-box">
+ <div class="row" style="gap:6px;font-size:14px;color:#8696A0">🔒 End-to-end encrypted</div>
+ <div class="col" style="flex:1;align-items:center;justify-content:center;gap:16px"><div style="position:relative;width:180px;height:180px;transform:translateX(${shake}px)">${pulse}<div style="position:absolute;inset:0">${dioAvatar(180)}</div></div>
+ <div style="font-size:32px;font-weight:700;margin-top:10px">${esc(EP.them.name)}</div><div style="font-size:${declined?24:19}px;${declined?'color:#F15C6D;font-weight:800':'color:#8696A0'}">${status}</div></div>
+ <div class="row" style="gap:22px"><div style="width:62px;height:62px;border-radius:50%;background:#233138;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="12" height="10" rx="2"/><path d="M15 11l6-3v8l-6-3"/></svg></div><div style="width:62px;height:62px;border-radius:50%;background:#233138;display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><div style="width:72px;height:72px;border-radius:50%;background:#F15C6D;display:flex;align-items:center;justify-content:center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14c5-4 13-4 18 0l-2 3-4-1v-3a10 10 0 0 0-6 0v3l-4 1z"/></svg></div></div>
+ </div>`;
+}
+
+function meme(t){
+ const E=TL.end; const p=prog(t,E.meme,0.35); const dim=0.6*easeOut(prog(t,E.meme,0.3));
+ const shake=Math.sin((t-E.meme)*70)*Math.max(0,1-(t-E.meme)*3)*10;
+ const cp=easeOut(prog(t,E.meme+1.0,0.3));
+ return `<div class="abs" style="background:rgba(0,0,0,${dim})"></div>
+ <div class="abs col" style="align-items:center;justify-content:center;padding:0 26px;gap:18px">
+  <div style="width:100%;background:#111B21;color:#fff;border-radius:22px;padding:24px 22px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;box-sizing:border-box;opacity:${p};transform:translateX(${shake}px) scale(${1.3-0.3*easeOut(p)});box-shadow:0 20px 50px rgba(0,0,0,.5)">
+   <div style="display:flex;gap:16px"><div style="width:110px;height:110px;border-radius:16px;overflow:hidden;border:3px solid #fff">${youFace(110)}</div><div class="anton" style="font-size:44px;align-self:center;color:#FF4D4D">VS</div><div style="width:110px;height:110px;border-radius:16px;overflow:hidden;border:3px solid #fff">${themFace(110)}</div></div>
+   <div class="anton" style="font-size:40px;line-height:1.05">${esc(EP.meme.top)}<br><span style="color:#FFD84D">${esc(EP.meme.bottom)}</span></div>
+   <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;font-size:15px;font-weight:800">${EP.meme.chips.map(x=>`<div style="background:#233138;border-radius:10px;padding:8px 12px">${esc(x)}</div>`).join('')}</div>
+  </div>
+  <div style="opacity:${cp};transform:translateY(${12*(1-cp)}px);background:#25D366;color:#0B141A;border-radius:999px;padding:10px 20px;font-size:18px;font-weight:800">💬 follow for more history drama</div>
+ </div>`;
+}
+
+function render(t){
+ const E=TL.end; let h;
+ if(t<TL.hook.end){ h=hook(t); }
+ else if(EP.ending==='none'){ const cp=easeOut(prog(t,TL.hook.end,0.25)); h=`<div class="abs" style="opacity:${cp};transform:scale(${1.04-0.04*cp})">${chat(t)}</div>`+(t>=E.meme?meme(t):''); }
+ else if(t<E.profile){ const cp=easeOut(prog(t,TL.hook.end,0.25)); h=`<div class="abs" style="opacity:${cp};transform:scale(${1.04-0.04*cp})">${chat(t)}</div>`; }
+ else if(t<E.call){ h=chat(t)+profile(t); }
+ else if(t<E.profile2){ h=call(t); }
+ else if(t<E.meme){ h=profile(t); }
+ else { h=profile(t)+meme(t); }
+ document.getElementById('stage').innerHTML=h;
+}
+window.render=render;
+// warm fonts: render every message once offscreen
+document.getElementById('warm').innerHTML=TL.msgs.map(m=>esc(m.text)).join(' ')+' 💀☀️🔒💬✓ <span class="anton">ABC</span> <b>x</b><i>y</i>';
+render(0);
+</script>
+</body>
+</html>
