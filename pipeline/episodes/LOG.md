@@ -9,3 +9,4 @@ One line per published episode: date · slug · characters · core joke · Kervl
 - 2026-10-15 · archimedes-vs-hiero · King Hiero II × Archimedes · crown gold test → "EUREKA!", runs through Syracuse with no toga · elevenlabs · p_3P23z4Mde3bX · 2026-10-15 18:00
 - 2026-10-15 · franklin-vs-adams · John Adams × Ben Franklin · 1776 shared inn bed, window war, Adams falls asleep in Franklin's cold lecture · elevenlabs · p_-186uwEHgM9c · 2026-10-15 22:00
 - 2026-10-15 · dickens-vs-andersen · H.C. Andersen × Charles Dickens · "2 weeks" visit becomes 5, mirror note "seemed to the family AGES", Dickens blocks him · elevenlabs · p_65RORAUmMXhR · 2026-10-16 02:00
+- 2026-10-15 · group-halloween-party · GROUP: Napoleon, Caesar, Cleopatra, Churchill, Genghis Khan · Halloween group: Genghis adds 40,000 people via invite link, Churchill mumbles and renames the group "mrrh brumf" · elevenlabs · p_tD49t2vNRJN_ · 2026-10-15 19:57
