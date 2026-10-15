@@ -29,6 +29,26 @@ Copy `episodes/alexander-vs-diogenes.json` and change everything. Fields:
 
 Voices (Kokoro): American male `am_puck` (cocky, energetic), `am_fenrir`, `am_michael`, `am_adam`, `am_eric`, `am_liam`, `am_onyx` (deep narrator), `am_echo`; British male `bm_george` (old, deadpan), `bm_lewis`, `bm_daniel`, `bm_fable`; female `af_heart`, `af_bella`, `af_nicole`, `af_sarah`, `bf_emma`, `bf_isabella`. Speeds 1.05–1.25. Give the two characters clearly different voices.
 
+### ElevenLabs voices (preferred)
+Every character and the narrator also get an `el_voice` (ElevenLabs voice id); optional `el_speed` (default 1.06, tempo applied to the ElevenLabs take). Keep the Kokoro `voice`/`speed` too: it is the fallback.
+Any chat line, hook or meme may add `el_say` — the `say` text with eleven_v4 audio tags such as `[laughs]`, `[sighs]`, `[whispers]`, `[shouting]` (max one or two per line). Captions still use `text`.
+
+Tested voice ids (all English):
+- Narrator (hook + meme): `7lJ2JuXZKHyck5zlS7XQ` Romulus — deep, cinematic history narrator.
+- Young, cocky / energetic male: `SOYHLrjzK2X1ezoPC6cr` Harry, `unWb9iRIK7Xxf4A5Hfis` VALF, `2UyW0L6yjNuo3ZH3XnoV` Boom Mike (Jersey guy).
+- Smug / sly male: `N2lVS1w4EtoT3dr4eOWO` Callum, `qvI9Sgo8A9eFU874jTGo` Sniffleworth.
+- Nerdy male (scientists, inventors): `2t3wubVNRseKNVjtlWx1` Quinn.
+- Old British male (philosophers, kings): `fGIZlgPQ75MMlvQ6WxgY` Gerald; rough British: `U4Y0Z2HmYcQYMkJB8hrg` Tom (pirates, sailors).
+- Deep / grim male (generals, emperors): `dqoktGAat2XIYpd4sTb7` Malakor, `mB6ZkFrKfGXPm8AMkuVl` Shawn.
+- Female: `FGY2WhTYpPnrIDTdsKH5` Laura (sassy, young), `uOKjDs6WxcKhmWoVHGF8` Lexi (expressive), `NPC1Rk3VsPo28KCMJFLI` Gee Louise (British), `QnYI2oCbco37NvlkNHTK` Ms Diva (mature, regal).
+Use `creative_list_voices` for anything else; never invent an id.
+
+How the ElevenLabs path works (the build script cannot call ElevenLabs itself):
+1. `python3 make_episode.py episodes/<slug>.json --lines` writes `build/<slug>/lines.json`: one row per line with `name`, `text`, `voice_id` and the target `file` (`build/<slug>/vo_src/<name>.mp3`).
+2. For each row: `creative_generate_speech` with `model_id` `eleven_v4`, that `voice_id`, `prompt` = `text`, **`generations_count: 1`** (never 4 — it multiplies cost), one shared `flow_id` per episode (`creative_create_flow` first). Then `creative_get_flow_run_status` until done and download `media[0].url` to `file` with curl. Never re-run a generation to retry; if one line fails, the whole episode falls back to Kokoro.
+3. Run `make_episode.py` normally. It prints `voice engine: elevenlabs` when every line has a file in `vo_src/`, otherwise `voice engine: kokoro`.
+Before spending credits, check the download path once: `curl -sS -o /dev/null -w '%{http_code}' https://storage.googleapis.com/eleven-public-prod/premade/voices/N2lVS1w4EtoT3dr4eOWO/ac833bd8-ffda-4938-9ebc-b0f99ca25481.mp3` must print 200. If it does not (the session's network blocks storage.googleapis.com), skip ElevenLabs entirely and use Kokoro.
+
 ### Comedy rules
 - Every episode is built on a real, well-known historical fact or anecdote, and the joke twists it (the "history" must be recognizable).
 - Gen-Z group-chat voice: "bro", "fr", "ngl", "lowkey", "it's giving", "mid", "cooked", "ratio", "no cap", "bet", "💀". One escalation, a reversal, and a last-line punchline. The 3rd–5th second must already be funny.
@@ -46,6 +66,14 @@ Each character needs an SVG in `portraits/<name>.svg` (reuse an existing one if 
 - One iconic, instantly recognizable attribute (bicorne hat, laurel wreath, lightbulb, apple, toga, crown, quill, ruff collar…) plus a funny expression.
 - No text, no photos, no external images. Prefix any gradient/def ids with the character name (e.g. `id="newton-bg"`).
 - Set `face` so the round crop shows the whole head.
+
+## SEO (vidIQ)
+For each episode, before writing the final `youtube` block (≈10 vidIQ credits per episode):
+1. `vidiq_keyword_research` mode `research`, keyword = the two characters (e.g. "alexander the great diogenes"). Pick 1–2 high-volume, lower-competition keywords (prefer `overall` ≥ 55) that truly match the episode.
+2. `vidiq_generate_titles` with `type: "short"`, `numTitles: 5`, `language: "en"`, `regionCode: "US"`, your working title and a 2-sentence description of the joke. Take the best-scoring title as a base, but keep the channel voice: curiosity hook, one emoji, ends with ` #shorts`, ≤ 90 chars, and it must name at least one character.
+3. Caption: first line uses the main keyword naturally; keep the comment-bait question, the "Parody · fictional chat." line, one line of real history; 5–8 hashtags drawn from the vidIQ keywords.
+4. Tags: 8–12, the vidIQ keywords that fit first, then `history group chat`, `history memes`, `funny history`, `shorts`.
+Skip vidIQ (write SEO yourself) if `vidiq_balance` is below 40 credits or the tools are missing.
 
 ## Publishing (Kervly)
 1. Copy the mp4 to `videos/groupchat/<slug>.mp4` at the repo root, commit and push to `main`.

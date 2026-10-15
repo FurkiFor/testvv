@@ -31,26 +31,55 @@ for m in ep['chat']:
     if m['k'] != 'chip' and not m.get('big'):
         assert m.get('say'), f'missing say: {m}'
 
-# ---------- TTS ----------
-from kokoro_onnx import Kokoro
-K = Kokoro(os.path.join(MODELS, 'kokoro-v1.0.onnx'), os.path.join(MODELS, 'voices-v1.0.bin'))
+# ---------- voice lines ----------
+nar = ep.get('narrator', {'voice': 'am_onyx', 'speed': 1.2})
+LINES = [('hook', ep['hook'], nar, 0.0), ('meme', ep['meme'], nar, -0.1)]
+for i, m in enumerate(ep['chat']):
+    if m.get('say'):
+        LINES.append((f'c{i}', m, ep['you'] if m['k'] == 'out' else ep['them'], 0.0))
 
-def tts(name, text, voice, speed):
-    a, sr = K.create(text, voice=voice, speed=speed, lang='en-us')
+# `--lines`: write build/<slug>/lines.json (what ElevenLabs must speak) and stop.
+if '--lines' in sys.argv:
+    rows = [{'name': n, 'text': src.get('el_say', src['say']), 'voice_id': who.get('el_voice'),
+             'file': os.path.join(B, 'vo_src', f'{n}.mp3')} for n, src, who, _ in LINES]
+    os.makedirs(os.path.join(B, 'vo_src'), exist_ok=True)
+    json.dump(rows, open(os.path.join(B, 'lines.json'), 'w'), indent=1)
+    print(os.path.join(B, 'lines.json'))
+    sys.exit(0)
+
+# ElevenLabs mode: every line already has build/<slug>/vo_src/<name>.mp3|.wav
+VO_SRC = os.path.join(B, 'vo_src')
+def ext_file(n):
+    for e in ('mp3', 'wav'):
+        f = os.path.join(VO_SRC, f'{n}.{e}')
+        if os.path.isfile(f) and os.path.getsize(f) > 1000: return f
+EXT = all(ext_file(n) for n, *_ in LINES)
+print('voice engine:', 'elevenlabs' if EXT else 'kokoro', flush=True)
+
+def trim_save(name, a, sr):
     idx = np.where(np.abs(a) > 0.01)[0]
     a = a[max(0, idx[0] - 240): idx[-1] + 1200]
     sf.write(os.path.join(B, 'vo', f'{name}.wav'), a, sr)
     return len(a) / sr
 
+if EXT:
+    def tts(name, who, delta, boost):
+        tempo = max(0.6, min(1.9, (who.get('el_speed', 1.06) + delta * 0.5) * boost))
+        tmp = os.path.join(B, 'vo', f'{name}.raw.wav')
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', ext_file(name), '-af', f'atempo={tempo:.3f}',
+                        '-ac', '1', '-ar', '24000', tmp], check=True)
+        a, sr = sf.read(tmp); os.remove(tmp)
+        return trim_save(name, a, sr)
+else:
+    from kokoro_onnx import Kokoro
+    K = Kokoro(os.path.join(MODELS, 'kokoro-v1.0.onnx'), os.path.join(MODELS, 'voices-v1.0.bin'))
+    def tts(name, who, delta, boost):
+        src = dict((n, s) for n, s, *_ in LINES)[name]
+        a, sr = K.create(src['say'], voice=who['voice'], speed=(who['speed'] + delta) * boost, lang='en-us')
+        return trim_save(name, a, sr)
+
 def make_voices(boost):
-    nar = ep.get('narrator', {'voice': 'am_onyx', 'speed': 1.2})
-    d = {'hook': tts('hook', ep['hook']['say'], nar['voice'], nar['speed'] * boost),
-         'meme': tts('meme', ep['meme']['say'], nar['voice'], (nar['speed'] - 0.1) * boost)}
-    for i, m in enumerate(ep['chat']):
-        if m.get('say'):
-            who = ep['you'] if m['k'] == 'out' else ep['them']
-            d[f'c{i}'] = tts(f'c{i}', m['say'], who['voice'], who['speed'] * boost)
-    return d
+    return {n: tts(n, who, delta, boost) for n, src, who, delta in LINES}
 
 # ---------- timeline ----------
 def build_timeline(dur):

@@ -11,8 +11,8 @@
     "punch": "HE GOT COOKED 💀",
     "say": "The king of the whole world slid into the DMs of a guy who lives in a jar. He got cooked."
   },
-  "you": {"name": "Alexander", "label": "ALEXANDER", "portrait": "alexander.svg", "face": "44 50 112 112", "voice": "am_puck", "speed": 1.22},
-  "them": {"name": "Diogenes", "label": "DIOGENES", "portrait": "diogenes.svg", "face": "50 64 112 112", "voice": "bm_george", "speed": 1.1,
+  "you": {"name": "Alexander", "label": "ALEXANDER", "portrait": "alexander.svg", "face": "44 50 112 112", "voice": "am_puck", "speed": 1.22, "el_voice": "SOYHLrjzK2X1ezoPC6cr"},
+  "them": {"name": "Diogenes", "label": "DIOGENES", "portrait": "diogenes.svg", "face": "50 64 112 112", "voice": "bm_george", "speed": 1.1, "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
            "status": "last seen in the jar", "subtitle": "Corinth · Jar #1", "about": "don't block my sun. ☀️", "aboutDate": "336 BC"},
   "notifications": ["move.", "ur blocking my sun lil bro"],
   "chat": [
@@ -41,5 +41,5 @@
     "chips": ["Alexander: 3 continents", "Diogenes: 1 jar, 0 cares"],
     "say": "Conquered the world. Got fumbled by a jar guy."
   },
-  "narrator": {"voice": "am_onyx", "speed": 1.2}
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
 }
