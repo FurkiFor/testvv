@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="King Hiero with a gold crown illustration">
+<defs><linearGradient id="hiero-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B79CF2"/><stop offset="1" stop-color="#5B3A9E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#hiero-bg)"/>
+<g fill="#FFFFFF" opacity=".18"><circle cx="30" cy="40" r="18"/><circle cx="170" cy="70" r="24"/><circle cx="160" cy="200" r="16"/></g>
+<path d="M24 250 Q30 186 100 178 Q170 186 176 250Z" fill="#7B2D8E"/>
+<path d="M24 250 Q30 186 100 178 L80 250Z" fill="#9B3FB0"/>
+<path d="M60 196 Q100 214 140 196" stroke="#F2C230" stroke-width="7" fill="none" stroke-linecap="round"/>
+<circle cx="100" cy="210" r="8" fill="#F2C230" stroke="#B8860B" stroke-width="2"/>
+<rect x="88" y="146" width="24" height="36" fill="#C8936A"/>
+<ellipse cx="100" cy="114" rx="33" ry="38" fill="#D9A47C"/>
+<ellipse cx="66" cy="116" rx="6" ry="9" fill="#C8936A"/><ellipse cx="134" cy="116" rx="6" ry="9" fill="#C8936A"/>
+<path d="M76 98 Q86 92 96 100 M104 100 Q114 92 124 98" stroke="#3A2414" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="7" ry="3" fill="#fff"/><ellipse cx="113" cy="110" rx="7" ry="3" fill="#fff"/>
+<circle cx="89" cy="110" r="2.6" fill="#1E120A"/><circle cx="115" cy="110" r="2.6" fill="#1E120A"/>
+<path d="M78 106 L96 108 M104 108 L122 106" stroke="#B07A55" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 112 Q94 126 99 129 Q104 131 107 127" stroke="#A86F4A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M68 124 Q66 160 84 172 Q100 182 116 172 Q134 160 132 124 Q124 140 100 141 Q76 140 68 124Z" fill="#3A2414"/>
+<path d="M88 146 Q100 141 112 146" stroke="#8A3A2A" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M66 92 Q66 70 100 70 Q134 70 134 92 Q122 82 100 82 Q78 82 66 92Z" fill="#3A2414"/>
+<path d="M64 84 L66 46 L80 66 L92 38 L100 62 L108 38 L120 66 L134 46 L136 84 Q100 74 64 84Z" fill="#F2C230" stroke="#B8860B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="100" cy="72" r="5" fill="#E63946"/><circle cx="80" cy="76" r="3.5" fill="#2A9D8F"/><circle cx="120" cy="76" r="3.5" fill="#2A9D8F"/>
+<g stroke="#FFF6C8" stroke-width="3" stroke-linecap="round"><path d="M56 40 l-6 -6 M144 40 l6 -6 M100 26 v-8"/></g>
+<path d="M142 132 Q150 128 152 136" stroke="#7FD3FF" stroke-width="3" fill="#BDEBFF"/>
+</svg>

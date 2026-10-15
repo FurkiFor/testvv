@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Annoyed Charles Dickens with beard and quill illustration">
+<defs><linearGradient id="dickens-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E7B76A"/><stop offset="1" stop-color="#8A4B22"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#dickens-bg)"/>
+<circle cx="34" cy="44" r="14" fill="#FFE3A3" opacity=".5"/><rect x="31" y="58" width="6" height="22" fill="#F4F0E0" opacity=".7"/>
+<path d="M24 250 Q30 186 100 178 Q170 186 176 250Z" fill="#2A2420"/>
+<path d="M84 180 L100 210 L116 180Z" fill="#F4F4F0"/>
+<path d="M88 190 L100 198 L112 190 L112 204 L100 198 L88 204Z" fill="#7A1E26"/>
+<rect x="88" y="146" width="24" height="36" fill="#E2B48E"/>
+<ellipse cx="100" cy="114" rx="32" ry="38" fill="#EFC29C"/>
+<ellipse cx="67" cy="116" rx="6" ry="9" fill="#E2B48E"/><ellipse cx="133" cy="116" rx="6" ry="9" fill="#E2B48E"/>
+<path d="M66 104 Q60 74 90 70 Q120 64 136 86 Q138 96 134 106 Q130 88 112 84 Q120 78 100 80 Q82 82 72 92 Q68 98 66 104Z" fill="#5A3B22"/>
+<path d="M118 74 Q132 70 138 80" stroke="#5A3B22" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M76 98 Q86 94 96 100" stroke="#4A2E1A" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M104 96 Q114 86 124 92" stroke="#4A2E1A" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="7" ry="3" fill="#fff"/><ellipse cx="113" cy="108" rx="7" ry="5" fill="#fff"/>
+<circle cx="89" cy="110" r="2.6" fill="#1E120A"/><circle cx="115" cy="108" r="2.8" fill="#1E120A"/>
+<path d="M78 107 L96 108" stroke="#C99A78" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 112 Q94 126 99 129 Q104 131 107 127" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M70 122 Q66 162 86 178 Q100 188 114 178 Q134 162 130 122 Q124 138 100 140 Q76 138 70 122Z" fill="#6B4A2E"/>
+<path d="M78 136 Q90 128 100 134 Q110 128 122 136 Q112 142 100 138 Q88 142 78 136Z" fill="#4A2E1A"/>
+<path d="M92 146 Q100 144 108 146" stroke="#3A1E12" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M150 250 L172 150" stroke="#3A2A1A" stroke-width="3"/>
+<path d="M172 150 Q196 120 186 92 Q170 116 164 150 Z" fill="#F7F3E8" stroke="#CFC8B4" stroke-width="2"/>
+<path d="M172 150 Q178 120 186 96" stroke="#CFC8B4" stroke-width="1.5" fill="none"/>
+</svg>

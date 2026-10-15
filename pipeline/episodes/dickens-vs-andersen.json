@@ -1,0 +1,44 @@
+{
+  "slug": "dickens-vs-andersen",
+  "youtube": {
+    "title": "Why Charles Dickens blocked Hans Christian Andersen 💀 #shorts",
+    "caption": "Hans Christian Andersen told Charles Dickens he'd stay for two weeks. He stayed FIVE. 🪞💀\n\nThe worst houseguest in literary history, as a group chat.\n\nWhat's the longest a guest ever stayed at your place? 👇\n\nParody · fictional chat. Based on Andersen's real 1857 visit to Dickens' home in Kent. After he left, Dickens pinned a card on the mirror: \"Hans Andersen slept in this room for five weeks — which seemed to the family AGES!\"\n\n#hanschristianandersen #charlesdickens #literature #historymemes #history #books #shorts",
+    "tags": ["hans christian andersen", "charles dickens", "charles dickens hans christian andersen", "literary history", "victorian england", "worst houseguest", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#1C0D12", "glow": "#E6B450", "footer": "🪞 1857 · KENT, ENGLAND", "footerColor": "#E6B450", "stamp": "EVICTED"},
+  "hook": {
+    "lines": ["HE SAID 2 WEEKS.", "HE STAYED 5.", "DICKENS WAS NOT OK"],
+    "punch": "WORST GUEST 💀",
+    "say": "He said he'd stay two weeks. He stayed five. Charles Dickens was not okay."
+  },
+  "you": {"name": "Andersen", "label": "H.C. ANDERSEN", "portrait": "andersen.svg", "face": "40 40 120 120", "voice": "am_echo", "speed": 1.2, "el_voice": "SOYHLrjzK2X1ezoPC6cr"},
+  "them": {"name": "Charles Dickens", "label": "CHARLES DICKENS", "portrait": "dickens.svg", "face": "38 44 124 124", "voice": "bm_fable", "speed": 1.12, "el_voice": "qvI9Sgo8A9eFU874jTGo",
+           "status": "last seen writing a passive-aggressive note", "subtitle": "Gad's Hill · Kent", "about": "please sir, i want some peace 🕯️", "aboutDate": "1857"},
+  "notifications": ["ur coach leaves tomorrow right", "u extended. at MY house."],
+  "chat": [
+    {"k": "chip", "text": "JUNE 1857"},
+    {"k": "out", "text": "charles!! just landed in england 🇩🇰 coming to ur place for 2 weeks ok?? 🥺", "say": "Charles! Just landed in England. Coming to your place for two weeks, okay?", "time": "11:10 AM"},
+    {"k": "in", "text": "sure. 2 weeks 👍", "say": "sure. Two weeks.", "time": "11:30 AM", "typing": 0.7},
+    {"k": "out", "text": "week 3 update: ur house is so cozy 🥹", "say": "week three update: your house is so cozy.", "time": "9:02 AM"},
+    {"k": "in", "text": "andersen. ur coach leaves tomorrow right", "say": "Andersen. Your coach leaves tomorrow, right?", "time": "9:03 AM", "typing": 0.9},
+    {"k": "out", "text": "lol no i extended 🙂", "say": "lol, no. I extended.", "time": "9:03 AM"},
+    {"k": "in", "text": "u extended. at MY house.", "say": "you extended. At MY house.", "time": "9:04 AM", "sfx": "scratch"},
+    {"k": "out", "text": "also someone gave my book a bad review so i'm crying face down on ur lawn rn 😭", "say": "also, someone gave my book a bad review, so I'm crying face down on your lawn right now.", "el_say": "[crying] also, someone gave my book a bad review, so I'm crying face down on your lawn right now.", "time": "2:15 PM"},
+    {"k": "in", "text": "my kids are watching u from the window bro", "say": "my kids are watching you from the window, bro.", "time": "2:16 PM"},
+    {"k": "out", "text": "tell them i said hi!! 👋", "say": "tell them I said hi!", "time": "2:16 PM"},
+    {"k": "in", "text": "my daughter called u a bony bore. her words not mine", "say": "my daughter called you a bony bore. Her words, not mine.", "time": "2:18 PM"},
+    {"k": "out", "text": "it's week 5 and i feel like family fr 🫶", "say": "it's week five, and I feel like family, for real.", "time": "8:40 AM"},
+    {"k": "in", "text": "i left u a note on the mirror 🪞", "say": "I left you a note on the mirror.", "time": "8:41 AM", "typing": 0.8},
+    {"k": "out", "text": "aww what does it say 🥺", "say": "aww, what does it say?", "time": "8:41 AM"},
+    {"k": "in", "text": "\"hans andersen slept in this room for five weeks. which seemed to the family AGES\" 🙂", "say": "Hans Andersen slept in this room for five weeks. Which seemed to the family, ages.", "time": "8:42 AM", "typing": 1.1, "sfx": "boom"},
+    {"k": "out", "text": "so... is that a yes for christmas? 🎄", "say": "so, is that a yes for Christmas?", "time": "8:43 AM", "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "SAID: 2 WEEKS.",
+    "bottom": "STAYED: 5. GOT BLOCKED.",
+    "chips": ["Andersen: 35 days, 0 hints", "Dickens: 1 passive note"],
+    "say": "Said two weeks. Stayed five. Got blocked."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

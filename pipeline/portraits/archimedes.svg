@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Archimedes shouting eureka in the bath illustration">
+<defs><linearGradient id="archimedes-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9BE3FF"/><stop offset="1" stop-color="#2E86C1"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#archimedes-bg)"/>
+<g fill="#FFFFFF" stroke="#D6F3FF" stroke-width="2" opacity=".85"><circle cx="28" cy="60" r="9"/><circle cx="42" cy="32" r="5"/><circle cx="170" cy="48" r="11"/><circle cx="160" cy="90" r="6"/><circle cx="20" cy="120" r="5"/></g>
+<path d="M30 250 Q34 190 100 182 Q166 190 170 250Z" fill="#F4F4EE"/>
+<path d="M30 250 Q34 190 100 182 L70 250Z" fill="#E2E2D8"/>
+<path d="M44 214 Q100 236 156 214" stroke="#D0D0C4" stroke-width="4" fill="none"/>
+<rect x="0" y="226" width="200" height="24" fill="#5DADE2" opacity=".9"/>
+<path d="M0 228 Q20 218 40 228 T80 228 T120 228 T160 228 T200 228" stroke="#D6F3FF" stroke-width="4" fill="none"/>
+<rect x="88" y="148" width="24" height="36" fill="#D9A47C"/>
+<ellipse cx="100" cy="116" rx="32" ry="38" fill="#E8B48C"/>
+<ellipse cx="67" cy="118" rx="6" ry="9" fill="#D9A47C"/><ellipse cx="133" cy="118" rx="6" ry="9" fill="#D9A47C"/>
+<path d="M68 96 Q60 70 82 68 Q90 56 104 62 Q122 56 128 72 Q142 78 132 98 Q128 84 118 82 Q104 74 92 82 Q78 80 68 96Z" fill="#F0F0EA" stroke="#CFCFC6" stroke-width="2"/>
+<path d="M74 72 l-4 10 M86 64 l-2 10 M116 62 l2 10 M128 72 l4 10" stroke="#9BE3FF" stroke-width="3" stroke-linecap="round"/>
+<circle cx="74" cy="90" r="2.4" fill="#BDEBFF"/><circle cx="128" cy="92" r="2.4" fill="#BDEBFF"/>
+<path d="M76 96 Q86 88 96 96 M104 96 Q114 88 124 96" stroke="#E0E0D8" stroke-width="5" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="108" r="8" fill="#fff"/><circle cx="113" cy="108" r="8" fill="#fff"/>
+<circle cx="87" cy="108" r="3.4" fill="#1E120A"/><circle cx="113" cy="108" r="3.4" fill="#1E120A"/>
+<path d="M100 112 Q94 124 99 127 Q104 129 107 125" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M70 124 Q66 162 84 176 Q100 186 116 176 Q134 162 130 124 Q124 136 116 134 L84 134 Q76 136 70 124Z" fill="#F0F0EA" stroke="#CFCFC6" stroke-width="2"/>
+<ellipse cx="100" cy="146" rx="12" ry="11" fill="#6B1F1F"/>
+<ellipse cx="100" cy="151" rx="7" ry="4" fill="#E06666"/>
+<path d="M82 134 Q100 130 118 134" stroke="#F0F0EA" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g stroke="#FFE066" stroke-width="4" stroke-linecap="round"><path d="M48 104 l-14 -6 M50 120 l-16 2 M152 104 l14 -6 M150 120 l16 2"/></g>
+<path d="M160 150 Q172 120 160 104" stroke="#E8B48C" stroke-width="12" fill="none" stroke-linecap="round"/>
+<circle cx="160" cy="100" r="8" fill="#E8B48C"/>
+<path d="M156 92 l0 -8 M162 91 l1 -9" stroke="#E8B48C" stroke-width="4" stroke-linecap="round"/>
+</svg>

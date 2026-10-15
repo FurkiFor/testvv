@@ -1,0 +1,44 @@
+{
+  "slug": "archimedes-vs-hiero",
+  "youtube": {
+    "title": "Archimedes found out the crown was fake mid-bath 🛁💀 #shorts",
+    "caption": "Archimedes' eureka moment, but it's a group chat. 🛁👑\n\nThe king just wanted to know if his crown was real gold... the whole city of Syracuse got way more than an answer.\n\nWould you have run outside too? 👇\n\nParody · fictional chat. Based on the famous legend of Archimedes, King Hiero II's gold crown and the bath that made him shout \"Eureka!\" (c. 250 BC).\n\n#archimedes #eureka #ancientgreece #historymemes #history #science #shorts",
+    "tags": ["archimedes", "archimedes eureka", "eureka", "eureka moment", "archimedes principle", "ancient greece", "history of science", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#0B1530", "glow": "#4FC3F7", "footer": "🛁 250 BC · SYRACUSE", "footerColor": "#4FC3F7", "stamp": "SCAMMED"},
+  "hook": {
+    "lines": ["A KING ASKED ONE", "QUESTION ABOUT GOLD.", "SYRACUSE SAW TOO MUCH"],
+    "punch": "NO TOGA 💀",
+    "say": "A king asked Archimedes one question about gold. The whole city saw way too much."
+  },
+  "you": {"name": "King Hiero", "label": "KING HIERO", "portrait": "hiero.svg", "face": "40 48 120 120", "voice": "bm_lewis", "speed": 1.12, "el_voice": "dqoktGAat2XIYpd4sTb7"},
+  "them": {"name": "Archimedes", "label": "ARCHIMEDES", "portrait": "archimedes.svg", "face": "40 50 120 120", "voice": "am_puck", "speed": 1.2, "el_voice": "2t3wubVNRseKNVjtlWx1",
+           "status": "last seen in the bath 🛁", "subtitle": "Syracuse · Math Guy", "about": "give me a lever and i'll move the world", "aboutDate": "250 BC"},
+  "notifications": ["EUREKA!!!", "ur goldsmith scammed u 💀"],
+  "chat": [
+    {"k": "chip", "text": "250 BC"},
+    {"k": "out", "text": "archimedes my guy 👑 quick q. is my new crown real gold or did the goldsmith finesse me", "say": "Archimedes, my guy. Quick question. Is my new crown real gold, or did the goldsmith finesse me?", "time": "9:00 AM"},
+    {"k": "in", "text": "easy. lemme melt it down and check", "say": "easy. Let me melt it down and check.", "time": "9:04 AM", "typing": 0.7},
+    {"k": "out", "text": "absolutely not. it's for the gods 💀 don't scratch it either", "say": "absolutely not. It's for the gods. Don't scratch it either.", "time": "9:05 AM"},
+    {"k": "in", "text": "so u want me to see inside it... without opening it", "say": "so you want me to see inside it, without opening it.", "time": "9:07 AM"},
+    {"k": "in", "text": "bro that's not a math problem that's a hostage situation", "say": "bro, that's not a math problem. That's a hostage situation.", "el_say": "[sighs] bro, that's not a math problem. That's a hostage situation.", "time": "9:07 AM"},
+    {"k": "out", "text": "3 days. or ur fired 🙂", "say": "three days. Or you're fired.", "time": "9:08 AM"},
+    {"k": "in", "text": "update: taking a bath to destress 🛁", "say": "update: taking a bath to de-stress.", "time": "6:40 PM", "typing": 0.8},
+    {"k": "in", "text": "wait. the water went UP when i got in 😳", "say": "wait. The water went UP when I got in.", "time": "6:41 PM", "typing": 1.1},
+    {"k": "out", "text": "...ok? that's called being in a bath", "say": "okay? That's called being in a bath.", "time": "6:41 PM"},
+    {"k": "in", "text": "EUREKA!!!", "say": "Eureka!", "el_say": "[shouting] EUREKA!", "time": "6:42 PM", "sfx": "boom"},
+    {"k": "out", "text": "bro why is the whole city texting me that ur sprinting down the street", "say": "bro, why is the whole city texting me that you're sprinting down the street?", "time": "6:44 PM"},
+    {"k": "in", "text": "fake gold pushes out more water than real gold. ur goldsmith SCAMMED u 💀", "say": "fake gold pushes out more water than real gold. Your goldsmith scammed you!", "time": "6:45 PM"},
+    {"k": "out", "text": "W. ur actually a genius 🔥 but where is ur toga", "say": "W. You're actually a genius. But where is your toga?", "time": "6:46 PM"},
+    {"k": "in", "quote": "W. ur actually a genius 🔥 but where is ur toga", "text": "left it in the bath. science has no dress code 🏃", "say": "left it in the bath. Science has no dress code.", "el_say": "[laughs] left it in the bath. Science has no dress code.", "time": "6:46 PM", "typing": 0.9, "sfx": "boom"},
+    {"k": "out", "text": "😐", "big": true, "time": "6:47 PM", "sfx": "scratch"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "SOLVED THE CROWN.",
+    "bottom": "LOST THE TOGA.",
+    "chips": ["Goldsmith: exposed", "Archimedes: also exposed"],
+    "say": "Solved the crown. Lost the toga."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}
