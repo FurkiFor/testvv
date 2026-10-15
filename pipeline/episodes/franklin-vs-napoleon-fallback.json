@@ -1,0 +1,43 @@
+{
+  "slug": "franklin-vs-napoleon-fallback",
+  "youtube": {
+    "title": "Ben Franklin tried to fix daylight saving time ⏰ Napoleon's brunch did not survive #shorts",
+    "caption": "Clocks fall back this weekend. Ben Franklin had one job. ⏰🥞\n\nNapoleon planned brunch to the minute. Franklin \"fixed\" daylight saving time.\n\nWhich 11 would YOU show up at? 👇\n\nParody · fictional chat. Fun fact: in 1784 Franklin wrote a satirical essay telling Parisians to wake up earlier to save candles — often called the first daylight saving idea.\n\n#daylightsavingtime #fallback #benjaminfranklin #napoleon #historymemes #shorts",
+    "tags": ["daylight saving time", "fall back", "clocks go back", "benjamin franklin", "napoleon", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#141A33", "glow": "#FFB547", "footer": "⏰ SUNDAY · CLOCKS FALL BACK", "footerColor": "#FFB547", "stamp": "LAST TUESDAY"},
+  "hook": {
+    "lines": ["THE CLOCKS FALL BACK", "AND BEN FRANKLIN", "TRIED TO FIX IT"],
+    "punch": "BRUNCH: DOOMED ⏰",
+    "say": "The clocks fall back this Sunday. Ben Franklin tried to fix it. Napoleon's brunch did not survive."
+  },
+  "you": {"name": "Napoleon", "label": "NAPOLEON", "portrait": "napoleon.svg", "face": "38 40 124 124", "voice": "bm_daniel", "speed": 1.1, "el_voice": "N2lVS1w4EtoT3dr4eOWO"},
+  "them": {"name": "Ben Franklin", "label": "BEN FRANKLIN", "portrait": "franklin.svg", "face": "40 46 120 120", "voice": "bm_george", "speed": 1.1, "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+           "status": "last seen inventing something nobody asked for", "subtitle": "Philadelphia · Inventor", "about": "early to bed, early to rise 🪁", "aboutDate": "1784"},
+  "notifications": ["small thing. clocks fall back sunday", "relax. i fixed it 🔧"],
+  "chat": [
+    {"k": "chip", "text": "SATURDAY"},
+    {"k": "out", "text": "brunch tomorrow. 11:00 sharp. i have planned the morning down to the minute ⚔️", "say": "brunch tomorrow. Eleven o'clock sharp. I have planned the morning down to the minute.", "time": "8:02 PM"},
+    {"k": "in", "text": "small thing. clocks fall back sunday", "say": "small thing. Clocks fall back Sunday.", "time": "8:05 PM", "typing": 0.8},
+    {"k": "out", "text": "meaning", "say": "meaning?", "time": "8:05 PM"},
+    {"k": "in", "text": "11 happens twice", "say": "eleven happens twice.", "time": "8:06 PM"},
+    {"k": "out", "text": "...which 11 do i attack", "say": "which eleven do I attack?", "time": "8:06 PM", "sfx": "scratch"},
+    {"k": "in", "text": "relax. i fixed it 🔧", "say": "relax. I fixed it.", "time": "8:20 PM", "typing": 1.0},
+    {"k": "in", "text": "we now fall back every sunday. forever. infinite brunch", "say": "we now fall back every Sunday. Forever. Infinite brunch.", "el_say": "[laughs] we now fall back every Sunday. Forever. Infinite brunch.", "time": "8:20 PM"},
+    {"k": "out", "text": "benjamin that is not a fix. that is a time loop", "say": "Benjamin. That is not a fix. That is a time loop.", "time": "8:21 PM"},
+    {"k": "in", "text": "in 1784 i told paris to wake up early to save candles. they called me a genius", "say": "in seventeen eighty four, I told Paris to wake up early to save candles. They called me a genius.", "time": "8:22 PM"},
+    {"k": "out", "text": "they said you were JOKING", "say": "they said you were joking!", "time": "8:22 PM"},
+    {"k": "in", "text": "anyway brunch is technically last tuesday now", "say": "anyway. Brunch is technically last Tuesday now.", "time": "8:25 PM", "typing": 0.7},
+    {"k": "out", "text": "i'm already at the table. the waiter says i've been here since 1815", "say": "I'm already at the table. The waiter says I've been here since eighteen fifteen.", "time": "11:00 AM"},
+    {"k": "in", "text": "so you're early 👍", "say": "so you're early.", "time": "11:00 AM", "typing": 0.9, "sfx": "boom"},
+    {"k": "out", "text": "there is nothing we can do.", "say": "there is nothing we can do.", "el_say": "[sighs] there is nothing we can do.", "time": "11:00 AM", "sfx": "boom"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "CLOCKS FALL BACK.",
+    "bottom": "BRUNCH IS LAST TUESDAY",
+    "chips": ["Napoleon: here since 1815", "Franklin: \"i fixed it\" 🔧"],
+    "say": "Clocks fall back. Brunch is now last Tuesday."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}
