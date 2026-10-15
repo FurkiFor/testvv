@@ -21,11 +21,18 @@ OUT = os.path.join(P, 'out')
 os.makedirs(os.path.join(B, 'vo'), exist_ok=True); os.makedirs(OUT, exist_ok=True)
 for side in ('you', 'them'):
     ep[side]['svg'] = open(os.path.join(P, 'portraits', ep[side]['portrait'])).read()
+COLD = ep.get('hook', {}).get('mode') == 'none'      # no hook scene, no narrator: open straight on the chat
+CUT = ep.get('ending') == 'cut'                       # no meme card: end right after the last message
+ep['props'] = {}
+for m in ep['chat']:
+    if m.get('photo'):
+        ep['props'][m['photo']] = open(os.path.join(P, 'props', m['photo'])).read()
 
 # ---------- validation ----------
-assert len(ep['hook']['lines']) in (2, 3, 4), 'hook.lines: 2-4 short lines'
-assert len(ep['notifications']) == 2, 'notifications: exactly 2'
-assert ep.get('ending', 'block') in ('block', 'none')
+if not COLD:
+    assert len(ep['hook']['lines']) in (2, 3, 4), 'hook.lines: 2-4 short lines'
+    assert len(ep['notifications']) == 2, 'notifications: exactly 2'
+assert ep.get('ending', 'block') in ('block', 'none', 'cut')
 for m in ep['chat']:
     assert m['k'] in ('chip', 'in', 'out'), m
     if m['k'] != 'chip' and not m.get('big'):
@@ -33,7 +40,7 @@ for m in ep['chat']:
 
 # ---------- voice lines ----------
 nar = ep.get('narrator', {'voice': 'am_onyx', 'speed': 1.2})
-LINES = [('hook', ep['hook'], nar, 0.0), ('meme', ep['meme'], nar, -0.1)]
+LINES = ([] if COLD else [('hook', ep['hook'], nar, 0.0)]) + ([] if CUT else [('meme', ep['meme'], nar, -0.1)])
 for i, m in enumerate(ep['chat']):
     if m.get('say'):
         LINES.append((f'c{i}', m, ep['you'] if m['k'] == 'out' else ep['them'], 0.0))
@@ -84,13 +91,18 @@ def make_voices(boost):
 # ---------- timeline ----------
 def build_timeline(dur):
     tl = {"hook": {}, "msgs": [], "vo": [], "sfx": [], "end": {}}
-    tl["sfx"] += [("whoosh", 0.0), ("ding", 0.8), ("ding", 1.3), ("ding", 1.8), ("pop", 2.2), ("pop", 2.4), ("thud", 2.8)]
-    tl["vo"].append(("hook", 0.15))
-    hook_end = max(0.15 + dur["hook"] + 0.35, 4.0)
-    tl["hook"] = {"end": hook_end}
-    t = hook_end + 0.15
+    if COLD:
+        tl["hook"] = {"end": 0.0}
+        t = 0.35
+    else:
+        tl["sfx"] += [("whoosh", 0.0), ("ding", 0.8), ("ding", 1.3), ("ding", 1.8), ("pop", 2.2), ("pop", 2.4), ("thud", 2.8)]
+        tl["vo"].append(("hook", 0.15))
+        hook_end = max(0.15 + dur["hook"] + 0.35, 4.0)
+        tl["hook"] = {"end": hook_end}
+        t = hook_end + 0.15
     for i, m in enumerate(ep["chat"]):
-        e = {"i": i, "k": m["k"], "text": m["text"], "time": m.get("time", ""), "quote": m.get("quote", ""), "big": m.get("big", False)}
+        t += m.get("pause", 0)
+        e = {"i": i, "k": m["k"], "text": m["text"], "time": m.get("time", ""), "quote": m.get("quote", ""), "big": m.get("big", False), "photo": m.get("photo", "")}
         vd = dur.get(f"c{i}", 0)
         if m["k"] == "chip":
             e["at"] = t; t += 0.45
@@ -110,13 +122,19 @@ def build_timeline(dur):
             e["dotsStart"] = t; e["at"] = t + typing
             tl["sfx"].append(("pop", e["at"]))
             if vd: tl["vo"].append((f"c{i}", e["at"] + 0.08))
-            t = e["at"] + 0.08 + vd + 0.16
+            t = e["at"] + 0.08 + vd + 0.16 + (0.9 if m.get("photo") else 0)
         if m.get("sfx"):
             tl["sfx"].append((m["sfx"], e["at"] + (0.05 if m["sfx"] == "boom" else 0.0)))
         if m.get("big"):
             t += 0.6
         tl["msgs"].append(e)
     E = t
+    if CUT:
+        big = 1e9
+        end = {k: big for k in ("tapHeader", "profile", "tapVideo", "call", "ringing", "declined", "profile2", "blocked", "meme")}
+        end["total"] = E + ep.get("hold", 1.6)
+        tl["end"] = end; tl["total"] = end["total"]
+        return tl
     if ep.get("ending", "block") == "block":
         end = {"tapHeader": E + 0.05, "profile": E + 0.35, "tapVideo": E + 0.95, "call": E + 1.2,
                "ringing": E + 1.75, "declined": E + 2.75, "profile2": E + 3.3, "blocked": E + 3.6}
@@ -174,7 +192,7 @@ subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', silent, '-i', os.pat
 
 # ---------- check sheet ----------
 T = tl['total']; E = tl['end']
-times = [2.6, tl['hook']['end'] + 4, T * 0.45, (tl['msgs'][-1]['at'] + 0.3), min(E['declined'], T - 3) if E['declined'] < 1e8 else T - 4, T - 1.5]
+times = [1.5 if COLD else 2.6, tl['hook']['end'] + 4, T * 0.45, (tl['msgs'][-1]['at'] + 0.3), min(E['declined'], T - 3) if E['declined'] < 1e8 else T - 4, T - 1.5]
 frames = []
 for k, t in enumerate(times):
     f = os.path.join(B, f'sheet{k}.png'); frames.append(f)
