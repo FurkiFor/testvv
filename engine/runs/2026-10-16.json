@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 10.93,
-      "sizeMB": 4.08
+      "sizeMB": 4.08,
+      "post_id": "p_MfNbZvIOqBxw",
+      "publish_at": "2026-10-16T12:00:00+04:00"
     },
     {
       "file": "2026-10-16-2-ceramic-sphere.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 8,
-      "sizeMB": 1.94
+      "sizeMB": 1.94,
+      "post_id": "p_nCPYbOXawHIS",
+      "publish_at": "2026-10-16T17:00:00+04:00"
     },
     {
       "file": "2026-10-16-3-metal-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 10.47,
-      "sizeMB": 12.88
+      "sizeMB": 12.88,
+      "post_id": "p_IdaLLHnXfIad",
+      "publish_at": "2026-10-16T21:00:00+04:00"
     }
   ]
 }
