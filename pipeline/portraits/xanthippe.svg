@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Xanthippe with a bucket illustration">
+<defs><linearGradient id="xanthippe-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9895E"/><stop offset="1" stop-color="#8E3B22"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#xanthippe-bg)"/>
+<path d="M0 20 H200 M0 34 H200" stroke="#F6C9A4" stroke-width="3" opacity=".5"/>
+<path d="M10 28 l8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6 8 -6 8 6" stroke="#F6C9A4" stroke-width="2" fill="none" opacity=".5"/>
+<path d="M18 250 Q28 186 100 176 Q172 186 182 250Z" fill="#3E7D6C"/>
+<path d="M70 180 Q100 200 130 180" stroke="#E8C66A" stroke-width="5" fill="none"/>
+<rect x="88" y="144" width="24" height="36" fill="#C98F69"/>
+<ellipse cx="100" cy="66" rx="24" ry="18" fill="#2A160E"/>
+<path d="M78 70 Q100 58 122 70" stroke="#E8C66A" stroke-width="4" fill="none"/>
+<path d="M62 120 Q58 76 100 70 Q142 76 138 120 Q130 92 100 90 Q70 92 62 120Z" fill="#2A160E"/>
+<ellipse cx="100" cy="116" rx="32" ry="38" fill="#D9A07A"/>
+<path d="M66 108 Q72 84 100 84 Q128 84 134 108 Q122 92 100 94 Q78 92 66 108Z" fill="#2A160E"/>
+<circle cx="68" cy="128" r="4" fill="#E8C66A"/><circle cx="132" cy="128" r="4" fill="#E8C66A"/>
+<path d="M76 102 L95 110 M124 102 L105 110" stroke="#2A160E" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="88" cy="116" rx="6" ry="5" fill="#fff"/><ellipse cx="112" cy="116" rx="6" ry="5" fill="#fff"/>
+<circle cx="89" cy="117" r="3" fill="#24160C"/><circle cx="111" cy="117" r="3" fill="#24160C"/>
+<path d="M100 120 Q96 130 100 133 Q104 134 106 131" stroke="#A86E4E" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M87 142 Q100 136 113 142" stroke="#8E2E26" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="78" cy="132" rx="6" ry="3" fill="#E87070" opacity=".6"/><ellipse cx="122" cy="132" rx="6" ry="3" fill="#E87070" opacity=".6"/>
+<path d="M146 92 Q140 84 148 78 M156 92 Q162 84 154 78" stroke="#FFE066" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M150 150 Q150 128 170 128 Q190 128 190 150" stroke="#5A3A1A" stroke-width="3" fill="none"/>
+<path d="M146 150 H194 L188 196 H152Z" fill="#9C6A3A" stroke="#5A3A1A" stroke-width="3"/>
+<path d="M149 166 H191 M151 182 H189" stroke="#5A3A1A" stroke-width="2.5"/>
+<path d="M150 152 Q170 144 190 152" stroke="#7FD0F2" stroke-width="5" fill="none"/>
+<ellipse cx="146" cy="186" rx="12" ry="9" fill="#D9A07A"/>
+</svg>

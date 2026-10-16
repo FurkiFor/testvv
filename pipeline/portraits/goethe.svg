@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Goethe embarrassed with a quill illustration">
+<defs><linearGradient id="goethe-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FB08A"/><stop offset="1" stop-color="#2E4A34"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#goethe-bg)"/>
+<g fill="#DDEBD6" opacity=".35"><circle cx="30" cy="40" r="16"/><circle cx="44" cy="34" r="12"/><circle cx="170" cy="50" r="14"/></g>
+<path d="M14 250 Q24 186 100 176 Q176 186 186 250Z" fill="#6B4A2E"/>
+<path d="M80 176 Q100 204 120 176 Q122 196 100 210 Q78 196 80 176Z" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<path d="M60 186 L80 176 L84 214Z M140 186 L120 176 L116 214Z" fill="#E8C66A"/>
+<rect x="88" y="144" width="24" height="36" fill="#E6B494"/>
+<path d="M62 116 Q56 70 100 66 Q144 70 138 116 Q132 88 100 86 Q68 88 62 116Z" fill="#8C8580"/>
+<path d="M60 108 Q58 124 66 132 M140 108 Q142 124 134 132" stroke="#8C8580" stroke-width="9" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="116" rx="33" ry="40" fill="#F0C2A0"/>
+<ellipse cx="100" cy="88" rx="22" ry="10" fill="#F8D6BC" opacity=".9"/>
+<path d="M78 102 Q86 94 95 100 M105 100 Q114 94 122 102" stroke="#6A625E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="112" rx="6.5" ry="5" fill="#fff"/><ellipse cx="113" cy="112" rx="6.5" ry="5" fill="#fff"/>
+<circle cx="84" cy="113" r="3" fill="#2A1A10"/><circle cx="110" cy="113" r="3" fill="#2A1A10"/>
+<path d="M100 116 Q94 130 99 133 Q104 135 107 131" stroke="#C08A68" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M88 144 Q94 140 100 144 Q106 148 112 144" stroke="#8A3B2E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="76" cy="130" rx="8" ry="4" fill="#F07C7C" opacity=".7"/><ellipse cx="124" cy="130" rx="8" ry="4" fill="#F07C7C" opacity=".7"/>
+<path d="M134 82 q-7 12 0 17 q7 -5 0 -17Z" fill="#AEE3FA" stroke="#3E8FB8" stroke-width="1.5"/>
+<path d="M160 240 Q150 190 176 140 Q186 170 166 200 Q172 214 160 240Z" fill="#F4F4F0" stroke="#AFAFA8" stroke-width="2"/>
+<path d="M160 240 L172 160" stroke="#AFAFA8" stroke-width="1.5"/>
+</svg>

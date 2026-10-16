@@ -1,0 +1,44 @@
+{
+  "slug": "beethoven-vs-goethe",
+  "youtube": {
+    "title": "Why Goethe was so embarrassed by Beethoven 🎩 #shorts",
+    "caption": "Ludwig van Beethoven and Goethe went for a walk. Then the Empress showed up. 🎩👑\n\nGoethe bowed. Beethoven kept his hat on and walked straight through the royals.\n\nWould you have bowed? 👇\n\nParody · fictional chat. Based on the famous 1812 meeting in Teplitz (Bohemia), the summer Beethoven finished his 8th Symphony. Goethe later wrote that Beethoven was \"an utterly untamed personality\".\n\n#beethoven #ludwigvanbeethoven #goethe #classicalmusic #historymemes #history #shorts",
+    "tags": ["ludwig van beethoven", "beethoven", "goethe", "beethoven goethe", "classical music", "beethoven symphony 8", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#1E0B0B", "glow": "#E85A4A", "footer": "🎩 1812 · TEPLITZ", "footerColor": "#E85A4A", "stamp": "NO BOW"},
+  "hook": {
+    "lines": ["THE EMPRESS WALKED BY", "GOETHE BOWED.", "BEETHOVEN DID NOT."],
+    "punch": "ZERO CHILL 💀",
+    "say": "The Empress walked by. Goethe bowed. Beethoven did not."
+  },
+  "you": {"name": "Beethoven", "label": "BEETHOVEN", "portrait": "beethoven.svg", "face": "34 22 132 132", "voice": "am_puck", "speed": 1.2, "el_voice": "2UyW0L6yjNuo3ZH3XnoV"},
+  "them": {"name": "Goethe", "label": "GOETHE", "portrait": "goethe.svg", "face": "40 58 120 120", "voice": "bm_fable", "speed": 1.12, "el_voice": "qvI9Sgo8A9eFU874jTGo",
+           "status": "last seen bowing to someone", "subtitle": "Weimar · Poet, Minister, Celebrity", "about": "manners maketh the man 🎩", "aboutDate": "1812"},
+  "notifications": ["ludwig. what was THAT", "u kept ur HAT on??"],
+  "chat": [
+    {"k": "chip", "text": "TEPLITZ, JULY 1812"},
+    {"k": "in", "text": "ludwig. what was THAT", "say": "Ludwig. What was THAT?", "time": "5:02 PM", "typing": 0.8},
+    {"k": "in", "text": "the EMPRESS walked by and u kept ur hat on 😭", "say": "the Empress walked by, and you kept your hat on!", "time": "5:02 PM"},
+    {"k": "out", "text": "yeah and i walked straight thru them 😎 they moved for ME", "say": "yeah, and I walked straight through them. They moved for ME.", "time": "5:03 PM"},
+    {"k": "in", "text": "i bowed so hard my back cracked", "say": "I bowed so hard my back cracked.", "time": "5:03 PM"},
+    {"k": "out", "text": "i saw. u looked like a folding chair 💀", "say": "I saw. You looked like a folding chair.", "el_say": "[laughs] I saw. You looked like a folding chair.", "time": "5:04 PM", "sfx": "boom"},
+    {"k": "in", "text": "that's called manners ludwig", "say": "that's called manners, Ludwig.", "time": "5:04 PM"},
+    {"k": "out", "text": "there's 1000s of princes. there's only ONE beethoven 🎹", "say": "there's thousands of princes. There's only ONE Beethoven.", "time": "5:05 PM"},
+    {"k": "in", "text": "the archduke literally waved at u first", "say": "the archduke literally waved at you first.", "time": "5:05 PM"},
+    {"k": "out", "text": "as he should 🙂", "say": "as he should.", "time": "5:05 PM"},
+    {"k": "in", "text": "i'm writing about this in my letters btw ✍️", "say": "I'm writing about this in my letters, by the way.", "time": "5:07 PM", "typing": 1.0},
+    {"k": "out", "text": "write that i'm iconic", "say": "write that I'm iconic.", "time": "5:07 PM"},
+    {"k": "in", "text": "\"his talent amazed me. but he is an utterly untamed personality\"", "say": "his talent amazed me. But he is an utterly untamed personality.", "el_say": "[sighs] his talent amazed me. But he is an utterly untamed personality.", "time": "5:09 PM", "typing": 1.1, "sfx": "scratch"},
+    {"k": "out", "text": "untamed 🥹 that's going on my album cover", "say": "untamed. That's going on my album cover.", "time": "5:09 PM"},
+    {"k": "in", "text": "ludwig. albums don't exist yet", "say": "Ludwig. Albums don't exist yet.", "time": "5:10 PM"},
+    {"k": "out", "text": "fine. symphony no. 8 it is. subtitle: goethe the folding chair 🎻", "say": "fine. Symphony number eight it is. Subtitle: Goethe, the folding chair.", "time": "5:10 PM", "sfx": "boom"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "GOETHE BOWED TO ROYALS.",
+    "bottom": "ROYALS MOVED FOR LUDWIG.",
+    "chips": ["Goethe: 1 sore back", "Beethoven: 0 bows, 1 hat"],
+    "say": "Goethe bowed to the royals. The royals moved for Beethoven."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

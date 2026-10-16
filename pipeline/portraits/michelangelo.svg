@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Michelangelo with a chisel illustration">
+<defs><linearGradient id="michelangelo-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B9BCC4"/><stop offset="1" stop-color="#5C606C"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#michelangelo-bg)"/>
+<g fill="#E9E9EC" opacity=".5"><path d="M10 250 L18 170 L44 160 L56 250Z"/><path d="M160 250 L166 150 L190 140 L196 250Z"/></g>
+<g stroke="#FFFFFF" stroke-width="2" opacity=".6"><path d="M30 40 l6 6 M46 30 l-4 8 M170 50 l-6 6"/></g>
+<path d="M14 250 Q24 186 100 176 Q176 186 186 250Z" fill="#3A3A44"/>
+<path d="M66 190 Q100 206 134 190" stroke="#8A7E6A" stroke-width="5" fill="none"/>
+<g fill="#E9E9EC" opacity=".8"><circle cx="70" cy="214" r="3"/><circle cx="120" cy="224" r="2.5"/><circle cx="140" cy="206" r="2"/></g>
+<rect x="88" y="144" width="24" height="36" fill="#C9936A"/>
+<ellipse cx="66" cy="116" rx="7" ry="10" fill="#C9936A"/><ellipse cx="134" cy="116" rx="7" ry="10" fill="#C9936A"/>
+<ellipse cx="100" cy="114" rx="33" ry="40" fill="#DDA57C"/>
+<g fill="#2A1C14"><circle cx="72" cy="84" r="11"/><circle cx="86" cy="74" r="12"/><circle cx="102" cy="70" r="12"/><circle cx="117" cy="74" r="12"/><circle cx="130" cy="84" r="11"/><circle cx="66" cy="98" r="8"/><circle cx="136" cy="98" r="8"/></g>
+<path d="M74 100 L95 108 M126 100 L105 108" stroke="#2A1C14" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M98 100 L100 106 L102 100" stroke="#A86E4E" stroke-width="2" fill="none"/>
+<ellipse cx="87" cy="114" rx="6" ry="4" fill="#fff"/><ellipse cx="113" cy="114" rx="6" ry="4" fill="#fff"/>
+<circle cx="88" cy="115" r="3" fill="#160C06"/><circle cx="112" cy="115" r="3" fill="#160C06"/>
+<path d="M100 112 Q106 120 98 126 Q94 130 104 131" stroke="#A86E4E" stroke-width="3" fill="#D2946A" stroke-linecap="round"/>
+<path d="M70 128 Q68 160 86 170 L100 160 L114 170 Q132 160 130 128 Q122 144 100 144 Q78 144 70 128Z" fill="#2A1C14"/>
+<path d="M88 140 Q100 134 112 140" stroke="#7A2E22" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<path d="M150 230 L170 140" stroke="#8A5A2A" stroke-width="8" stroke-linecap="round"/>
+<path d="M166 146 L178 108 L184 112 L174 148Z" fill="#B9BEC8" stroke="#5C606C" stroke-width="2"/>
+<ellipse cx="156" cy="206" rx="11" ry="9" fill="#DDA57C"/>
+</svg>

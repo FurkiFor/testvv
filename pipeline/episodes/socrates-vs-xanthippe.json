@@ -1,0 +1,44 @@
+{
+  "slug": "socrates-vs-xanthippe",
+  "youtube": {
+    "title": "Why Socrates' wife dumped a bucket of water on him 🪣 #shorts",
+    "caption": "Socrates spent all day asking strangers \"what is justice?\" for free... while his wife Xanthippe handled the rent. 🏛️🪣\n\nGreek philosophy, but it's a group chat.\n\nWhose side are you on? 👇\n\nParody · fictional chat. Based on the ancient story (Diogenes Laertius): after scolding Socrates, Xanthippe soaked him with water and he said \"didn't I say Xanthippe's thunder would end in rain?\"\n\n#socrates #philosophy #greekphilosophy #historymemes #history #ancientgreece #shorts",
+    "tags": ["socrates", "philosophy", "greek philosophy", "socrates xanthippe", "xanthippe", "ancient greece", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#0E1E26", "glow": "#5FC3E8", "footer": "🏛️ ~410 BC · ATHENS", "footerColor": "#5FC3E8", "stamp": "SOAKED"},
+  "hook": {
+    "lines": ["HE ASKED QUESTIONS", "ALL DAY FOR FREE.", "HIS WIFE HAD ENOUGH"],
+    "punch": "GOT SOAKED 💦",
+    "say": "Socrates asked questions all day, for free. His wife had enough."
+  },
+  "you": {"name": "Socrates", "label": "SOCRATES", "portrait": "socrates.svg", "face": "40 52 120 120", "voice": "bm_george", "speed": 1.12, "el_voice": "fGIZlgPQ75MMlvQ6WxgY"},
+  "them": {"name": "Xanthippe 💍", "label": "XANTHIPPE", "portrait": "xanthippe.svg", "face": "40 46 120 120", "voice": "af_bella", "speed": 1.15, "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+           "status": "last seen carrying a bucket", "subtitle": "Athens · Wife of Socrates", "about": "married to a guy who answers questions with questions 🙄", "aboutDate": "410 BC"},
+  "notifications": ["socrates. where r u", "the rent is due 🙂"],
+  "chat": [
+    {"k": "chip", "text": "ATHENS, 410 BC"},
+    {"k": "in", "text": "socrates. where r u", "say": "Socrates. Where are you?", "time": "9:14 AM", "typing": 0.7},
+    {"k": "out", "text": "at the agora babe 🏛️ asking random guys what justice is", "say": "at the agora, babe. Asking random guys what justice is.", "time": "9:20 AM"},
+    {"k": "in", "text": "do they pay u", "say": "do they pay you?", "time": "9:20 AM"},
+    {"k": "out", "text": "pay me? but what IS payment, really 🤔", "say": "pay me? But what IS payment, really?", "el_say": "pay me? [thoughtful] But what IS payment, really?", "time": "9:21 AM"},
+    {"k": "in", "text": "the thing u never bring home 🙂", "say": "the thing you never bring home.", "time": "9:21 AM", "sfx": "scratch"},
+    {"k": "out", "text": "ok but how do u KNOW the rent is due", "say": "okay, but how do you KNOW the rent is due?", "time": "9:22 AM"},
+    {"k": "in", "text": "the landlord is literally at the door bro", "say": "the landlord is literally at the door, bro.", "time": "9:22 AM"},
+    {"k": "out", "text": "and what is a landlord. truly. 🧐", "say": "and what is a landlord. Truly.", "time": "9:23 AM"},
+    {"k": "in", "text": "ok i'm coming to the agora", "say": "okay. I'm coming to the agora.", "el_say": "[sighs] okay. I'm coming to the agora.", "time": "9:40 AM", "typing": 1.0},
+    {"k": "out", "text": "bet. bring snacks 🫒", "say": "bet. Bring snacks.", "time": "9:41 AM"},
+    {"k": "in", "text": "i brought a bucket 🪣", "say": "I brought a bucket.", "time": "10:02 AM", "typing": 0.9, "sfx": "boom"},
+    {"k": "out", "text": "xanthippe wait. what IS a buck—", "say": "Xanthippe, wait. What IS a buck—", "el_say": "[shouting] Xanthippe, wait! What IS a buck—", "time": "10:02 AM"},
+    {"k": "out", "text": "💦", "big": true, "time": "10:03 AM", "sfx": "boom"},
+    {"k": "in", "text": "who's asking questions now 🙂", "say": "who's asking questions now?", "time": "10:03 AM"},
+    {"k": "out", "text": "ngl i saw it coming. after thunder always comes rain 🌧️", "say": "not gonna lie, I saw it coming. After thunder, always comes rain.", "time": "10:04 AM", "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "ASKED: WHAT IS JUSTICE?",
+    "bottom": "GOT: ONE BUCKET OF WATER",
+    "chips": ["Socrates: 0 drachmas", "Xanthippe: 1 bucket 🪣"],
+    "say": "Asked what is justice. Got one bucket of water."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

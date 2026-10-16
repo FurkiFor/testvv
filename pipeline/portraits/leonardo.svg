@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Leonardo da Vinci illustration">
+<defs><linearGradient id="leonardo-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBD9AE"/><stop offset="1" stop-color="#B8925A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#leonardo-bg)"/>
+<g stroke="#8A6A3A" stroke-width="1.5" fill="none" opacity=".5"><circle cx="34" cy="50" r="22"/><rect x="18" y="34" width="32" height="32"/><path d="M150 30 q20 10 30 40 M156 40 q14 8 18 26"/><path d="M20 200 l20 -30 20 30"/></g>
+<path d="M14 250 Q24 186 100 176 Q176 186 186 250Z" fill="#7A2430"/>
+<path d="M78 180 L100 210 L122 180" stroke="#4A1018" stroke-width="4" fill="none"/>
+<path d="M60 100 Q52 150 66 180 L74 130Z M140 100 Q148 150 134 180 L126 130Z" fill="#E6E2DA"/>
+<ellipse cx="100" cy="112" rx="33" ry="40" fill="#E8B892"/>
+<path d="M56 84 Q100 52 144 84 Q146 70 132 62 Q100 44 68 62 Q54 70 56 84Z" fill="#8E2232"/>
+<path d="M56 84 Q100 74 144 84" stroke="#5E1420" stroke-width="3" fill="none"/>
+<path d="M66 96 Q64 86 72 84 L70 104Z M134 96 Q136 86 128 84 L130 104Z" fill="#E6E2DA"/>
+<path d="M78 102 Q86 96 95 101" stroke="#CFCBC2" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M106 98 Q115 92 124 96" stroke="#CFCBC2" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="7" ry="4" fill="#fff"/><ellipse cx="114" cy="109" rx="7" ry="4" fill="#fff"/>
+<circle cx="91" cy="110" r="3" fill="#24160C"/><circle cx="118" cy="109" r="3" fill="#24160C"/>
+<path d="M80 107 H95 M107 106 H122" stroke="#B9825A" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M100 114 Q94 128 99 131 Q104 133 107 129" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M66 122 Q58 176 80 204 Q100 222 120 204 Q142 176 134 122 Q126 142 100 142 Q74 142 66 122Z" fill="#EEEAE2" stroke="#CFCBC2" stroke-width="2"/>
+<path d="M84 158 Q86 180 82 196 M100 152 Q102 182 100 210 M116 158 Q114 180 118 196" stroke="#D2CEC5" stroke-width="2" fill="none"/>
+<path d="M86 138 Q100 136 112 133" stroke="#6E3A28" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M112 133 L117 129" stroke="#6E3A28" stroke-width="3" stroke-linecap="round"/>
+</svg>

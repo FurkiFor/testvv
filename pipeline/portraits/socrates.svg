@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Socrates soaking wet illustration">
+<defs><linearGradient id="socrates-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FB4C9"/><stop offset="1" stop-color="#2F5D73"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#socrates-bg)"/>
+<g fill="#E9E2D0" opacity=".55"><rect x="14" y="60" width="16" height="190"/><rect x="170" y="60" width="16" height="190"/><rect x="8" y="50" width="28" height="10"/><rect x="164" y="50" width="28" height="10"/></g>
+<path d="M14 250 Q24 186 100 176 Q176 186 186 250Z" fill="#F4F1E8"/>
+<path d="M40 250 Q60 196 130 182 Q100 214 92 250Z" fill="#DCD5C2"/>
+<path d="M60 196 Q100 230 150 192" stroke="#C9BFA6" stroke-width="3" fill="none"/>
+<ellipse cx="66" cy="118" rx="7" ry="10" fill="#D79F78"/><ellipse cx="134" cy="118" rx="7" ry="10" fill="#D79F78"/>
+<ellipse cx="100" cy="112" rx="35" ry="42" fill="#E6B08A"/>
+<ellipse cx="94" cy="82" rx="16" ry="8" fill="#F6CFAE" opacity=".9"/>
+<path d="M66 108 Q62 96 70 92 M134 108 Q138 96 130 92" stroke="#EDEDE8" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M78 100 Q86 94 94 99" stroke="#EDEDE8" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M106 95 Q114 88 124 94" stroke="#EDEDE8" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="7" ry="5" fill="#fff"/><ellipse cx="114" cy="108" rx="7" ry="6" fill="#fff"/>
+<circle cx="88" cy="111" r="3" fill="#24160C"/><circle cx="115" cy="109" r="3" fill="#24160C"/>
+<path d="M80 108 H95" stroke="#B97E5A" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="100" cy="126" rx="13" ry="9" fill="#D9946C"/>
+<circle cx="94" cy="128" r="3" fill="#8A4E30"/><circle cx="106" cy="128" r="3" fill="#8A4E30"/>
+<path d="M66 124 Q60 166 80 184 Q100 198 120 184 Q140 166 134 124 Q126 144 100 144 Q74 144 66 124Z" fill="#EDEDE8" stroke="#C9C9C0" stroke-width="2"/>
+<circle cx="78" cy="160" r="7" fill="#F7F7F2"/><circle cx="92" cy="172" r="7" fill="#F7F7F2"/><circle cx="108" cy="172" r="7" fill="#F7F7F2"/><circle cx="122" cy="160" r="7" fill="#F7F7F2"/><circle cx="100" cy="184" r="7" fill="#F7F7F2"/>
+<path d="M88 146 Q100 140 114 145" stroke="#6E3A28" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M114 145 L119 141" stroke="#6E3A28" stroke-width="3" stroke-linecap="round"/>
+<g fill="#9FD8F0" stroke="#2F7FA8" stroke-width="1.5"><path d="M74 66 q-6 10 0 14 q6 -4 0 -14Z"/><path d="M124 58 q-6 10 0 14 q6 -4 0 -14Z"/><path d="M148 96 q-6 10 0 14 q6 -4 0 -14Z"/><path d="M52 140 q-6 10 0 14 q6 -4 0 -14Z"/><path d="M100 50 q-5 8 0 12 q5 -4 0 -12Z"/></g>
+</svg>

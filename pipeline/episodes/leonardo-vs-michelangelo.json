@@ -1,0 +1,169 @@
+{
+  "slug": "leonardo-vs-michelangelo",
+  "youtube": {
+    "title": "Why Michelangelo publicly roasted Leonardo da Vinci 🐴 #shorts",
+    "caption": "Leonardo da Vinci asked Michelangelo one simple question in the middle of Florence... and got roasted over a horse he never finished. 🐴💀\n\nThe biggest beef of the Renaissance, as a group chat.\n\nLeonardo or Michelangelo, who's the better artist? 👇\n\nParody · fictional chat. Based on a real 1500s account: in Florence, Michelangelo mocked Leonardo for his giant bronze horse he \"couldn't cast\" and abandoned. Both later left their Palazzo Vecchio battle paintings unfinished.\n\n#leonardodavinci #michelangelo #renaissance #arthistory #historymemes #history #shorts",
+    "tags": [
+      "leonardo da vinci",
+      "michelangelo",
+      "leonardo vs michelangelo",
+      "leonardo da vinci michelangelo",
+      "renaissance",
+      "italian renaissance",
+      "art history",
+      "history group chat",
+      "history memes",
+      "funny history",
+      "shorts"
+    ]
+  },
+  "theme": {
+    "hookBg": "#22160C",
+    "glow": "#E0A84A",
+    "footer": "🐴 1504 · FLORENCE",
+    "footerColor": "#E0A84A",
+    "stamp": "ROASTED"
+  },
+  "hook": {
+    "lines": [
+      "DA VINCI ASKED ONE",
+      "SIMPLE QUESTION.",
+      "MICHELANGELO SNAPPED"
+    ],
+    "punch": "HORSE ROAST 🐴",
+    "say": "Da Vinci asked Michelangelo one simple question. Michelangelo snapped."
+  },
+  "you": {
+    "name": "Leonardo",
+    "label": "LEONARDO DA VINCI",
+    "portrait": "leonardo.svg",
+    "face": "38 48 124 124",
+    "voice": "bm_lewis",
+    "speed": 1.15,
+    "el_voice": "N2lVS1w4EtoT3dr4eOWO"
+  },
+  "them": {
+    "name": "Michelangelo",
+    "label": "MICHELANGELO",
+    "portrait": "michelangelo.svg",
+    "face": "40 56 120 120",
+    "voice": "am_fenrir",
+    "speed": 1.15,
+    "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+    "status": "last seen yelling at a block of marble",
+    "subtitle": "Florence · Sculptor (not painter)",
+    "about": "i see the angel in the marble. i see the clown in u 🗿",
+    "aboutDate": "1504"
+  },
+  "notifications": [
+    "explain it URSELF",
+    "mr unfinished horse 🐴"
+  ],
+  "chat": [
+    {
+      "k": "chip",
+      "text": "FLORENCE, 1504"
+    },
+    {
+      "k": "out",
+      "text": "yo michelangelo 👋 some guys here asking about a dante poem. u explain it, ur the expert 🙏",
+      "say": "yo, Michelangelo. Some guys here are asking about a Dante poem. You explain it, you're the expert.",
+      "time": "4:10 PM"
+    },
+    {
+      "k": "in",
+      "text": "oh u think that's funny?",
+      "say": "oh, you think that's funny?",
+      "time": "4:11 PM",
+      "typing": 0.9
+    },
+    {
+      "k": "in",
+      "text": "explain it URSELF. mr \"i'm making a giant bronze horse\" 🐴",
+      "say": "explain it YOURSELF. Mister, I'm making a giant bronze horse.",
+      "el_say": "[shouting] explain it YOURSELF. Mister, I'm making a giant bronze horse.",
+      "time": "4:11 PM",
+      "sfx": "scratch"
+    },
+    {
+      "k": "out",
+      "text": "it's a clay model. it's conceptual. it's a vibe 🎨",
+      "say": "it's a clay model. It's conceptual. It's a vibe.",
+      "time": "4:12 PM"
+    },
+    {
+      "k": "in",
+      "text": "u couldn't even cast it 💀 and those milan clowns believed u lmao",
+      "say": "you couldn't even cast it. And those Milan clowns believed you, lmao.",
+      "el_say": "[laughs] you couldn't even cast it. And those Milan clowns believed you, lmao.",
+      "time": "4:13 PM"
+    },
+    {
+      "k": "out",
+      "text": "ok let's talk about ur battle painting in the palazzo 👀",
+      "say": "okay. Let's talk about your battle painting in the palazzo.",
+      "time": "4:14 PM"
+    },
+    {
+      "k": "out",
+      "text": "it's a sketch. on paper. it's been a sketch for a year 🙂",
+      "say": "it's a sketch. On paper. It's been a sketch for a year.",
+      "time": "4:15 PM"
+    },
+    {
+      "k": "in",
+      "text": "at least my paint didn't MELT off the wall 🫠",
+      "say": "at least my paint didn't MELT off the wall.",
+      "time": "4:15 PM",
+      "sfx": "boom"
+    },
+    {
+      "k": "out",
+      "text": "that was an experimental technique",
+      "say": "that was an experimental technique.",
+      "time": "4:16 PM"
+    },
+    {
+      "k": "in",
+      "text": "experimental like ur horse? 🐴",
+      "say": "experimental, like your horse?",
+      "time": "4:16 PM"
+    },
+    {
+      "k": "out",
+      "text": "i'm also painting the mona lisa btw 😌",
+      "say": "I'm also painting the Mona Lisa, by the way.",
+      "time": "4:17 PM"
+    },
+    {
+      "k": "in",
+      "text": "cool. finish it by 1519? 🙂",
+      "say": "cool. Finish it by fifteen nineteen?",
+      "time": "4:17 PM",
+      "typing": 0.8,
+      "sfx": "boom"
+    },
+    {
+      "k": "out",
+      "text": "😐",
+      "big": true,
+      "time": "4:18 PM",
+      "sfx": "boom"
+    }
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "TWO GENIUSES.",
+    "bottom": "ZERO FINISHED PROJECTS.",
+    "chips": [
+      "Leo: 1 horse (clay)",
+      "Mich: 1 fresco (on paper)"
+    ],
+    "say": "Two geniuses. Zero finished projects."
+  },
+  "narrator": {
+    "voice": "am_onyx",
+    "speed": 1.2,
+    "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+  }
+}
