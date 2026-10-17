@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Eager Johannes Kepler with ruff collar and orbit illustration">
+<defs><linearGradient id="kepler-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6B4FC4"/><stop offset="1" stop-color="#2A1C5E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#kepler-bg)"/>
+<g fill="#FFE98A"><circle cx="26" cy="28" r="1.8"/><circle cx="180" cy="34" r="2"/><circle cx="170" cy="140" r="1.5"/><circle cx="18" cy="120" r="1.5"/></g>
+<ellipse cx="100" cy="96" rx="88" ry="30" fill="none" stroke="#FFD24A" stroke-width="3" stroke-dasharray="7 6" transform="rotate(-14 100 96)"/>
+<circle cx="18" cy="112" r="8" fill="#E2603B"/><circle cx="184" cy="74" r="6" fill="#5FB6E8"/>
+<path d="M14 250 Q22 190 70 182 L130 182 Q178 190 186 250Z" fill="#1B1B22"/>
+<path d="M88 200 L100 250 L112 200Z" fill="#33333D"/>
+<rect x="89" y="146" width="22" height="30" rx="7" fill="#DFAE86"/>
+<g fill="#FAFAF4" stroke="#C8C8BE" stroke-width="2"><ellipse cx="100" cy="184" rx="56" ry="17"/></g>
+<path d="M48 184 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0" stroke="#D4D4CA" stroke-width="2" fill="none"/>
+<path d="M48 186 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0" stroke="#D4D4CA" stroke-width="2" fill="none"/>
+<ellipse cx="70" cy="114" rx="6" ry="9" fill="#D9A47C"/><ellipse cx="130" cy="114" rx="6" ry="9" fill="#D9A47C"/>
+<ellipse cx="100" cy="112" rx="30" ry="40" fill="#EDBE96"/>
+<path d="M68 104 Q64 70 100 66 Q136 70 132 104 Q128 82 112 80 Q100 86 86 80 Q72 84 68 104Z" fill="#3A2416"/>
+<path d="M78 98 Q86 90 95 96" stroke="#3A2416" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M105 96 Q114 90 122 98" stroke="#3A2416" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="108" r="8" fill="#fff"/><circle cx="113" cy="108" r="8" fill="#fff"/>
+<circle cx="88" cy="106" r="4" fill="#1E120A"/><circle cx="114" cy="106" r="4" fill="#1E120A"/>
+<circle cx="89.5" cy="104.5" r="1.5" fill="#fff"/><circle cx="115.5" cy="104.5" r="1.5" fill="#fff"/>
+<path d="M100 112 Q95 124 99 127 Q104 128 106 125" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M82 134 Q92 128 100 132 Q108 128 118 134" stroke="#3A2416" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M90 140 Q100 146 110 140 Q100 142 90 140Z" fill="#7A3B2E" stroke="#7A3B2E" stroke-width="3" stroke-linejoin="round"/>
+<path d="M92 144 Q100 168 108 144 Q100 152 92 144Z" fill="#3A2416"/>
+<path d="M66 92 Q62 82 66 76" stroke="#5FB6E8" stroke-width="2" fill="none"/>
+<path d="M140 120 q4 -6 2 -12" stroke="#9FD8FF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="141" cy="124" rx="3" ry="4" fill="#9FD8FF"/>
+</svg>

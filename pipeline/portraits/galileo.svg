@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug Galileo with telescope illustration">
+<defs><radialGradient id="galileo-bg" cx="50%" cy="30%" r="80%"><stop offset="0" stop-color="#2E4A8F"/><stop offset=".7" stop-color="#14204A"/><stop offset="1" stop-color="#0A1028"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#galileo-bg)"/>
+<g fill="#FFF6C8"><circle cx="22" cy="30" r="2"/><circle cx="48" cy="58" r="1.4"/><circle cx="176" cy="20" r="1.8"/><circle cx="186" cy="92" r="1.4"/><circle cx="20" cy="150" r="1.6"/></g>
+<circle cx="168" cy="52" r="17" fill="#E8B87A"/><path d="M152 46 Q168 42 184 46 M151 56 Q168 60 185 56" stroke="#B9824C" stroke-width="3" fill="none"/>
+<g fill="#F2E2B0"><circle cx="140" cy="52" r="2.2"/><circle cx="196" cy="54" r="2"/><circle cx="130" cy="50" r="1.8"/></g>
+<path d="M14 250 Q22 188 72 178 L128 178 Q178 188 186 250Z" fill="#2B2B33"/>
+<path d="M72 178 Q100 196 128 178 L124 196 Q100 210 76 196Z" fill="#F1EDE2"/>
+<path d="M60 250 L66 200 M140 250 L134 200" stroke="#40404A" stroke-width="4"/>
+<rect x="88" y="146" width="24" height="34" rx="8" fill="#D9A47C"/>
+<ellipse cx="66" cy="116" rx="6" ry="9" fill="#D9A47C"/><ellipse cx="134" cy="116" rx="6" ry="9" fill="#D9A47C"/>
+<ellipse cx="100" cy="112" rx="33" ry="39" fill="#E8B48C"/>
+<path d="M66 92 Q68 66 100 62 Q132 66 134 92 Q128 80 100 79 Q72 80 66 92Z" fill="#A8A29A"/>
+<path d="M62 84 Q60 62 100 56 Q140 62 138 84 Q120 72 100 72 Q80 72 62 84Z" fill="#1E1E26"/>
+<path d="M66 108 Q62 96 66 92 M134 108 Q138 96 134 92" stroke="#C9C4BA" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M76 98 Q86 92 96 98" stroke="#E2DED6" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M104 94 Q114 88 124 96" stroke="#E2DED6" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="86" cy="108" rx="7" ry="3" fill="#fff"/><ellipse cx="114" cy="107" rx="7" ry="3" fill="#fff"/>
+<circle cx="89" cy="108" r="2.4" fill="#1E120A"/><circle cx="117" cy="107" r="2.4" fill="#1E120A"/>
+<path d="M78 105 L95 105 M106 104 L122 104" stroke="#C99A78" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 110 Q94 124 98 128 Q104 130 107 126" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M68 122 Q64 160 84 176 Q100 186 116 176 Q136 160 132 122 Q124 140 100 140 Q76 140 68 122Z" fill="#D8D3CA" stroke="#B8B2A8" stroke-width="2"/>
+<path d="M82 134 Q92 130 100 133 Q108 130 118 134" stroke="#ECE8E0" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M90 142 Q102 148 114 140" stroke="#6E4030" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+<path d="M88 156 Q92 166 90 172 M100 150 Q102 166 100 178 M112 156 Q109 166 111 172" stroke="#BDB7AD" stroke-width="2" fill="none"/>
+<g transform="rotate(-28 150 190)"><rect x="112" y="180" width="80" height="18" rx="4" fill="#B5652A" stroke="#6E3812" stroke-width="3"/><rect x="186" y="176" width="12" height="26" rx="3" fill="#D99A3E" stroke="#6E3812" stroke-width="3"/><path d="M132 180v18M160 180v18" stroke="#E0A66A" stroke-width="4"/></g>
+<ellipse cx="132" cy="214" rx="11" ry="9" fill="#E8B48C"/>
+</svg>

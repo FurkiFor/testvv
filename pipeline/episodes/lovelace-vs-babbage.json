@@ -1,0 +1,44 @@
+{
+  "slug": "lovelace-vs-babbage",
+  "youtube": {
+    "title": "Ada Lovelace's massive flex on Charles Babbage 💻 #shorts",
+    "caption": "Ada Lovelace, the first computer programmer, was only asked to translate one article. 💅💻\n\nHer \"notes\" came out 3x longer than the article... and had the first computer program in them.\n\nWould you rather be Ada or Babbage? 👇\n\nParody · fictional chat. Based on 1843: Ada translated Menabrea's paper on Babbage's Analytical Engine, added Notes A–G (Note G = an algorithm for Bernoulli numbers), and the engine was never built.\n\n#adalovelace #charlesbabbage #firstcomputerprogrammer #computerhistory #analyticalengine #historymemes #shorts",
+    "tags": ["ada lovelace", "charles babbage", "first computer programmer", "analytical engine", "computer history", "difference engine", "first computer program", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#10161A", "glow": "#3DDC97", "footer": "⚙️ 1843 · LONDON", "footerColor": "#3DDC97", "stamp": "OUTCODED"},
+  "hook": {
+    "lines": ["SHE TRANSLATED A PAPER", "ADDED 3X MORE NOTES", "INVENTED CODING"],
+    "punch": "BY ACCIDENT 💅",
+    "say": "She was asked to translate one paper. She added three times more notes. And invented coding."
+  },
+  "you": {"name": "Ada", "label": "ADA LOVELACE", "portrait": "lovelace.svg", "face": "38 44 124 124", "voice": "bf_emma", "speed": 1.15, "el_voice": "NPC1Rk3VsPo28KCMJFLI"},
+  "them": {"name": "Charles Babbage", "label": "CHARLES BABBAGE", "portrait": "babbage.svg", "face": "40 42 120 120", "voice": "bm_george", "speed": 1.12, "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+           "status": "last seen yelling at a street organ", "subtitle": "London · Inventor (engine pending)", "about": "it's almost done 🛠️", "aboutDate": "1843"},
+  "notifications": ["ada can u translate a french article?", "keep it short pls 🙏"],
+  "chat": [
+    {"k": "chip", "text": "LONDON, 1843"},
+    {"k": "in", "text": "ada can u translate that french article about my engine? 🙏", "say": "Ada, can you translate that French article about my engine?", "time": "10:14 AM", "typing": 0.7},
+    {"k": "in", "text": "just the translation. keep it short pls", "say": "just the translation. Keep it short, please.", "time": "10:14 AM"},
+    {"k": "out", "text": "bet 💅", "say": "bet.", "time": "10:15 AM"},
+    {"k": "out", "text": "done ✅ translation + a few notes", "say": "done. Translation, plus a few notes.", "time": "10:16 AM"},
+    {"k": "in", "text": "ada. the notes are 3x longer than the article 💀", "say": "Ada. The notes are three times longer than the article.", "el_say": "Ada. [sighs] The notes are three times longer than the article.", "time": "11:02 AM", "typing": 1.1, "sfx": "scratch"},
+    {"k": "out", "text": "they're called NOTES charles. A through G", "say": "they're called NOTES, Charles. A through G.", "time": "11:03 AM"},
+    {"k": "in", "text": "why is note G just numbers", "say": "why is note G just numbers?", "time": "11:05 AM"},
+    {"k": "out", "text": "that's a program 🤓 ur machine can do bernoulli numbers now", "say": "that's a program. Your machine can do Bernoulli numbers now.", "time": "11:05 AM"},
+    {"k": "in", "text": "my machine doesn't exist yet", "say": "my machine doesn't exist yet.", "time": "11:06 AM", "typing": 0.8},
+    {"k": "out", "text": "so i coded for a computer that isn't real. iconic", "say": "so I coded for a computer that isn't real. Iconic.", "el_say": "[laughs] so I coded for a computer that isn't real. Iconic.", "time": "11:06 AM", "sfx": "boom"},
+    {"k": "in", "text": "ok ngl ur an enchantress of numbers ✨", "say": "okay, not gonna lie, you're an enchantress of numbers.", "time": "11:08 AM"},
+    {"k": "in", "text": "now let me finish building it", "say": "now let me finish building it.", "time": "11:08 AM"},
+    {"k": "out", "text": "u've been \"finishing\" since 1834 💀", "say": "you've been finishing since eighteen thirty four.", "time": "11:09 AM"},
+    {"k": "in", "text": "the street musicians keep distracting me 😤", "say": "the street musicians keep distracting me!", "el_say": "[frustrated] the street musicians keep distracting me!", "time": "11:10 AM"},
+    {"k": "out", "text": "charles the organ grinder has shipped more than u 🎶", "say": "Charles, the organ grinder has shipped more than you.", "time": "11:10 AM", "sfx": "boom"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "TRANSLATED ONE ARTICLE",
+    "bottom": "INVENTED PROGRAMMING",
+    "chips": ["Ada: first program ✅", "Babbage: engine loading…"],
+    "say": "Translated one article. Invented programming."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

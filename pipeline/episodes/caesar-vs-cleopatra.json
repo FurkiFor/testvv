@@ -1,0 +1,44 @@
+{
+  "slug": "caesar-vs-cleopatra",
+  "youtube": {
+    "title": "How Cleopatra actually met Julius Caesar (in a carpet) 💀 #shorts",
+    "caption": "How Cleopatra met Julius Caesar: she couldn't get past her brother's guards... so she shipped herself. 🧶📦\n\nCaesar ordered nothing. A rug showed up. The rug had a queen inside.\n\nWould you have opened the rug? 👇\n\nParody · fictional chat. Based on Plutarch's story: in 48 BC Apollodorus the Sicilian smuggled Cleopatra into the palace in Alexandria rolled up in a bedroll to meet Caesar.\n\n#cleopatra #juliuscaesar #caesarandcleopatra #ancienthistory #romanhistory #historymemes #shorts",
+    "tags": ["cleopatra", "julius caesar", "caesar and cleopatra", "ancient history", "roman history", "ancient egypt", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#0F1A2B", "glow": "#E0B341", "footer": "🏺 48 BC · ALEXANDRIA", "footerColor": "#E0B341", "stamp": "DELIVERED"},
+  "hook": {
+    "lines": ["CAESAR ORDERED NOTHING", "A RUG GOT DELIVERED", "THE RUG WAS CLEOPATRA"],
+    "punch": "5 STARS 💀",
+    "say": "Caesar ordered nothing. A rug got delivered. The rug was Cleopatra."
+  },
+  "you": {"name": "Caesar", "label": "JULIUS CAESAR", "portrait": "caesar.svg", "face": "40 48 120 120", "voice": "bm_lewis", "speed": 1.15, "el_voice": "dqoktGAat2XIYpd4sTb7"},
+  "them": {"name": "Cleopatra", "label": "CLEOPATRA", "portrait": "cleopatra.svg", "face": "40 40 120 120", "voice": "af_bella", "speed": 1.12, "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+           "status": "last seen inside a rug", "subtitle": "Alexandria · Queen of Egypt", "about": "if they lock the door, use the rug 🧶", "aboutDate": "48 BC"},
+  "notifications": ["caesar. u awake? 👀", "i'm sending u a gift 🎁"],
+  "chat": [
+    {"k": "chip", "text": "ALEXANDRIA, 48 BC"},
+    {"k": "in", "text": "caesar. u awake? 👀", "say": "Caesar. You awake?", "time": "1:58 AM", "typing": 0.8},
+    {"k": "out", "text": "it's 2am and ur brother's guards are everywhere. what", "say": "it's two A M and your brother's guards are everywhere. What?", "time": "2:00 AM"},
+    {"k": "in", "text": "exactly. ptolemy has the palace on lock so i can't get in 😤", "say": "exactly. Ptolemy has the palace on lock, so I can't get in.", "time": "2:00 AM"},
+    {"k": "in", "text": "so i'm sending u a gift. no questions", "say": "so I'm sending you a gift. No questions.", "time": "2:01 AM"},
+    {"k": "out", "text": "i'm a roman general. i don't open mystery packages", "say": "I'm a Roman general. I don't open mystery packages.", "time": "2:01 AM"},
+    {"k": "in", "text": "it's a rug. a very ✨expensive✨ rug", "say": "it's a rug. A very expensive rug.", "el_say": "[whispers] it's a rug. A very expensive rug.", "time": "2:02 AM", "typing": 0.9},
+    {"k": "out", "text": "why would i need a rug at 2am", "say": "why would I need a rug at two A M?", "time": "2:02 AM"},
+    {"k": "in", "text": "just unroll it slowly 🙂", "say": "just unroll it. Slowly.", "time": "2:03 AM"},
+    {"k": "out", "text": "ok some guy named apollodorus just walked in carrying a carpet??", "say": "okay, some guy named Apollodorus just walked in carrying a carpet?", "time": "2:09 AM"},
+    {"k": "out", "text": "BRO THE RUG IS MOVING", "say": "BRO, THE RUG IS MOVING!", "el_say": "[shouting] BRO, THE RUG IS MOVING!", "time": "2:09 AM", "sfx": "scratch"},
+    {"k": "in", "text": "surprise 💅 queen of egypt, delivered", "say": "surprise! Queen of Egypt, delivered.", "el_say": "[laughs] surprise! Queen of Egypt, delivered.", "time": "2:10 AM", "typing": 1.0, "sfx": "boom"},
+    {"k": "out", "text": "u shipped URSELF??", "say": "you shipped YOURSELF?", "time": "2:10 AM"},
+    {"k": "in", "text": "ptolemy blocked the doors. he forgot to block the rugs", "say": "Ptolemy blocked the doors. He forgot to block the rugs.", "time": "2:11 AM"},
+    {"k": "out", "text": "ngl 5 stars ⭐ ur brother is so cooked", "say": "not gonna lie, five stars. Your brother is so cooked.", "time": "2:11 AM"},
+    {"k": "in", "quote": "ngl 5 stars ⭐ ur brother is so cooked", "text": "tell him no returns 📦", "say": "tell him: no returns.", "time": "2:12 AM", "typing": 0.7, "sfx": "boom"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "ORDERED: NOTHING",
+    "bottom": "RECEIVED: A PHARAOH",
+    "chips": ["Caesar: 0 rugs ordered", "Cleopatra: 1 iconic entrance"],
+    "say": "Ordered nothing. Received a pharaoh."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

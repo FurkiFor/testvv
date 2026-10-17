@@ -1,0 +1,44 @@
+{
+  "slug": "kepler-vs-galileo",
+  "youtube": {
+    "title": "When Kepler texts Galileo and gets left on read 🔭 #shorts",
+    "caption": "Kepler vs Galileo: one wrote a whole book hyping the other... and got an anagram back. 🔭💀\n\nKepler begged for a telescope. Galileo sent them to dukes instead.\n\nWho's the real GOAT of astronomy? 👇\n\nParody · fictional chat. Based on 1610: Kepler publicly backed Galileo's Starry Messenger, Galileo sent telescopes to patrons, and sent Kepler a scrambled anagram that Kepler decoded as \"Mars has twin moons\" (it was about Saturn).\n\n#galileo #kepler #astronomy #sciencehistory #historymemes #funnyhistory #shorts",
+    "tags": ["galileo", "kepler", "galileo kepler", "galileo galilei", "johannes kepler", "astronomy history", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#0B1030", "glow": "#7FA8FF", "footer": "🔭 1610 · PRAGUE", "footerColor": "#7FA8FF", "stamp": "IGNORED"},
+  "hook": {
+    "lines": ["KEPLER HYPED GALILEO", "BEGGED FOR A TELESCOPE", "GOT AN ANAGRAM INSTEAD"],
+    "punch": "LEFT ON READ 💀",
+    "say": "Kepler hyped Galileo for free, begged for a telescope, and got an anagram instead."
+  },
+  "you": {"name": "Kepler", "label": "KEPLER", "portrait": "kepler.svg", "face": "40 42 120 120", "voice": "am_liam", "speed": 1.2, "el_voice": "2t3wubVNRseKNVjtlWx1"},
+  "them": {"name": "Galileo", "label": "GALILEO", "portrait": "galileo.svg", "face": "38 48 124 124", "voice": "bm_daniel", "speed": 1.12, "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+           "status": "last seen gifting telescopes to dukes", "subtitle": "Padua · Starry Messenger", "about": "telescopes are for VIPs 🔭", "aboutDate": "1610"},
+  "notifications": ["k", "here's a puzzle 🙂"],
+  "chat": [
+    {"k": "chip", "text": "PRAGUE, 1610"},
+    {"k": "out", "text": "GALILEO!! read ur starry messenger 3 times 🔭🔥", "say": "Galileo! I read your Starry Messenger three times!", "time": "9:01 AM"},
+    {"k": "out", "text": "wrote a whole book defending u btw. no cap", "say": "wrote a whole book defending you, by the way. No cap.", "time": "9:01 AM"},
+    {"k": "in", "text": "k", "say": "k.", "time": "4:47 PM", "typing": 1.1, "sfx": "scratch"},
+    {"k": "out", "text": "so... could u send me a telescope? 👉👈", "say": "so... could you send me a telescope?", "el_say": "so... [nervously] could you send me a telescope?", "time": "4:48 PM"},
+    {"k": "in", "text": "sent one to the duke of tuscany. and like 6 princes 😌", "say": "sent one to the Duke of Tuscany. And like, six princes.", "time": "4:50 PM"},
+    {"k": "out", "text": "bro i'm the IMPERIAL MATHEMATICIAN", "say": "bro, I'm the IMPERIAL MATHEMATICIAN!", "time": "4:50 PM"},
+    {"k": "in", "text": "and i'm busy. here's a puzzle 🙂", "say": "and I'm busy. Here's a puzzle.", "time": "4:52 PM"},
+    {"k": "in", "text": "smaismrmilmepoetaleumibunenugttauiras", "say": "smais mermil mepoeta leumibu nenugt tauiras.", "time": "4:52 PM"},
+    {"k": "out", "text": "decoded it 🤓 \"hail burning twins, offspring of mars\"", "say": "decoded it. Hail, burning twins, offspring of Mars!", "time": "5:30 PM"},
+    {"k": "out", "text": "MARS HAS 2 MOONS?? 😭", "say": "MARS HAS TWO MOONS?", "el_say": "[excited] MARS HAS TWO MOONS?", "time": "5:30 PM"},
+    {"k": "in", "text": "no. it says saturn is triple. not even close 💀", "say": "no. It says Saturn is triple. Not even close.", "el_say": "[laughs] no. It says Saturn is triple. Not even close.", "time": "6:15 PM", "typing": 0.9, "sfx": "boom"},
+    {"k": "out", "text": "then SEND ME A TELESCOPE and i'll check myself", "say": "then SEND ME A TELESCOPE and I'll check myself!", "time": "6:16 PM"},
+    {"k": "in", "text": "can't. they're for important people 🙂", "say": "can't. They're for important people.", "time": "6:40 PM"},
+    {"k": "out", "text": "i literally figured out how planets move. ellipses!!", "say": "I literally figured out how planets move. Ellipses!", "time": "6:41 PM"},
+    {"k": "in", "quote": "i literally figured out how planets move. ellipses!!", "text": "ellipses? sounds fake ngl 👋", "say": "ellipses? Sounds fake, not gonna lie. Bye.", "time": "7:05 PM", "typing": 1.0, "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "GUESSED MARS HAS 2 MOONS",
+    "bottom": "BY READING IT WRONG",
+    "chips": ["Mars moons: found in 1877", "Galileo: 0 telescopes sent"],
+    "say": "Guessed Mars has two moons. By reading it wrong."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}
