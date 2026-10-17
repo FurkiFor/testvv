@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 8.6,
-      "sizeMB": 2.1
+      "sizeMB": 2.1,
+      "post_id": "p_Q3grQWuHVcOy",
+      "publish_at": "2026-10-17T12:00:00+04:00"
     },
     {
       "file": "2026-10-17-2-gloss-domino.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.47,
-      "sizeMB": 9.28
+      "sizeMB": 9.28,
+      "post_id": "p_4SqhKbBZ846A",
+      "publish_at": "2026-10-17T17:00:00+04:00"
     },
     {
       "file": "2026-10-17-3-glossy-marbles.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 10.1,
-      "sizeMB": 9.01
+      "sizeMB": 9.01,
+      "post_id": "p_IE_sReAdljg0",
+      "publish_at": "2026-10-17T21:00:00+04:00"
     }
   ]
 }
