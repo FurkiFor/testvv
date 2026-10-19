@@ -97,10 +97,19 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     `This Funnel Never Fills Up 🔁 #satisfying #asmr`,
     `${B.label} Marbles Spiraling Forever 🔁 #asmr`,
     `Where Do The Marbles Go? 🔁 #satisfying #asmr`,
+    `The Marble Funnel With No Bottom 🔁 #asmr`,
+    `${B.label} Marbles That Never Stop Rolling 🔁 #satisfying`,
+    `Marbles Shrinking Forever 🔁 #asmr #satisfying`,
+    `Can You Spot Where This Loops? 🔁 #asmr #marbles`,
+    `This Marble Run Never Ends 🔁 #satisfying #asmr`,
+    `${B.label} Marble Spiral Into Infinity 🔁 #asmr`,
+    `The Funnel That Swallows Marbles Forever 🔁 #asmr`,
+    `Endless ${B.label} Marble Spiral 🔁 #satisfying`,
   ];
   const caps = [
     `They roll in, spiral down, shrink… and never reach the bottom. Keep watching. 🔁`,
     `The funnel never fills. The marbles never stop. Can you find where it loops? 🔁`,
+    `Round and round, smaller and smaller. There is no bottom. 🔁`,
   ];
   return {
     family: 'funnelmarbles',

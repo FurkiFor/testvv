@@ -9,6 +9,13 @@ import { openScene, renderVideo } from './render.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const FAMILIES = ['cubecut', 'nestshell', 'dominospiral', 'funnelmarbles'];
+// Slot plan (12:00, 17:00, 21:00 Dubai), from channel data 2026-10-19: dominoes and
+// marbles get far more views than spheres and cubes, so they run every day and the
+// weaker two alternate in the first slot.
+function familyFor(dayIndex, i) {
+  const plan = [dayIndex % 2 ? 'cubecut' : 'nestshell', 'funnelmarbles', 'dominospiral'];
+  return i < plan.length ? plan[i] : FAMILIES[(dayIndex + i) % FAMILIES.length];
+}
 const RAW = 'https://raw.githubusercontent.com/FurkiFor/testvv/main/videos/asmrvideo/';
 
 const args = Object.fromEntries(process.argv.slice(2).join(' ').split('--').filter(Boolean)
@@ -34,7 +41,7 @@ const manifestPath = path.join(runsDir, `${date}.json`);
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath)) : { date, videos: [] };
 
 for (let i = 0; i < count; i++) {
-  const family = FAMILIES[(dayIndex + i) % FAMILIES.length];
+  const family = familyFor(dayIndex, i);
   if (manifest.videos[i] && fs.existsSync(path.join(outdir, manifest.videos[i].file))) {
     console.log(`skip ${manifest.videos[i].file} (exists)`);
     continue;

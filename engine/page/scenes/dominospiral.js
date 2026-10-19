@@ -68,10 +68,19 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     `The Infinite Domino Spiral 🔁 #satisfying #asmr`,
     `This Domino Spiral Has No End 🔁 #asmr`,
     `${S.label} Dominoes Falling Forever 🔁 #satisfying`,
+    `The Last Domino Never Falls 🔁 #asmr #satisfying`,
+    `Can You Find The Last Domino? 🔁 #asmr`,
+    `${S.label} Domino Spiral With No End 🔁 #asmr`,
+    `Dominoes Shrinking Into Infinity 🔁 #satisfying #asmr`,
+    `This Domino Run Never Finishes 🔁 #asmr #satisfying`,
+    `${S.label} Dominoes, Smaller Every Time 🔁 #asmr`,
+    `The Domino Spiral You Can't Stop Watching 🔁 #asmr`,
+    `Infinite ${S.label} Domino Chain 🔁 #satisfying`,
   ];
   const caps = [
     `Every domino is smaller than the last. The centre never comes. How long can you watch? 🔁`,
     `They keep falling. Smaller and smaller… forever. Watch till the end — there is no end. 🔁`,
+    `One tips the next, a little smaller each time. Where does it loop? 🔁`,
   ];
   return {
     family: 'dominospiral',
