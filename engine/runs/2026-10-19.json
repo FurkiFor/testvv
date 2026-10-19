@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 9.7,
-      "sizeMB": 9.28
+      "sizeMB": 9.28,
+      "post_id": "p_w-_maKanMWVh",
+      "publish_at": "2026-10-19T12:00:00+04:00"
     },
     {
       "file": "2026-10-19-2-sand-cube.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 11.13,
-      "sizeMB": 14.43
+      "sizeMB": 14.43,
+      "post_id": "p_u7Q2-so_ujoj",
+      "publish_at": "2026-10-19T17:00:00+04:00"
     },
     {
       "file": "2026-10-19-3-ceramic-sphere.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.17,
-      "sizeMB": 2.15
+      "sizeMB": 2.15,
+      "post_id": "p_EvretwGI0V-s",
+      "publish_at": "2026-10-19T21:00:00+04:00"
     }
   ]
 }
