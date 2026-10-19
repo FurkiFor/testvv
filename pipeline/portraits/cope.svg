@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Nervous Edward Drinker Cope holding a fossil bone illustration">
+<defs><radialGradient id="cope-bg" cx="50%" cy="35%" r="80%"><stop offset="0" stop-color="#7FCFB0"/><stop offset=".65" stop-color="#2E7A62"/><stop offset="1" stop-color="#123A2E"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#cope-bg)"/>
+<g fill="#E9DFC6" opacity=".35"><circle cx="30" cy="40" r="4"/><circle cx="44" cy="34" r="3"/><circle cx="56" cy="32" r="3"/><circle cx="68" cy="34" r="3"/><circle cx="80" cy="40" r="4"/></g>
+<path d="M10 250 Q20 188 70 178 L130 178 Q180 188 190 250Z" fill="#4A3A2C"/>
+<path d="M72 178 Q100 196 128 178 L124 196 Q100 208 76 196Z" fill="#F1EDE2"/>
+<path d="M92 192 L100 204 L108 192 L104 214 L96 214Z" fill="#7A1E2A"/>
+<rect x="88" y="146" width="24" height="34" rx="8" fill="#DDA982"/>
+<ellipse cx="66" cy="114" rx="6" ry="9" fill="#DDA982"/><ellipse cx="134" cy="114" rx="6" ry="9" fill="#DDA982"/>
+<ellipse cx="100" cy="110" rx="33" ry="38" fill="#EBBB92"/>
+<path d="M64 102 Q60 64 100 62 Q140 64 136 102 Q132 82 112 78 Q100 82 88 76 Q70 80 64 102Z" fill="#5A3A20"/>
+<path d="M78 96 Q86 90 94 96" stroke="#4A2E18" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M106 96 Q114 90 122 96" stroke="#4A2E18" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="86" cy="108" r="8" fill="#fff"/><circle cx="114" cy="108" r="8" fill="#fff"/>
+<circle cx="86" cy="108" r="3" fill="#1E120A"/><circle cx="114" cy="108" r="3" fill="#1E120A"/>
+<path d="M126 88 Q130 94 128 98" stroke="#7FC6FF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M100 110 Q94 122 98 126 Q104 128 107 124" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M76 134 Q88 124 100 130 Q112 124 124 134 Q112 138 100 134 Q88 138 76 134Z" fill="#5A3A20"/>
+<path d="M90 144 Q95 140 100 144 Q105 148 110 144" stroke="#7A3A2A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M94 150 Q100 166 106 150Z" fill="#5A3A20"/>
+<g transform="rotate(-35 150 200)"><rect x="118" y="194" width="64" height="12" rx="6" fill="#F2E6C4" stroke="#A8946A" stroke-width="2"/><circle cx="118" cy="194" r="8" fill="#F2E6C4" stroke="#A8946A" stroke-width="2"/><circle cx="118" cy="206" r="8" fill="#F2E6C4" stroke="#A8946A" stroke-width="2"/><circle cx="182" cy="194" r="8" fill="#F2E6C4" stroke="#A8946A" stroke-width="2"/><circle cx="182" cy="206" r="8" fill="#F2E6C4" stroke="#A8946A" stroke-width="2"/></g>
+<ellipse cx="138" cy="216" rx="11" ry="9" fill="#EBBB92"/>
+</svg>

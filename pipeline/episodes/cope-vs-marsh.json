@@ -1,0 +1,44 @@
+{
+  "slug": "cope-vs-marsh",
+  "youtube": {
+    "title": "Cope put the dinosaur's head on its TAIL 🦕 #shorts",
+    "caption": "The Bone Wars started because one paleontologist put a skull on the wrong end. 🦕💀\n\nCope built his new sea monster. Marsh noticed the head was on the tail.\n\nWhose fail is worse, Cope's or Marsh's? 👇\n\nParody · fictional chat. Based on 1870: Edward Drinker Cope's Elasmosaurus was reconstructed with its head on the tail, Marsh gleefully pointed it out, and Cope tried to buy up every copy of the journal. Marsh's own Brontosaurus later turned out to have the wrong skull.\n\n#bonewars #paleontology #dinosaur #fossils #brontosaurus #historymemes #funnyhistory #shorts",
+    "tags": ["the bone wars", "bone wars", "cope and marsh", "paleontology", "dinosaur", "brontosaurus", "fossils", "weird history", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#0E1A10", "glow": "#9BD45A", "footer": "🦕 1870 · PHILADELPHIA", "footerColor": "#9BD45A", "stamp": "BACKWARDS"},
+  "hook": {
+    "lines": ["HE FOUND A DINOSAUR", "AND PUT THE HEAD", "ON ITS TAIL"],
+    "punch": "BONE WARS 🦴",
+    "say": "He discovered a brand new dinosaur, and put its head on the tail."
+  },
+  "you": {"name": "Cope", "label": "COPE", "portrait": "cope.svg", "face": "40 50 120 120", "voice": "am_liam", "speed": 1.2, "el_voice": "2t3wubVNRseKNVjtlWx1"},
+  "them": {"name": "Marsh", "label": "MARSH", "portrait": "marsh.svg", "face": "36 50 128 128", "voice": "bm_lewis", "speed": 1.12, "el_voice": "qvI9Sgo8A9eFU874jTGo",
+           "status": "last seen digging in Cope's quarry", "subtitle": "Yale · Paleontologist", "about": "my bones > ur bones 🦴", "aboutDate": "1870"},
+  "notifications": ["bro", "the head is on the tail 💀"],
+  "chat": [
+    {"k": "chip", "text": "PHILADELPHIA, 1870"},
+    {"k": "out", "text": "marsh come see my new sea monster 🦕 ELASMOSAURUS", "say": "Marsh, come see my new sea monster. ELASMOSAURUS!", "time": "2:10 PM"},
+    {"k": "out", "text": "short neck. massive tail. iconic 😤", "say": "short neck. Massive tail. Iconic.", "time": "2:10 PM"},
+    {"k": "in", "text": "bro", "say": "bro.", "time": "2:31 PM", "typing": 1.0},
+    {"k": "in", "text": "the head is on the tail 💀", "say": "the head is on the tail.", "el_say": "[laughs] the head is on the tail.", "time": "2:31 PM", "sfx": "scratch"},
+    {"k": "out", "text": "no it's not", "say": "no it's not.", "time": "2:32 PM"},
+    {"k": "in", "text": "the vertebrae are literally BACKWARDS cope", "say": "the vertebrae are literally BACKWARDS, Cope.", "time": "2:33 PM"},
+    {"k": "out", "text": "it's a new anatomy. revolutionary 🤓", "say": "it's a new anatomy. Revolutionary.", "time": "2:33 PM"},
+    {"k": "in", "text": "ur sea monster is giving butt-face", "say": "your sea monster is giving butt face.", "time": "2:34 PM", "typing": 0.7, "sfx": "boom"},
+    {"k": "out", "text": "ok who else noticed", "say": "okay. Who else noticed?", "el_say": "[sighs] okay. Who else noticed?", "time": "2:35 PM"},
+    {"k": "in", "text": "leidy. me. everyone with eyes 🙂", "say": "Leidy. Me. Everyone with eyes.", "time": "2:35 PM"},
+    {"k": "out", "text": "buying every copy of the journal rn 💸", "say": "buying every copy of the journal right now.", "time": "2:36 PM"},
+    {"k": "in", "text": "u can't buy ur way out of a tail 💀", "say": "you can't buy your way out of a tail.", "time": "2:36 PM", "typing": 0.6},
+    {"k": "out", "text": "lol. wait till they check ur brontosaurus 🙂", "say": "ha. Wait till they check your brontosaurus.", "time": "2:37 PM"},
+    {"k": "in", "text": "my brontosaurus is perfect", "say": "my brontosaurus is perfect.", "time": "2:38 PM", "typing": 0.9},
+    {"k": "out", "text": "wrong head AND it's just an apatosaurus. see u in 1903 💀", "say": "wrong head, and it's just an Apatosaurus. See you in nineteen oh three.", "time": "2:38 PM", "sfx": "boom"}
+  ],
+  "ending": "none",
+  "meme": {
+    "top": "PUT THE HEAD ON THE TAIL",
+    "bottom": "STARTED THE BONE WARS",
+    "chips": ["Cope: head on tail 🦕", "Marsh: wrong head too 🦴"],
+    "say": "Put the head on the tail. Started the Bone Wars."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

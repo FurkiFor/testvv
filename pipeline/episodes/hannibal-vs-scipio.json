@@ -1,0 +1,43 @@
+{
+  "slug": "hannibal-vs-scipio",
+  "youtube": {
+    "title": "What Hannibal told Scipio after Zama 💀 #shorts",
+    "caption": "Scipio vs Hannibal: he beat Hannibal at Zama... then asked him who the greatest general ever was. 🐘💀\n\nHannibal's top 3: Alexander, Pyrrhus, himself. Scipio? Not even on the list.\n\nWho's your GOAT general? 👇\n\nParody · fictional chat. Based on the meeting Livy describes at Ephesus (c. 193 BC), where Hannibal ranked Alexander, Pyrrhus and himself — and said if he'd beaten Scipio, he'd be first.\n\n#hannibal #hannibalbarca #scipioafricanus #punicwars #romanhistory #historymemes #funnyhistory #shorts",
+    "tags": ["hannibal", "scipio vs hannibal", "hannibal barca", "scipio africanus", "battle of zama", "punic wars", "roman history", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#1A0B0B", "glow": "#E0533D", "footer": "🐘 193 BC · EPHESUS", "footerColor": "#E0533D", "stamp": "UNRANKED"},
+  "hook": {
+    "lines": ["SCIPIO BEAT HANNIBAL", "ASKED WHO'S THE GOAT", "WASN'T EVEN TOP 3"],
+    "punch": "RANKED 0TH 💀",
+    "say": "Scipio beat Hannibal, asked him who the greatest general ever was, and didn't even make the top three."
+  },
+  "you": {"name": "Scipio", "label": "SCIPIO", "portrait": "scipio.svg", "face": "40 50 120 120", "voice": "am_puck", "speed": 1.2, "el_voice": "N2lVS1w4EtoT3dr4eOWO"},
+  "them": {"name": "Hannibal", "label": "HANNIBAL", "portrait": "hannibal.svg", "face": "36 52 128 128", "voice": "am_fenrir", "speed": 1.12, "el_voice": "dqoktGAat2XIYpd4sTb7",
+           "status": "last seen crossing the Alps with 37 elephants", "subtitle": "Carthage · Elephant enthusiast", "about": "elephants > roads 🐘", "aboutDate": "218 BC"},
+  "notifications": ["me 😌", "ur not on the list lil bro"],
+  "chat": [
+    {"k": "chip", "text": "EPHESUS, 193 BC"},
+    {"k": "out", "text": "yo hannibal 👋 no hard feelings about zama right", "say": "yo Hannibal. No hard feelings about Zama, right?", "time": "10:02 AM"},
+    {"k": "in", "text": "who is this", "say": "who is this?", "time": "10:40 AM", "typing": 1.0},
+    {"k": "out", "text": "SCIPIO. the guy who beat u 💀", "say": "SCIPIO. The guy who beat you!", "time": "10:41 AM"},
+    {"k": "out", "text": "quick q. greatest general of all time? 🏆", "say": "quick question. Greatest general of all time?", "time": "10:41 AM"},
+    {"k": "in", "text": "1. alexander. obviously 👑", "say": "one. Alexander. Obviously.", "time": "10:43 AM", "typing": 0.7},
+    {"k": "in", "text": "2. pyrrhus. man invented camping fr ⛺", "say": "two. Pyrrhus. Man invented camping, for real.", "time": "10:43 AM"},
+    {"k": "out", "text": "and #3?? 👀", "say": "and number three?", "time": "10:44 AM"},
+    {"k": "in", "text": "me 😌", "say": "me.", "time": "10:44 AM", "typing": 1.1, "sfx": "scratch"},
+    {"k": "out", "text": "bro I literally BEAT u", "say": "bro, I literally BEAT you!", "el_say": "[shouting] bro, I literally BEAT you!", "time": "10:45 AM"},
+    {"k": "in", "text": "ok and? 🐘", "say": "okay, and?", "time": "10:45 AM"},
+    {"k": "out", "text": "so if u had beaten me where would u rank??", "say": "so if you had beaten me, where would you rank?", "time": "10:46 AM"},
+    {"k": "in", "text": "#1. above alexander", "say": "number one. Above Alexander.", "el_say": "[laughs] number one. Above Alexander.", "time": "10:47 AM", "typing": 0.9, "sfx": "boom"},
+    {"k": "out", "text": "so I'm not even on the list 😭", "say": "so I'm not even on the list?", "el_say": "[sighs] so I'm not even on the list?", "time": "10:47 AM"},
+    {"k": "in", "quote": "so I'm not even on the list 😭", "text": "ur on my blocked list. that's a list 🙂", "say": "you're on my blocked list. That's a list.", "time": "10:48 AM", "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "BEAT HANNIBAL AT ZAMA",
+    "bottom": "STILL NOT IN HIS TOP 3",
+    "chips": ["Scipio: won the war ✅", "Hannibal's list: 0 Scipios"],
+    "say": "Beat Hannibal at Zama. Still not in his top three."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}

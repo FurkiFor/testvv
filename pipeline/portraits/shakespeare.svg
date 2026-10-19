@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Sheepish William Shakespeare with ruff collar and quill illustration">
+<defs><radialGradient id="shakespeare-bg" cx="50%" cy="35%" r="80%"><stop offset="0" stop-color="#5A7FC0"/><stop offset=".65" stop-color="#2A3F78"/><stop offset="1" stop-color="#141F42"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#shakespeare-bg)"/>
+<path d="M10 250 Q20 190 70 182 L130 182 Q180 190 190 250Z" fill="#1E1E24"/>
+<path d="M98 196 L98 250 M102 196 L102 250" stroke="#3A3A44" stroke-width="2"/>
+<g fill="#FFFFFF" stroke="#C9C9D2" stroke-width="2"><ellipse cx="100" cy="180" rx="50" ry="16"/></g>
+<path d="M54 178 Q62 186 70 178 Q78 188 86 178 Q94 188 100 178 Q106 188 114 178 Q122 188 130 178 Q138 186 146 178" stroke="#C9C9D2" stroke-width="2" fill="none"/>
+<rect x="90" y="146" width="20" height="26" rx="8" fill="#E2AE88"/>
+<ellipse cx="66" cy="114" rx="6" ry="9" fill="#E2AE88"/><ellipse cx="134" cy="114" rx="6" ry="9" fill="#E2AE88"/>
+<circle cx="66" cy="126" r="3" fill="#F2D37A"/>
+<ellipse cx="100" cy="110" rx="33" ry="40" fill="#EDBC98"/>
+<ellipse cx="92" cy="80" rx="12" ry="7" fill="#FFF0DC" opacity=".8"/>
+<path d="M66 116 Q60 84 72 82 Q70 100 72 120Z M134 116 Q140 84 128 82 Q130 100 128 120Z" fill="#7A4A26"/>
+<path d="M62 120 Q58 140 68 150 L72 120Z M138 120 Q142 140 132 150 L128 120Z" fill="#7A4A26"/>
+<path d="M78 100 Q87 96 96 101" stroke="#6A3E1E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M104 101 Q113 96 122 100" stroke="#6A3E1E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="7" ry="5" fill="#fff"/><ellipse cx="113" cy="110" rx="7" ry="5" fill="#fff"/>
+<circle cx="91" cy="111" r="2.6" fill="#1E120A"/><circle cx="117" cy="111" r="2.6" fill="#1E120A"/>
+<path d="M100 112 Q94 126 98 129 Q104 131 107 127" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M84 136 Q92 130 100 134 Q108 130 116 136 Q108 134 100 138 Q92 134 84 136Z" fill="#6A3E1E"/>
+<path d="M88 142 Q100 150 112 142" stroke="#7A3A2A" stroke-width="3" fill="#fff"/>
+<path d="M96 150 Q100 162 104 150Z" fill="#6A3E1E"/>
+<path d="M126 92 Q130 98 128 102" stroke="#7FC6FF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<g transform="rotate(25 160 200)"><path d="M160 150 Q176 170 166 220 L160 222 Q156 180 160 150Z" fill="#F4F0E6" stroke="#B8B2A0" stroke-width="2"/><path d="M161 160 L163 218" stroke="#B8B2A0" stroke-width="1.5"/></g>
+<ellipse cx="150" cy="226" rx="11" ry="9" fill="#EDBC98"/>
+</svg>

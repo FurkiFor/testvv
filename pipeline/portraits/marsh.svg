@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug Othniel Marsh with big beard and pickaxe illustration">
+<defs><radialGradient id="marsh-bg" cx="50%" cy="35%" r="80%"><stop offset="0" stop-color="#E8B060"/><stop offset=".65" stop-color="#A8642A"/><stop offset="1" stop-color="#4E2A10"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#marsh-bg)"/>
+<path d="M0 206 Q50 190 100 204 Q150 218 200 200 L200 250 L0 250Z" fill="#7A4A22" opacity=".5"/>
+<path d="M10 250 Q20 188 70 178 L130 178 Q180 188 190 250Z" fill="#2E3A4A"/>
+<path d="M72 178 Q100 196 128 178 L124 194 Q100 206 76 194Z" fill="#F1EDE2"/>
+<rect x="88" y="146" width="24" height="34" rx="8" fill="#D9A47C"/>
+<ellipse cx="66" cy="112" rx="6" ry="9" fill="#D9A47C"/><ellipse cx="134" cy="112" rx="6" ry="9" fill="#D9A47C"/>
+<ellipse cx="100" cy="108" rx="33" ry="38" fill="#E8B48C"/>
+<ellipse cx="96" cy="78" rx="14" ry="8" fill="#FFE2C4" opacity=".7"/>
+<path d="M66 106 Q62 86 70 82 Q70 96 72 108Z M134 106 Q138 86 130 82 Q130 96 128 108Z" fill="#8A6A4A"/>
+<path d="M78 96 Q86 92 94 96" stroke="#6A4A2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M106 92 Q114 86 122 94" stroke="#6A4A2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="86" cy="106" rx="7" ry="3" fill="#fff"/><ellipse cx="114" cy="105" rx="7" ry="3.5" fill="#fff"/>
+<circle cx="88" cy="106" r="2.4" fill="#1E120A"/><circle cx="116" cy="105" r="2.4" fill="#1E120A"/>
+<path d="M78 103 L95 103 M106 102 L122 102" stroke="#C99A78" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 108 Q94 122 98 125 Q104 127 107 123" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M64 116 Q58 166 82 184 Q100 196 118 184 Q142 166 136 116 Q128 134 100 134 Q72 134 64 116Z" fill="#8A6A4A"/>
+<g fill="#8A6A4A"><circle cx="72" cy="168" r="9"/><circle cx="86" cy="182" r="9"/><circle cx="100" cy="188" r="9"/><circle cx="114" cy="182" r="9"/><circle cx="128" cy="168" r="9"/></g>
+<path d="M80 130 Q92 124 100 128 Q108 124 120 130 Q108 134 100 132 Q92 134 80 130Z" fill="#6A4A2E"/>
+<path d="M90 140 Q102 146 112 138" stroke="#4A2018" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M82 152 Q86 164 84 172 M100 146 Q102 164 100 180 M118 152 Q114 164 116 172" stroke="#6E5236" stroke-width="2" fill="none"/>
+<g transform="rotate(20 160 190)"><rect x="156" y="150" width="8" height="80" rx="3" fill="#8A5A2A" stroke="#4E2E12" stroke-width="2"/><path d="M128 156 Q160 136 192 156 L188 162 Q160 148 132 162Z" fill="#9AA4B0" stroke="#4A5260" stroke-width="2"/></g>
+<ellipse cx="150" cy="214" rx="11" ry="9" fill="#E8B48C"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Unimpressed Anne Hathaway in Tudor coif illustration">
+<defs><radialGradient id="anne-bg" cx="50%" cy="35%" r="80%"><stop offset="0" stop-color="#E890B8"/><stop offset=".65" stop-color="#A2457A"/><stop offset="1" stop-color="#4E1A3A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#anne-bg)"/>
+<g transform="translate(150 210)"><rect x="-34" y="-10" width="68" height="24" rx="5" fill="#8A5A30"/><rect x="-30" y="-18" width="60" height="12" rx="5" fill="#F4F0E6"/><rect x="-36" y="-34" width="8" height="48" fill="#6A3E1E"/><rect x="28" y="-34" width="8" height="48" fill="#6A3E1E"/><circle cx="0" cy="2" r="9" fill="#F2D37A"/><path d="M-4 -2 h6 a3 3 0 0 1 0 6 h-6 v6" stroke="#6A3E1E" stroke-width="2.5" fill="none"/></g>
+<path d="M14 250 Q22 190 70 180 L130 180 Q178 190 186 250Z" fill="#5A3A28"/>
+<path d="M76 180 Q100 206 124 180 L120 250 L80 250Z" fill="#F4F0E6"/>
+<path d="M76 180 Q100 206 124 180" stroke="#C9C2B0" stroke-width="3" fill="none"/>
+<rect x="89" y="146" width="22" height="30" rx="8" fill="#EBBB98"/>
+<path d="M60 92 Q58 58 100 52 Q142 58 140 92 L144 150 Q132 160 128 140 L126 100 Q100 88 74 100 L72 140 Q68 160 56 150Z" fill="#F7F4EC" stroke="#CFC8B6" stroke-width="2"/>
+<ellipse cx="100" cy="114" rx="30" ry="37" fill="#F2C8A6"/>
+<path d="M72 98 Q100 82 128 98 Q118 90 100 90 Q82 90 72 98Z" fill="#8A4E26"/>
+<path d="M77 100 L95 106" stroke="#5A3018" stroke-width="5" stroke-linecap="round"/>
+<path d="M123 100 L105 106" stroke="#5A3018" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="87" cy="113" rx="7" ry="4" fill="#fff"/><ellipse cx="113" cy="113" rx="7" ry="4" fill="#fff"/>
+<circle cx="88" cy="114" r="2.6" fill="#1E120A"/><circle cx="112" cy="114" r="2.6" fill="#1E120A"/>
+<path d="M79 111 L95 111 M105 111 L121 111" stroke="#C9927A" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 116 Q95 128 99 131 Q104 132 106 129" stroke="#C08A68" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M89 140 Q100 136 111 140" stroke="#A8423A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="77" cy="128" rx="6" ry="3.5" fill="#F07A7A" opacity=".45"/><ellipse cx="123" cy="128" rx="6" ry="3.5" fill="#F07A7A" opacity=".45"/>
+</svg>

@@ -1,0 +1,43 @@
+{
+  "slug": "shakespeare-vs-anne",
+  "youtube": {
+    "title": "Shakespeare's wife had the best comeback 💅 #shorts",
+    "caption": "William Shakespeare left his wife ONE thing in his will... his second best bed. 🛏️💀\n\nShe got the bed. She also got the last word.\n\nWho do you think got the BEST bed? 👇\n\nParody · fictional chat. Based on Shakespeare's real 1616 will, which leaves his wife Anne \"my second best bed with the furniture\" and most everything else to their daughter Susanna.\n\n#shakespeare #williamshakespeare #historymemes #funnyhistory #englishliterature #history #shorts",
+    "tags": ["william shakespeare", "shakespeare", "shakespeare will", "second best bed", "shakespeare wife", "english literature", "history group chat", "history memes", "funny history", "shorts"]
+  },
+  "theme": {"hookBg": "#140A1E", "glow": "#C9A0FF", "footer": "🛏️ 1616 · STRATFORD", "footerColor": "#C9A0FF", "stamp": "FUMBLED"},
+  "hook": {
+    "lines": ["SHAKESPEARE'S WILL", "LEFT HIS WIFE ONLY", "HIS 2ND BEST BED"],
+    "punch": "SHE'S FURIOUS 💀",
+    "say": "Shakespeare wrote his will, and left his wife only his second best bed."
+  },
+  "you": {"name": "William", "label": "SHAKESPEARE", "portrait": "shakespeare.svg", "face": "40 50 120 120", "voice": "bm_fable", "speed": 1.18, "el_voice": "SOYHLrjzK2X1ezoPC6cr"},
+  "them": {"name": "Anne", "label": "ANNE HATHAWAY", "portrait": "anne.svg", "face": "38 48 124 124", "voice": "bf_isabella", "speed": 1.15, "el_voice": "NPC1Rk3VsPo28KCMJFLI",
+           "status": "last seen measuring the BEST bed", "subtitle": "Stratford-upon-Avon · Wife (allegedly)", "about": "not my first choice of bed 🛏️", "aboutDate": "1616"},
+  "notifications": ["ur WHAT", "who gets the BEST bed william"],
+  "chat": [
+    {"k": "chip", "text": "STRATFORD, 1616"},
+    {"k": "out", "text": "anne babe. finished my will 📜✍️", "say": "Anne, babe. Finished my will.", "time": "8:14 PM"},
+    {"k": "out", "text": "susanna gets the house, the money, the whole bag 💰", "say": "Susanna gets the house, the money, the whole bag.", "time": "8:14 PM"},
+    {"k": "in", "text": "and me?", "say": "and me?", "time": "8:20 PM", "typing": 0.8},
+    {"k": "out", "text": "u get... my second best bed 🛏️✨", "say": "you get... my second best bed.", "el_say": "you get... [nervously] my second best bed.", "time": "8:21 PM"},
+    {"k": "in", "text": "ur WHAT", "say": "your WHAT?", "el_say": "[shouting] your WHAT?", "time": "8:21 PM", "typing": 0.9, "sfx": "scratch"},
+    {"k": "in", "text": "who gets the BEST bed william", "say": "who gets the BEST bed, William?", "time": "8:21 PM"},
+    {"k": "out", "text": "it comes with the furniture tho 🙏", "say": "it comes with the furniture, though.", "time": "8:22 PM"},
+    {"k": "in", "text": "u spent 20 years in london \"acting\" and this is the plot twist? 💀", "say": "you spent twenty years in London acting, and this is the plot twist?", "time": "8:23 PM"},
+    {"k": "out", "text": "shall i compare thee to a summer's day? 🌸", "say": "shall I compare thee to a summer's day?", "time": "8:24 PM"},
+    {"k": "in", "text": "shall i compare thee to a second best bed?", "say": "shall I compare thee to a second best bed?", "el_say": "[laughs] shall I compare thee to a second best bed?", "time": "8:24 PM", "typing": 0.7, "sfx": "boom"},
+    {"k": "out", "text": "parting is such sweet sorrow? 🥲", "say": "parting is such sweet sorrow?", "time": "8:25 PM"},
+    {"k": "in", "text": "all's well that ends with u sleeping on the floor", "say": "all's well that ends with you sleeping on the floor.", "time": "8:26 PM"},
+    {"k": "out", "text": "anne it's literally a nice bed 😭", "say": "Anne, it's literally a nice bed!", "time": "8:26 PM"},
+    {"k": "in", "text": "to be or not to be blocked. guess which 🙂", "say": "to be, or not to be blocked. Guess which.", "time": "8:27 PM", "typing": 1.0, "sfx": "boom"}
+  ],
+  "ending": "block",
+  "meme": {
+    "top": "WROTE 39 PLAYS",
+    "bottom": "LEFT WIFE 2ND BEST BED",
+    "chips": ["Susanna: the whole bag 💰", "Anne: bed #2 + furniture"],
+    "say": "Wrote thirty nine plays. Left his wife the second best bed."
+  },
+  "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ"}
+}
