@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Rousseau illustration">
+<defs><linearGradient id="rousseau-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9CCB8A"/><stop offset="1" stop-color="#3E6E3A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#rousseau-bg)"/>
+<g fill="#2F5A2C" opacity=".6"><circle cx="20" cy="200" r="30"/><circle cx="182" cy="190" r="34"/><circle cx="170" cy="40" r="18"/></g>
+<path d="M4 250 Q14 182 66 172 L134 172 Q186 182 196 250 Z" fill="#6B4226"/>
+<path d="M66 172 L100 214 L134 172 Z" fill="#F4F0E6"/>
+<path d="M88 176 Q100 196 112 176 L108 200 Q100 206 92 200 Z" fill="#FFFFFF" stroke="#D8D2C2" stroke-width="1.5"/>
+<rect x="88" y="140" width="24" height="36" rx="8" fill="#E2B08A"/>
+<ellipse cx="66" cy="116" rx="7" ry="11" fill="#DCA67E"/><ellipse cx="134" cy="116" rx="7" ry="11" fill="#DCA67E"/>
+<ellipse cx="100" cy="112" rx="34" ry="40" fill="#EDC09A"/>
+<path d="M62 92 Q58 70 74 60 L126 60 Q142 70 138 92 Q126 84 100 84 Q74 84 62 92 Z" fill="#8A5A3A"/>
+<path d="M60 92 Q100 76 140 92" stroke="#E8D9B8" stroke-width="10" fill="none" stroke-linecap="round"/>
+<g fill="#7A4C2E" opacity=".7"><circle cx="76" cy="70" r="4"/><circle cx="92" cy="66" r="4"/><circle cx="108" cy="66" r="4"/><circle cx="124" cy="70" r="4"/><circle cx="100" cy="76" r="3"/></g>
+<path d="M80 102 Q88 96 96 102" stroke="#5A3A22" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M104 98 Q113 92 122 99" stroke="#5A3A22" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M80 110 Q88 106 96 110" stroke="#2B1A10" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<ellipse cx="113" cy="109" rx="6" ry="4.5" fill="#fff"/><circle cx="115" cy="110" r="2.6" fill="#2B1A10"/>
+<path d="M100 112 Q94 124 98 128 Q104 130 107 126" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M86 138 Q104 146 118 132" stroke="#7A3B2E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="80" cy="128" rx="6" ry="3.5" fill="#E89A8A" opacity=".5"/><ellipse cx="122" cy="128" rx="6" ry="3.5" fill="#E89A8A" opacity=".5"/>
+<g transform="rotate(-12 150 214)"><rect x="132" y="196" width="40" height="30" rx="3" fill="#B3261E" stroke="#6E1712" stroke-width="2.5"/><path d="M152 196 V226" stroke="#6E1712" stroke-width="2"/><rect x="136" y="200" width="12" height="3" fill="#F5D142"/></g>
+</svg>

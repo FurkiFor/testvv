@@ -1,0 +1,166 @@
+{
+ "slug": "plato-vs-diogenes",
+ "youtube": {
+  "title": "Why Diogenes brought Plato a plucked chicken 🐔 #shorts",
+  "caption": "Diogenes vs Plato: the greatest troll in the history of philosophy. 🐔\n\nPlato defined man as a \"featherless biped\". Diogenes showed up with a plucked chicken.\n\nWho won this one, Plato or Diogenes? 👇\n\nParody · fictional chat. Based on Diogenes Laertius: when Plato defined man as a featherless biped, Diogenes plucked a chicken and brought it to the Academy saying \"Behold, Plato's man!\" Plato then added \"with broad flat nails\".\n\n#diogenes #plato #philosophy #greekphilosophy #ancientgreece #historymemes #funnyhistory #shorts",
+  "tags": [
+   "diogenes",
+   "plato",
+   "diogenes the cynic",
+   "greek philosophy",
+   "philosophy",
+   "ancient greece",
+   "featherless biped",
+   "cynicism",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0E1828",
+  "glow": "#F2C14E",
+  "footer": "🐔 350 BC · ATHENS",
+  "footerColor": "#F2C14E",
+  "stamp": "PLUCKED"
+ },
+ "hook": {
+  "lines": [
+   "PLATO DEFINED MAN AS",
+   "\"FEATHERLESS BIPEDS\"",
+   "DIOGENES HAD A CHICKEN"
+  ],
+  "punch": "GOT PLUCKED 🐔",
+  "say": "Plato defined humans as featherless bipeds. Diogenes had a chicken.",
+  "el_say": "Plato defined humans as featherless bipeds. [pause] Diogenes had a chicken."
+ },
+ "you": {
+  "name": "Plato",
+  "label": "PLATO",
+  "portrait": "plato.svg",
+  "face": "44 54 112 112",
+  "voice": "bm_lewis",
+  "speed": 1.14,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo"
+ },
+ "them": {
+  "name": "Diogenes",
+  "label": "DIOGENES",
+  "portrait": "diogenes.svg",
+  "face": "50 64 112 112",
+  "voice": "bm_george",
+  "speed": 1.1,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "status": "last seen plucking a chicken",
+  "subtitle": "Athens · Jar #1",
+  "about": "featherless and fearless 🐔",
+  "aboutDate": "350 BC"
+ },
+ "notifications": [
+  "bet",
+  "behold. plato's man 🫡"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ATHENS, 350 BC"
+  },
+  {
+   "k": "out",
+   "text": "academy update 🧠 i have officially defined what a human is",
+   "say": "academy update. I have officially defined what a human is.",
+   "time": "9:00 AM"
+  },
+  {
+   "k": "out",
+   "text": "a featherless biped. two legs, no feathers. peer reviewed 😌",
+   "say": "a featherless biped. Two legs, no feathers. Peer reviewed.",
+   "time": "9:00 AM"
+  },
+  {
+   "k": "in",
+   "text": "bet",
+   "say": "bet.",
+   "time": "9:47 AM",
+   "typing": 1.0
+  },
+  {
+   "k": "in",
+   "text": "behold. plato's man 🐔🫡",
+   "say": "behold. Plato's man.",
+   "el_say": "[laughs] behold. Plato's man.",
+   "time": "9:58 AM",
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "diogenes my students are SCREAMING. it's a chicken",
+   "say": "Diogenes, my students are SCREAMING. It's a chicken.",
+   "el_say": "[shouting] Diogenes, my students are screaming! It's a chicken.",
+   "time": "9:59 AM"
+  },
+  {
+   "k": "in",
+   "text": "two legs. no feathers. ur definition not mine 🤷",
+   "say": "two legs. No feathers. Your definition, not mine.",
+   "time": "10:01 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "ok patch notes: featherless biped WITH BROAD FLAT NAILS 💅",
+   "say": "okay, patch notes: featherless biped, WITH BROAD FLAT NAILS.",
+   "time": "10:05 AM"
+  },
+  {
+   "k": "out",
+   "text": "this is why they call u socrates gone mad",
+   "say": "this is why they call you Socrates gone mad.",
+   "time": "10:07 AM"
+  },
+  {
+   "k": "out",
+   "text": "pls just leave my academy alone 😭",
+   "say": "please. Just leave my academy alone.",
+   "el_say": "[sighs] please. Just leave my academy alone.",
+   "time": "10:08 AM"
+  },
+  {
+   "k": "in",
+   "text": "can't. i'm walking on ur fancy carpets rn. trampling ur pride 🙂",
+   "say": "can't. I'm walking on your fancy carpets right now. Trampling your pride.",
+   "time": "10:09 AM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "with even MORE pride, bro",
+   "say": "with even MORE pride, bro.",
+   "time": "10:09 AM"
+  },
+  {
+   "k": "in",
+   "text": "whatever. ur human is roasting on my fire rn. want a wing? 🍗",
+   "say": "whatever. Your human is roasting on my fire right now. Want a wing?",
+   "time": "10:30 AM",
+   "typing": 1.1,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "DEFINED HUMANITY.",
+  "bottom": "GOT RATIO'D BY A CHICKEN",
+  "chips": [
+   "Plato: 1 definition 🧠",
+   "Diogenes: 1 chicken 🐔"
+  ],
+  "say": "Defined humanity. Got ratioed by a chicken."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

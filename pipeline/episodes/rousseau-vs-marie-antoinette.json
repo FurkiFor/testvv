@@ -1,0 +1,166 @@
+{
+ "slug": "rousseau-vs-marie-antoinette",
+ "youtube": {
+  "title": "Who REALLY said \"let them eat cake\"? Marie Antoinette has receipts 🍰 #shorts",
+  "caption": "Marie Antoinette never said \"let them eat cake\" and she just found out who did. 🍰\n\nRousseau put a \"great princess\" brioche line in his Confessions... when Marie was a kid in Austria.\n\nIs Rousseau the real villain here? 👇\n\nParody · fictional chat. Based on history: the \"qu'ils mangent de la brioche\" line appears in Rousseau's Confessions, written years before Marie Antoinette ever arrived in France. There is no evidence she said it.\n\n#marieantoinette #letthemeatcake #rousseau #frenchhistory #frenchrevolution #historymyths #historymemes #shorts",
+  "tags": [
+   "marie antoinette",
+   "let them eat cake",
+   "rousseau",
+   "french history",
+   "french revolution",
+   "history myths",
+   "qu'ils mangent de la brioche",
+   "versailles",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#22101C",
+  "glow": "#F4A7C0",
+  "footer": "🍰 1778 · VERSAILLES",
+  "footerColor": "#F4A7C0",
+  "stamp": "DEBUNKED"
+ },
+ "hook": {
+  "lines": [
+   "SHE NEVER SAID",
+   "\"LET THEM EAT CAKE\"",
+   "THIS GUY MADE IT UP"
+  ],
+  "punch": "CAKE GATE 🍰",
+  "say": "Marie Antoinette never said let them eat cake. This guy made it up."
+ },
+ "you": {
+  "name": "Rousseau",
+  "label": "ROUSSEAU",
+  "portrait": "rousseau.svg",
+  "face": "46 54 108 108",
+  "voice": "bm_fable",
+  "speed": 1.14,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO"
+ },
+ "them": {
+  "name": "Marie Antoinette",
+  "label": "MARIE ANTOINETTE",
+  "portrait": "marie-antoinette.svg",
+  "face": "50 76 100 100",
+  "voice": "af_bella",
+  "speed": 1.12,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "status": "last seen milking a very clean cow",
+  "subtitle": "Versailles · Queen of France",
+  "about": "i never said it 🍰",
+  "aboutDate": "1778"
+ },
+ "notifications": [
+  "jean-jacques.",
+  "who said i said \"eat cake\"?? 🍰"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "VERSAILLES, 1778"
+  },
+  {
+   "k": "out",
+   "text": "queen 👑 heard u built a whole fake peasant village bc of my books 🐑",
+   "say": "queen. Heard you built a whole fake peasant village because of my books.",
+   "time": "3:12 PM"
+  },
+  {
+   "k": "in",
+   "text": "jean-jacques.",
+   "say": "Jean-Jacques.",
+   "time": "3:40 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "in",
+   "text": "why is all of paris saying i said \"let them eat cake\" 🍰",
+   "say": "why is all of Paris saying I said, let them eat cake?",
+   "time": "3:40 PM"
+  },
+  {
+   "k": "out",
+   "text": "oh lol that's from my confessions 📖",
+   "say": "oh, ha. That's from my Confessions.",
+   "time": "3:41 PM"
+  },
+  {
+   "k": "in",
+   "text": "ur WHAT",
+   "say": "your WHAT?",
+   "el_say": "[shouting] your WHAT?",
+   "time": "3:41 PM",
+   "typing": 0.6,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "book six. \"a great princess\" said \"let them eat brioche\". iconic line",
+   "say": "book six. A great princess said, let them eat brioche. Iconic line.",
+   "time": "3:42 PM"
+  },
+  {
+   "k": "in",
+   "text": "u wrote that when i was TEN. in AUSTRIA 💀",
+   "say": "you wrote that when I was TEN. In AUSTRIA.",
+   "time": "3:43 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "it was giving princess. i'm a philosopher not a fact checker",
+   "say": "it was giving princess. I'm a philosopher, not a fact checker.",
+   "el_say": "[laughs] it was giving princess. I'm a philosopher, not a fact checker.",
+   "time": "3:45 PM"
+  },
+  {
+   "k": "in",
+   "text": "\"man is born free\" but i'm stuck with ur fake quote for life??",
+   "say": "man is born free, but I'm stuck with your fake quote for life?",
+   "time": "3:46 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "u put silk ribbons on sheep 🐑 we're even",
+   "say": "you put silk ribbons on sheep. We're even.",
+   "time": "3:47 PM",
+   "sfx": "boom"
+  },
+  {
+   "k": "in",
+   "text": "fix it. NOW.",
+   "say": "fix it. NOW.",
+   "time": "3:47 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "relax. what's the worst a crowd of hungry parisians could do 🙂",
+   "say": "relax. What's the worst a crowd of hungry Parisians could do?",
+   "time": "3:48 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "block",
+ "meme": {
+  "top": "NEVER SAID IT.",
+  "bottom": "GOT BLAMED FOR CENTURIES",
+  "chips": [
+   "Rousseau: 1 made-up quote 📖",
+   "Marie: 0 cake eaten 🍰"
+  ],
+  "say": "Never said it. Got blamed for centuries."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

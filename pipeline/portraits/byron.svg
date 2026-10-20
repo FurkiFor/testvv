@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Lord Byron illustration">
+<defs><linearGradient id="byron-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5A6B86"/><stop offset="1" stop-color="#1E2638"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#byron-bg)"/>
+<g fill="#8C9AB3"><ellipse cx="150" cy="34" rx="30" ry="14"/><ellipse cx="132" cy="38" rx="18" ry="12"/><ellipse cx="170" cy="40" rx="16" ry="10"/></g>
+<g stroke="#9FC3E8" stroke-width="2.4" stroke-linecap="round"><path d="M134 54 l-4 10 M150 56 l-4 10 M166 54 l-4 10 M142 72 l-4 10 M158 72 l-4 10"/></g>
+<path d="M4 250 Q14 182 66 172 L134 172 Q186 182 196 250 Z" fill="#1B1B24"/>
+<path d="M70 172 L100 236 L130 172 Z" fill="#F7F5EE"/>
+<path d="M70 172 L58 196 L92 218 Z M130 172 L142 196 L108 218 Z" fill="#FFFFFF" stroke="#D6D2C6" stroke-width="2"/>
+<rect x="88" y="142" width="24" height="34" rx="8" fill="#ECC6A6"/>
+<ellipse cx="68" cy="116" rx="7" ry="11" fill="#E3B898"/><ellipse cx="132" cy="116" rx="7" ry="11" fill="#E3B898"/>
+<ellipse cx="100" cy="114" rx="33" ry="40" fill="#F2D0B2"/>
+<g fill="#2A1A14"><circle cx="66" cy="94" r="12"/><circle cx="72" cy="76" r="14"/><circle cx="88" cy="64" r="15"/><circle cx="106" cy="62" r="15"/><circle cx="122" cy="68" r="14"/><circle cx="134" cy="82" r="13"/><circle cx="136" cy="98" r="10"/><circle cx="64" cy="108" r="8"/></g>
+<g fill="#2A1A14"><circle cx="82" cy="82" r="9"/><circle cx="98" cy="80" r="8"/><circle cx="114" cy="84" r="7"/></g>
+<path d="M78 100 Q86 96 95 100 M105 100 Q114 96 122 100" stroke="#2A1A14" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M79 110 Q87 104 95 110" stroke="#2B1A10" stroke-width="2" fill="#fff"/><path d="M105 110 Q113 104 121 110" stroke="#2B1A10" stroke-width="2" fill="#fff"/>
+<circle cx="88" cy="109" r="2.8" fill="#2B1A10"/><circle cx="114" cy="109" r="2.8" fill="#2B1A10"/>
+<path d="M78 108 L96 108 M104 108 L122 108" stroke="#2A1A14" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 112 Q95 124 99 128 Q104 130 107 126" stroke="#C9967A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M88 138 Q100 144 114 134" stroke="#9A4A3E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<g transform="rotate(28 160 200)"><path d="M156 150 Q176 168 164 230 Q160 200 150 176 Q148 160 156 150 Z" fill="#F4F1E8" stroke="#B9B2A0" stroke-width="2"/><path d="M158 158 L162 236" stroke="#2A2A2A" stroke-width="2.5"/></g>
+</svg>

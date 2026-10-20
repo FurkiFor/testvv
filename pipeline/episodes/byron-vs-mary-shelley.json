@@ -1,0 +1,172 @@
+{
+ "slug": "byron-vs-mary-shelley",
+ "youtube": {
+  "title": "The 18-year-old who destroyed Lord Byron in a ghost story contest 🧟 #shorts",
+  "caption": "Frankenstein was born because Lord Byron got bored on a rainy holiday. ⚡🧟\n\nByron started a ghost story contest, quit after two pages... and Mary Shelley invented science fiction.\n\nWho really won the Villa Diodati contest? 👇\n\nParody · fictional chat. Based on June 1816 at Lake Geneva: during the \"year without a summer\" Byron challenged his guests to write ghost stories. His own fragment was abandoned (Polidori turned it into The Vampyre, first published under Byron's name), while 18-year-old Mary Shelley began Frankenstein.\n\n#frankenstein #maryshelley #lordbyron #literature #gothichorror #historymemes #funnyhistory #shorts",
+  "tags": [
+   "frankenstein",
+   "mary shelley",
+   "lord byron",
+   "literature",
+   "percy bysshe shelley",
+   "villa diodati",
+   "gothic horror",
+   "the vampyre",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0B1420",
+  "glow": "#7FE3A0",
+  "footer": "⚡ 1816 · LAKE GENEVA",
+  "footerColor": "#7FE3A0",
+  "stamp": "COOKED"
+ },
+ "hook": {
+  "lines": [
+   "LORD BYRON STARTED",
+   "A GHOST STORY CONTEST",
+   "A TEENAGER WON IT"
+  ],
+  "punch": "FRANKENSTEIN 🧟",
+  "say": "Lord Byron started a ghost story contest. A teenager won it with Frankenstein."
+ },
+ "you": {
+  "name": "Byron",
+  "label": "LORD BYRON",
+  "portrait": "byron.svg",
+  "face": "44 48 112 112",
+  "voice": "am_puck",
+  "speed": 1.18,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr"
+ },
+ "them": {
+  "name": "Mary Shelley",
+  "label": "MARY SHELLEY",
+  "portrait": "mary-shelley.svg",
+  "face": "48 58 104 104",
+  "voice": "bf_emma",
+  "speed": 1.12,
+  "el_voice": "NPC1Rk3VsPo28KCMJFLI",
+  "status": "last seen at Villa Diodati ⚡",
+  "subtitle": "Villa Diodati · Writer",
+  "about": "it's alive ⚡",
+  "aboutDate": "1816"
+ },
+ "notifications": [
+  "bet",
+  "ok i had a dream ⚡"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LAKE GENEVA, 1816"
+  },
+  {
+   "k": "out",
+   "text": "raining AGAIN 🌧️ new rule: everyone writes a ghost story 👻",
+   "say": "raining again. New rule: everyone writes a ghost story.",
+   "time": "8:14 PM"
+  },
+  {
+   "k": "in",
+   "text": "bet",
+   "say": "bet.",
+   "time": "8:20 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "not to flex but i'm LORD BYRON. this is a formality 😌",
+   "say": "not to flex, but I'm LORD BYRON. This is a formality.",
+   "time": "8:21 PM"
+  },
+  {
+   "k": "out",
+   "text": "update: wrote 2 pages. vampire guy. kinda mid. i quit 🖋️",
+   "say": "update: wrote two pages. Vampire guy. Kinda mid. I quit.",
+   "el_say": "[sighs] update: wrote two pages. Vampire guy. Kinda mid. I quit.",
+   "time": "11:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "u started this contest 3 days ago 💀",
+   "say": "you started this contest three days ago.",
+   "time": "11:05 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "lol take ur time tho. ur 18",
+   "say": "ha. Take your time though. You're eighteen.",
+   "el_say": "[laughs] take your time though. You're eighteen.",
+   "time": "11:06 PM"
+  },
+  {
+   "k": "in",
+   "text": "ok i had a dream. a scientist builds a man from spare parts and zaps him alive ⚡",
+   "say": "okay. I had a dream. A scientist builds a man from spare parts, and zaps him alive.",
+   "time": "2:46 AM",
+   "typing": 1.1,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "bro WHAT 💀",
+   "say": "bro, WHAT?",
+   "time": "2:47 AM"
+  },
+  {
+   "k": "in",
+   "text": "then the creature reads books and gets all moody and dramatic",
+   "say": "then the creature reads books, and gets all moody and dramatic.",
+   "time": "2:48 AM"
+  },
+  {
+   "k": "out",
+   "text": "that's literally just me",
+   "say": "that's literally just me.",
+   "time": "2:48 AM",
+   "sfx": "boom"
+  },
+  {
+   "k": "in",
+   "text": "it's called frankenstein. i just invented sci-fi btw 🧟",
+   "say": "it's called Frankenstein. I just invented sci-fi, by the way.",
+   "time": "2:50 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "ok so we BOTH won?",
+   "say": "okay, so we BOTH won?",
+   "time": "2:51 AM"
+  },
+  {
+   "k": "in",
+   "text": "no. polidori finished ur vampire and it's selling under ur name 🧛",
+   "say": "no. Polidori finished your vampire, and it's selling under your name.",
+   "time": "2:52 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "STARTED THE CONTEST.",
+  "bottom": "LOST TO A TEENAGER",
+  "chips": [
+   "Byron: 2 pages, quit 🖋️",
+   "Mary: invented sci-fi 🧟"
+  ],
+  "say": "Started the contest. Lost to an eighteen year old."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}
