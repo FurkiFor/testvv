@@ -1,0 +1,174 @@
+{
+ "slug": "philip-vs-sparta",
+ "youtube": {
+  "title": "Philip II threatened the wrong city… Sparta replied with ONE word 💀 #shorts",
+  "caption": "Philip II of Macedon conquered Greece, then threatened Sparta with a whole paragraph. 🛡️\n\nSparta answered with one word. The most savage reply in history.\n\nCould YOU reply this cold? 👇\n\nParody · fictional chat. Based on the laconic reply reported by Plutarch: Philip warned that if he invaded Laconia he would raze Sparta, and the Spartans replied simply \"If.\" Neither Philip nor Alexander ever attacked Sparta.\n\n#sparta #spartans #philipiiofmacedon #ancientgreece #ancienthistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "sparta",
+   "spartans",
+   "philip ii of macedon",
+   "ancient greece",
+   "ancient history",
+   "spartan history",
+   "greek history",
+   "laconic",
+   "macedon",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1E0A08",
+  "glow": "#E8483A",
+  "footer": "🛡️ 338 BC · LACONIA",
+  "footerColor": "#E8483A",
+  "stamp": "DENIED"
+ },
+ "hook": {
+  "lines": [
+   "PHILIP OF MACEDON",
+   "THREATENED SPARTA",
+   "THEY REPLIED 1 WORD"
+  ],
+  "punch": "IF. 💀",
+  "say": "Philip of Macedon sent Sparta a massive threat. They replied with one word."
+ },
+ "you": {
+  "name": "Philip II",
+  "label": "PHILIP II",
+  "portrait": "philip.svg",
+  "face": "38 40 124 124",
+  "voice": "am_puck",
+  "speed": 1.2,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV"
+ },
+ "them": {
+  "name": "Sparta",
+  "label": "SPARTA",
+  "portrait": "sparta.svg",
+  "face": "22 8 156 156",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "status": "last seen saying nothing",
+  "subtitle": "Laconia · Ephors",
+  "about": "less words. more spears. 🛡️",
+  "aboutDate": "338 BC"
+ },
+ "notifications": [
+  "k",
+  "who is this"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LACONIA, 338 BC"
+  },
+  {
+   "k": "out",
+   "text": "yo sparta 👋 it's Philip. king of Macedon. just took over all of Greece btw 😎",
+   "say": "yo Sparta. It's Philip, king of Macedon. Just took over all of Greece, by the way.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "k",
+   "say": "k.",
+   "time": "9:40 AM",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "athens? folded. thebes? folded. corinth? FOLDED 📉",
+   "say": "Athens? Folded. Thebes? Folded. Corinth? FOLDED.",
+   "time": "9:41 AM"
+  },
+  {
+   "k": "in",
+   "text": "who is this",
+   "say": "who is this.",
+   "time": "9:58 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "bro 😐 should i come as a friend or an enemy? 🤝⚔️",
+   "say": "bro. Should I come as a friend, or an enemy?",
+   "time": "9:59 AM"
+  },
+  {
+   "k": "in",
+   "text": "neither",
+   "say": "neither.",
+   "time": "10:30 AM",
+   "typing": 1.0,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "ok listen up. long msg incoming 📜",
+   "say": "okay, listen up. Long message incoming.",
+   "time": "10:31 AM"
+  },
+  {
+   "k": "out",
+   "text": "if i bring my army into laconia, i will wreck ur farms, end ur kings and raze ur city 🔥🔥🔥",
+   "say": "if I bring my army into Laconia, I will wreck your farms, end your kings, and raze your city!",
+   "time": "10:33 AM",
+   "el_say": "[shouting] if I bring my army into Laconia, I will wreck your farms, end your kings, and raze your city!"
+  },
+  {
+   "k": "in",
+   "text": "if.",
+   "say": "if.",
+   "time": "11:50 AM",
+   "typing": 1.2,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "bro i wrote u a WHOLE paragraph 😭",
+   "say": "bro, I wrote you a WHOLE paragraph.",
+   "time": "11:51 AM",
+   "el_say": "[sighs] bro, I wrote you a WHOLE paragraph."
+  },
+  {
+   "k": "in",
+   "text": "and we read 1 word of it",
+   "say": "and we read one word of it.",
+   "time": "11:52 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "fine. i'm leaving sparta alone. on purpose. my choice 🙄",
+   "say": "fine. I'm leaving Sparta alone. On purpose. My choice.",
+   "time": "11:53 AM"
+  },
+  {
+   "k": "in",
+   "text": "if u say so 🛡️",
+   "say": "if you say so.",
+   "time": "11:53 AM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "block",
+ "meme": {
+  "top": "WROTE A WHOLE THREAT.",
+  "bottom": "GOT REPLIED: \"IF.\"",
+  "chips": [
+   "Philip: conquered Greece",
+   "Sparta: 2 letters 🛡️"
+  ],
+  "say": "Wrote a whole threat. Got replied: if."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

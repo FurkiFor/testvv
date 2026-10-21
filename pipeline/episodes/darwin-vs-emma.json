@@ -1,0 +1,179 @@
+{
+ "slug": "darwin-vs-emma",
+ "youtube": {
+  "title": "Charles Darwin's savage marriage pros and cons list 🐶 #shorts",
+  "caption": "Charles Darwin decided whether to get married with an actual pros and cons list. 📝🐶\n\nPro: \"better than a dog anyhow.\" Con: less time for books. Then Emma read it.\n\nWould you say yes to this proposal? 👇\n\nParody · fictional chat. Based on Darwin's real 1838 notes \"Marry / Not Marry\" (\"Constant companion… better than a dog anyhow\", ending \"Marry—Marry—Marry Q.E.D.\"). He married Emma Wedgwood in 1839.\n\n#charlesdarwin #darwin #evolution #originofspecies #historymemes #funnyhistory #shorts",
+  "tags": [
+   "charles darwin",
+   "darwin",
+   "emma darwin",
+   "evolution",
+   "origin of species",
+   "marry not marry",
+   "pros and cons list",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0F1E10",
+  "glow": "#9BE07A",
+  "footer": "🐢 1838 · LONDON",
+  "footerColor": "#9BE07A",
+  "stamp": "LISTED"
+ },
+ "hook": {
+  "lines": [
+   "DARWIN PROPOSED",
+   "WITH A PRO/CON LIST",
+   "SHE READ ALL OF IT"
+  ],
+  "punch": "BETTER THAN A DOG",
+  "say": "Charles Darwin decided to get married with a pros and cons list. Then she read it."
+ },
+ "you": {
+  "name": "Darwin",
+  "label": "CHARLES DARWIN",
+  "portrait": "darwin.svg",
+  "face": "42 50 116 116",
+  "voice": "am_liam",
+  "speed": 1.18,
+  "el_voice": "2t3wubVNRseKNVjtlWx1"
+ },
+ "them": {
+  "name": "Emma",
+  "label": "EMMA WEDGWOOD",
+  "portrait": "emma.svg",
+  "face": "42 34 116 116",
+  "voice": "bf_isabella",
+  "speed": 1.1,
+  "el_voice": "NPC1Rk3VsPo28KCMJFLI",
+  "status": "last seen reading a suspicious list",
+  "subtitle": "Maer Hall · Staffordshire",
+  "about": "pros: me. cons: none. 💅",
+  "aboutDate": "1838"
+ },
+ "notifications": [
+  "a WHAT",
+  "better than a DOG??"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LONDON, 1838"
+  },
+  {
+   "k": "out",
+   "text": "emma i made a pros and cons list about marriage 📝 scientifically",
+   "say": "Emma, I made a pros and cons list about marriage. Scientifically.",
+   "time": "7:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "a WHAT",
+   "say": "a WHAT?",
+   "time": "7:04 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "PROS: constant companion. friend in old age. better than a dog anyhow 🐶",
+   "say": "pros: constant companion. Friend in old age. Better than a dog, anyhow.",
+   "time": "7:05 PM"
+  },
+  {
+   "k": "in",
+   "text": "better than a DOG??",
+   "say": "better than a DOG?",
+   "time": "7:05 PM",
+   "typing": 0.7,
+   "sfx": "scratch",
+   "el_say": "[shouting] better than a DOG?"
+  },
+  {
+   "k": "out",
+   "text": "ANYHOW. it's a compliment 😭 dogs are elite",
+   "say": "anyhow! It's a compliment. Dogs are elite.",
+   "time": "7:06 PM"
+  },
+  {
+   "k": "in",
+   "text": "send the cons. now.",
+   "say": "send the cons. Now.",
+   "time": "7:08 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "CONS: less money for books. no clever men at clubs. terrible loss of time ⏳",
+   "say": "cons: less money for books. No clever men at clubs. Terrible loss of time.",
+   "time": "7:09 PM"
+  },
+  {
+   "k": "in",
+   "text": "so i'm a loss of time 🙂",
+   "say": "so I'm a loss of time.",
+   "time": "7:10 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "AND i'd be forced to visit relatives 😩",
+   "say": "AND I'd be forced to visit relatives.",
+   "time": "7:10 PM",
+   "el_say": "[sighs] AND I'd be forced to visit relatives."
+  },
+  {
+   "k": "in",
+   "text": "wow",
+   "say": "wow.",
+   "time": "7:30 PM",
+   "typing": 1.1
+  },
+  {
+   "k": "out",
+   "text": "but conclusion: Marry. Marry. Marry. Q.E.D. ✅",
+   "say": "but, conclusion: Marry. Marry. Marry. Q E D.",
+   "time": "7:31 PM"
+  },
+  {
+   "k": "in",
+   "text": "ngl this is the nerdiest proposal ever",
+   "say": "not gonna lie, this is the nerdiest proposal ever.",
+   "time": "7:33 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "is that a yes?? 🥺",
+   "say": "is that a yes?",
+   "time": "7:33 PM"
+  },
+  {
+   "k": "in",
+   "text": "yes 💍 survival of the fittest. u barely made it 🧬",
+   "say": "yes. Survival of the fittest. You barely made it.",
+   "time": "7:34 PM",
+   "typing": 1.0,
+   "sfx": "boom",
+   "el_say": "[laughs] yes. Survival of the fittest. You barely made it."
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "PROPOSED WITH A LIST.",
+  "bottom": "SHE SAID YES. ANYHOW.",
+  "chips": [
+   "Darwin: Marry x3, Q.E.D.",
+   "Emma: better than a dog 🐶"
+  ],
+  "say": "Proposed with a pros and cons list. She said yes. Anyhow."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

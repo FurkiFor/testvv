@@ -1,0 +1,185 @@
+{
+ "slug": "halley-vs-newton",
+ "youtube": {
+  "title": "How Isaac Newton's genius was almost ruined by fish 🐟 #shorts",
+  "caption": "Isaac Newton knew how planets move… and lost the paper. 🪐🐟\n\nEdmond Halley got him to write Principia, then the Royal Society said: sorry, we spent the money on fish.\n\nWorst budget decision in science history? 👇\n\nParody · fictional chat. Based on 1684–1687: Newton told Halley orbits were ellipses but couldn't find his calculation. The Royal Society had blown its budget on Willughby's \"History of Fishes\", so Halley paid to print Principia, and the Society paid him in unsold fish books.\n\n#isaacnewton #edmondhalley #physics #historyofscience #science #historymemes #funnyhistory #shorts",
+  "tags": [
+   "isaac newton",
+   "edmond halley",
+   "principia",
+   "royal society",
+   "history of science",
+   "physics",
+   "halley's comet",
+   "history of fishes",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0A1230",
+  "glow": "#7EC8FF",
+  "footer": "🪐 1684 · CAMBRIDGE",
+  "footerColor": "#7EC8FF",
+  "stamp": "LOST"
+ },
+ "hook": {
+  "lines": [
+   "HALLEY ASKED NEWTON",
+   "HOW PLANETS MOVE",
+   "THEN LOST THE ANSWER"
+  ],
+  "punch": "THEN FISH 🐟",
+  "say": "Halley asked Newton how planets move. Newton knew the answer. He lost it."
+ },
+ "you": {
+  "name": "Halley",
+  "label": "EDMOND HALLEY",
+  "portrait": "halley.svg",
+  "face": "44 46 112 112",
+  "voice": "am_puck",
+  "speed": 1.18,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr"
+ },
+ "them": {
+  "name": "Isaac Newton",
+  "label": "ISAAC NEWTON",
+  "portrait": "newton.svg",
+  "face": "44 54 112 112",
+  "voice": "bm_george",
+  "speed": 1.1,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "status": "last seen under an apple tree",
+  "subtitle": "Trinity College · Cambridge",
+  "about": "don't touch my notes. 🍎",
+  "aboutDate": "1684"
+ },
+ "notifications": [
+  "ellipse",
+  "i calculated it years ago"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "CAMBRIDGE, 1684"
+  },
+  {
+   "k": "out",
+   "text": "newton quick q 🪐 if gravity drops with distance squared, what shape do planets orbit in?",
+   "say": "Newton, quick question. If gravity drops with distance squared, what shape do planets orbit in?",
+   "time": "2:10 PM"
+  },
+  {
+   "k": "in",
+   "text": "ellipse",
+   "say": "an ellipse.",
+   "time": "2:11 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "in",
+   "text": "i calculated it. years ago",
+   "say": "I calculated it. Years ago.",
+   "time": "2:11 PM"
+  },
+  {
+   "k": "out",
+   "text": "send it rn 🙏",
+   "say": "send it right now!",
+   "time": "2:12 PM"
+  },
+  {
+   "k": "in",
+   "text": "lost it",
+   "say": "lost it.",
+   "time": "2:40 PM",
+   "typing": 1.1,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "u LOST the secret of the universe??",
+   "say": "you LOST the secret of the universe?",
+   "time": "2:41 PM",
+   "el_say": "[shouting] you LOST the secret of the universe?"
+  },
+  {
+   "k": "in",
+   "text": "it's somewhere in my room. under the alchemy stuff 🧪",
+   "say": "it's somewhere in my room. Under the alchemy stuff.",
+   "time": "2:43 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "ok just redo it pls 😭",
+   "say": "okay, just redo it, please.",
+   "time": "2:44 PM"
+  },
+  {
+   "k": "in",
+   "text": "update: wrote 3 books. it's called Principia. explains the whole universe 📚",
+   "say": "update: wrote three books. It's called Principia. Explains the whole universe.",
+   "time": "2 yrs later",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "LEGEND. the royal society will publish it 🙌",
+   "say": "legend! The Royal Society will publish it.",
+   "time": "9:01 AM"
+  },
+  {
+   "k": "out",
+   "text": "...wait. they spent the whole budget on a book about fish 🐟",
+   "say": "wait. They spent the whole budget on a book about fish.",
+   "time": "9:15 AM",
+   "el_say": "[sighs] wait. They spent the whole budget on a book about fish."
+  },
+  {
+   "k": "in",
+   "text": "a WHAT",
+   "say": "a WHAT?",
+   "time": "9:15 AM",
+   "typing": 0.6,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "History of Fishes. it flopped. so i'm paying for ur book myself 💸",
+   "say": "History of Fishes. It flopped. So I'm paying for your book myself.",
+   "time": "9:16 AM"
+  },
+  {
+   "k": "in",
+   "text": "respect. what are they paying u?",
+   "say": "respect. What are they paying you?",
+   "time": "9:18 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "copies of the fish book 🐟",
+   "say": "copies of the fish book.",
+   "time": "9:18 AM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "PAID FOR PRINCIPIA.",
+  "bottom": "GOT PAID IN FISH BOOKS",
+  "chips": [
+   "Newton: explained gravity 🍎",
+   "Halley: 1 fish book 🐟"
+  ],
+  "say": "Paid for Principia. Got paid in fish books."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

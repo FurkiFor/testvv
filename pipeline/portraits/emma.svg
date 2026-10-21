@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Emma Wedgwood reading a list illustration">
+<defs><radialGradient id="emma-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F6D6E4"/><stop offset=".7" stop-color="#C77A9E"/><stop offset="1" stop-color="#6A2E4A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#emma-bg)"/>
+<g fill="#fff" opacity=".35"><circle cx="28" cy="36" r="10"/><circle cx="172" cy="44" r="14"/><circle cx="160" cy="16" r="6"/></g>
+<path d="M10 250 Q18 188 70 178 L130 178 Q182 188 190 250Z" fill="#3E5A8A"/>
+<path d="M66 178 Q100 202 134 178 Q128 196 100 204 Q72 196 66 178Z" fill="#F4F0E6" stroke="#D8D0C0" stroke-width="2"/>
+<rect x="88" y="148" width="24" height="34" fill="#F2D4C0"/>
+<path d="M58 118 Q50 64 100 58 Q150 64 142 118 Q138 92 100 88 Q62 92 58 118Z" fill="#5A3420"/>
+<g fill="#5A3420"><ellipse cx="64" cy="126" rx="9" ry="13"/><ellipse cx="60" cy="146" rx="8" ry="12"/><ellipse cx="136" cy="126" rx="9" ry="13"/><ellipse cx="140" cy="146" rx="8" ry="12"/></g>
+<ellipse cx="100" cy="120" rx="30" ry="36" fill="#FBE4D4"/>
+<path d="M100 84 Q82 86 72 106 Q86 94 100 92 Q114 94 128 106 Q118 86 100 84Z" fill="#5A3420"/>
+<path d="M100 86 L100 94" stroke="#3A2010" stroke-width="2"/>
+<path d="M76 100 Q86 92 96 100" stroke="#3A2010" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M104 104 Q114 98 124 100" stroke="#3A2010" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="114" rx="7" ry="5.5" fill="#fff"/><ellipse cx="113" cy="114" rx="7" ry="5.5" fill="#fff"/>
+<circle cx="89" cy="116" r="3" fill="#3A2A1A"/><circle cx="115" cy="116" r="3" fill="#3A2A1A"/>
+<path d="M80 111 L94 112 M106 112 L120 111" stroke="#3A2010" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M100 120 Q96 128 99 131 Q103 132 105 129" stroke="#D9A08A" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M88 142 Q100 138 112 142" stroke="#A8334A" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+<ellipse cx="80" cy="130" rx="6" ry="3.5" fill="#F2A0A8" opacity=".6"/><ellipse cx="120" cy="130" rx="6" ry="3.5" fill="#F2A0A8" opacity=".6"/>
+<path d="M50 96 Q46 40 100 34 Q154 40 150 96 Q146 70 100 66 Q54 70 50 96Z" fill="#F4E6C8" stroke="#C9A870" stroke-width="2.5"/>
+<path d="M54 92 Q100 60 146 92" stroke="#D97AA0" stroke-width="5" fill="none"/>
+<circle cx="146" cy="88" r="7" fill="#D97AA0"/>
+<g transform="rotate(8 150 214)"><rect x="128" y="186" width="44" height="58" rx="2" fill="#FFFDF4" stroke="#B8A880" stroke-width="2"/>
+<path d="M150 190 V240" stroke="#B8A880" stroke-width="1.5"/>
+<path d="M134 198 h12 M134 206 h10 M134 214 h12 M134 222 h9 M154 198 h12 M154 206 h10 M154 214 h12" stroke="#5A5A6A" stroke-width="2"/>
+<path d="M134 232 L146 232" stroke="#D62828" stroke-width="2.5"/></g>
+</svg>

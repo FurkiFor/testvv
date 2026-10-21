@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Spartan warrior in a Corinthian helmet illustration">
+<defs><linearGradient id="sparta-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A3A44"/><stop offset="1" stop-color="#121218"/></linearGradient>
+<linearGradient id="sparta-helm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F2C46A"/><stop offset="1" stop-color="#A8701E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#sparta-bg)"/>
+<circle cx="100" cy="120" r="92" fill="#B3261E" opacity=".25"/>
+<path d="M14 250 Q22 192 70 182 L130 182 Q178 192 186 250Z" fill="#B3261E"/>
+<path d="M60 250 L66 196 Q100 210 134 196 L140 250Z" fill="#C9932E"/>
+<path d="M76 208 L124 208 M78 222 L122 222 M80 236 L120 236" stroke="#8A5E1A" stroke-width="3"/>
+<rect x="88" y="152" width="24" height="34" fill="#C88E66"/>
+<path d="M60 20 Q100 -6 140 20 Q150 30 146 44 Q100 22 54 44 Q50 30 60 20Z" fill="#D62828"/>
+<path d="M58 40 Q100 14 142 40" stroke="#8A1414" stroke-width="3" fill="none"/>
+<g stroke="#8A1414" stroke-width="2" opacity=".7"><path d="M70 26 L68 40 M84 18 L83 34 M100 14 L100 30 M116 18 L117 34 M130 26 L132 40"/></g>
+<path d="M58 70 Q58 40 100 40 Q142 40 142 70 L144 150 Q138 168 122 170 L118 132 Q118 122 108 122 L108 172 L92 172 L92 122 Q82 122 82 132 L78 170 Q62 168 56 150Z" fill="url(#sparta-helm)" stroke="#7A4E12" stroke-width="3" stroke-linejoin="round"/>
+<path d="M64 98 Q80 90 96 100 L96 108 Q80 104 64 110Z" fill="#141414"/>
+<path d="M136 98 Q120 90 104 100 L104 108 Q120 104 136 110Z" fill="#141414"/>
+<circle cx="84" cy="102" r="3" fill="#FFE27A"/><circle cx="116" cy="102" r="3" fill="#FFE27A"/>
+<path d="M70 90 Q82 84 94 92 M106 92 Q118 84 130 90" stroke="#7A4E12" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M94 128 L94 166 M106 128 L106 166" stroke="#141414" stroke-width="2"/>
+<path d="M92 150 L108 150" stroke="#5A2A1A" stroke-width="3" stroke-linecap="round"/>
+<path d="M66 62 Q100 50 134 62" stroke="#FFF0B8" stroke-width="4" fill="none" opacity=".6" stroke-linecap="round"/>
+<path d="M176 250 L176 60" stroke="#6A4A2A" stroke-width="5"/>
+<path d="M176 34 L184 62 L168 62Z" fill="#CFCFD8" stroke="#8A8A96" stroke-width="2"/>
+</svg>
