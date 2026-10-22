@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="William Gladstone with a tax ledger illustration">
+<defs><radialGradient id="gladstone-bg" cx="50%" cy="38%" r="80%"><stop offset="0" stop-color="#7ED39A"/><stop offset=".65" stop-color="#2E7A4A"/><stop offset="1" stop-color="#103A20"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#gladstone-bg)"/>
+<g fill="#F5D142" opacity=".55"><circle cx="26" cy="40" r="9"/><circle cx="176" cy="54" r="8"/><circle cx="160" cy="22" r="6"/></g>
+<g fill="#C9A23A" opacity=".8" font-weight="bold"><circle cx="26" cy="40" r="5"/></g>
+<path d="M8 250 Q18 188 70 178 L130 178 Q182 188 192 250Z" fill="#22222C"/>
+<path d="M74 178 L100 214 L126 178Z" fill="#F4F4F0"/>
+<path d="M70 168 L88 190 L100 176 L112 190 L130 168Z" fill="#FFFFFF" stroke="#C8C8C0" stroke-width="2"/>
+<path d="M92 192 L100 200 L108 192 L100 214Z" fill="#1A1A22"/>
+<rect x="88" y="146" width="24" height="26" rx="8" fill="#E2B08E"/>
+<ellipse cx="100" cy="116" rx="31" ry="37" fill="#F2C4A0"/>
+<path d="M68 106 Q64 76 82 70 Q74 88 74 104Z M132 106 Q136 76 118 70 Q126 88 126 104Z" fill="#E6E6E0"/>
+<path d="M68 112 Q60 150 72 172 Q86 180 100 170 Q86 162 80 140 Q76 124 74 112Z" fill="#EDEDE6" stroke="#C8C8C0" stroke-width="1.5"/>
+<path d="M132 112 Q140 150 128 172 Q114 180 100 170 Q114 162 120 140 Q124 124 126 112Z" fill="#EDEDE6" stroke="#C8C8C0" stroke-width="1.5"/>
+<ellipse cx="96" cy="86" rx="14" ry="6" fill="#FADAC0" opacity=".8"/>
+<path d="M76 100 Q86 96 96 102" stroke="#BDBDB6" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M104 96 Q114 88 124 94" stroke="#BDBDB6" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="112" rx="6.5" ry="4.5" fill="#fff"/><circle cx="113" cy="111" r="9" fill="#E8F6FF" stroke="#C9A23A" stroke-width="2.5"/>
+<circle cx="88" cy="112" r="2.8" fill="#2A1A10"/><circle cx="114" cy="111" r="3.4" fill="#2A1A10"/>
+<path d="M122 116 Q132 140 128 160" stroke="#C9A23A" stroke-width="1.5" fill="none"/>
+<path d="M100 116 Q93 130 99 133 Q105 134 107 130" stroke="#C08A66" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M86 144 Q98 150 114 140" stroke="#7A2A2A" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+<g transform="rotate(10 50 214)"><rect x="28" y="188" width="44" height="54" rx="3" fill="#7A1F1F" stroke="#3A0A0A" stroke-width="2"/><rect x="34" y="196" width="32" height="38" fill="#FFF6DA"/>
+<path d="M38 204 h20 M38 212 h24 M38 220 h16" stroke="#5A5A6A" stroke-width="2"/><path d="M52 226 l4 -8 4 8 M54 224 h4" stroke="#2E7A4A" stroke-width="2" fill="none"/></g>
+<ellipse cx="66" cy="230" rx="10" ry="8" fill="#F2C4A0"/>
+</svg>

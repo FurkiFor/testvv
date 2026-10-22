@@ -1,0 +1,171 @@
+{
+ "slug": "faraday-vs-gladstone",
+ "youtube": {
+  "title": "Michael Faraday's savage reply to a politician about electricity ⚡ #shorts",
+  "caption": "Michael Faraday showed a politician electricity. The politician asked \"but what's the use?\" ⚡🧾\n\nFaraday found the one answer a finance minister understands.\n\nWhat would you have said? 👇\n\nParody · fictional chat. Based on the famous (probably embellished) story: when Chancellor William Gladstone asked what use electricity was, Faraday replied \"Why, sir, there is every probability that you will soon be able to tax it.\"\n\n#michaelfaraday #electricity #historyofelectricity #historyofscience #historymemes #funnyhistory #shorts",
+  "tags": [
+   "michael faraday",
+   "history of electricity",
+   "electromagnetic induction",
+   "faraday",
+   "electricity",
+   "history of science",
+   "william gladstone",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0A0F2E",
+  "glow": "#FFE84A",
+  "footer": "⚡ 1850 · LONDON",
+  "footerColor": "#FFE84A",
+  "stamp": "TAXED"
+ },
+ "hook": {
+  "lines": [
+   "FARADAY MADE",
+   "ELECTRICITY.",
+   "POLITICIAN: SO WHAT?"
+  ],
+  "punch": "TAX IT 💰",
+  "say": "Faraday made electricity. A politician asked what's the use. His answer was savage."
+ },
+ "you": {
+  "name": "Faraday",
+  "label": "MICHAEL FARADAY",
+  "portrait": "faraday.svg",
+  "face": "40 50 120 120",
+  "voice": "am_liam",
+  "speed": 1.18,
+  "el_voice": "2t3wubVNRseKNVjtlWx1"
+ },
+ "them": {
+  "name": "Gladstone",
+  "label": "W. GLADSTONE",
+  "portrait": "gladstone.svg",
+  "face": "38 52 124 124",
+  "voice": "bm_lewis",
+  "speed": 1.1,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "status": "last seen inventing new taxes",
+  "subtitle": "Chancellor · Treasury",
+  "about": "if it moves, tax it. 🧾",
+  "aboutDate": "1850"
+ },
+ "notifications": [
+  "it's giving magic trick",
+  "so what's the USE of it"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LONDON, 1850"
+  },
+  {
+   "k": "out",
+   "text": "mr gladstone look ⚡ i spun a magnet in a coil and made ELECTRICITY",
+   "say": "Mister Gladstone, look! I spun a magnet in a coil and made electricity!",
+   "time": "2:01 PM"
+  },
+  {
+   "k": "in",
+   "text": "ok. and?",
+   "say": "okay. And?",
+   "time": "2:03 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "AND?? it's electromagnetic induction 😭 it's huge",
+   "say": "and? It's electromagnetic induction! It's huge!",
+   "time": "2:03 PM"
+  },
+  {
+   "k": "in",
+   "text": "it's giving magic trick at a kids party",
+   "say": "it's giving magic trick at a kids party.",
+   "time": "2:04 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "it could power lights. machines. whole cities 💡",
+   "say": "it could power lights. Machines. Whole cities.",
+   "time": "2:05 PM"
+  },
+  {
+   "k": "in",
+   "text": "can it pay off the national debt? didn't think so 🙄",
+   "say": "can it pay off the national debt? Didn't think so.",
+   "time": "2:05 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "in",
+   "text": "so what's the USE of it",
+   "say": "so what's the USE of it?",
+   "time": "2:06 PM"
+  },
+  {
+   "k": "out",
+   "text": "ok. one day, sir… you may TAX it 💰",
+   "say": "okay. One day, sir... you may TAX it.",
+   "time": "2:08 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "👀",
+   "big": true,
+   "time": "2:08 PM",
+   "typing": 1.2
+  },
+  {
+   "k": "in",
+   "text": "wait. go on",
+   "say": "wait. Go on.",
+   "time": "2:08 PM"
+  },
+  {
+   "k": "in",
+   "text": "per spark or per wire?? 📝",
+   "say": "per spark, or per wire?",
+   "time": "2:09 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "bro went from useless to invoice in 4 seconds 💀",
+   "say": "bro went from useless to invoice in four seconds.",
+   "time": "2:09 PM",
+   "el_say": "[laughs] bro went from useless to invoice in four seconds."
+  },
+  {
+   "k": "in",
+   "text": "funding approved. ur lab pays first 🧾",
+   "say": "funding approved. Your lab pays first.",
+   "time": "2:10 PM",
+   "typing": 1.0,
+   "sfx": "boom",
+   "el_say": "[laughs] funding approved. Your lab pays first."
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "INVENTED THE FUTURE.",
+  "bottom": "GOT TAXED FOR IT.",
+  "chips": [
+   "Faraday: invents ⚡",
+   "Gladstone: invoices 🧾"
+  ],
+  "say": "Invented the future. Got taxed for it."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

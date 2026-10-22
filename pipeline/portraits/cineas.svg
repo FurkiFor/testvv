@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Cineas the advisor holding a scroll illustration">
+<defs><linearGradient id="cineas-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9FD3C7"/><stop offset="1" stop-color="#3E7F7A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#cineas-bg)"/>
+<g fill="#fff" opacity=".3"><rect x="14" y="40" width="14" height="150"/><rect x="172" y="40" width="14" height="150"/><rect x="8" y="30" width="26" height="10"/><rect x="166" y="30" width="26" height="10"/></g>
+<path d="M8 250 Q18 188 70 178 L130 178 Q182 188 192 250Z" fill="#F2EEE2"/>
+<path d="M60 250 Q74 196 132 180 Q150 200 140 250Z" fill="#5A7FB8"/>
+<path d="M70 190 Q90 200 100 230" stroke="#D8D2C0" stroke-width="3" fill="none"/>
+<rect x="88" y="146" width="24" height="36" rx="8" fill="#D9A27C"/>
+<ellipse cx="66" cy="120" rx="7" ry="10" fill="#D9A27C"/><ellipse cx="134" cy="120" rx="7" ry="10" fill="#D9A27C"/>
+<ellipse cx="100" cy="116" rx="32" ry="38" fill="#E8B892"/>
+<path d="M66 116 Q62 96 72 88 Q70 104 74 112Z M134 116 Q138 96 128 88 Q130 104 126 112Z" fill="#C8C8C0"/>
+<ellipse cx="94" cy="86" rx="12" ry="6" fill="#F6D2B2" opacity=".8"/>
+<path d="M76 102 L94 106 M106 106 L124 102" stroke="#8A8A80" stroke-width="4" stroke-linecap="round"/>
+<path d="M78 113 Q87 109 96 113" stroke="#2A1A10" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M104 113 Q113 109 122 113" stroke="#2A1A10" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="116" rx="6" ry="3.5" fill="#fff"/><ellipse cx="113" cy="116" rx="6" ry="3.5" fill="#fff"/>
+<circle cx="87" cy="117" r="2.6" fill="#2A1A10"/><circle cx="113" cy="117" r="2.6" fill="#2A1A10"/>
+<path d="M100 120 Q94 132 99 135 Q104 136 106 132" stroke="#B9825A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M74 132 Q76 168 100 172 Q124 168 126 132 Q116 144 100 144 Q84 144 74 132Z" fill="#D0D0C8"/>
+<path d="M90 148 L110 148" stroke="#6A3A2A" stroke-width="3" stroke-linecap="round"/>
+<g transform="rotate(-12 150 210)"><rect x="128" y="196" width="46" height="30" rx="3" fill="#FFF6DA" stroke="#A8905A" stroke-width="2"/>
+<rect x="124" y="192" width="8" height="38" rx="4" fill="#C9A86A"/><rect x="170" y="192" width="8" height="38" rx="4" fill="#C9A86A"/>
+<path d="M136 204 h28 M136 211 h22 M136 218 h26" stroke="#7A6A4A" stroke-width="2"/></g>
+<ellipse cx="128" cy="222" rx="10" ry="8" fill="#E8B892"/>
+</svg>

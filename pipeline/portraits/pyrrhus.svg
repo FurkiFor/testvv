@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="King Pyrrhus in a goat-horned helmet illustration">
+<defs><radialGradient id="pyrrhus-bg" cx="50%" cy="38%" r="78%"><stop offset="0" stop-color="#F08A4B"/><stop offset=".65" stop-color="#9E2F1E"/><stop offset="1" stop-color="#4A120C"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#pyrrhus-bg)"/>
+<g fill="#5A1A10" opacity=".55"><ellipse cx="26" cy="232" rx="22" ry="14"/><rect x="12" y="232" width="7" height="18"/><rect x="32" y="232" width="7" height="18"/><path d="M6 228 Q-2 240 4 250" stroke="#5A1A10" stroke-width="5" fill="none"/></g>
+<path d="M8 250 Q18 188 70 178 L130 178 Q182 188 192 250Z" fill="#C9A23A"/>
+<path d="M70 178 L130 178 L124 250 L76 250Z" fill="#B08A2A"/>
+<g stroke="#7A5A14" stroke-width="3" fill="none"><path d="M82 196 Q100 206 118 196"/><path d="M80 214 Q100 224 120 214"/><path d="M100 184 V250"/></g>
+<path d="M14 250 Q22 200 66 186 L60 250Z" fill="#7A1F4A"/>
+<rect x="87" y="146" width="26" height="36" rx="8" fill="#D9A07A"/>
+<ellipse cx="100" cy="122" rx="32" ry="36" fill="#E8B48C"/>
+<path d="M70 132 Q70 170 100 172 Q130 170 130 132 Q122 150 100 150 Q78 150 70 132Z" fill="#3A2416"/>
+<path d="M88 146 Q100 154 112 146" stroke="#7A2A1E" stroke-width="3.5" fill="#fff" stroke-linecap="round"/>
+<path d="M62 116 Q58 62 100 56 Q142 62 138 116 L130 116 Q128 82 100 80 Q72 82 70 116Z" fill="#D4A43A" stroke="#7A5A14" stroke-width="3"/>
+<path d="M70 116 L70 140 L78 140 L78 118Z M130 116 L130 140 L122 140 L122 118Z" fill="#D4A43A" stroke="#7A5A14" stroke-width="2.5"/>
+<path d="M98 82 L102 82 L102 112 L98 112Z" fill="#B08A2A"/>
+<path d="M66 74 Q40 60 36 30 Q52 48 72 62" fill="#EDE2C8" stroke="#8A7A5A" stroke-width="2.5"/>
+<path d="M134 74 Q160 60 164 30 Q148 48 128 62" fill="#EDE2C8" stroke="#8A7A5A" stroke-width="2.5"/>
+<g stroke="#8A7A5A" stroke-width="1.6"><path d="M44 40 L52 44 M48 50 L56 52 M156 40 L148 44 M152 50 L144 52"/></g>
+<path d="M84 56 Q92 18 120 22 Q104 34 116 56Z" fill="#E03A2A" stroke="#8A1A10" stroke-width="2"/>
+<path d="M78 104 Q86 98 94 104 M106 104 Q114 98 122 104" stroke="#3A2416" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="114" rx="7" ry="6" fill="#fff"/><ellipse cx="113" cy="114" rx="7" ry="6" fill="#fff"/>
+<circle cx="88" cy="114" r="3.2" fill="#2A1A10"/><circle cx="114" cy="114" r="3.2" fill="#2A1A10"/>
+<path d="M100 118 Q95 128 99 131 Q104 133 106 129" stroke="#B9825A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<circle cx="146" cy="118" r="3" fill="#8EE0FF"/><path d="M146 108 Q142 116 146 121 Q150 116 146 108Z" fill="#8EE0FF"/>
+</svg>

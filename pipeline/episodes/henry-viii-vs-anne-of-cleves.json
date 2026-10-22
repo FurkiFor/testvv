@@ -1,0 +1,186 @@
+{
+ "slug": "henry-viii-vs-anne-of-cleves",
+ "youtube": {
+  "title": "Henry VIII got catfished by a painting… then she won the divorce 🖼️ #shorts",
+  "caption": "Henry VIII fell for a portrait of Anne of Cleves. Then he met her. 🖼️😐\n\nHe called it a catfish. She called her lawyer and walked away with castles.\n\nWho really won this one? 👇\n\nParody · fictional chat. Based on 1540: Henry married Anne of Cleves after Holbein's portrait, said she looked nothing like it, and annulled the marriage after 6 months. Anne got Richmond Palace, Hever Castle, an income and the title \"the King's beloved sister\".\n\n#henryviii #anneofcleves #tudors #tudorhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "anne of cleves",
+   "henry viii",
+   "tudors",
+   "tudor history",
+   "henry viii wives",
+   "henry the 8th",
+   "tudor dynasty",
+   "catfished",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0C2216",
+  "glow": "#E7C46A",
+  "footer": "🖼️ 1540 · GREENWICH",
+  "footerColor": "#E7C46A",
+  "stamp": "CATFISHED"
+ },
+ "hook": {
+  "lines": [
+   "HENRY VIII FELL",
+   "FOR A PAINTING.",
+   "THEN SHE SHOWED UP"
+  ],
+  "punch": "CATFISHED 🖼️",
+  "say": "Henry the Eighth fell in love with a painting. Then she showed up."
+ },
+ "you": {
+  "name": "Henry",
+  "label": "HENRY VIII",
+  "portrait": "henry-viii.svg",
+  "face": "36 42 128 128",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO"
+ },
+ "them": {
+  "name": "Anne",
+  "label": "ANNE OF CLEVES",
+  "portrait": "anne-of-cleves.svg",
+  "face": "38 42 124 124",
+  "voice": "af_bella",
+  "speed": 1.12,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "status": "last seen counting her castles",
+  "subtitle": "Richmond Palace · Surrey",
+  "about": "the king's beloved SISTER 💅",
+  "aboutDate": "1540"
+ },
+ "notifications": [
+  "excuse me??",
+  "two castles. and i'm ur SISTER now"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "GREENWICH, 1540"
+  },
+  {
+   "k": "out",
+   "text": "anne 😍 holbein's portrait of u had me down BAD",
+   "say": "Anne. Holbein's portrait of you had me down BAD.",
+   "time": "10:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "aw danke 🥰 can't wait to meet u",
+   "say": "aw, danke! Can't wait to meet you.",
+   "time": "10:04 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "ok we just met and…",
+   "say": "okay, we just met, and...",
+   "time": "3:15 PM"
+  },
+  {
+   "k": "out",
+   "text": "u look NOTHING like the painting 😐",
+   "say": "you look NOTHING like the painting.",
+   "time": "3:15 PM"
+  },
+  {
+   "k": "in",
+   "text": "excuse me??",
+   "say": "excuse me?",
+   "time": "3:16 PM",
+   "typing": 1.0,
+   "sfx": "scratch",
+   "el_say": "[shouting] excuse me?"
+  },
+  {
+   "k": "out",
+   "text": "i got catfished by a FILTER. holbein ate tho",
+   "say": "I got catfished by a filter. Holbein ate, though.",
+   "time": "3:17 PM"
+  },
+  {
+   "k": "in",
+   "text": "sir ur portrait was also… generous 🙂",
+   "say": "sir, your portrait was also... generous.",
+   "time": "3:18 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "i'm the KING. i'm ageless 👑",
+   "say": "I'm the KING. I'm ageless.",
+   "time": "3:18 PM"
+  },
+  {
+   "k": "in",
+   "text": "ur armor got a size upgrade 3 times",
+   "say": "your armor got a size upgrade three times.",
+   "time": "3:19 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "that's it. annulment. 📜",
+   "say": "that's it. Annulment!",
+   "time": "3:20 PM"
+  },
+  {
+   "k": "in",
+   "text": "bet. terms?",
+   "say": "bet. Terms?",
+   "time": "3:20 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "u get… a castle? 🏰",
+   "say": "you get... a castle?",
+   "time": "3:21 PM"
+  },
+  {
+   "k": "in",
+   "text": "two castles. richmond palace. allowance. and i'm ur SISTER now",
+   "say": "two castles. Richmond Palace. Allowance. And I'm your SISTER now.",
+   "time": "3:22 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "…deal 😭",
+   "say": "deal.",
+   "time": "3:24 PM",
+   "el_say": "[sighs] deal."
+  },
+  {
+   "k": "in",
+   "text": "u got catfished. i got castles 💅",
+   "say": "you got catfished. I got castles.",
+   "time": "3:24 PM",
+   "typing": 0.8,
+   "sfx": "boom",
+   "el_say": "[laughs] you got catfished. I got castles."
+  }
+ ],
+ "ending": "block",
+ "meme": {
+  "top": "MARRIED A PAINTING.",
+  "bottom": "SHE WON THE DIVORCE.",
+  "chips": [
+   "Henry: catfished 🖼️",
+   "Anne: 2 castles, 0 drama 🏰"
+  ],
+  "say": "Married a painting. She won the divorce."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

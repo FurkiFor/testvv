@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Henry VIII looking shocked illustration">
+<defs><radialGradient id="henry-bg" cx="50%" cy="38%" r="78%"><stop offset="0" stop-color="#5BA06A"/><stop offset=".65" stop-color="#1F5A34"/><stop offset="1" stop-color="#0C2A18"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#henry-bg)"/>
+<g fill="#F5D142" opacity=".4"><circle cx="24" cy="34" r="2"/><circle cx="176" cy="30" r="2.4"/><circle cx="20" cy="150" r="1.6"/><circle cx="182" cy="140" r="2"/></g>
+<path d="M0 250 Q4 176 60 168 L140 168 Q196 176 200 250Z" fill="#B3261E"/>
+<g fill="#8E1C16"><ellipse cx="28" cy="206" rx="22" ry="30"/><ellipse cx="172" cy="206" rx="22" ry="30"/></g>
+<g stroke="#F5D142" stroke-width="3"><path d="M16 196 L40 222 M40 192 L16 220 M160 196 L184 222 M184 192 L160 220"/></g>
+<path d="M50 250 L58 170 L142 170 L150 250Z" fill="#E7C46A"/>
+<g fill="#5A3A10"><path d="M62 186 L138 186 L136 194 L64 194Z"/><path d="M60 206 L140 206 L139 214 L61 214Z"/><path d="M58 226 L142 226 L141 234 L59 234Z"/></g>
+<path d="M40 172 Q100 158 160 172 L160 186 Q100 172 40 186Z" fill="#F2E6D0" stroke="#C8B48A" stroke-width="2"/>
+<path d="M58 168 Q100 204 142 168" stroke="#F5D142" stroke-width="5" fill="none"/>
+<rect x="86" y="146" width="28" height="26" rx="8" fill="#E2A884"/>
+<ellipse cx="100" cy="118" rx="38" ry="40" fill="#F0BC96"/>
+<path d="M62 120 Q60 172 100 176 Q140 172 138 120 Q132 148 118 150 Q100 140 82 150 Q68 148 62 120Z" fill="#C0602A"/>
+<path d="M84 140 Q100 132 116 140" stroke="#C0602A" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="148" rx="7" ry="8" fill="#6A1E12"/>
+<path d="M62 92 Q64 66 100 62 Q136 66 138 92 Q124 84 100 84 Q76 84 62 92Z" fill="#C0602A"/>
+<path d="M50 84 Q52 52 100 48 Q148 52 150 84 Q126 74 100 74 Q74 74 50 84Z" fill="#1A1A1A"/>
+<path d="M54 82 Q100 68 146 82" stroke="#F5D142" stroke-width="3" fill="none" stroke-dasharray="4 5"/>
+<path d="M126 60 Q156 40 170 54 Q150 56 136 70Z" fill="#F4F4F0" stroke="#C8C8C0" stroke-width="2"/>
+<path d="M76 98 Q86 90 96 98 M104 98 Q114 90 124 98" stroke="#7A3A1A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="110" r="8" fill="#fff"/><circle cx="113" cy="110" r="8" fill="#fff"/>
+<circle cx="87" cy="110" r="3" fill="#2A1A10"/><circle cx="113" cy="110" r="3" fill="#2A1A10"/>
+<path d="M100 114 Q93 126 98 129 Q104 131 107 127" stroke="#C08A66" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<ellipse cx="74" cy="126" rx="7" ry="4" fill="#F28A7A" opacity=".55"/><ellipse cx="126" cy="126" rx="7" ry="4" fill="#F28A7A" opacity=".55"/>
+</svg>

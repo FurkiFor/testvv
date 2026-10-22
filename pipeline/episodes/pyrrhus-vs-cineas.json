@@ -1,0 +1,186 @@
+{
+ "slug": "pyrrhus-vs-cineas",
+ "youtube": {
+  "title": "Pyrrhus won the battle and still got cooked 💀 #shorts",
+  "caption": "Pyrrhus of Epirus beat Rome twice… and that's exactly the problem. 🐘💀\n\nHis advisor asked \"and after that?\" one too many times. Then the army count came in.\n\nWould you take that W? 👇\n\nParody · fictional chat. Based on Plutarch: Cineas asked Pyrrhus why not relax now, and after Heraclea and Asculum (280–279 BC) Pyrrhus said \"one more such victory and we are undone\" — the origin of the pyrrhic victory.\n\n#pyrrhusofepirus #pyrrhicvictory #romanhistory #ancientrome #historymemes #funnyhistory #shorts",
+  "tags": [
+   "pyrrhus of epirus",
+   "pyrrhic victory",
+   "pyrrhic war",
+   "roman history",
+   "ancient rome",
+   "battle of heraclea",
+   "war elephants",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1E0A06",
+  "glow": "#F08A4B",
+  "footer": "🐘 280 BC · ITALY",
+  "footerColor": "#F08A4B",
+  "stamp": "COOKED"
+ },
+ "hook": {
+  "lines": [
+   "PYRRHUS BEAT ROME",
+   "TWICE. AND STILL",
+   "GOT COOKED"
+  ],
+  "punch": "WON = LOST 💀",
+  "say": "Pyrrhus beat Rome twice. And still got cooked."
+ },
+ "you": {
+  "name": "Pyrrhus",
+  "label": "KING PYRRHUS",
+  "portrait": "pyrrhus.svg",
+  "face": "36 44 128 128",
+  "voice": "am_puck",
+  "speed": 1.2,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV"
+ },
+ "them": {
+  "name": "Cineas",
+  "label": "CINEAS",
+  "portrait": "cineas.svg",
+  "face": "40 54 120 120",
+  "voice": "bm_george",
+  "speed": 1.1,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "status": "last seen asking \"and then what?\"",
+  "subtitle": "Royal Advisor · Epirus",
+  "about": "we could just… chill. 🍷",
+  "aboutDate": "280 BC"
+ },
+ "notifications": [
+  "and after rome?",
+  "bro we can chill RIGHT NOW"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "EPIRUS, 280 BC"
+  },
+  {
+   "k": "out",
+   "text": "cineas pack ur bags. we're conquering ROME 🐘🐘",
+   "say": "Cineas, pack your bags. We're conquering Rome!",
+   "time": "9:01 AM"
+  },
+  {
+   "k": "in",
+   "text": "ok. and after rome?",
+   "say": "okay. And after Rome?",
+   "time": "9:03 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "sicily obviously. it's right there 🏝️",
+   "say": "Sicily, obviously. It's right there.",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "and after sicily?",
+   "say": "and after Sicily?",
+   "time": "9:04 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "carthage. macedon. the whole map bro 😎",
+   "say": "Carthage. Macedon. The whole map, bro.",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "and after the whole map?",
+   "say": "and after the whole map?",
+   "time": "9:05 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "then we chill. wine, friends, vibes all day 🍷",
+   "say": "then we chill. Wine, friends, vibes all day.",
+   "time": "9:05 AM"
+  },
+  {
+   "k": "in",
+   "text": "bro… we can chill RIGHT NOW",
+   "say": "bro. We can chill right now.",
+   "time": "9:07 AM",
+   "typing": 1.1,
+   "sfx": "scratch",
+   "el_say": "[sighs] bro. We can chill right now."
+  },
+  {
+   "k": "out",
+   "text": "nah that's mid. elephants go stomp 🐘",
+   "say": "nah, that's mid. Elephants go stomp.",
+   "time": "9:07 AM"
+  },
+  {
+   "k": "out",
+   "text": "UPDATE: beat rome at heraclea 🏆 AND asculum 🏆",
+   "say": "update! Beat Rome at Heraclea. And Asculum!",
+   "time": "6:12 PM",
+   "el_say": "[shouting] update! Beat Rome at Heraclea. And Asculum!"
+  },
+  {
+   "k": "in",
+   "text": "W!! how's the army?",
+   "say": "W! How's the army?",
+   "time": "6:14 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "…lowkey half of them are gone 💀",
+   "say": "lowkey, half of them are gone.",
+   "time": "6:20 PM"
+  },
+  {
+   "k": "in",
+   "text": "so how many more wins like that can we afford",
+   "say": "so how many more wins like that can we afford?",
+   "time": "6:21 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "one more victory like this and we're cooked fr",
+   "say": "one more victory like this, and we're cooked. For real.",
+   "time": "6:22 PM"
+  },
+  {
+   "k": "in",
+   "text": "congrats king. u invented losing by winning 🏆💀",
+   "say": "congrats, king. You invented losing by winning.",
+   "time": "6:23 PM",
+   "typing": 1.1,
+   "sfx": "boom",
+   "quote": "one more victory like this and we're cooked fr",
+   "el_say": "[laughs] congrats, king. You invented losing by winning."
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "WON EVERY BATTLE.",
+  "bottom": "LOST THE WHOLE ARMY.",
+  "chips": [
+   "Pyrrhus: 2 wins 🏆🏆",
+   "Army: who's left? 💀"
+  ],
+  "say": "Won every battle. Lost the whole army."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

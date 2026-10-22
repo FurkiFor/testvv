@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Michael Faraday with a magnet and sparks illustration">
+<defs><radialGradient id="faraday-bg" cx="50%" cy="38%" r="80%"><stop offset="0" stop-color="#4A6AD8"/><stop offset=".65" stop-color="#1E2A7A"/><stop offset="1" stop-color="#0C1238"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#faraday-bg)"/>
+<g stroke="#FFE84A" stroke-width="4" fill="none" stroke-linejoin="round"><path d="M22 30 L34 48 L26 50 L40 72"/><path d="M172 24 L162 44 L170 46 L156 66"/></g>
+<path d="M8 250 Q18 188 70 178 L130 178 Q182 188 192 250Z" fill="#1A1A22"/>
+<path d="M78 178 L100 210 L122 178Z" fill="#F4F4F0"/>
+<path d="M90 184 L100 196 L110 184 L104 200 L96 200Z" fill="#1A1A22"/>
+<rect x="88" y="148" width="24" height="34" rx="8" fill="#E2B08E"/>
+<ellipse cx="100" cy="118" rx="31" ry="36" fill="#F2C4A0"/>
+<g fill="#8A6A4A"><circle cx="66" cy="96" r="12"/><circle cx="62" cy="116" r="11"/><circle cx="66" cy="136" r="10"/><circle cx="134" cy="96" r="12"/><circle cx="138" cy="116" r="11"/><circle cx="134" cy="136" r="10"/><circle cx="74" cy="78" r="13"/><circle cx="92" cy="70" r="14"/><circle cx="110" cy="70" r="14"/><circle cx="126" cy="78" r="13"/></g>
+<g fill="#A8886A"><circle cx="84" cy="82" r="8"/><circle cx="116" cy="82" r="8"/></g>
+<path d="M76 100 Q86 92 96 100 M104 100 Q114 92 124 100" stroke="#5A3A20" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="112" r="7.5" fill="#fff"/><circle cx="113" cy="112" r="7.5" fill="#fff"/>
+<circle cx="88" cy="111" r="3.2" fill="#2A1A10"/><circle cx="114" cy="111" r="3.2" fill="#2A1A10"/>
+<g fill="#fff"><circle cx="89" cy="110" r="1"/><circle cx="115" cy="110" r="1"/></g>
+<path d="M100 116 Q94 128 99 131 Q104 132 106 128" stroke="#C08A66" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M84 138 Q100 154 116 138 Q100 144 84 138Z" fill="#7A2A2A" stroke="#7A2A2A" stroke-width="2"/>
+<path d="M90 141 Q100 145 110 141" stroke="#fff" stroke-width="2.5"/>
+<g transform="translate(140 196)"><path d="M-18 -20 L-18 10 Q-18 26 0 26 Q18 26 18 10 L18 -20 L8 -20 L8 10 Q8 16 0 16 Q-8 16 -8 10 L-8 -20Z" fill="#D62828" stroke="#7A1010" stroke-width="2"/>
+<rect x="-18" y="-24" width="10" height="8" fill="#E8E8E8"/><rect x="8" y="-24" width="10" height="8" fill="#E8E8E8"/></g>
+<g stroke="#FFE84A" stroke-width="3" stroke-linecap="round"><path d="M128 162 L122 150 M140 158 L140 144 M152 162 L158 150"/></g>
+<ellipse cx="140" cy="226" rx="14" ry="9" fill="#F2C4A0"/>
+<g stroke="#D9A040" stroke-width="3" fill="none"><ellipse cx="54" cy="214" rx="14" ry="6"/><ellipse cx="54" cy="222" rx="14" ry="6"/><ellipse cx="54" cy="230" rx="14" ry="6"/></g>
+</svg>
