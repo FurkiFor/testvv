@@ -1,0 +1,127 @@
+{
+ "slug": "napoleon-vs-rabbits",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon tried to hunt rabbits. Thousands hunted him back 🐇 #shorts",
+  "caption": "Napoleon Bonaparte beat half of Europe… then lost to a field of bunnies. 🐇\n\nThe rabbits were tame and thought the emperor was bringing dinner.\n\nComment the reply YOU would've sent the rabbits 👇\n\nParody · fictional chat. Based on the famous (and probably embellished) 1807 story: after the Treaty of Tilsit, Berthier set up a rabbit hunt for Napoleon with farm-raised rabbits, which charged at him expecting food and chased him back to his carriage.\n\n#napoleon #napoleonbonaparte #weirdhistory #funnyhistory #frenchhistory #historymemes #shorts",
+  "tags": [
+   "napoleon bonaparte",
+   "napoleon",
+   "weird history",
+   "funny history",
+   "bizarre history",
+   "french history",
+   "napoleon rabbits",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0F1A33",
+  "glow": "#7FD36B",
+  "footer": "🐇 1807 · FRANCE",
+  "footerColor": "#7FD36B",
+  "stamp": "COOKED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "34 34 132 132",
+  "voice": "am_puck",
+  "speed": 1.2,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis"
+ },
+ "them": {
+  "name": "The Rabbits 🐇",
+  "label": "THE RABBITS",
+  "portrait": "rabbit.svg",
+  "face": "40 30 120 120",
+  "voice": "af_bella",
+  "speed": 1.15,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "status": "last seen running TOWARD you",
+  "subtitle": "3,000 members · all hungry",
+  "about": "we love carrots & emperors 🥕",
+  "aboutDate": "July 1807"
+ },
+ "notifications": [
+  "r u the food guy??",
+  "we're coming 🐇"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "FRANCE, JULY 1807"
+  },
+  {
+   "k": "out",
+   "text": "attention rabbits. the emperor is hunting today. surrender 🔫",
+   "say": "Attention, rabbits. The emperor is hunting today. Surrender.",
+   "time": "2:00 PM"
+  },
+  {
+   "k": "in",
+   "text": "wait r u the guy who brings food?? 🥕",
+   "say": "wait, are you the guy who brings food?",
+   "time": "2:01 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "i conquered half of europe. RUN.",
+   "say": "I conquered half of Europe. Run.",
+   "time": "2:01 PM"
+  },
+  {
+   "k": "in",
+   "text": "ALL 3000 OF US ARE COMING 🐇🐇🐇",
+   "say": "all three thousand of us are coming!",
+   "time": "2:02 PM",
+   "typing": 0.6,
+   "sfx": "boom",
+   "el_say": "[shouting] all three thousand of us are coming!"
+  },
+  {
+   "k": "out",
+   "text": "why are they running AT me 😭",
+   "say": "why are they running AT me?",
+   "time": "2:03 PM",
+   "el_say": "[panicking] why are they running AT me?"
+  },
+  {
+   "k": "out",
+   "text": "RETREAT TO THE CARRIAGE!!!",
+   "say": "Retreat to the carriage!",
+   "time": "2:03 PM"
+  },
+  {
+   "k": "in",
+   "text": "we're already in the carriage 🐇",
+   "say": "we're already in the carriage.",
+   "time": "2:04 PM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "BEAT HALF OF EUROPE",
+  "bottom": "LOST TO BUNNIES",
+  "chips": [
+   "Europe: conquered ⚔️",
+   "Rabbits: undefeated 🐇"
+  ],
+  "say": "Beat half of Europe. Lost to bunnies."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ"
+ }
+}

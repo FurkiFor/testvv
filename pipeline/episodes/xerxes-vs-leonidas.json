@@ -1,0 +1,130 @@
+{
+ "slug": "xerxes-vs-leonidas",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Xerxes demanded Sparta's weapons. Leonidas said 4 words 💀 #shorts",
+  "caption": "Xerxes brought a million men to Thermopylae and told 300 Spartans to hand over their weapons. 🛡️\n\nThis is Sparta, so the reply was 4 words long.\n\nSparta or Persia? Pick one 👇\n\nParody · fictional chat. Based on Plutarch and Herodotus: in 480 BC Xerxes demanded the Spartans give up their arms and Leonidas answered \"Molon labe\" (come and take them); when told Persian arrows would blot out the sun, Dieneces said \"then we'll fight in the shade.\"\n\n#sparta #thisissparta #300spartans #leonidas #xerxes #thermopylae #historymemes #shorts",
+  "tags": [
+   "this is sparta",
+   "300 spartans",
+   "leonidas",
+   "xerxes",
+   "battle of thermopylae",
+   "sparta",
+   "persian empire",
+   "come and take them",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1E0A08",
+  "glow": "#E8483A",
+  "footer": "🛡️ 480 BC · THERMOPYLAE",
+  "footerColor": "#E8483A",
+  "stamp": "DENIED"
+ },
+ "hook": {
+  "lines": [
+   "XERXES DEMANDED",
+   "SPARTA'S WEAPONS",
+   "LEONIDAS REPLIED…"
+  ],
+  "punch": "4 WORDS 💀",
+  "say": "Xerxes demanded Sparta's weapons. Leonidas replied in four words."
+ },
+ "you": {
+  "name": "Xerxes",
+  "label": "XERXES",
+  "portrait": "xerxes.svg",
+  "face": "40 14 120 150",
+  "voice": "am_puck",
+  "speed": 1.2,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.15
+ },
+ "them": {
+  "name": "Leonidas",
+  "label": "LEONIDAS",
+  "portrait": "sparta.svg",
+  "face": "22 8 156 156",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "status": "last seen at the Hot Gates",
+  "subtitle": "King of Sparta · 300 members",
+  "about": "less words. more spears. 🛡️",
+  "aboutDate": "480 BC",
+  "el_speed": 1.15
+ },
+ "notifications": [
+  "come and take them",
+  "we'll fight in the shade"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "THERMOPYLAE, 480 BC"
+  },
+  {
+   "k": "out",
+   "text": "hand over ur weapons. i have a MILLION soldiers 😤",
+   "say": "Hand over your weapons. I have a MILLION soldiers.",
+   "time": "6:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "come and take them 🛡️",
+   "say": "come and take them.",
+   "time": "6:40 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "our arrows will block out the sun ☀️🏹",
+   "say": "our arrows will block out the sun.",
+   "time": "6:41 AM",
+   "el_say": "[shouting] our arrows will block out the sun!"
+  },
+  {
+   "k": "in",
+   "text": "perfect. we'll fight in the shade 😎",
+   "say": "perfect. We'll fight in the shade.",
+   "time": "6:43 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "bro there's 300 of u 💀",
+   "say": "bro, there's three hundred of you.",
+   "time": "6:44 AM"
+  },
+  {
+   "k": "in",
+   "text": "and u only brought a million?",
+   "say": "and you only brought a million?",
+   "time": "6:44 AM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "BROUGHT A MILLION MEN",
+  "bottom": "GOT COOKED IN 4 WORDS",
+  "chips": [
+   "Persia: 1,000,000 🏹",
+   "Sparta: 300 + attitude 🛡️"
+  ],
+  "say": "Brought a million men. Got cooked."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.15
+ }
+}

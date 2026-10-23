@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Excited fluffy rabbit illustration">
+<defs><linearGradient id="rabbit-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9BE38A"/><stop offset="1" stop-color="#2E7D32"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#rabbit-bg)"/>
+<g fill="#fff" opacity=".25"><circle cx="30" cy="200" r="16"/><circle cx="172" cy="170" r="20"/></g>
+<path d="M28 250 Q36 182 100 176 Q164 182 172 250Z" fill="#F2EDE6"/>
+<ellipse cx="100" cy="226" rx="34" ry="26" fill="#FFFFFF"/>
+<ellipse cx="74" cy="48" rx="14" ry="44" fill="#F2EDE6" transform="rotate(-12 74 48)"/>
+<ellipse cx="74" cy="50" rx="7" ry="34" fill="#F6A6B9" transform="rotate(-12 74 50)"/>
+<ellipse cx="128" cy="46" rx="14" ry="44" fill="#F2EDE6" transform="rotate(14 128 46)"/>
+<ellipse cx="128" cy="48" rx="7" ry="34" fill="#F6A6B9" transform="rotate(14 128 48)"/>
+<ellipse cx="100" cy="122" rx="46" ry="44" fill="#F7F3EE"/>
+<ellipse cx="66" cy="136" rx="12" ry="8" fill="#F6A6B9" opacity=".7"/><ellipse cx="134" cy="136" rx="12" ry="8" fill="#F6A6B9" opacity=".7"/>
+<circle cx="82" cy="112" r="12" fill="#1E120A"/><circle cx="118" cy="112" r="12" fill="#1E120A"/>
+<circle cx="86" cy="107" r="4.5" fill="#fff"/><circle cx="122" cy="107" r="4.5" fill="#fff"/>
+<circle cx="79" cy="117" r="2" fill="#fff"/><circle cx="115" cy="117" r="2" fill="#fff"/>
+<path d="M94 128 L106 128 L100 135Z" fill="#E86A8A"/>
+<path d="M100 135 Q100 142 92 144 M100 135 Q100 142 108 144" stroke="#7A4A3A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M94 144 Q100 158 106 144Z" fill="#B3261E"/>
+<rect x="95" y="144" width="10" height="7" fill="#fff" stroke="#ccc"/>
+<g stroke="#9A8A80" stroke-width="1.6"><path d="M70 130 L44 124 M70 136 L44 138 M130 130 L156 124 M130 136 L156 138"/></g>
+<path d="M146 196 L168 166 Q174 160 178 168 L156 202Z" fill="#F57C00"/>
+<path d="M170 166 Q174 150 166 146 M174 168 Q186 156 182 150" stroke="#43A047" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

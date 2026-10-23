@@ -2,6 +2,18 @@
 
 Builds one vertical YouTube Short (1080×1920, under 60 s) per episode: historical figures text each other on a WhatsApp-style chat, fully voiced, with sound effects, a music bed, and a meme ending card. Channel: **History Group Chat** (Kervly brand `groupchat`). All content is in English, slangy and funny.
 
+## Format v2 (23 Oct)
+Decided from the 15–22 Oct data (v1: 23 videos, 44–59 s, avg 72 / median 79 views, 0 comments). These rules override anything above.
+1. **Length 18–28 s. Never publish a video over 32 s.** Chat 6–8 messages (date chip excluded). Total spoken words (hook say + chat say + meme say) ≤ 60.
+2. **The first message IS the conflict**: a threat, insult or absurd demand. No greetings, no setup. The last message is the punchline and must land on one read.
+3. **Fame filter:** an average US high-schooler has heard of them and the joke needs no prior knowledge (Sparta/Leonidas, Diogenes, Cleopatra, Caesar, Napoleon, Alexander, Henry VIII, Marie Antoinette, Archimedes, Newton, Shakespeare, Mozart, Beethoven, Van Gogh, Leonardo, Washington, Lincoln, Socrates, Vikings, Roman legionaries). Niche science/literature gossip (Kepler anagram, Royal Society reports, Cope–Marsh) is banned.
+4. **Series logic:** winning characters may return with new anecdotes. A pair+joke in LOG.md is never repeated, but the same character may come back with a different event.
+5. **Hook & ending:** each day 1 video **A = hook scene** (`hook.say` ≤ 10 words, 3 lines ≤ 22 chars) and 1 video **B = cold open** (`"hook": {"mode": "none"}`). Ending `none` (meme card) or `cut` (ends on the last message). `block` adds ~5 s: at most once every 3 days. `meme.say` ≤ 8 words.
+6. **Comment CTA makes viewers pick a side:** "Sparta or Macedon? Pick one 👇", "Comment the reply YOU would've sent 👇". "Who won?" is banned.
+7. **Title** starts with the famous name + the conflict, ≤ 70 chars (ending ` #shorts`), one emoji. E.g. "Xerxes told Sparta to surrender. Leonidas replied in 3 words 💀 #shorts".
+8. All other rules still apply: only people who died before 1900; no Hitler/Nazis/dictators/genocide perpetrators/prophets/religious figures; no living or modern politicians; PG-13; the joke rests on a real, well-known event.
+Episode JSON carries `"format": "v2-A"` or `"format": "v2-B"`. Performance is tracked in `pipeline/STATS.md`.
+
 ## Run
 
 ```bash
@@ -22,7 +34,7 @@ Copy `episodes/alexander-vs-diogenes.json` and change everything. Fields:
 - `hook`: 3 short ALL-CAPS `lines` (each ≤ 22 chars so it fits one line), `punch` (yellow label, ≤ 18 chars + emoji), `say` (narrator reads the hook, ≤ 20 words).
 - `you`: the character who types (green bubbles, keyboard). `them`: the contact (white bubbles, typing dots, profile, call). Each: `name`, `label` (ALL CAPS name under the photo), `portrait` (file in `portraits/`), `face` (viewBox crop of the head for round avatars, e.g. `"44 50 112 112"`), `voice`, `speed`. `them` also: `status` (funny "last seen…" line), `subtitle`, `about`, `aboutDate`.
 - `notifications`: exactly 2 short lines from `them` (shown in the hook).
-- `chat`: first a `{"k":"chip","text":"<date>"}`, then 12–16 messages. `k` = `out` (you) or `in` (them). `text` = what is shown (slang, lowercase, emoji ok), `say` = what the voice reads (spell slang out: "ur" → "your", "ngl" → "not gonna lie", no emoji, numbers as words if odd). `time` = clock label. Optional: `typing` (seconds of typing dots before an `in` message, 0.6–1.2 for dramatic pauses), `quote` (an `in` reply quoting an earlier `out` line), `sfx` (`boom` vine boom, `scratch` record scratch), `big: true` (a lone emoji reaction, no `say`).
+- `chat`: first a `{"k":"chip","text":"<date>"}`, then 6–8 messages (Format v2). `k` = `out` (you) or `in` (them). `text` = what is shown (slang, lowercase, emoji ok), `say` = what the voice reads (spell slang out: "ur" → "your", "ngl" → "not gonna lie", no emoji, numbers as words if odd). `time` = clock label. Optional: `typing` (seconds of typing dots before an `in` message, 0.6–1.2 for dramatic pauses), `quote` (an `in` reply quoting an earlier `out` line), `sfx` (`boom` vine boom, `scratch` record scratch), `big: true` (a lone emoji reaction, no `say`).
 - `ending`: `block` (them's profile opens → video call → Declined → "<them> blocked you" → meme) or `none` (meme card right after the chat). Alternate between them.
 - `meme`: `top` (white) / `bottom` (yellow) ALL-CAPS lines, ≤ 24 chars each; 2 `chips` (scoreboard jokes, ≤ 26 chars each); `say` (narrator, ≤ 12 words).
 - `narrator`: keep `am_onyx` / 1.2.

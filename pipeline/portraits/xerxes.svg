@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug Persian king Xerxes with tall golden crown illustration">
+<defs><linearGradient id="xerxes-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7B4BB8"/><stop offset="1" stop-color="#2A1450"/></linearGradient>
+<linearGradient id="xerxes-crown" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="1" stop-color="#C08A1E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#xerxes-bg)"/>
+<circle cx="100" cy="120" r="90" fill="#FFD25A" opacity=".15"/>
+<path d="M18 250 Q26 188 100 178 Q174 188 182 250Z" fill="#6A1B9A"/>
+<path d="M70 184 Q100 200 130 184 L126 250 L74 250Z" fill="#E8B923"/>
+<g fill="#6A1B9A"><circle cx="100" cy="206" r="4"/><circle cx="100" cy="224" r="4"/><circle cx="100" cy="242" r="4"/></g>
+<rect x="88" y="146" width="24" height="34" fill="#C8916A"/>
+<ellipse cx="100" cy="112" rx="32" ry="38" fill="#D9A47C"/>
+<ellipse cx="67" cy="114" rx="6" ry="9" fill="#C8916A"/><ellipse cx="133" cy="114" rx="6" ry="9" fill="#C8916A"/>
+<circle cx="67" cy="126" r="3.5" fill="#E8B923"/><circle cx="133" cy="126" r="3.5" fill="#E8B923"/>
+<path d="M78 98 Q87 92 96 98 M104 98 Q113 92 122 98" stroke="#1E120A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="108" rx="7" ry="3.6" fill="#fff"/><ellipse cx="113" cy="108" rx="7" ry="3.6" fill="#fff"/>
+<circle cx="89" cy="109" r="2.6" fill="#1E120A"/><circle cx="115" cy="109" r="2.6" fill="#1E120A"/>
+<path d="M79 105 Q87 102 95 105 M105 105 Q113 102 121 105" stroke="#B07A58" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M100 110 Q95 122 99 125 Q104 126 106 123" stroke="#A06A48" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M70 124 Q72 168 100 176 Q128 168 130 124 Q120 132 112 130 Q100 138 88 130 Q80 132 70 124Z" fill="#1E120A"/>
+<g stroke="#3A2A1A" stroke-width="2" fill="none"><path d="M80 140 q4 6 0 12 M92 144 q4 6 0 12 M108 144 q-4 6 0 12 M120 140 q-4 6 0 12"/></g>
+<path d="M86 134 Q100 144 116 132" stroke="#E8D2C0" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M66 82 L62 22 L82 40 L100 14 L118 40 L138 22 L134 82Z" fill="url(#xerxes-crown)" stroke="#8A5E10" stroke-width="3" stroke-linejoin="round"/>
+<rect x="64" y="72" width="72" height="12" fill="#C08A1E" stroke="#8A5E10" stroke-width="2"/>
+<circle cx="100" cy="54" r="7" fill="#D62828" stroke="#8A1414" stroke-width="2"/>
+<circle cx="78" cy="60" r="4.5" fill="#2E86DE"/><circle cx="122" cy="60" r="4.5" fill="#2E86DE"/>
+</svg>
