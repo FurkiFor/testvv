@@ -1,0 +1,130 @@
+{
+ "slug": "caesar-vs-pirates",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Julius Caesar got kidnapped and told pirates to charge MORE 💀 #shorts",
+  "caption": "Pirates kidnapped Julius Caesar and asked for 20 talents. 🏴‍☠️\n\nCaesar was offended. He told them he was worth at least 50.\n\nPirates or Caesar: who got played? Pick one 👇\n\nParody · fictional chat. Based on Plutarch: around 75 BC Cilician pirates captured young Caesar and demanded 20 talents; he laughed, told them to ask for 50, read them his poems during his 38 days as a hostage, and promised to come back for them. He did.\n\n#juliuscaesar #caesar #ancientrome #romanhistory #pirates #historymemes #funnyhistory #shorts",
+  "tags": [
+   "julius caesar",
+   "caesar pirates",
+   "julius caesar kidnapped",
+   "ancient rome",
+   "roman history",
+   "ancient history",
+   "roman empire",
+   "pirates",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0B1E2D",
+  "glow": "#E0B341",
+  "footer": "🏴‍☠️ 75 BC · AEGEAN SEA",
+  "footerColor": "#E0B341",
+  "stamp": "UPGRADED"
+ },
+ "hook": {
+  "lines": [
+   "PIRATES KIDNAPPED",
+   "JULIUS CAESAR",
+   "HE SAID THE RANSOM…"
+  ],
+  "punch": "WAS TOO LOW 💀",
+  "say": "Pirates kidnapped Caesar. He said the ransom was too low."
+ },
+ "you": {
+  "name": "Pirate Captain",
+  "label": "PIRATE CAPTAIN",
+  "portrait": "pirate.svg",
+  "face": "44 44 112 112",
+  "voice": "bm_daniel",
+  "speed": 1.15,
+  "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+  "el_speed": 1.25
+ },
+ "them": {
+  "name": "Julius Caesar",
+  "label": "JULIUS CAESAR",
+  "portrait": "caesar.svg",
+  "face": "40 48 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.25,
+  "status": "last seen tied up, unbothered",
+  "subtitle": "Hostage · Rome's next big thing",
+  "about": "i know my worth 🏛️",
+  "aboutDate": "75 BC"
+ },
+ "notifications": [
+  "20?? i'm worth 50",
+  "i'm coming back for u 🙂"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "AEGEAN SEA, 75 BC"
+  },
+  {
+   "k": "out",
+   "text": "we got u. ransom is 20 talents 🏴‍☠️",
+   "say": "We got you. Ransom is twenty talents.",
+   "time": "9:14 AM"
+  },
+  {
+   "k": "in",
+   "text": "20?? 😐 i'm worth at least 50",
+   "say": "Twenty? I'm worth at least fifty.",
+   "time": "9:15 AM",
+   "typing": 0.7,
+   "sfx": "boom",
+   "el_say": "[scoffs] Twenty? I'm worth at least fifty."
+  },
+  {
+   "k": "out",
+   "text": "bro we're trying to ROB u",
+   "say": "bro, we're trying to rob you.",
+   "time": "9:15 AM"
+  },
+  {
+   "k": "in",
+   "text": "and ur doing it badly. 50.",
+   "say": "and you're doing it badly. Fifty.",
+   "time": "9:16 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "FINE 50 😭 now stop reading us ur poems",
+   "say": "Fine, fifty. Now stop reading us your poems.",
+   "time": "9:40 AM"
+  },
+  {
+   "k": "in",
+   "text": "u didn't clap. i'm coming back for all of u 🙂",
+   "say": "you didn't clap. I'm coming back for all of you.",
+   "time": "9:41 AM",
+   "typing": 0.7,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "RANSOM: 20 TALENTS",
+  "bottom": "CAESAR: MAKE IT 50",
+  "chips": [
+   "Pirates: +30 talents 💰",
+   "Caesar: came back 🙂"
+  ],
+  "say": "He haggled his own ransom. Upward."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.25
+ }
+}
