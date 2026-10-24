@@ -44,5 +44,7 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | philip-vs-sparta | v1 | 59 | 2026-10-21 | 212 | 0 | 0 |
 | halley-vs-newton | v1 | 59 | 2026-10-21 | 79 | 0 | 0 |
 | darwin-vs-emma | v1 | 59 | 2026-10-22 | 34 | 0 | 0 |
-| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-23 | – | – | – |
-| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-23 | – | – | – |
+| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 (resched.) | – | – | – |
+| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 (resched.) | – | – | – |
+| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 | – | – | – |
+| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 | – | – | – |
