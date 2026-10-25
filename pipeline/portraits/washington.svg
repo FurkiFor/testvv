@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="George Washington with a white powdered wig and tight-lipped frown illustration">
+<defs><linearGradient id="washington-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3D5A8A"/><stop offset="1" stop-color="#14213D"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#washington-bg)"/>
+<g fill="#fff" opacity=".18"><path d="M30 40 l4 10 l11 0 l-9 6 l3 11 l-9 -7 l-9 7 l3 -11 l-9 -6 l11 0z"/><path d="M168 60 l3 8 l9 0 l-7 5 l3 9 l-8 -6 l-8 6 l3 -9 l-7 -5 l9 0z"/></g>
+<path d="M18 250 Q26 186 100 176 Q174 186 182 250Z" fill="#1F3A68"/>
+<path d="M60 186 L100 250 L60 250Z M140 186 L100 250 L140 250Z" fill="#E8C36A" opacity=".9"/>
+<path d="M70 184 L100 250 L130 184Z" fill="#F7E7C6"/>
+<path d="M86 180 Q100 196 114 180 L112 204 Q100 212 88 204Z" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<circle cx="56" cy="214" r="3.5" fill="#E8C36A"/><circle cx="144" cy="214" r="3.5" fill="#E8C36A"/>
+<rect x="88" y="148" width="24" height="34" fill="#E2B48E"/>
+<path d="M62 92 Q58 52 100 46 Q142 52 138 92 L136 100 Q120 76 100 76 Q80 76 64 100Z" fill="#F2F2F0" stroke="#C9C9C4" stroke-width="2"/>
+<g fill="#F2F2F0" stroke="#C9C9C4" stroke-width="2"><ellipse cx="62" cy="106" rx="10" ry="8"/><ellipse cx="62" cy="122" rx="10" ry="8"/><ellipse cx="138" cy="106" rx="10" ry="8"/><ellipse cx="138" cy="122" rx="10" ry="8"/></g>
+<ellipse cx="100" cy="118" rx="33" ry="40" fill="#F0C59E"/>
+<path d="M70 84 Q100 64 130 84 Q118 74 100 74 Q82 74 70 84Z" fill="#F2F2F0"/>
+<path d="M78 102 Q86 96 95 101 M105 101 Q114 96 122 102" stroke="#8A8278" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+<path d="M80 112 Q87 108 94 112 Q87 115 80 112Z" fill="#fff" stroke="#2A1A10" stroke-width="1.6"/>
+<path d="M106 112 Q113 108 120 112 Q113 115 106 112Z" fill="#fff" stroke="#2A1A10" stroke-width="1.6"/>
+<circle cx="88" cy="112" r="2.6" fill="#2A3A5A"/><circle cx="112" cy="112" r="2.6" fill="#2A3A5A"/>
+<path d="M100 116 Q93 130 98 133 Q104 135 107 131" stroke="#B9825A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M84 144 Q100 138 116 144" stroke="#7A3B2E" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<path d="M82 140 Q84 150 92 150 M118 140 Q116 150 108 150" stroke="#C99474" stroke-width="2" fill="none" stroke-linecap="round"/>
+<ellipse cx="78" cy="130" rx="6" ry="3.5" fill="#F29C9C" opacity=".55"/><ellipse cx="122" cy="130" rx="6" ry="3.5" fill="#F29C9C" opacity=".55"/>
+</svg>

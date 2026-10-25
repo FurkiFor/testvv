@@ -1,0 +1,63 @@
+{
+ "slug": "washington-teeth",
+ "format": "v2-B",
+ "youtube": {
+  "title": "George Washington's teeth weren't wood. The truth is worse 🦛 #shorts",
+  "caption": "George Washington never had wooden teeth. 🦷\n\nHis dentist knows what they were really made of... and Washington cannot tell a lie.\n\nTeam Wood or Team Hippo? Pick one 👇\n\nParody · fictional chat. Based on history: by his 1789 inauguration Washington had one real tooth left. His dentures, several made by dentist John Greenwood, used hippopotamus ivory, human teeth, brass and gold springs, but never wood.\n\n#georgewashington #americanhistory #historicalmyths #weirdhistory #foundingfathers #historymemes #shorts",
+  "tags": ["george washington", "george washington teeth", "washington wooden teeth", "american history", "historical myths", "weird history", "founding fathers", "dentures", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#14213D",
+  "glow": "#E8C36A",
+  "footer": "🦷 1789 · NEW YORK",
+  "footerColor": "#E8C36A",
+  "stamp": "EXPOSED"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "George",
+  "label": "GEORGE WASHINGTON",
+  "portrait": "washington.svg",
+  "face": "42 44 116 116",
+  "voice": "am_adam",
+  "speed": 1.15,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.15
+ },
+ "them": {
+  "name": "Dr. Greenwood",
+  "label": "DR. GREENWOOD",
+  "portrait": "greenwood.svg",
+  "face": "44 52 112 112",
+  "voice": "am_echo",
+  "speed": 1.15,
+  "el_voice": "2t3wubVNRseKNVjtlWx1",
+  "el_speed": 1.15,
+  "status": "last seen buying hippo ivory",
+  "subtitle": "Dentist · New York",
+  "about": "smile 🦷 (not u george)",
+  "aboutDate": "1789"
+ },
+ "notifications": [
+  "sir u cannot tell a lie 🍒",
+  "hippo ivory, brass springs 🦛"
+ ],
+ "chat": [
+  {"k": "chip", "text": "NEW YORK, 1789"},
+  {"k": "out", "text": "the whole country thinks my teeth are WOOD 😤", "say": "The whole country thinks my teeth are wood.", "time": "8:10 AM", "el_say": "[angry] The whole country thinks my teeth are WOOD."},
+  {"k": "in", "text": "want me to tell them the truth?", "say": "Want me to tell them the truth?", "time": "8:11 AM", "typing": 0.7},
+  {"k": "out", "text": "NO. say they're wood", "say": "No. Say they're wood.", "time": "8:11 AM"},
+  {"k": "in", "text": "sir u cannot tell a lie 🍒", "say": "Sir, you cannot tell a lie.", "time": "8:12 AM", "typing": 0.7, "sfx": "boom"},
+  {"k": "out", "text": "...fine. tell them.", "say": "Fine. Tell them.", "time": "8:12 AM"},
+  {"k": "in", "text": "hippo ivory, brass springs and other ppl's teeth 🦛", "say": "Hippo ivory, brass springs, and other people's teeth.", "time": "8:13 AM", "typing": 1.0, "sfx": "scratch"},
+  {"k": "out", "text": "WOOD. THEY ARE WOOD.", "say": "Wood. They are wood.", "time": "8:13 AM", "sfx": "boom", "el_say": "[shouting] WOOD. THEY ARE WOOD."}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "MYTH: WOODEN TEETH",
+  "bottom": "TRUTH: HIPPO TEETH",
+  "chips": ["Real teeth left: 1 🦷", "Wood used: 0 🪵"],
+  "say": "Not wood. Hippo."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

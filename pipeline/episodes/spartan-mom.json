@@ -1,0 +1,67 @@
+{
+ "slug": "spartan-mom",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Spartan mom sent her son to war with ONE rule 🛡️ #shorts",
+  "caption": "Spartan moms were built different. 🛡️\n\nOther moms say \"be safe\". A Spartan mom says: come back WITH your shield, or ON it.\n\nSpartan mom or your mom? Pick one 👇\n\nParody · fictional chat. Based on Plutarch's Sayings of Spartan Women: a Spartan mother handed her son his shield and told him \"with it or on it\" (come back victorious, or carried home dead on it). Dropping your shield to run was the ultimate Spartan disgrace.\n\n#sparta #spartan #ancientsparta #300spartans #ancientgreece #historymemes #funnyhistory #shorts",
+  "tags": ["sparta", "spartan mother", "spartan mom", "ancient sparta", "spartan", "300 spartans", "ancient greece", "with your shield or on it", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#2A0E0C",
+  "glow": "#F2C46A",
+  "footer": "🛡️ 480 BC · SPARTA",
+  "footerColor": "#F2C46A",
+  "stamp": "NO HUGS"
+ },
+ "hook": {
+  "lines": ["HE ASKED HIS", "SPARTAN MOM", "FOR A HUG…"],
+  "punch": "BAD IDEA 💀",
+  "say": "He asked his Spartan mom for a hug."
+ },
+ "you": {
+  "name": "Mom",
+  "label": "SPARTAN MOM",
+  "portrait": "spartan-mom.svg",
+  "face": "40 40 120 120",
+  "voice": "bf_isabella",
+  "speed": 1.1,
+  "el_voice": "QnYI2oCbco37NvlkNHTK",
+  "el_speed": 1.15
+ },
+ "them": {
+  "name": "Son",
+  "label": "SPARTAN SON",
+  "portrait": "sparta.svg",
+  "face": "22 8 156 156",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.15,
+  "status": "last seen polishing his shield 😰",
+  "subtitle": "Hoplite · day 1 of war",
+  "about": "mom pls 🥺",
+  "aboutDate": "480 BC"
+ },
+ "notifications": [
+  "mom other moms say be safe 😭",
+  "can i get a hug at least"
+ ],
+ "chat": [
+  {"k": "chip", "text": "SPARTA, 480 BC"},
+  {"k": "out", "text": "come back WITH ur shield. or ON it 🛡️", "say": "Come back with your shield. Or on it.", "time": "6:02 AM"},
+  {"k": "in", "text": "mom other moms say \"be safe\" 😭", "say": "Mom, other moms say be safe.", "time": "6:02 AM", "typing": 0.7, "el_say": "[whining] Mom, other moms say be safe."},
+  {"k": "out", "text": "other moms aren't spartan", "say": "Other moms aren't Spartan.", "time": "6:03 AM", "sfx": "boom"},
+  {"k": "in", "text": "what if i drop it and run", "say": "What if I drop it and run?", "time": "6:03 AM", "typing": 0.6},
+  {"k": "out", "text": "then don't come back at all 🙂", "say": "Then don't come back at all.", "time": "6:03 AM"},
+  {"k": "in", "text": "can i get a hug at least 🥺", "say": "Can I get a hug at least?", "time": "6:04 AM", "typing": 0.8},
+  {"k": "out", "text": "hugs are for athenians.", "say": "Hugs are for Athenians.", "time": "6:04 AM", "sfx": "boom", "el_say": "[coldly] Hugs are for Athenians."}
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "OTHER MOMS: BE SAFE",
+  "bottom": "SPARTAN MOM: OR ON IT",
+  "chips": ["Hugs received: 0 🫂", "Shield: mandatory 🛡️"],
+  "say": "Spartan moms did not do hugs."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
