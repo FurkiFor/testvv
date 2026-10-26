@@ -1,0 +1,67 @@
+{
+ "slug": "vangogh-sunflowers",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Van Gogh's landlord called his sunflowers ugly. Big mistake 🌻 #shorts",
+  "caption": "Vincent van Gogh painted 7 Sunflowers… and sold ONE painting in his whole life. 🌻\n\nHis brother Theo paid the bills. The landlord was not a fan.\n\nSunflowers or rent money? Pick one 👇\n\nParody · fictional chat. Based on history: Van Gogh painted seven versions of Sunflowers (1888–89), lived on money from his brother Theo, an art dealer, and is said to have sold only one painting in his lifetime (The Red Vineyard, 1890, for 400 francs). In 1987 one of the Sunflowers sold for about $40 million.\n\n#vangogh #vincentvangogh #sunflowers #arthistory #historymemes #funnyhistory #shorts",
+  "tags": ["van gogh", "vincent van gogh", "theo van gogh", "van gogh sunflowers", "sunflowers", "van gogh art", "art history", "history of art", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#0F1B3D",
+  "glow": "#F6C21C",
+  "footer": "🌻 1890 · FRANCE",
+  "footerColor": "#F6C21C",
+  "stamp": "UGLY??"
+ },
+ "hook": {
+  "lines": ["HE SOLD ONE", "PAINTING IN HIS", "WHOLE LIFE…"],
+  "punch": "NOW: $40M 🌻",
+  "say": "He sold one painting in his whole life."
+ },
+ "you": {
+  "name": "Vincent",
+  "label": "VINCENT VAN GOGH",
+  "portrait": "vangogh.svg",
+  "face": "38 40 124 124",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.2
+ },
+ "them": {
+  "name": "Theo",
+  "label": "THEO VAN GOGH",
+  "portrait": "theo.svg",
+  "face": "40 56 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.2,
+  "status": "last seen paying vincent's rent",
+  "subtitle": "Art dealer · Paris",
+  "about": "no more sunflowers pls 🌻",
+  "aboutDate": "1890"
+ },
+ "notifications": [
+  "i've sold ONE of ur paintings",
+  "he said they're ugly 💀"
+ ],
+ "chat": [
+  {"k": "chip", "text": "FRANCE, 1890"},
+  {"k": "out", "text": "theo send money. i painted 7 more sunflowers 🌻", "say": "Theo, send money. I painted seven more sunflowers.", "time": "9:02 AM"},
+  {"k": "in", "text": "vincent i've sold ONE of ur paintings. ever.", "say": "Vincent, I've sold one of your paintings. Ever.", "time": "9:03 AM", "typing": 0.8, "el_say": "[sighs] Vincent, I've sold ONE of your paintings. Ever."},
+  {"k": "out", "text": "so we're basically famous 😎", "say": "So we're basically famous.", "time": "9:03 AM"},
+  {"k": "in", "text": "my landlord wants rent tho", "say": "My landlord wants rent though.", "time": "9:04 AM", "typing": 0.6},
+  {"k": "out", "text": "pay him in sunflowers 🌻", "say": "Pay him in sunflowers.", "time": "9:04 AM"},
+  {"k": "in", "text": "he said they're ugly 💀", "say": "He said they're ugly.", "time": "9:05 AM", "typing": 1.0, "sfx": "boom"},
+  {"k": "out", "text": "tell him to keep one. trust me.", "say": "Tell him to keep one. Trust me.", "time": "9:05 AM", "el_say": "[confidently] Tell him to keep one. Trust me."}
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "1890: \"UGLY\"",
+  "bottom": "1987: $40 MILLION",
+  "chips": ["Paintings sold: 1 🖼️", "Landlord: fumbled 💸"],
+  "say": "Ugly. Forty million dollars."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

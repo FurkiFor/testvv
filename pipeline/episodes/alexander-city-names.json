@@ -1,0 +1,62 @@
+{
+ "slug": "alexander-city-names",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Alexander the Great named a city after his DOG 🐕 #shorts",
+  "caption": "Alexander the Great conquered half the world… then ran out of city names. 🗺️\n\nAfter the 15th Alexandria, he used his horse. Then his dog.\n\nComment what YOU'D name the next city 👇\n\nParody · fictional chat. Based on Plutarch: Alexander founded many cities called Alexandria, named Bucephala (326 BC, India) after his horse Bucephalus, and is said to have founded a city named after his dog Peritas.\n\n#alexanderthegreat #ancienthistory #ancientgreece #greekhistory #historymemes #funnyhistory #shorts",
+  "tags": ["alexander the great", "alexander the great history", "bucephalus", "alexandria", "ancient history", "ancient greece", "greek history", "macedonia", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#2A1A0A",
+  "glow": "#E8B04A",
+  "footer": "🗺️ 326 BC · INDIA",
+  "footerColor": "#E8B04A",
+  "stamp": "RENAMED"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "Alexander",
+  "label": "ALEXANDER THE GREAT",
+  "portrait": "alexander.svg",
+  "face": "44 50 112 112",
+  "voice": "am_puck",
+  "speed": 1.18,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Mapmaker",
+  "label": "ROYAL MAPMAKER",
+  "portrait": "mapmaker.svg",
+  "face": "40 44 120 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.12,
+  "status": "last seen erasing the map again",
+  "subtitle": "Royal cartographer · Macedon",
+  "about": "out of ink. out of names. 🗺️",
+  "aboutDate": "326 BC"
+ },
+ "notifications": [
+  "sir that's like the 15th alexandria",
+  "the map is just ur pets now 💀"
+ ],
+ "chat": [
+  {"k": "chip", "text": "INDIA, 326 BC"},
+  {"k": "out", "text": "new city just dropped. name it alexandria 🏛️", "say": "New city just dropped. Name it Alexandria.", "time": "10:14 AM"},
+  {"k": "in", "text": "sir that's like the 15th alexandria", "say": "Sir, that's like the fifteenth Alexandria.", "time": "10:14 AM", "typing": 0.7, "el_say": "[exasperated] Sir, that's like the fifteenth Alexandria."},
+  {"k": "out", "text": "ugh fine. name it after my horse 🐴", "say": "Ugh, fine. Name it after my horse.", "time": "10:15 AM"},
+  {"k": "in", "text": "...bucephala??", "say": "Bucephala?", "time": "10:15 AM", "typing": 0.6, "sfx": "scratch"},
+  {"k": "out", "text": "yes. and the next one after my dog 🐕", "say": "Yes. And the next one after my dog.", "time": "10:16 AM"},
+  {"k": "in", "text": "sir the map is literally just ur pets now 💀", "say": "Sir, the map is literally just your pets now.", "time": "10:16 AM", "typing": 1.0, "sfx": "boom"}
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "CONQUERS THE WORLD",
+  "bottom": "NAMES IT AFTER HIS DOG",
+  "chips": ["Alexandrias: too many 🏛️", "Bucephala: 1 🐴"],
+  "say": "Conquered the world. Named it after his dog."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
