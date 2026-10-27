@@ -1,0 +1,131 @@
+{
+ "slug": "diogenes-lamp",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Diogenes carried a lamp at NOON to find one honest man 🔦 #shorts",
+  "caption": "Diogenes walked through Athens in broad daylight with a lamp… looking for ONE honest man. 🔦\n\nPlato volunteered. It did not go well.\n\nComment the reply YOU would've sent Diogenes 👇\n\nParody · fictional chat. Based on Diogenes Laërtius: Diogenes of Sinope, the Cynic philosopher (\"Diogenes the Dog\"), lit a lamp in daytime and walked around saying \"I am looking for a human being.\"\n\n#diogenes #philosophy #ancientgreece #greekphilosophy #historymemes #funnyhistory #shorts",
+  "tags": [
+   "diogenes",
+   "diogenes of sinope",
+   "diogenes philosophy",
+   "diogenes lamp",
+   "plato",
+   "philosophy",
+   "ancient greece",
+   "greek philosophy",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1C1408",
+  "glow": "#F2B33D",
+  "footer": "🔦 350 BC · ATHENS",
+  "footerColor": "#F2B33D",
+  "stamp": "DISHONEST"
+ },
+ "hook": {
+  "lines": [
+   "DIOGENES HUNTED",
+   "FOR AN HONEST MAN",
+   "AT NOON. WITH A LAMP"
+  ],
+  "punch": "FOUND A DOG 🐕",
+  "say": "Diogenes searched Athens for one honest man. At noon.",
+  "el_say": "Diogenes searched Athens for one honest man. [pause] At noon."
+ },
+ "you": {
+  "name": "Diogenes",
+  "label": "DIOGENES",
+  "portrait": "diogenes.svg",
+  "face": "50 64 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.22
+ },
+ "them": {
+  "name": "Plato",
+  "label": "PLATO",
+  "portrait": "plato.svg",
+  "face": "44 54 112 112",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "el_speed": 1.22,
+  "status": "last seen squinting at a lamp",
+  "subtitle": "The Academy · Athens",
+  "about": "honest. ask anyone 🙋",
+  "aboutDate": "350 BC"
+ },
+ "notifications": [
+  "bro it's literally noon",
+  "i'm honest. i'm right here 🙋"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ATHENS, 350 BC"
+  },
+  {
+   "k": "out",
+   "text": "attention athens. i need ONE honest man 🔦",
+   "say": "Attention, Athens. I need one honest man.",
+   "time": "12:01 PM"
+  },
+  {
+   "k": "in",
+   "text": "bro it's literally noon. why the lamp",
+   "say": "Bro, it's literally noon. Why the lamp?",
+   "time": "12:01 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "athens is that dark",
+   "say": "Athens is that dark.",
+   "time": "12:02 PM",
+   "sfx": "boom"
+  },
+  {
+   "k": "in",
+   "text": "i'm honest. i'm right here 🙋",
+   "say": "I'm honest. I'm right here.",
+   "time": "12:02 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "*holds lamp to ur face* … still looking",
+   "say": "Holds lamp to your face. Still looking.",
+   "time": "12:03 PM",
+   "sfx": "scratch",
+   "el_say": "[squinting] Holds lamp to your face. [pause] Still looking."
+  },
+  {
+   "k": "out",
+   "text": "zero men. one very honest dog 🐕",
+   "say": "Zero men. One very honest dog.",
+   "time": "12:04 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "LOOKS FOR HONEST MAN",
+  "bottom": "BEFRIENDS A DOG",
+  "chips": [
+   "Honest humans: 0 🙅",
+   "Honest dogs: 1 🐕"
+  ],
+  "say": "Zero honest men. One honest dog."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.28
+ }
+}

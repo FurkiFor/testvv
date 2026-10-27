@@ -1,0 +1,64 @@
+{
+ "slug": "napoleon-short",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon wasn't short. A British cartoonist did that 📏 #shorts",
+  "caption": "Napoleon's height: you've been lied to. 📏\n\nHe was about 5'7\" — average for his time. A British cartoonist drew him tiny anyway… and it stuck for 200 years.\n\nTeam Napoleon or Team Cartoonist? Pick one 👇\n\nParody · fictional chat. Based on history: Napoleon was recorded as 5'2\" in French units (about 5'7\" / 1.69 m). British cartoonist James Gillray mocked him as \"Little Boney\", a tiny tantrum-throwing man, and the myth stuck.\n\n#napoleon #napoleonbonaparte #historymyths #frenchhistory #historyfacts #historymemes #shorts",
+  "tags": ["napoleon", "napoleon bonaparte", "napoleon height", "napoleon short", "history myths", "history myths debunked", "napoleon facts", "french history", "james gillray", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#0E1A33",
+  "glow": "#E84A4A",
+  "footer": "📏 1803 · LONDON",
+  "footerColor": "#E84A4A",
+  "stamp": "SHRUNK"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "Napoleon",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "34 34 132 132",
+  "voice": "am_puck",
+  "speed": 1.2,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Gillray",
+  "label": "BRITISH CARTOONIST",
+  "portrait": "gillray.svg",
+  "face": "42 46 116 116",
+  "voice": "bm_daniel",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.12,
+  "status": "last seen sharpening a tiny pencil",
+  "subtitle": "James Gillray · Cartoonist · London",
+  "about": "i draw what i see ✏️",
+  "aboutDate": "1803"
+ },
+ "notifications": [
+  "noted. drawing u even smaller",
+  "my best work 🎨"
+ ],
+ "chat": [
+  {"k": "chip", "text": "LONDON, 1803"},
+  {"k": "out", "text": "STOP drawing me tiny. i'm average height 😤", "say": "Stop drawing me tiny. I'm average height.", "time": "9:20 AM", "el_say": "[angry] STOP drawing me tiny. I'm average height."},
+  {"k": "in", "text": "says 5'2 right here", "say": "Says five foot two right here.", "time": "9:20 AM", "typing": 0.6},
+  {"k": "out", "text": "FRENCH inches. they're bigger", "say": "French inches. They're bigger.", "time": "9:21 AM"},
+  {"k": "in", "text": "sounds like something a short guy would say", "say": "Sounds like something a short guy would say.", "time": "9:21 AM", "typing": 0.7, "sfx": "boom"},
+  {"k": "out", "text": "i literally conquered europe 👑", "say": "I literally conquered Europe.", "time": "9:22 AM"},
+  {"k": "in", "text": "noted. drawing u even smaller", "say": "Noted. Drawing you even smaller.", "time": "9:22 AM", "typing": 0.6, "sfx": "scratch"},
+  {"k": "out", "text": "it's been 200 years. everyone thinks i'm short", "say": "It's been two hundred years. Everyone thinks I'm short.", "time": "9:23 AM", "el_say": "[sighs] It's been two hundred years. Everyone thinks I'm short."},
+  {"k": "in", "text": "my best work 🎨", "say": "My best work.", "time": "9:23 AM", "typing": 0.8, "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "REAL HEIGHT: AVERAGE",
+  "bottom": "LEGACY: TINY",
+  "chips": ["Napoleon: 5'7\" 📏", "Gillray: undefeated ✏️"],
+  "say": "Average height. Tiny legacy."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
