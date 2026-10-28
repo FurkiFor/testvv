@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Annoyed cartoon Viking jarl with plain iron helmet and red beard">
+<defs><linearGradient id="jarl-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FA8B8"/><stop offset="1" stop-color="#22404E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#jarl-bg)"/>
+<path d="M0 200 L40 170 L70 196 L110 160 L150 192 L200 168 V250 H0Z" fill="#1A3240" opacity=".6"/>
+<path d="M26 250 Q34 186 100 178 Q166 186 174 250Z" fill="#5A3A22"/>
+<path d="M26 250 Q34 196 70 186 L78 250Z M174 250 Q166 196 130 186 L122 250Z" fill="#8E8E8E"/>
+<g fill="#C9C9C9"><circle cx="50" cy="214" r="3"/><circle cx="150" cy="214" r="3"/><circle cx="58" cy="236" r="3"/><circle cx="142" cy="236" r="3"/></g>
+<rect x="88" y="148" width="24" height="34" fill="#E2AE88"/>
+<ellipse cx="100" cy="118" rx="36" ry="42" fill="#F0BF98"/>
+<path d="M62 120 Q60 176 100 190 Q140 176 138 120 Q132 146 118 148 Q100 156 82 148 Q68 146 62 120Z" fill="#C2491E"/>
+<path d="M82 146 Q100 138 118 146" stroke="#8E2F12" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M88 152 Q100 148 112 152" stroke="#6E1E0A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M60 102 Q60 58 100 56 Q140 58 140 102 Z" fill="#7C858C"/>
+<path d="M60 102 Q100 92 140 102" stroke="#4E565C" stroke-width="7" fill="none"/>
+<path d="M100 58 L100 98" stroke="#4E565C" stroke-width="5"/>
+<rect x="95" y="98" width="10" height="26" rx="3" fill="#5E676E"/>
+<path d="M74 110 L90 116 M126 110 L110 116" stroke="#8E2F12" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="83" cy="122" rx="7" ry="5" fill="#fff"/><ellipse cx="117" cy="122" rx="7" ry="5" fill="#fff"/>
+<circle cx="84" cy="123" r="3" fill="#1E120A"/><circle cx="116" cy="123" r="3" fill="#1E120A"/>
+<path d="M80 74 Q86 70 92 74" stroke="#B9C1C6" stroke-width="3" fill="none" opacity=".7"/>
+</svg>

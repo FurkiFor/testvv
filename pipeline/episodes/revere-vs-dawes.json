@@ -1,0 +1,64 @@
+{
+ "slug": "revere-vs-dawes",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Paul Revere never yelled 'The British are coming!' 🐎 #shorts",
+  "caption": "The midnight ride of Paul Revere… and the guy history forgot. 🐎\n\nWilliam Dawes rode the SAME night. Nobody wrote him a poem.\n\nTeam Revere or Team Dawes? Pick one 👇\n\nParody · fictional chat. Based on history: on April 18, 1775 Paul Revere and William Dawes both rode to warn Lexington. Revere was caught by a British patrol, Dawes was thrown from his horse. Revere warned that \"the Regulars are coming out\" (colonists were British too). Longfellow's 1860 poem made only Revere famous.\n\n#paulrevere #midnightride #americanhistory #americanrevolution #historyfacts #historymemes #shorts",
+  "tags": ["paul revere", "midnight ride", "the british are coming", "william dawes", "american revolution", "american history", "american history facts", "lexington and concord", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#0E1530",
+  "glow": "#E8B923",
+  "footer": "🏮 1775 · LEXINGTON",
+  "footerColor": "#E8B923",
+  "stamp": "FORGOTTEN"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "William Dawes",
+  "label": "WILLIAM DAWES",
+  "portrait": "dawes.svg",
+  "face": "44 44 112 112",
+  "voice": "am_michael",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Paul Revere",
+  "label": "PAUL REVERE",
+  "portrait": "revere.svg",
+  "face": "44 44 112 112",
+  "voice": "bm_daniel",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.12,
+  "status": "last seen in a famous poem",
+  "subtitle": "Silversmith · Boston",
+  "about": "one if by land 🏮",
+  "aboutDate": "1775"
+ },
+ "notifications": [
+  "skill issue 🐎",
+  "doesn't rhyme bro 📜"
+ ],
+ "chat": [
+  {"k": "chip", "text": "LEXINGTON, 1775"},
+  {"k": "out", "text": "i rode the SAME night as u. why does nobody know MY name 😤", "say": "I rode the same night as you. Why does nobody know my name?", "time": "11:40 PM", "el_say": "[frustrated] I rode the SAME night as you. Why does nobody know MY name?"},
+  {"k": "in", "text": "skill issue 🐎", "say": "Skill issue.", "time": "11:40 PM", "typing": 0.6, "sfx": "boom"},
+  {"k": "out", "text": "u got CAPTURED by the british", "say": "You got captured by the British.", "time": "11:41 PM"},
+  {"k": "in", "text": "u fell off ur horse", "say": "You fell off your horse.", "time": "11:41 PM", "typing": 0.6},
+  {"k": "out", "text": "and u never even yelled \"the british are coming\"", "say": "And you never even yelled, the British are coming.", "time": "11:42 PM"},
+  {"k": "in", "text": "obviously. we were ALL british ☕", "say": "Obviously. We were all British.", "time": "11:42 PM", "typing": 0.7, "sfx": "scratch"},
+  {"k": "out", "text": "longfellow could've written the poem about ME", "say": "Longfellow could have written the poem about me.", "time": "11:43 PM"},
+  {"k": "in", "text": "\"the midnight ride of william dawes\"?? doesn't rhyme bro 📜", "say": "The midnight ride of William Dawes? Doesn't rhyme, bro.", "time": "11:43 PM", "typing": 0.9, "sfx": "boom", "el_say": "[laughs] The midnight ride of William Dawes? Doesn't rhyme, bro."}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "SAME RIDE",
+  "bottom": "ONE POEM",
+  "chips": ["Revere: famous 🏮", "Dawes: who? 🐎"],
+  "say": "Same ride. One poem."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

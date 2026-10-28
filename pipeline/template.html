@@ -210,7 +210,7 @@ function overlay(t){
 function render(t){
  const E=TL.end; let h;
  if(EP.mode==='group'){ document.getElementById('stage').innerHTML=gchat(t)+overlayCast(t); return; }
- if(EP.ending==='cut'){ document.getElementById('stage').innerHTML=chat(t)+overlay(t); return; }
+ if(EP.ending==='cut'){ if(t<TL.hook.end){ document.getElementById('stage').innerHTML=hook(t); return; } const cp=TL.hook.end>0?easeOut(prog(t,TL.hook.end,0.25)):1; document.getElementById('stage').innerHTML=`<div class="abs" style="opacity:${cp};transform:scale(${1.04-0.04*cp})">${chat(t)}</div>`+overlay(t); return; }
  if(t<TL.hook.end){ h=hook(t); }
  else if(EP.ending==='none'){ const cp=easeOut(prog(t,TL.hook.end,0.25)); h=`<div class="abs" style="opacity:${cp};transform:scale(${1.04-0.04*cp})">${chat(t)}</div>`+(t>=E.meme?meme(t):''); }
  else if(t<E.profile){ const cp=easeOut(prog(t,TL.hook.end,0.25)); h=`<div class="abs" style="opacity:${cp};transform:scale(${1.04-0.04*cp})">${chat(t)}</div>`; }

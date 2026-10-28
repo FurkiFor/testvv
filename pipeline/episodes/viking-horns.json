@@ -1,0 +1,68 @@
+{
+ "slug": "viking-horns",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Vikings never wore horned helmets. Except this guy 🐮 #shorts",
+  "caption": "Did Vikings wear horned helmets? Nope. Not one. 🐮\n\nExcept Bjorn. Bjorn has a vision.\n\nComment the reply YOU would've sent Bjorn 👇\n\nParody · fictional chat. Based on history: no Viking-age helmet with horns has ever been found (the Gjermundbu helmet is a plain iron cap). The horned look comes from 19th-century art and the costumes of Wagner's 1876 Ring opera.\n\n#vikings #vikinghistory #vikinghelmet #historymyths #historyfacts #historymemes #shorts",
+  "tags": ["did vikings wear horned helmets", "vikings", "viking helmets", "viking history", "viking myths", "viking facts", "history myths", "history facts", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#1A2B33",
+  "glow": "#F0A030",
+  "footer": "🪓 870 AD · NORWAY",
+  "footerColor": "#F0A030",
+  "stamp": "HORNED"
+ },
+ "hook": {
+  "lines": ["VIKINGS NEVER", "WORE HORNS.", "EXCEPT BJORN."],
+  "punch": "🐮 HE INSISTED",
+  "say": "Vikings never wore horned helmets. Except one guy."
+ },
+ "you": {
+  "name": "Jarl",
+  "label": "THE JARL",
+  "portrait": "jarl.svg",
+  "face": "52 50 96 96",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Bjorn",
+  "label": "BJORN (NEW GUY)",
+  "portrait": "bjorn.svg",
+  "face": "30 36 140 140",
+  "voice": "am_puck",
+  "speed": 1.18,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.12,
+  "status": "last seen stuck in a doorway",
+  "subtitle": "Raider · Longship #3",
+  "about": "horns up 🤘",
+  "aboutDate": "870"
+ },
+ "notifications": [
+  "sven moved",
+  "give it 1000 years 🤘"
+ ],
+ "chat": [
+  {"k": "chip", "text": "NORWAY, 870 AD"},
+  {"k": "out", "text": "why is there a COW on ur head 🐮", "say": "Why is there a cow on your head?", "time": "6:02 AM", "el_say": "[angry] Why is there a COW on your head?"},
+  {"k": "in", "text": "they're horns. very intimidating 😤", "say": "They're horns. Very intimidating.", "time": "6:02 AM", "typing": 0.6},
+  {"k": "out", "text": "u stabbed sven in the shield wall", "say": "You stabbed Sven in the shield wall.", "time": "6:03 AM"},
+  {"k": "in", "text": "sven moved", "say": "Sven moved.", "time": "6:03 AM", "typing": 0.7, "sfx": "boom"},
+  {"k": "out", "text": "u also got stuck in the longship door", "say": "You also got stuck in the longship door.", "time": "6:04 AM"},
+  {"k": "in", "text": "door's too small for warriors like me", "say": "The door's too small for warriors like me.", "time": "6:04 AM", "typing": 0.6},
+  {"k": "out", "text": "take them OFF. no viking wears horns", "say": "Take them off. No Viking wears horns.", "time": "6:05 AM", "el_say": "[shouting] Take them OFF. No Viking wears horns."},
+  {"k": "in", "text": "give it 1000 years. we ALL will 🤘", "say": "Give it a thousand years. We all will.", "time": "6:05 AM", "typing": 0.9, "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "REAL VIKINGS: NO HORNS",
+  "bottom": "EVERY MOVIE: HORNS",
+  "chips": ["Horned helmets found: 0 🪖", "Bjorn: right all along 🤘"],
+  "say": "Zero horns. Bjorn won anyway."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
