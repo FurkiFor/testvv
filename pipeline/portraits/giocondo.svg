@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Annoyed Renaissance Florentine merchant with a red cap and a coin purse illustration">
+<defs><radialGradient id="giocondo-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#E8C98A"/><stop offset="1" stop-color="#6A4A22"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#giocondo-bg)"/>
+<path d="M14 250 Q24 184 100 174 Q176 184 186 250Z" fill="#2E4A3A"/>
+<path d="M60 186 Q100 204 140 186 L134 200 Q100 214 66 200Z" fill="#C9A34A"/>
+<rect x="88" y="146" width="24" height="32" fill="#E4B48E"/>
+<ellipse cx="100" cy="116" rx="32" ry="38" fill="#F0C6A0"/>
+<path d="M68 128 Q72 160 100 162 Q128 160 132 128 Q126 148 100 150 Q74 148 68 128Z" fill="#4A3020"/>
+<path d="M62 88 Q66 50 100 48 Q134 50 138 88 Q120 76 100 78 Q80 76 62 88Z" fill="#B0222E"/>
+<path d="M60 90 Q100 70 140 90 L138 96 Q100 80 62 96Z" fill="#8A1822"/>
+<path d="M76 100 L94 106 M124 100 L106 106" stroke="#3A2414" stroke-width="4" stroke-linecap="round"/>
+<circle cx="87" cy="114" r="3.4" fill="#1E120A"/><circle cx="113" cy="114" r="3.4" fill="#1E120A"/>
+<path d="M100 116 Q95 126 100 130 Q104 131 106 128" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M88 142 Q100 136 112 142" stroke="#5A2A1A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<g transform="translate(140 196)"><path d="M0 8 Q18 -10 36 8 Q40 34 18 38 Q-4 34 0 8Z" fill="#8A5A2A" stroke="#4A2A10" stroke-width="2"/><path d="M6 6 Q18 14 30 6" stroke="#E8C24A" stroke-width="3" fill="none"/><circle cx="18" cy="24" r="6" fill="#F2C94A" stroke="#A8840A" stroke-width="1.5"/></g>
+</svg>

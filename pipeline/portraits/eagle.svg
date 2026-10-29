@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Angry cartoon bald eagle with a fish in its talons illustration">
+<defs><radialGradient id="eagle-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#8EC5F0"/><stop offset="1" stop-color="#1E4E86"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#eagle-bg)"/>
+<path d="M10 250 Q20 172 100 164 Q180 172 190 250Z" fill="#5A3A1E"/>
+<path d="M40 250 Q50 200 70 190 M160 250 Q150 200 130 190" stroke="#3E2812" stroke-width="4" fill="none"/>
+<g transform="translate(118 206) rotate(-12)"><path d="M0 0 Q26 -16 54 0 Q26 16 0 0Z" fill="#9FB8C8" stroke="#4A6878" stroke-width="2"/><path d="M54 0 L70 -12 L66 0 L70 12Z" fill="#9FB8C8" stroke="#4A6878" stroke-width="2"/><circle cx="12" cy="-2" r="2.5" fill="#1A2A34"/></g>
+<path d="M116 210 l-6 10 M124 212 l-2 12 M132 212 l2 12" stroke="#E8A818" stroke-width="5" stroke-linecap="round"/>
+<path d="M58 160 Q52 110 64 82 Q80 52 104 52 Q132 54 142 84 Q152 116 142 160 Q120 176 100 176 Q78 176 58 160Z" fill="#FFFFFF" stroke="#D8DCE4" stroke-width="2"/>
+<path d="M62 92 Q72 80 86 84 M64 104 Q74 96 84 100" stroke="#E2E6EE" stroke-width="2" fill="none"/>
+<path d="M74 98 L96 106" stroke="#2A1A0A" stroke-width="5" stroke-linecap="round"/>
+<path d="M128 98 L106 106" stroke="#2A1A0A" stroke-width="5" stroke-linecap="round"/>
+<circle cx="86" cy="114" r="8" fill="#F6D24A" stroke="#2A1A0A" stroke-width="2"/><circle cx="87" cy="115" r="3.5" fill="#1A1008"/>
+<circle cx="116" cy="114" r="8" fill="#F6D24A" stroke="#2A1A0A" stroke-width="2"/><circle cx="115" cy="115" r="3.5" fill="#1A1008"/>
+<path d="M88 124 Q100 118 118 124 Q132 132 124 150 Q118 160 108 156 Q114 146 108 140 Q98 136 88 138 Q82 130 88 124Z" fill="#F2B21C" stroke="#A8740A" stroke-width="2"/>
+<path d="M90 138 Q100 142 110 140" stroke="#A8740A" stroke-width="2" fill="none"/>
+</svg>

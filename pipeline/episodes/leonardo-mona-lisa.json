@@ -1,0 +1,68 @@
+{
+ "slug": "leonardo-mona-lisa",
+ "format": "v2-A",
+ "youtube": {
+  "title": "Leonardo da Vinci ghosted the Mona Lisa's husband 🖼️ #shorts",
+  "caption": "Leonardo da Vinci painted the Mona Lisa… and never delivered it. 🖼️\n\nThe husband paid. Leonardo moved to France with his wife's portrait.\n\nComment the reply YOU would've sent Leonardo 👇\n\nParody · fictional chat. Based on history: Florentine merchant Francesco del Giocondo commissioned a portrait of his wife Lisa around 1503. Leonardo kept working on it for years, took it to France and still had it when he died in 1519. Today it hangs in the Louvre.\n\n#monalisa #leonardodavinci #davinci #arthistory #renaissance #historymemes #shorts",
+  "tags": ["mona lisa", "leonardo da vinci", "da vinci", "mona lisa painting", "mona lisa smile", "art history", "renaissance", "history facts", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#2A1E12",
+  "glow": "#E8B04A",
+  "footer": "🎨 1507 · FLORENCE",
+  "footerColor": "#E8B04A",
+  "stamp": "GHOSTED"
+ },
+ "hook": {
+  "lines": ["LEONARDO TOOK", "16 YEARS ON ONE", "PORTRAIT."],
+  "punch": "🖼️ NEVER SENT IT",
+  "say": "Leonardo took sixteen years on one portrait. Then kept it."
+ },
+ "you": {
+  "name": "Francesco",
+  "label": "FRANCESCO (CLIENT)",
+  "portrait": "giocondo.svg",
+  "face": "52 44 96 96",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Leonardo da Vinci",
+  "label": "LEONARDO DA VINCI",
+  "portrait": "leonardo.svg",
+  "face": "38 48 124 124",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.12,
+  "status": "last seen packing for France",
+  "subtitle": "Painter · Inventor · Busy",
+  "about": "art takes time 🎨",
+  "aboutDate": "1507"
+ },
+ "notifications": [
+  "eyebrows are mid",
+  "she's coming with me 🇫🇷"
+ ],
+ "chat": [
+  {"k": "chip", "text": "FLORENCE, 1507"},
+  {"k": "out", "text": "it's been 4 YEARS. where's my wife's portrait 😤", "say": "It's been four years. Where's my wife's portrait?", "time": "9:14 AM", "el_say": "[angry] It's been FOUR years. Where's my wife's portrait?"},
+  {"k": "in", "text": "art takes time bro 🎨", "say": "Art takes time, bro.", "time": "9:14 AM", "typing": 0.6},
+  {"k": "out", "text": "u haven't even painted her eyebrows", "say": "You haven't even painted her eyebrows.", "time": "9:15 AM"},
+  {"k": "in", "text": "eyebrows are mid", "say": "Eyebrows are mid.", "time": "9:15 AM", "typing": 0.7, "sfx": "boom"},
+  {"k": "out", "text": "i PAID u. send it", "say": "I paid you. Send it.", "time": "9:16 AM"},
+  {"k": "in", "text": "i'm moving to france. she's coming with me 🇫🇷", "say": "I'm moving to France. She's coming with me.", "time": "9:16 AM", "typing": 0.7, "sfx": "scratch"},
+  {"k": "out", "text": "nobody cares about a painting of my wife", "say": "Nobody cares about a painting of my wife.", "time": "9:17 AM", "el_say": "[shouting] Nobody cares about a painting of my wife!"},
+  {"k": "in", "text": "she'll get 10 million visitors a year 💅", "say": "She'll get ten million visitors a year.", "time": "9:17 AM", "typing": 0.9, "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "CLIENT: PAID IN 1503",
+  "bottom": "DELIVERY: NEVER",
+  "chips": ["Paintings delivered: 0 🖼️", "Louvre visitors: millions 💅"],
+  "say": "Never delivered. Still the GOAT."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
