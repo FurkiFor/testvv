@@ -1,0 +1,63 @@
+{
+ "slug": "poe-vs-raven",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Edgar Allan Poe got $9 for The Raven. The bird wants a cut 🖤 #shorts",
+  "caption": "Edgar Allan Poe's \"The Raven\" made him famous overnight… and reportedly paid him about $9. 🖤\n\nTeam Poe or Team Raven? Pick one 👇\n\nParody · fictional chat. Based on history: \"The Raven\" ran in January 1845 and became a sensation. Poe was reportedly paid around $9 for it, stayed broke, and people would follow him in the street flapping their arms and croaking \"Nevermore.\" Happy Halloween 🎃\n\n#edgarallanpoe #theraven #nevermore #halloween #americanliterature #historymemes #shorts",
+  "tags": ["edgar allan poe", "the raven", "the raven poem", "nevermore", "edgar allan poe the raven", "halloween", "american literature", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#1C1630",
+  "glow": "#B8443A",
+  "footer": "🖤 1845 · NEW YORK",
+  "footerColor": "#E05A4A",
+  "stamp": "NEVERMORE"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "The Raven",
+  "label": "THE RAVEN",
+  "portrait": "raven.svg",
+  "face": "48 40 108 108",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Edgar Allan Poe",
+  "label": "EDGAR ALLAN POE",
+  "portrait": "poe.svg",
+  "face": "44 40 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.12,
+  "status": "last seen staring at a door, gloomily",
+  "subtitle": "Poet · Famous · Broke",
+  "about": "quoth the raven: pay me 🖤",
+  "aboutDate": "1845"
+ },
+ "notifications": [
+  "they paid me 9 dollars 😭",
+  "flapping their arms at me"
+ ],
+ "chat": [
+  {"k": "chip", "text": "NEW YORK, 1845"},
+  {"k": "out", "text": "ur poem went viral. where's my cut 💰", "say": "Your poem went viral. Where's my cut?", "time": "11:58 PM"},
+  {"k": "in", "text": "they paid me 9 dollars. TOTAL 😭", "say": "They paid me nine dollars. Total.", "time": "11:58 PM", "typing": 0.7, "el_say": "[sighs] They paid me nine dollars. Total."},
+  {"k": "out", "text": "9?? i carried that whole poem with ONE word", "say": "Nine? I carried that whole poem with one word.", "time": "11:59 PM"},
+  {"k": "in", "text": "kids follow me down the street flapping their arms at me 💀", "say": "Kids follow me down the street flapping their arms at me.", "time": "11:59 PM", "typing": 0.6},
+  {"k": "out", "text": "so ask for more money genius", "say": "So ask for more money, genius.", "time": "11:59 PM"},
+  {"k": "in", "text": "will they ever pay me what i'm worth?", "say": "Will they ever pay me what I'm worth?", "time": "12:00 AM", "typing": 0.8},
+  {"k": "out", "text": "nevermore 🖤", "say": "Nevermore.", "time": "12:00 AM", "sfx": "boom", "el_say": "[whispers] Nevermore."}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "THE RAVEN: A CLASSIC",
+  "bottom": "POE'S PAYCHECK: $9",
+  "chips": ["Raven: immortal 🖤", "Poe: still broke 💸"],
+  "say": "Quoth the raven: get a better agent."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

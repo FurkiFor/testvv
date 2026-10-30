@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Gloomy cartoon Edgar Allan Poe with mustache and black cravat">
+<defs><radialGradient id="poe-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#6A5A8A"/><stop offset="1" stop-color="#1C1630"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#poe-bg)"/>
+<path d="M10 250 Q18 176 100 166 Q182 176 190 250Z" fill="#141018"/>
+<path d="M78 170 L100 210 L122 170 Z" fill="#F2EEE6"/>
+<path d="M86 176 Q100 188 114 176 L108 196 Q100 190 92 196Z" fill="#000"/>
+<rect x="88" y="146" width="24" height="26" fill="#E6C8A8"/>
+<path d="M60 100 Q58 54 100 50 Q142 54 140 100 Q140 150 100 156 Q60 150 60 100Z" fill="#EED2B4"/>
+<path d="M56 104 Q46 60 78 44 Q104 32 128 46 Q150 60 146 98 Q138 76 124 70 Q100 62 84 72 Q70 78 64 104Z" fill="#1A1210"/>
+<path d="M56 104 Q50 120 58 128 L62 104Z M146 98 Q152 116 142 126 L138 100Z" fill="#1A1210"/>
+<path d="M72 96 Q82 90 92 96" stroke="#1A1210" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M108 96 Q118 90 128 96" stroke="#1A1210" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M74 104 Q82 100 90 104 Q82 110 74 104Z" fill="#fff"/><circle cx="83" cy="105" r="3" fill="#1A1008"/>
+<path d="M110 104 Q118 100 126 104 Q118 110 110 104Z" fill="#fff"/><circle cx="117" cy="105" r="3" fill="#1A1008"/>
+<path d="M72 112 Q82 118 90 112 M110 112 Q118 118 128 112" stroke="#9A7A90" stroke-width="2.5" fill="none"/>
+<path d="M98 108 Q96 122 102 126" stroke="#C8A080" stroke-width="2.5" fill="none"/>
+<path d="M80 134 Q90 126 100 132 Q110 126 120 134 Q110 136 100 135 Q90 136 80 134Z" fill="#1A1210"/>
+<path d="M90 142 Q100 138 110 142" stroke="#8A4A3A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

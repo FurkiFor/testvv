@@ -1,0 +1,62 @@
+{
+ "slug": "cleopatra-iphone",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Cleopatra lived closer to the iPhone than to the pyramids 📱 #shorts",
+  "caption": "Cleopatra lived closer in time to the iPhone than to the building of the Great Pyramid. 📱\n\nComment the reply YOU would've sent Caesar 👇\n\nParody · fictional chat. Based on history: the Great Pyramid of Giza was finished around 2560 BC, about 2,500 years before Cleopatra was born (69 BC). The first iPhone came out in 2007, about 2,000 years after her death. And she wasn't ethnically Egyptian: her Ptolemaic dynasty was Macedonian Greek and had ruled Egypt since 305 BC.\n\n#cleopatra #juliuscaesar #ancientegypt #pyramids #historyfacts #historymemes #shorts",
+  "tags": ["cleopatra", "julius caesar", "cleopatra iphone", "cleopatra pyramids", "ancient egypt", "great pyramid of giza", "ancient history facts", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#2A1A08",
+  "glow": "#E8B830",
+  "footer": "🏜️ 47 BC · THE NILE",
+  "footerColor": "#E8B830",
+  "stamp": "ANCIENT"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "Julius Caesar",
+  "label": "JULIUS CAESAR",
+  "portrait": "caesar.svg",
+  "face": "40 48 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.2
+ },
+ "them": {
+  "name": "Cleopatra",
+  "label": "CLEOPATRA",
+  "portrait": "cleopatra.svg",
+  "face": "40 40 120 120",
+  "voice": "af_bella",
+  "speed": 1.12,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "el_speed": 1.15,
+  "status": "last seen on a Nile cruise",
+  "subtitle": "Queen of Egypt · Not Egyptian",
+  "about": "older than rome, younger than the pyramids 🏜️",
+  "aboutDate": "47 BC"
+ },
+ "notifications": [
+  "my family is GREEK 🏛️",
+  "closer to the iPhone 📱"
+ ],
+ "chat": [
+  {"k": "chip", "text": "THE NILE, 47 BC"},
+  {"k": "out", "text": "babe show me the pyramids ur family built 😍", "say": "Babe, show me the pyramids your family built.", "time": "2:10 PM"},
+  {"k": "in", "text": "my family is GREEK. we got here like 250 years ago", "say": "My family is Greek. We got here like two hundred fifty years ago.", "time": "2:10 PM", "typing": 0.6, "el_say": "[sighs] My family is GREEK. We got here like two hundred fifty years ago."},
+  {"k": "out", "text": "ok so who built them", "say": "Okay, so who built them?", "time": "2:11 PM"},
+  {"k": "in", "text": "no clue. they were 2500 years old before i was born 💀", "say": "No clue. They were twenty-five hundred years old before I was born.", "time": "2:11 PM", "typing": 0.7},
+  {"k": "out", "text": "so they're ancient even for YOU??", "say": "So they're ancient even for you?", "time": "2:11 PM"},
+  {"k": "in", "text": "caesar. i live closer to the iPhone than to whoever built these 📱", "say": "Caesar. I live closer to the iPhone than to whoever built these.", "time": "2:12 PM", "typing": 0.9, "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "GREAT PYRAMID → CLEOPATRA",
+  "bottom": "2,500 YEARS",
+  "chips": ["Pyramid → Cleo: 2500 yrs", "Cleo → iPhone: 2000 yrs"],
+  "say": "Ancient history had its own ancient history."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
