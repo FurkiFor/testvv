@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Young Abraham Lincoln with a stovepipe hat and a smug grin illustration">
+<defs><linearGradient id="lincoln-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8A65A"/><stop offset="1" stop-color="#7A3E1A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#lincoln-bg)"/>
+<g fill="#fff" opacity=".16"><circle cx="30" cy="200" r="18"/><circle cx="172" cy="170" r="22"/></g>
+<path d="M14 250 Q22 184 100 176 Q178 184 186 250Z" fill="#E9E1CC"/>
+<path d="M58 250 L66 196 M142 250 L134 196" stroke="#6B4A2A" stroke-width="9" stroke-linecap="round"/>
+<path d="M84 180 L100 204 L116 180Z" fill="#C9BCA0"/>
+<path d="M40 214 Q50 196 64 198 M160 214 Q150 196 136 198" stroke="#C9BCA0" stroke-width="3" fill="none"/>
+<rect x="88" y="150" width="24" height="34" fill="#D9A47C"/>
+<ellipse cx="100" cy="122" rx="29" ry="40" fill="#E8B48C"/>
+<ellipse cx="70" cy="122" rx="6" ry="10" fill="#D9A47C"/><ellipse cx="130" cy="122" rx="6" ry="10" fill="#D9A47C"/>
+<path d="M72 96 Q80 86 100 88 Q120 86 128 96 L128 104 Q112 96 100 98 Q86 96 72 104Z" fill="#2A1A10"/>
+<path d="M78 104 Q86 99 95 103" stroke="#2A1A10" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<path d="M105 101 Q114 95 122 100" stroke="#2A1A10" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="113" rx="6.5" ry="4" fill="#fff"/><ellipse cx="113" cy="112" rx="6.5" ry="4.4" fill="#fff"/>
+<circle cx="88" cy="114" r="2.8" fill="#2A1A10"/><circle cx="114" cy="113" r="2.8" fill="#2A1A10"/>
+<path d="M80 111 Q87 108 94 111" stroke="#C98D66" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M100 116 Q95 132 99 135 Q104 137 107 133" stroke="#B87650" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M86 144 Q100 152 116 140" stroke="#7A3B2E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M114 146 Q118 150 119 144" stroke="#7A3B2E" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M68 132 Q72 162 100 166 Q128 162 132 132 Q130 156 116 160 Q100 150 84 160 Q70 156 68 132Z" fill="#2A1A10"/>
+<rect x="74" y="20" width="52" height="72" rx="3" fill="#1A1410"/>
+<rect x="74" y="72" width="52" height="10" fill="#4A3A2A"/>
+<ellipse cx="100" cy="92" rx="42" ry="7" fill="#1A1410"/>
+</svg>

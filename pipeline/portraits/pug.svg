@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Grumpy fawn pug Fortune wearing a jeweled collar illustration">
+<defs><radialGradient id="pug-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F5B8D0"/><stop offset="1" stop-color="#8A2E5A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#pug-bg)"/>
+<g fill="#fff" opacity=".2"><circle cx="30" cy="54" r="14"/><circle cx="172" cy="196" r="20"/></g>
+<path d="M14 250 Q22 180 100 172 Q178 180 186 250Z" fill="#E4C08E"/>
+<path d="M50 186 Q100 204 150 186 L148 198 Q100 216 52 198Z" fill="#C8102E"/>
+<g fill="#F6D24A" stroke="#A8740A" stroke-width="1.5"><circle cx="72" cy="198" r="4"/><circle cx="100" cy="206" r="5"/><circle cx="128" cy="198" r="4"/></g>
+<path d="M50 96 Q40 70 64 66 Q76 76 74 96Z" fill="#3A2A20"/>
+<path d="M150 96 Q160 70 136 66 Q124 76 126 96Z" fill="#3A2A20"/>
+<ellipse cx="100" cy="122" rx="52" ry="52" fill="#E4C08E"/>
+<path d="M78 84 Q100 76 122 84 M82 94 Q100 88 118 94" stroke="#B8915E" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M70 132 Q66 172 100 174 Q134 172 130 132 Q118 118 100 118 Q82 118 70 132Z" fill="#3A2A20"/>
+<path d="M68 104 L90 112 M132 104 L110 112" stroke="#3A2A20" stroke-width="5" stroke-linecap="round"/>
+<circle cx="80" cy="118" r="11" fill="#1A1008"/><circle cx="120" cy="118" r="11" fill="#1A1008"/>
+<circle cx="84" cy="114" r="3.2" fill="#fff"/><circle cx="124" cy="114" r="3.2" fill="#fff"/>
+<ellipse cx="100" cy="136" rx="12" ry="8" fill="#0E0806"/>
+<path d="M100 144 L100 152 M86 156 Q100 150 114 156" stroke="#0E0806" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M90 156 L93 163 L96 156 M104 156 L107 163 L110 156" fill="#fff" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,137 @@
+{
+ "slug": "napoleon-vs-pug",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon conquered Europe. Josephine's pug conquered him 🐶 #shorts",
+  "caption": "Napoleon Bonaparte beat half of Europe… and lost his own bed to a pug. 🐶\n\nTeam Napoleon or Team Pug? Pick one 👇\n\nParody · fictional chat. Based on history: Josephine's pug Fortuné slept in her bed and refused to move when she married Napoleon in March 1796. The dog bit Napoleon on the leg, and Napoleon later joked \"that gentleman is my rival.\" Two days after the wedding he left to invade Italy.\n\n#napoleon #napoleonbonaparte #josephine #pug #frenchhistory #historyshorts #weirdhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "josephine",
+   "napoleon and josephine",
+   "napoleon pug",
+   "pug",
+   "french history",
+   "weird history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1430",
+  "glow": "#E06A9A",
+  "footer": "🐶 1796 · PARIS",
+  "footerColor": "#F28AB2",
+  "stamp": "BITTEN"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Fortuné 🐶",
+  "label": "FORTUNÉ THE PUG",
+  "portrait": "pug.svg",
+  "face": "40 56 120 120",
+  "voice": "bm_daniel",
+  "speed": 1.12,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "el_speed": 1.1,
+  "status": "last seen on Josephine's pillow",
+  "subtitle": "Pug · Bed owner · Undefeated",
+  "about": "this bed is MY empire 👑",
+  "aboutDate": "1796"
+ },
+ "notifications": [
+  "i was here first",
+  "grrrr 🐶"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · MARCH 1796"
+  },
+  {
+   "k": "out",
+   "text": "get off the bed. i'm NAPOLEON",
+   "say": "Get off the bed. I'm Napoleon.",
+   "time": "11:41 PM"
+  },
+  {
+   "k": "in",
+   "text": "i was here first 🐶",
+   "say": "I was here first.",
+   "time": "11:41 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "i command an ENTIRE army",
+   "say": "I command an entire army.",
+   "time": "11:42 PM"
+  },
+  {
+   "k": "in",
+   "text": "and i command this pillow",
+   "say": "And I command this pillow.",
+   "time": "11:42 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "josephine said share the bed or sleep somewhere else??",
+   "say": "Josephine said share the bed or sleep somewhere else?",
+   "time": "11:43 PM"
+  },
+  {
+   "k": "out",
+   "text": "OW. U BIT ME",
+   "say": "Ow! You bit me!",
+   "time": "11:44 PM",
+   "sfx": "scratch",
+   "el_say": "[shouting] Ow! You bit me!"
+  },
+  {
+   "k": "in",
+   "text": "u were in my spot",
+   "say": "You were in my spot.",
+   "time": "11:44 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "fine. i'm invading italy. it's easier",
+   "say": "Fine. I'm invading Italy. It's easier.",
+   "time": "11:45 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "NAPOLEON: TOOK EUROPE",
+  "bottom": "THE PUG: TOOK HIS BED",
+  "chips": [
+   "Europe: 0 🗺️",
+   "Pug: 1 🐶"
+  ],
+  "say": "Europe fell. The pug did not."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

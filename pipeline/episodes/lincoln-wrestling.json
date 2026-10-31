@@ -1,0 +1,131 @@
+{
+ "slug": "lincoln-wrestling",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Abraham Lincoln was a wrestling champ. 300 matches, 1 loss 🤼 #shorts",
+  "caption": "Abraham Lincoln was a legit wrestling champion before he was president. 🤼\n\nTeam Abe or Team Jack? Pick one 👇\n\nParody · fictional chat. Based on history: in 1831 in New Salem, Illinois, Lincoln's boss bragged he could beat anyone, so local tough guy Jack Armstrong challenged him. Lincoln held his own, Armstrong's gang became his biggest supporters when he ran for the legislature, and he's credited with ~300 matches and 1 loss. He's in the National Wrestling Hall of Fame.\n\n#abrahamlincoln #lincoln #ushistory #americanhistory #wrestling #historyshorts #weirdhistory #shorts",
+  "tags": [
+   "abraham lincoln",
+   "abraham lincoln wrestling",
+   "lincoln wrestler",
+   "american history",
+   "us history",
+   "jack armstrong",
+   "wrestling history",
+   "us presidents history",
+   "weird history",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A10",
+  "glow": "#E8A65A",
+  "footer": "🤼 1831 · NEW SALEM, ILLINOIS",
+  "footerColor": "#F2B45C",
+  "stamp": "PINNED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Jack Armstrong",
+  "label": "JACK ARMSTRONG",
+  "portrait": "armstrong.svg",
+  "face": "52 66 96 96",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Abe Lincoln",
+  "label": "ABE LINCOLN",
+  "portrait": "lincoln.svg",
+  "face": "50 52 100 100",
+  "voice": "am_adam",
+  "speed": 1.12,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.1,
+  "status": "last seen splitting rails, shirtless",
+  "subtitle": "Store clerk · 6'4\" · Undefeated",
+  "about": "honest abe. honestly strong 💪",
+  "aboutDate": "1831"
+ },
+ "notifications": [
+  "i split logs for fun",
+  "ur vote 🗳️"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "NEW SALEM, ILLINOIS · 1831"
+  },
+  {
+   "k": "out",
+   "text": "new guy. ur tall, ur skinny, ur DONE. tonight 🤼",
+   "say": "New guy. You're tall, you're skinny, you're done. Tonight.",
+   "time": "6:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "i'm 6'4. i split logs for fun. u sure?",
+   "say": "I'm six foot four. I split logs for fun. You sure?",
+   "time": "6:03 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "ur boss bet the whole store on u lol",
+   "say": "Your boss bet the whole store on you.",
+   "time": "6:03 PM"
+  },
+  {
+   "k": "out",
+   "text": "…how did u throw me THAT far",
+   "say": "How did you throw me that far?",
+   "time": "9:47 PM",
+   "sfx": "scratch",
+   "el_say": "[groans] How did you throw me that far?"
+  },
+  {
+   "k": "in",
+   "text": "bro i've wrestled half of illinois",
+   "say": "Bro, I've wrestled half of Illinois.",
+   "time": "9:48 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "fine. u win. what do u even want",
+   "say": "Fine. You win. What do you even want?",
+   "time": "9:48 PM"
+  },
+  {
+   "k": "in",
+   "text": "ur vote. i'm running for office 🗳️",
+   "say": "Your vote. I'm running for office.",
+   "time": "9:49 PM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "JACK: TOUGHEST IN TOWN",
+  "bottom": "ABE: FUTURE PRESIDENT",
+  "chips": [
+   "Wrestling: 300-1 🤼",
+   "Jack: campaign staff 🗳️"
+  ],
+  "say": "He pinned Jack. Then he pinned the country."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
