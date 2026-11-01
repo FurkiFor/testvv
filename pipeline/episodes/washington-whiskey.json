@@ -1,0 +1,62 @@
+{
+ "slug": "washington-whiskey",
+ "format": "v2-B",
+ "variant": "short (12–18 s test, 4–6 messages)",
+ "youtube": {
+  "title": "George Washington retired and opened a whiskey distillery 🥃 #shorts",
+  "caption": "George Washington won a war, became the first president… then retired and opened a whiskey distillery. 🥃\n\nComment the reply YOU would've sent George 👇\n\nParody · fictional chat. Based on history: in 1797 his Scottish farm manager James Anderson talked Washington into building a distillery at Mount Vernon. By 1799 it made about 11,000 gallons of whiskey, one of the largest distilleries in America.\n\n#georgewashington #mountvernon #americanhistory #foundingfathers #whiskey #weirdhistory #historymemes #shorts",
+  "tags": ["george washington", "george washington whiskey", "mount vernon", "mount vernon distillery", "american history", "founding fathers", "us presidents", "weird history", "history facts", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#14213D",
+  "glow": "#E8A84A",
+  "footer": "🥃 1799 · MOUNT VERNON",
+  "footerColor": "#E8A84A",
+  "stamp": "DISTILLED"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "George",
+  "label": "GEORGE WASHINGTON",
+  "portrait": "washington.svg",
+  "face": "42 44 116 116",
+  "voice": "am_adam",
+  "speed": 1.15,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.15
+ },
+ "them": {
+  "name": "James Anderson",
+  "label": "JAMES ANDERSON",
+  "portrait": "anderson.svg",
+  "face": "40 40 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+  "el_speed": 1.15,
+  "status": "last seen at the still",
+  "subtitle": "Farm manager · Scotland",
+  "about": "11,000 gallons and counting 🥃",
+  "aboutDate": "1799"
+ },
+ "notifications": [
+  "u said yes in 1797 sir",
+  "biggest in america 🥃"
+ ],
+ "chat": [
+  {"k": "chip", "text": "MOUNT VERNON · 1799"},
+  {"k": "out", "text": "WHY is there a whiskey distillery on my farm", "say": "Why is there a whiskey distillery on my farm?", "time": "9:14 AM", "el_say": "[angry] WHY is there a whiskey distillery on my farm?"},
+  {"k": "in", "text": "u said yes in 1797 sir", "say": "You said yes in seventeen ninety seven, sir.", "time": "9:14 AM", "typing": 0.6},
+  {"k": "out", "text": "i'm the FATHER of the country", "say": "I'm the father of the country.", "time": "9:15 AM"},
+  {"k": "in", "text": "11,000 gallons. one of the biggest in america", "say": "Eleven thousand gallons. One of the biggest in America.", "time": "9:15 AM", "typing": 0.8, "sfx": "scratch"},
+  {"k": "out", "text": "...put my face on the bottle 🥃", "say": "Put my face on the bottle.", "time": "9:16 AM", "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "FATHER OF THE COUNTRY",
+  "bottom": "FATHER OF THE WHISKEY",
+  "chips": ["Wars won: 1 🇺🇸", "Gallons: 11,000 🥃"],
+  "say": "Founding father. Founding distiller."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

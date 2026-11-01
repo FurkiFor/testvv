@@ -2,18 +2,19 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-10-31 ~08:50 Dubai, Kervly get_youtube_stats)
+## Summary (snapshot 2026-11-01 ~08:50 Dubai, vidIQ get_videos_by_ids — Kervly token expired)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
-| v1 (44–59 s) | 23 | 75 | 81 | 0.4 | 1 | 23 | 81 |
-| v2 (all, published) | 16 | 293 | 168.0 | 1.7 | 1 | 12 | 229.5 |
-| v2-A (hook) | 7 | 159 | 113 | 0.1 | 0 | 6 | 140.5 |
-| v2-B (cold open) | 9 | 397 | 342 | 2.9 | 1 | 6 | 445.5 |
+| v1 (44–59 s) | 23 | 76 | 81 | 0.5 | 1 | 23 | 81 |
+| v2 (all, published) | 16 | 295 | 168 | 1.8 | 1 | 14 | 230 |
+| v2-A (hook) | 7 | 160 | 113 | 0.1 | 0 | 7 | 113 |
+| v2-B (cold open) | 9 | 401 | 343 | 3.1 | 1 | 7 | 466 |
 
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-01: 14 v2 matured (7 A / 7 B). **B/A matured median = 466 / 113 = 4.1× → cold open in both slots stays.** v2 matured median 230 vs v1 81 (2.8×) → 18–28 s stays as default. BUT the trigger from 31 Oct fired: the last 4 published v2 (29–30 Oct) have median 94 views (franklin 466, cleopatra-iphone 128, leonardo 52, poe 60) < 150. **Test today: 21:00 slot gets a SHORT cold open (12–18 s, 4–6 messages): washington-whiskey (17.6 s, 5 msgs, `"variant"` field in JSON).** 17:00 keeps the standard B: henry-groom-of-stool (23.7 s). Compare short vs standard once both have 48 h. Note: Oct 31 videos (lincoln-wrestling, napoleon-vs-pug) never published — Kervly YouTube token expired again (invalid_grant); rescheduled to 01:00 slots.
 - 2026-10-31: 12 v2 matured (6 A / 6 B). **B/A matured median = 445.5 / 140.5 = 3.17× → cold-open-in-both-slots decision CONFIRMED, kept.** v2 matured median 229.5 vs v1 81 (2.8×) → 18–28 s stays. Warning: the last 5 videos are weak (revere 78, viking 46, leonardo 50, cleopatra-iphone 111 @16 h, poe 42 @12 h); only franklin-vs-eagle (464) hit. Hits share one pattern: top-tier name + a surprising true fact in the title (washington 1107, napoleon-short 709, henry 549, franklin 464). Today both picks follow it: lincoln-wrestling (B, 17:00) and napoleon-vs-pug (B, 21:00, Napoleon = best-performing character). If the next 2 days stay < 150 median, try 12–18 s / 4–6 messages on one slot.
 - 2026-10-30: 10 v2 matured. **B/A matured median = 549 / 168 = 3.27× → 2× rule MET. DECISION: cold open (v2-B, `"hook": {"mode": "none"}`) in BOTH daily slots from today.** Confirmation from the latest pair: franklin-vs-eagle (B) 456 views in 12 h vs leonardo-mona-lisa (A) 44 in 16 h. v2 matured median 316.5 vs v1 81 (3.9×) → 18–28 s stays. Slots stay 17:00 / 21:00 Dubai. Today: cleopatra-iphone (B, 17:00), poe-vs-raven (B, 21:00, Halloween tie-in). Myth-bust / surprising-fact angle with a top-tier name keeps leading.
 - 2026-10-29: 8 v2 matured. **B/A matured median = 446 / 229 = 1.95× → 2× rule still NOT met.** v2 matured median 317 vs v1 81 (3.9×) → 18–28 s stays. Slot-swap test (28 Oct) inconclusive and both weak: revere-vs-dawes (B, 17:00) 57 views at 16 h, viking-horns (A, 21:00) 40 at 12 h — roughly the same views/hour, so the slot alone does not explain B's lead. Back to default today: A (leonardo-mona-lisa) 17:00, B (franklin-vs-eagle) 21:00. Content signal holds: "famous name + surprising myth-bust" (washington 1106, napoleon-short 698, henry 549) beats everything; 28 Oct topics (Revere, Vikings) were weaker. If B/A ≥ 2× on the next snapshot, switch both slots to cold open.
@@ -34,8 +35,8 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 
 | slug | format | sec | published | views | likes | comments |
 |---|---|---|---|---|---|---|
-| alexander-vs-diogenes | v1 | 58 | 2026-10-15 | 81 | 3 | 0 |
-| antony-vs-cleopatra | v1 | 49 | 2026-10-15 | 151 | 3 | 0 |
+| alexander-vs-diogenes | v1 | 58 | 2026-10-15 | 82 | 3 | 0 |
+| antony-vs-cleopatra | v1 | 49 | 2026-10-15 | 152 | 3 | 0 |
 | newton-vs-leibniz | v1 | 59 | 2026-10-15 | 2 | 0 | 0 |
 | darwin-vs-fitzroy | v1 | 54 | 2026-10-16 | 16 | 0 | 0 |
 | archimedes-vs-hiero | v1 | 59 | 2026-10-15 | 125 | 1 | 0 |
@@ -53,25 +54,27 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | cope-vs-marsh | v1 | 57 | 2026-10-20 | 96 | 0 | 0 |
 | plato-vs-diogenes | v1 | 59 | 2026-10-20 | 103 | 0 | 0 |
 | rousseau-vs-marie-antoinette | v1 | 59 | 2026-10-20 | 119 | 0 | 0 |
-| byron-vs-mary-shelley | v1 | 59 | 2026-10-21 | 67 | 0 | 0 |
-| philip-vs-sparta | v1 | 59 | 2026-10-21 | 218 | 0 | 0 |
+| byron-vs-mary-shelley | v1 | 59 | 2026-10-21 | 68 | 0 | 0 |
+| philip-vs-sparta | v1 | 59 | 2026-10-21 | 220 | 1 | 0 |
 | halley-vs-newton | v1 | 59 | 2026-10-21 | 83 | 0 | 0 |
 | darwin-vs-emma | v1 | 59 | 2026-10-22 | 37 | 0 | 0 |
-| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 17:00 | 168 (160 h) | 0 | 0 |
-| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 21:00 | 549 (156 h) | 1 | 0 |
-| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 01:00 | 291 (152 h) | 1 | 0 |
-| spartan-mom | v2-A | 25.6 | 2026-10-25 17:00 | 382 (136 h) | 0 | 0 |
-| washington-teeth | v2-B | 20.3 | 2026-10-25 21:00 | 1107 (132 h) | 9 | 0 |
-| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 01:00 | 342 (128 h) | 2 | 0 |
-| vangogh-sunflowers | v2-A | 28.3 | 2026-10-26 17:00 | 113 (112 h) | 0 | 0 |
-| alexander-city-names | v2-B | 24.7 | 2026-10-26 21:00 | 168 (108 h) | 3 | 0 |
-| diogenes-lamp | v2-A | 29.6 | 2026-10-27 17:00 | 63 (88 h) | 0 | 0 |
-| napoleon-short | v2-B | 26.2 | 2026-10-27 21:00 | 709 (84 h) | 10 | 1 |
-| revere-vs-dawes | v2-B | 26.1 | 2026-10-28 17:00 | 78 (64 h) | 0 | 0 |
-| viking-horns | v2-A | 28.3 | 2026-10-28 21:00 | 46 (60 h) | 0 | 0 |
-| leonardo-mona-lisa | v2-A | 29.2 | 2026-10-29 17:00 | 50 (40 h) | 0 | 0 |
-| franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 464 (36 h) | 1 | 0 |
-| cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 111 (16 h) | 0 | 0 |
-| poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 42 (12 h) | 0 | 0 |
-| lincoln-wrestling | v2-B | – | 2026-10-31 17:00 (sched.) | – | – | – |
-| napoleon-vs-pug | v2-B | – | 2026-10-31 21:00 (sched.) | – | – | – |
+| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 17:00 | 168 (184 h) | 0 | 0 |
+| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 21:00 | 549 (180 h) | 1 | 0 |
+| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 01:00 | 292 (176 h) | 1 | 0 |
+| spartan-mom | v2-A | 25.6 | 2026-10-25 17:00 | 383 (160 h) | 0 | 0 |
+| washington-teeth | v2-B | 20.3 | 2026-10-25 21:00 | 1107 (156 h) | 9 | 0 |
+| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 01:00 | 343 (152 h) | 2 | 0 |
+| vangogh-sunflowers | v2-A | 28.3 | 2026-10-26 17:00 | 113 (136 h) | 0 | 0 |
+| alexander-city-names | v2-B | 24.7 | 2026-10-26 21:00 | 168 (132 h) | 3 | 0 |
+| diogenes-lamp | v2-A | 29.6 | 2026-10-27 17:00 | 63 (112 h) | 0 | 0 |
+| napoleon-short | v2-B | 26.2 | 2026-10-27 21:00 | 709 (108 h) | 10 | 1 |
+| revere-vs-dawes | v2-B | 26.1 | 2026-10-28 17:00 | 78 (88 h) | 0 | 0 |
+| viking-horns | v2-A | 28.3 | 2026-10-28 21:00 | 46 (84 h) | 0 | 0 |
+| leonardo-mona-lisa | v2-A | 29.2 | 2026-10-29 17:00 | 52 (64 h) | 0 | 0 |
+| franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 466 (60 h) | 1 | 0 |
+| cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 128 (40 h) | 2 | 0 |
+| poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 60 (36 h) | 0 | 0 |
+| lincoln-wrestling | v2-B | 26.2 | not published (token) → 2026-11-02 01:00 | – | – | – |
+| napoleon-vs-pug | v2-B | 23.7 | not published (token) → 2026-11-03 01:00 | – | – | – |
+| henry-groom-of-stool | v2-B | 23.7 | 2026-11-01 17:00 (sched.) | – | – | – |
+| washington-whiskey | v2-B short | 17.6 | 2026-11-01 21:00 (sched.) | – | – | – |

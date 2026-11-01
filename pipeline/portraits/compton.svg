@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Tudor courtier in a black flat cap holding a toilet paper roll, tired face">
+<defs><radialGradient id="compton-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#C9A0E0"/><stop offset="1" stop-color="#3A1F52"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#compton-bg)"/>
+<path d="M14 250 Q22 184 100 174 Q178 184 186 250Z" fill="#6B1F2E"/>
+<path d="M60 186 L100 250 L140 186" fill="none" stroke="#E2B44A" stroke-width="6"/>
+<path d="M80 178 Q100 192 120 178 L116 196 Q100 202 84 196Z" fill="#F4F0E6"/>
+<rect x="88" y="146" width="24" height="34" fill="#EBC09C"/>
+<ellipse cx="100" cy="116" rx="33" ry="39" fill="#F3CDA8"/>
+<path d="M68 104 Q66 140 76 150 Q72 126 74 110Z M132 104 Q134 140 124 150 Q128 126 126 110Z" fill="#5A3A22"/>
+<path d="M76 140 Q100 168 124 140 Q120 160 100 164 Q80 160 76 140Z" fill="#5A3A22"/>
+<ellipse cx="100" cy="80" rx="52" ry="12" fill="#1A1A1A"/>
+<path d="M66 82 Q70 54 100 52 Q130 54 134 82Z" fill="#1A1A1A"/>
+<circle cx="128" cy="70" r="5" fill="#E2B44A"/><path d="M128 66 Q146 50 150 34" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M80 104 Q87 100 94 104 M106 104 Q113 100 120 104" stroke="#3A2414" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M80 114 Q87 110 94 114" stroke="#1E120A" stroke-width="3" fill="none"/><path d="M106 114 Q113 110 120 114" stroke="#1E120A" stroke-width="3" fill="none"/>
+<path d="M80 118 Q87 122 94 118 M106 118 Q113 122 120 118" stroke="#9A7A9A" stroke-width="2" fill="none"/>
+<path d="M100 116 Q95 128 100 131" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M88 142 Q100 136 112 142" stroke="#7A2E2E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<g transform="translate(140 168) rotate(-12)"><rect x="0" y="0" width="34" height="40" rx="4" fill="#FFFFFF" stroke="#BBB" stroke-width="2"/><ellipse cx="17" cy="0" rx="17" ry="6" fill="#F2F2F2" stroke="#BBB" stroke-width="2"/><ellipse cx="17" cy="0" rx="5" ry="2" fill="#C9B79A"/><path d="M34 22 Q44 34 38 52 L30 50 Q34 36 30 28Z" fill="#fff" stroke="#BBB" stroke-width="1.5"/></g>
+<ellipse cx="156" cy="212" rx="12" ry="9" fill="#F3CDA8"/>
+</svg>
