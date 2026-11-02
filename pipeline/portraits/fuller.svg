@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Grinning Roman laundry worker in a short brown tunic holding a big clay pot, with a laurel-free headband">
+<defs><radialGradient id="fuller-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F4E27A"/><stop offset="1" stop-color="#9A7A14"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#fuller-bg)"/>
+<circle cx="34" cy="50" r="10" fill="#FFF6C8" opacity=".5"/><circle cx="168" cy="40" r="7" fill="#FFF6C8" opacity=".5"/><circle cx="160" cy="76" r="5" fill="#FFF6C8" opacity=".5"/>
+<path d="M14 250 Q22 184 100 174 Q178 184 186 250Z" fill="#8A6A44"/>
+<path d="M60 180 Q100 200 140 180" stroke="#6A4A2A" stroke-width="4" fill="none"/>
+<rect x="88" y="146" width="24" height="34" fill="#C88A5E"/>
+<ellipse cx="100" cy="116" rx="33" ry="39" fill="#D89C70"/>
+<path d="M68 104 Q66 72 100 70 Q134 72 132 104 Q124 84 100 84 Q76 84 68 104Z" fill="#2A1A10"/>
+<path d="M67 96 Q100 86 133 96 L133 103 Q100 93 67 103Z" fill="#E8E0C8"/>
+<path d="M78 104 Q86 98 94 103 M106 103 Q114 98 122 104" stroke="#2A1A10" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="113" r="3.2" fill="#1E120A"/><circle cx="113" cy="113" r="3.2" fill="#1E120A"/>
+<path d="M100 117 Q93 129 100 133 Q106 133 106 129" stroke="#A0603A" stroke-width="2.4" fill="#E08A6A"/>
+<path d="M82 140 Q100 158 118 140 Q100 148 82 140Z" fill="#6A2424"/><path d="M87 141 L113 141 L111 145 L89 145Z" fill="#fff"/>
+<path d="M70 130 Q74 150 84 158 M130 130 Q126 150 116 158" stroke="#2A1A10" stroke-width="3" fill="none" opacity=".5"/>
+<g transform="translate(128 156)"><ellipse cx="26" cy="12" rx="24" ry="7" fill="#7A3A1A"/><path d="M2 12 Q-4 54 26 66 Q56 54 50 12Z" fill="#B85A2A" stroke="#7A3A1A" stroke-width="2.5"/><ellipse cx="26" cy="12" rx="18" ry="4" fill="#E8D44A"/><path d="M10 34 H42 M8 46 H44" stroke="#7A3A1A" stroke-width="2.5"/></g>
+</svg>

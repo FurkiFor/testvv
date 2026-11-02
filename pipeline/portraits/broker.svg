@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug 1720 London stockbroker in a white powdered wig and black tricorn hat holding a rising stock chart">
+<defs><radialGradient id="broker-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#9AD8B0"/><stop offset="1" stop-color="#1E5A3A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#broker-bg)"/>
+<path d="M20 40 L60 70 L90 50 L130 80 L180 20" stroke="#E8F8EC" stroke-width="5" fill="none" opacity=".35"/>
+<path d="M14 250 Q22 184 100 174 Q178 184 186 250Z" fill="#6A2A3A"/>
+<path d="M88 176 L100 214 L112 176Z" fill="#F4F0E6"/>
+<path d="M90 180 Q100 196 110 180 L106 200 Q100 206 94 200Z" fill="#FFFFFF" stroke="#C8C0B0" stroke-width="1.5"/>
+<circle cx="76" cy="206" r="3" fill="#E8C24A"/><circle cx="76" cy="226" r="3" fill="#E8C24A"/><circle cx="124" cy="206" r="3" fill="#E8C24A"/><circle cx="124" cy="226" r="3" fill="#E8C24A"/>
+<rect x="88" y="146" width="24" height="32" fill="#EBB894"/>
+<path d="M60 96 Q56 150 70 168 Q62 130 74 104Z M140 96 Q144 150 130 168 Q138 130 126 104Z" fill="#F2F0EA" stroke="#CFCAC0" stroke-width="2"/>
+<circle cx="66" cy="134" r="9" fill="#F2F0EA" stroke="#CFCAC0" stroke-width="2"/><circle cx="134" cy="134" r="9" fill="#F2F0EA" stroke="#CFCAC0" stroke-width="2"/>
+<ellipse cx="100" cy="116" rx="32" ry="38" fill="#F6C8A2"/>
+<path d="M66 96 Q100 66 134 96 Q120 84 100 84 Q80 84 66 96Z" fill="#F2F0EA" stroke="#CFCAC0" stroke-width="2"/>
+<path d="M44 82 Q100 48 156 82 Q100 70 44 82Z" fill="#1A1A22"/>
+<path d="M58 80 Q100 30 142 80 Q100 66 58 80Z" fill="#1A1A22"/>
+<path d="M58 80 Q100 68 142 80" stroke="#E8C24A" stroke-width="3" fill="none"/>
+<path d="M78 102 Q86 98 94 102 M106 99 Q114 93 122 98" stroke="#5A4030" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M80 112 Q87 108 94 112" stroke="#1E120A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="113" cy="111" r="3.4" fill="#1E120A"/>
+<path d="M100 116 Q94 128 100 132 Q106 132 106 128" stroke="#C07A52" stroke-width="2.4" fill="#F0A88A"/>
+<path d="M86 140 Q102 152 118 136" stroke="#7A2E2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="77" cy="126" rx="7" ry="4" fill="#F27A7A" opacity=".55"/><ellipse cx="124" cy="126" rx="7" ry="4" fill="#F27A7A" opacity=".55"/>
+<g transform="translate(130 168) rotate(-8)"><rect x="0" y="0" width="54" height="44" rx="3" fill="#FFF8E6" stroke="#7A5A30" stroke-width="2.5"/><path d="M6 36 L18 28 L28 32 L40 14 L48 8" stroke="#2E9A4A" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M42 8 L49 7 L48 14" stroke="#2E9A4A" stroke-width="3.5" fill="none"/></g>
+</svg>

@@ -1,0 +1,137 @@
+{
+ "slug": "roman-pee-laundry",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Romans washed their clothes in pee. The emperor taxed it 🤢 #shorts",
+  "caption": "Ancient Romans really did clean their clothes with pee. 🤢 And the emperor found a way to tax it.\n\nWould you wear the pee toga for clean clothes? Yes or no 👇\n\nParody · fictional chat. Based on history: Roman fullers (laundry workers) used stale urine, rich in ammonia, to clean and whiten wool. They collected it from pots left on street corners, and Emperor Vespasian put a tax on urine collected from public latrines. When his son complained, Vespasian held up a coin: \"pecunia non olet\" — money doesn't smell.\n\n#ancientrome #romanhistory #weirdhistory #romanempire #historyfacts #historymemes #shorts",
+  "tags": [
+   "ancient rome",
+   "romans washed clothes in urine",
+   "roman laundry",
+   "roman history",
+   "weird history",
+   "roman empire facts",
+   "ancient roman daily life",
+   "vespasian urine tax",
+   "strange history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#3A1A0A",
+  "glow": "#E8D44A",
+  "footer": "🤢 72 AD · ROME",
+  "footerColor": "#E8D44A",
+  "stamp": "TAXED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Marcus",
+  "label": "MARCUS · LEGIONARY",
+  "portrait": "legionary.svg",
+  "face": "40 30 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Gaius the Fuller",
+  "label": "GAIUS THE FULLER",
+  "portrait": "fuller.svg",
+  "face": "40 44 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+  "el_speed": 1.12,
+  "status": "last seen stomping laundry",
+  "subtitle": "Fuller · Laundry & Dyes",
+  "about": "whiter whites 🫧 don't ask",
+  "aboutDate": "72 AD"
+ },
+ "notifications": [
+  "bc i washed it in pee",
+  "the emperor TAXES it 💰"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ROME · 72 AD"
+  },
+  {
+   "k": "out",
+   "text": "WHY does my toga smell like pee 🤢",
+   "say": "Why does my toga smell like pee?",
+   "time": "7:10 AM",
+   "el_say": "[disgusted] Why does my toga smell like pee?"
+  },
+  {
+   "k": "in",
+   "text": "bc i washed it in pee",
+   "say": "Because I washed it in pee.",
+   "time": "7:10 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "U WHAT",
+   "say": "You what?!",
+   "time": "7:11 AM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "ammonia bro. gets the stains out 🫧",
+   "say": "Ammonia, bro. Gets the stains out.",
+   "time": "7:11 AM"
+  },
+  {
+   "k": "out",
+   "text": "where do u even GET that much",
+   "say": "Where do you even get that much?",
+   "time": "7:12 AM"
+  },
+  {
+   "k": "in",
+   "text": "pots on every street. the whole city donates",
+   "say": "Pots on every street. The whole city donates.",
+   "time": "7:12 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "and that's LEGAL??",
+   "say": "And that's legal?",
+   "time": "7:13 AM"
+  },
+  {
+   "k": "in",
+   "text": "legal? the emperor TAXES it 💰",
+   "say": "Legal? The emperor taxes it.",
+   "time": "7:13 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "ROMAN LAUNDRY",
+  "bottom": "100% ORGANIC 🤢",
+  "chips": [
+   "Stains removed: all 🫧",
+   "Smell: also all 🤢"
+  ],
+  "say": "Clean clothes. Questionable methods."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
