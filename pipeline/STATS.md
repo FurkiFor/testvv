@@ -2,18 +2,19 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-02 ~09:00 Dubai, vidIQ get_videos_by_ids — Kervly token expired)
+## Summary (snapshot 2026-11-03 ~08:50 Dubai, Kervly get_youtube_stats — token OK again)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
 | v1 (44–59 s) | 23 | 76 | 81 | 0.5 | 1 | 23 | 81 |
-| v2 (all, published) | 16 | 296 | 168 | 1.8 | 1 | 16 | 168 |
+| v2 (all, published) | 19 | 279 | 168 | 1.9 | 1 | 16 | 168 |
 | v2-A (hook) | 7 | 160 | 113 | 0.1 | 0 | 7 | 113 |
-| v2-B (cold open) | 9 | 402 | 343 | 3.1 | 1 | 9 | 343 |
+| v2-B (cold open) | 12 | 349 | 244 | 2.9 | 1 | 9 | 343 |
 
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-03: Kervly YouTube token works again (connection OK, stats readable; 0 error posts). The 2 Nov batch published: newton-south-sea 161 @16 h, roman-pee-laundry 88 @12 h, napoleon-vs-pug 321 @8 h (fastest start since washington-teeth → Napoleon is the strongest recurring character: 710 / 343 / 321). Matured numbers unchanged (B/A 343 / 113 = 3.0×, v2 168 vs v1 81) → cold open in both slots + 18–28 s stay. Today: napoleon-elba-escape (B, 17:00, 19.9 s) and caesar-calendar (B, 21:00, 21.2 s). ElevenLabs generation worked but its CDN (elevenlabsusercontent.com) is blocked by this session's proxy → both built with Kokoro (first Kokoro-only day since 15 Oct; compare voice quality impact).
 - 2026-11-02: all 16 published v2 matured (7 A / 9 B). **B/A median = 343 / 113 = 3.0× → cold open in both slots stays.** v2 median 168 vs v1 81 (2.1×) → 18–28 s stays. Nothing new published since 30 Oct: Kervly YouTube token expired again (invalid_grant), so 1 Nov (henry-groom-of-stool, washington-whiskey) and 2 Nov 01:00 (lincoln-wrestling) failed → moved to 01:00 slots 4–6 Nov. Short-format test (washington-whiskey) still unmeasured. Today: newton-south-sea (B, 17:00, 26.3 s) and roman-pee-laundry (B, 21:00, 23.1 s), both "famous name + surprising true fact" titles.
 - 2026-11-01: 14 v2 matured (7 A / 7 B). **B/A matured median = 466 / 113 = 4.1× → cold open in both slots stays.** v2 matured median 230 vs v1 81 (2.8×) → 18–28 s stays as default. BUT the trigger from 31 Oct fired: the last 4 published v2 (29–30 Oct) have median 94 views (franklin 466, cleopatra-iphone 128, leonardo 52, poe 60) < 150. **Test today: 21:00 slot gets a SHORT cold open (12–18 s, 4–6 messages): washington-whiskey (17.6 s, 5 msgs, `"variant"` field in JSON).** 17:00 keeps the standard B: henry-groom-of-stool (23.7 s). Compare short vs standard once both have 48 h. Note: Oct 31 videos (lincoln-wrestling, napoleon-vs-pug) never published — Kervly YouTube token expired again (invalid_grant); rescheduled to 01:00 slots.
 - 2026-10-31: 12 v2 matured (6 A / 6 B). **B/A matured median = 445.5 / 140.5 = 3.17× → cold-open-in-both-slots decision CONFIRMED, kept.** v2 matured median 229.5 vs v1 81 (2.8×) → 18–28 s stays. Warning: the last 5 videos are weak (revere 78, viking 46, leonardo 50, cleopatra-iphone 111 @16 h, poe 42 @12 h); only franklin-vs-eagle (464) hit. Hits share one pattern: top-tier name + a surprising true fact in the title (washington 1107, napoleon-short 709, henry 549, franklin 464). Today both picks follow it: lincoln-wrestling (B, 17:00) and napoleon-vs-pug (B, 21:00, Napoleon = best-performing character). If the next 2 days stay < 150 median, try 12–18 s / 4–6 messages on one slot.
@@ -76,8 +77,10 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 128 (88 h) | 2 | 0 |
 | poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (84 h) | 0 | 0 |
 | lincoln-wrestling | v2-B | 26.2 | not published (token ×2) → 2026-11-04 01:00 | – | – | – |
-| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 (sched.) | – | – | – |
+| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 321 (8 h) | 3 | 0 |
 | henry-groom-of-stool | v2-B | 23.7 | not published (token) → 2026-11-05 01:00 | – | – | – |
 | washington-whiskey | v2-B short | 17.6 | not published (token) → 2026-11-06 01:00 | – | – | – |
-| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 (sched.) | – | – | – |
-| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 (sched.) | – | – | – |
+| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 161 (16 h) | 2 | 0 |
+| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 88 (12 h) | 0 | 0 |
+| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 (sched.) | – | – | – |
+| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 (sched.) | – | – | – |
