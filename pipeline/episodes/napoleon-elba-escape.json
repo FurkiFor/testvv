@@ -1,0 +1,139 @@
+{
+ "slug": "napoleon-elba-escape",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon escaped exile. The army sent to stop him joined him 👑 #shorts",
+  "caption": "Napoleon escaped exile on Elba… and the soldiers sent to shoot him switched sides on the spot. 👑\n\nShoot or join Napoleon? Pick one 👇\n\nParody · fictional chat. Based on history: on 7 March 1815 at Laffrey, the 5th Line Infantry Regiment blocked Napoleon's road. He walked up alone, opened his coat and said \"If there is any soldier among you who wishes to kill his Emperor, here I am.\" They shouted \"Vive l'Empereur!\" and joined him. Twelve days later King Louis XVIII fled Paris.\n\n#napoleon #napoleonbonaparte #elba #hundreddays #frenchhistory #europeanhistory #historymemes #weirdhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon elba",
+   "napoleon escape from elba",
+   "hundred days",
+   "napoleon laffrey",
+   "french history",
+   "napoleon exile",
+   "european history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#14203A",
+  "glow": "#E8B923",
+  "footer": "👑 1815 · LAFFREY",
+  "footerColor": "#F2C94C",
+  "stamp": "RECRUITED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "French Soldier",
+  "label": "FRENCH SOLDIER",
+  "portrait": "french-soldier.svg",
+  "face": "40 40 120 120",
+  "voice": "am_eric",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Napoleon 👑",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.12,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.1,
+  "status": "last seen escaping Elba",
+  "subtitle": "Ex-Emperor · Back by popular demand",
+  "about": "exile is just a vacation 🏝️",
+  "aboutDate": "1815"
+ },
+ "notifications": [
+  "here i am.",
+  "shoot ur emperor 😌"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LAFFREY · MARCH 1815"
+  },
+  {
+   "k": "out",
+   "text": "STOP. we have orders to shoot u on sight 🔫",
+   "say": "Stop. We have orders to shoot you on sight.",
+   "time": "10:02 AM",
+   "el_say": "[shouting] Stop! We have orders to shoot you on sight."
+  },
+  {
+   "k": "in",
+   "text": "who sent u",
+   "say": "Who sent you?",
+   "time": "10:02 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "the KING. u escaped elba. ur done",
+   "say": "The king. You escaped Elba. You're done.",
+   "time": "10:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "ok. here i am. shoot ur emperor",
+   "say": "Okay. Here I am. Shoot your emperor.",
+   "time": "10:03 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "guys?? why is nobody shooting",
+   "say": "Guys? Why is nobody shooting?",
+   "time": "10:04 AM"
+  },
+  {
+   "k": "out",
+   "text": "why are they all yelling VIVE L'EMPEREUR 😭",
+   "say": "Why are they all yelling vive l'empereur?",
+   "time": "10:04 AM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "they work for me now. so do u 😌",
+   "say": "They work for me now. So do you.",
+   "time": "10:05 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "in",
+   "text": "tell the king he has 2 weeks to pack 👑",
+   "say": "Tell the king he has two weeks to pack.",
+   "time": "10:05 AM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "THE KING: SENT AN ARMY",
+  "bottom": "NAPOLEON: KEPT IT",
+  "chips": [
+   "Bullets fired: 0 🔫",
+   "Soldiers stolen: ALL 👑"
+  ],
+  "say": "He sent an army. Napoleon kept it."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Nervous French infantry soldier in a tall black shako with a red plume, sweating">
+<defs><radialGradient id="frenchsoldier-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#E8EEF8"/><stop offset="1" stop-color="#5A6E9A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#frenchsoldier-bg)"/>
+<path d="M18 250 Q24 184 100 174 Q176 184 182 250Z" fill="#23408E"/>
+<path d="M78 178 L100 250 L122 178Z" fill="#F4F4F0"/>
+<path d="M30 200 L70 186 M130 186 L170 200" stroke="#F4F4F0" stroke-width="9" stroke-linecap="round"/>
+<path d="M60 190 Q66 182 76 184 L74 196Z M140 190 Q134 182 124 184 L126 196Z" fill="#C8202A"/>
+<g fill="#E8B923"><circle cx="112" cy="206" r="3.4"/><circle cx="112" cy="224" r="3.4"/><circle cx="112" cy="242" r="3.4"/></g>
+<rect x="88" y="146" width="24" height="34" fill="#E2B08C"/>
+<ellipse cx="100" cy="120" rx="31" ry="37" fill="#F2C6A2"/>
+<ellipse cx="68" cy="122" rx="6" ry="9" fill="#E2B08C"/><ellipse cx="132" cy="122" rx="6" ry="9" fill="#E2B08C"/>
+<path d="M70 92 L74 34 L126 34 L130 92Z" fill="#1A1A22"/>
+<path d="M70 92 Q100 100 130 92 L130 98 Q100 106 70 98Z" fill="#2A2A34"/>
+<path d="M74 40 L126 40" stroke="#E8B923" stroke-width="4"/>
+<path d="M92 56 L100 48 L108 56 L100 70Z" fill="#E8B923"/>
+<circle cx="100" cy="86" r="6" fill="#F4F4F0" stroke="#23408E" stroke-width="3"/>
+<path d="M106 34 Q104 12 112 4 Q120 14 114 34Z" fill="#D8202A"/>
+<path d="M66 98 Q100 112 134 98" stroke="#1A1A22" stroke-width="5" fill="none"/>
+<circle cx="87" cy="116" r="7" fill="#FFF"/><circle cx="113" cy="116" r="7" fill="#FFF"/>
+<circle cx="87" cy="117" r="3.4" fill="#1E120A"/><circle cx="113" cy="117" r="3.4" fill="#1E120A"/>
+<path d="M78 104 Q86 100 94 106 M106 106 Q114 100 122 104" stroke="#4A3020" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M97 124 Q100 134 104 130" stroke="#C99A78" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M82 136 Q92 132 100 136 Q108 132 118 136 Q108 140 100 138 Q92 140 82 136Z" fill="#4A3020"/>
+<ellipse cx="100" cy="146" rx="7" ry="5" fill="#7A2E2E"/>
+<path d="M134 104 Q140 112 136 118 Q130 112 134 104Z" fill="#7AC8F0"/>
+<path d="M62 100 Q56 108 60 114 Q66 108 62 100Z" fill="#7AC8F0"/>
+</svg>

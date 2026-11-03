@@ -1,0 +1,141 @@
+{
+ "slug": "caesar-calendar",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Julius Caesar made one year 445 days long. Then took July 📅 #shorts",
+  "caption": "Julius Caesar fixed the Roman calendar… by making 46 BC a 445-day year. 📅\n\nComment the reply YOU would've sent Caesar 👇\n\nParody · fictional chat. Based on history: the old Roman calendar had drifted months off the seasons, so Caesar added extra months to 46 BC (the \"year of confusion\", 445 days) and launched the Julian calendar. The month Quintilis was renamed July in his honor, and later Sextilis became August for Augustus.\n\n#juliuscaesar #ancientrome #romanempire #juliancalendar #romanhistory #historymemes #weirdhistory #shorts",
+  "tags": [
+   "julius caesar",
+   "julian calendar",
+   "roman calendar",
+   "ancient rome",
+   "roman empire",
+   "year of confusion",
+   "why is july named july",
+   "roman history",
+   "roman history",
+   "roman empire history",
+   "history explained",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1010",
+  "glow": "#E0B341",
+  "footer": "📅 46 BC · ROME",
+  "footerColor": "#E0B341",
+  "stamp": "DENIED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Roman Soldier",
+  "label": "ROMAN SOLDIER",
+  "portrait": "roman-soldier.svg",
+  "face": "40 30 120 120",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Julius Caesar 🏛️",
+  "label": "JULIUS CAESAR",
+  "portrait": "caesar.svg",
+  "face": "40 48 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.2,
+  "status": "last seen editing the calendar",
+  "subtitle": "Dictator · Part-time calendar guy",
+  "about": "time is whatever i say it is ⏳",
+  "aboutDate": "46 BC"
+ },
+ "notifications": [
+  "fixed the calendar 📅",
+  "ur welcome"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ROME · 46 BC"
+  },
+  {
+   "k": "out",
+   "text": "WHY is this year 445 days long",
+   "say": "Why is this year four hundred forty-five days long?",
+   "time": "8:14 AM",
+   "el_say": "[shouting] Why is this year four hundred forty-five days long?"
+  },
+  {
+   "k": "in",
+   "text": "i fixed the calendar. ur welcome 📅",
+   "say": "I fixed the calendar. You're welcome.",
+   "time": "8:14 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "so we get paid for the extra 80 days?",
+   "say": "So we get paid for the extra eighty days?",
+   "time": "8:15 AM"
+  },
+  {
+   "k": "in",
+   "text": "no.",
+   "say": "No.",
+   "time": "8:15 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "then what do WE get",
+   "say": "Then what do we get?",
+   "time": "8:16 AM"
+  },
+  {
+   "k": "in",
+   "text": "a month named after me. july ☀️",
+   "say": "A month named after me. July.",
+   "time": "8:16 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "what if the next emperor wants one too",
+   "say": "What if the next emperor wants one too?",
+   "time": "8:17 AM"
+  },
+  {
+   "k": "in",
+   "text": "relax. nobody's THAT vain 😌",
+   "say": "Relax. Nobody's that vain.",
+   "time": "8:17 AM",
+   "typing": 0.8,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "CAESAR: TOOK JULY",
+  "bottom": "AUGUSTUS: TOOK AUGUST",
+  "chips": [
+   "Extra days paid: 0 💰",
+   "Months stolen: 2 📅"
+  ],
+  "say": "Nobody's that vain. Then came Augustus."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

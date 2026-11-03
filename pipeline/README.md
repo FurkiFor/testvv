@@ -60,6 +60,7 @@ How the ElevenLabs path works (the build script cannot call ElevenLabs itself):
 2. For each row: `creative_generate_speech` with `model_id` `eleven_v4`, that `voice_id`, `prompt` = `text`, **`generations_count: 1`** (never 4 — it multiplies cost), one shared `flow_id` per episode (`creative_create_flow` first). Then `creative_get_flow_run_status` until done and download `media[0].url` to `file` with curl. Never re-run a generation to retry; if one line fails, the whole episode falls back to Kokoro.
 3. Run `make_episode.py` normally. It prints `voice engine: elevenlabs` when every line has a file in `vo_src/`, otherwise `voice engine: kokoro`.
 Before spending credits, check the download path once: `curl -sS -o /dev/null -w '%{http_code}' https://storage.googleapis.com/eleven-public-prod/premade/voices/N2lVS1w4EtoT3dr4eOWO/ac833bd8-ffda-4938-9ebc-b0f99ca25481.mp3` must print 200. If it does not (the session's network blocks storage.googleapis.com), skip ElevenLabs entirely and use Kokoro.
+Generated takes are served from `elevenlabsusercontent.com`: also run `curl -sS -o /dev/null -w '%{http_code}' https://elevenlabsusercontent.com/` — `000` / "CONNECT tunnel failed, 403" means the egress proxy blocks it and every download will fail, so skip ElevenLabs (lesson from 3 Nov: ~770 credits spent, nothing downloadable).
 
 ### Comedy rules
 - Every episode is built on a real, well-known historical fact or anecdote, and the joke twists it (the "history" must be recognizable).
