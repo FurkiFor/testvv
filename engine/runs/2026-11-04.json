@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 11,
-      "sizeMB": 2.1
+      "sizeMB": 2.1,
+      "post_id": "p_q35VvbTqEKfT",
+      "publish_at": "2026-11-04T12:00:00+04:00"
     },
     {
       "file": "2026-11-04-2-pearl-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 9.9,
-      "sizeMB": 10.68
+      "sizeMB": 10.68,
+      "post_id": "p_L_mQbPnjlXBg",
+      "publish_at": "2026-11-04T17:00:00+04:00"
     },
     {
       "file": "2026-11-04-3-wood-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.6,
-      "sizeMB": 6.97
+      "sizeMB": 6.97,
+      "post_id": "p_6Zc8qxfZTrS_",
+      "publish_at": "2026-11-04T21:00:00+04:00"
     }
   ]
 }
