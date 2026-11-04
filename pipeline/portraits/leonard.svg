@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Flamboyant 18th-century French hairdresser in a powdered wig holding a giant comb, exhausted face">
+<defs><radialGradient id="leonard-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F7C6D9"/><stop offset="1" stop-color="#7A2A55"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#leonard-bg)"/>
+<path d="M14 250 Q22 184 100 174 Q178 184 186 250Z" fill="#4FA3A5"/>
+<path d="M78 176 Q100 204 122 176 L118 214 Q100 222 82 214Z" fill="#FFFFFF"/>
+<path d="M88 188 Q100 196 112 188 M86 200 Q100 208 114 200" stroke="#DDD" stroke-width="2" fill="none"/>
+<rect x="88" y="146" width="24" height="34" fill="#EFC6A4"/>
+<g fill="#F2EEE8" stroke="#CFC8BE" stroke-width="2"><circle cx="66" cy="104" r="11"/><circle cx="64" cy="124" r="10"/><circle cx="134" cy="104" r="11"/><circle cx="136" cy="124" r="10"/></g>
+<ellipse cx="100" cy="118" rx="32" ry="38" fill="#F6D2B4"/>
+<path d="M66 100 Q66 62 100 60 Q134 62 134 100 Q120 82 100 82 Q80 82 66 100Z" fill="#F2EEE8" stroke="#CFC8BE" stroke-width="2"/>
+<path d="M126 140 Q150 150 140 176" stroke="#1A1A1A" stroke-width="6" fill="none" stroke-linecap="round"/>
+<circle cx="82" cy="132" r="6" fill="#F29BB5" opacity=".7"/><circle cx="118" cy="132" r="6" fill="#F29BB5" opacity=".7"/>
+<path d="M78 104 Q86 98 94 104 M106 104 Q114 98 122 104" stroke="#6B5A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M80 116 Q87 112 94 116" stroke="#1E120A" stroke-width="3" fill="none"/><path d="M106 116 Q113 112 120 116" stroke="#1E120A" stroke-width="3" fill="none"/>
+<circle cx="112" cy="124" r="3" fill="#B03050"/>
+<path d="M100 118 Q95 130 100 133" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M88 146 Q100 140 112 146" stroke="#8A2E3E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<g transform="translate(148 168) rotate(20)"><rect x="0" y="0" width="12" height="50" rx="3" fill="#E2B44A"/><g stroke="#E2B44A" stroke-width="3"><path d="M12 6 L28 6 M12 14 L28 14 M12 22 L28 22 M12 30 L28 30 M12 38 L28 38"/></g></g>
+<ellipse cx="148" cy="214" rx="11" ry="9" fill="#F6D2B4"/>
+</svg>

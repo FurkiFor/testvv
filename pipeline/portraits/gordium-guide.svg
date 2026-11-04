@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Panicked ancient Phrygian tour guide in a red Phrygian cap holding a giant rope knot">
+<defs><radialGradient id="gordium-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F2C46B"/><stop offset="1" stop-color="#7A3E12"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#gordium-bg)"/>
+<path d="M14 250 Q22 184 100 174 Q178 184 186 250Z" fill="#2E6B8A"/>
+<path d="M70 178 Q100 196 130 178 L126 196 Q100 206 74 196Z" fill="#E8DCC0"/>
+<rect x="88" y="146" width="24" height="34" fill="#C98E62"/>
+<ellipse cx="100" cy="116" rx="33" ry="39" fill="#D9A273"/>
+<path d="M66 96 Q62 60 98 50 Q132 44 140 72 Q150 70 150 82 Q140 80 134 96 Z" fill="#C0282D"/>
+<path d="M140 72 Q156 58 148 40 Q160 50 156 72Z" fill="#C0282D"/>
+<path d="M66 96 Q100 86 134 96" stroke="#8E1C20" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M76 140 Q100 170 124 140 Q120 162 100 166 Q80 162 76 140Z" fill="#3A2414"/>
+<path d="M78 100 Q87 94 95 100 M105 100 Q113 94 122 100" stroke="#3A2414" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="112" r="7" fill="#fff"/><circle cx="113" cy="112" r="7" fill="#fff"/>
+<circle cx="87" cy="113" r="3" fill="#111"/><circle cx="113" cy="113" r="3" fill="#111"/>
+<path d="M100 116 Q95 128 100 131" stroke="#A9744C" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="143" rx="7" ry="8" fill="#5A1E1E"/>
+<path d="M60 92 Q56 86 62 82" stroke="#7FC4E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+<g transform="translate(150 200)" stroke="#8A5A1A" stroke-width="7" fill="none" stroke-linecap="round">
+<path d="M-22 -10 Q0 -30 20 -6 Q30 10 6 18 Q-20 22 -18 0 Q-14 -18 10 -14 Q24 -6 12 8"/>
+<path d="M-30 6 Q-24 -4 -14 8 M18 -18 Q28 -26 34 -16"/>
+</g>
+<g transform="translate(150 200)" stroke="#D9A85A" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M-22 -10 Q0 -30 20 -6 Q30 10 6 18"/></g>
+</svg>

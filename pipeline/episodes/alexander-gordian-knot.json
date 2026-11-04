@@ -1,0 +1,137 @@
+{
+ "slug": "alexander-gordian-knot",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Alexander the Great vs the Gordian Knot. He cheated 🗡️ #shorts",
+  "caption": "Alexander the Great and the Gordian Knot: nobody could untie it… so he just cut it. 🗡️\n\nGenius or cheating? Pick one 👇\n\nParody · fictional chat. Based on history: in 333 BC at Gordium, Alexander was shown a famous knot that legend said only the future ruler of Asia could undo. According to the ancient writers, he sliced it with his sword (\"it makes no difference how it is loosed\") and went on to conquer the Persian Empire.\n\n#alexanderthegreat #gordianknot #ancienthistory #ancientgreece #persianempire #historymemes #shorts",
+  "tags": [
+   "alexander the great",
+   "alexander the great and the gordian knot",
+   "gordian knot",
+   "ancient history",
+   "ancient greece",
+   "persian empire",
+   "macedonia",
+   "ancient greek history",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A08",
+  "glow": "#E0B341",
+  "footer": "🗡️ 333 BC · GORDIUM",
+  "footerColor": "#E0B341",
+  "stamp": "CHEATED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Gordium Tour Guide",
+  "label": "TOUR GUIDE",
+  "portrait": "gordium-guide.svg",
+  "face": "44 40 112 112",
+  "voice": "bm_daniel",
+  "speed": 1.15,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Alexander the Great ⚔️",
+  "label": "ALEXANDER",
+  "portrait": "alexander.svg",
+  "face": "44 50 112 112",
+  "voice": "am_puck",
+  "speed": 1.18,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.1,
+  "status": "last seen holding a sword near a knot",
+  "subtitle": "King of Macedon · Future king of everything",
+  "about": "rules are suggestions 🗡️",
+  "aboutDate": "333 BC"
+ },
+ "notifications": [
+  "done ✅",
+  "prophecy said undo it"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "GORDIUM · 333 BC"
+  },
+  {
+   "k": "out",
+   "text": "sir put the SWORD down. u have to UNTIE the knot 🪢",
+   "say": "Sir, put the sword down. You have to untie the knot.",
+   "time": "10:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "says who",
+   "say": "Says who?",
+   "time": "10:02 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "the prophecy. whoever unties it rules asia",
+   "say": "The prophecy. Whoever unties it rules Asia.",
+   "time": "10:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "done ✅",
+   "say": "Done.",
+   "time": "10:03 AM",
+   "typing": 1.0,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "BRO U JUST CUT IT IN HALF",
+   "say": "Bro, you just cut it in half!",
+   "time": "10:03 AM",
+   "el_say": "[shouting] Bro, you just cut it in half!"
+  },
+  {
+   "k": "in",
+   "text": "prophecy said undo it. it's undone 🗡️",
+   "say": "Prophecy said undo it. It's undone.",
+   "time": "10:04 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "that's literally cheating",
+   "say": "That's literally cheating.",
+   "time": "10:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "cool. tell me that from asia 🌏",
+   "say": "Cool. Tell me that from Asia.",
+   "time": "10:05 AM",
+   "typing": 0.8,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "THE KNOT: UNTIED",
+  "bottom": "ASIA: CONQUERED",
+  "chips": [
+   "Knots untied: 0 🪢",
+   "Empires taken: 1 🌏"
+  ],
+  "say": "Undone is undone."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

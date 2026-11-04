@@ -1,0 +1,129 @@
+{
+ "slug": "marie-antoinette-warship-hair",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Marie Antoinette wore a WARSHIP in her hair. For real ⛵ #shorts",
+  "caption": "Marie Antoinette really wore a warship in her hair. ⛵ Rococo hairstyles got out of hand.\n\nIconic or insane? Pick one 👇\n\nParody · fictional chat. Based on history: in 1778 the French frigate Belle Poule won a sea battle, and Versailles celebrated with the \"pouf à la Belle Poule\": towering powdered hair topped with a model ship. Her hairdresser Léonard built poufs so tall that ladies had to kneel in their carriages.\n\n#marieantoinette #versailles #frenchhistory #frenchrevolution #rococo #historymemes #shorts",
+  "tags": [
+   "marie antoinette",
+   "marie antoinette hair",
+   "versailles",
+   "french history",
+   "french revolution",
+   "rococo",
+   "hairstyles history",
+   "pouf a la belle poule",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A0F1E",
+  "glow": "#F29BB5",
+  "footer": "⛵ 1778 · VERSAILLES",
+  "footerColor": "#F29BB5",
+  "stamp": "ICONIC"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Marie Antoinette",
+  "label": "MARIE ANTOINETTE",
+  "portrait": "marie-antoinette.svg",
+  "face": "50 76 100 100",
+  "voice": "af_bella",
+  "speed": 1.15,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Léonard (hair) 💇",
+  "label": "LÉONARD",
+  "portrait": "leonard.svg",
+  "face": "44 50 112 112",
+  "voice": "bm_fable",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.1,
+  "status": "last seen buying 40 lbs of hair powder",
+  "subtitle": "Royal hairdresser · Versailles",
+  "about": "taller is better 💇",
+  "aboutDate": "1778"
+ },
+ "notifications": [
+  "ur hair is already 3 feet tall",
+  "ma'am the DOOR"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "VERSAILLES · 1778"
+  },
+  {
+   "k": "out",
+   "text": "léonard. i need a WARSHIP in my hair. tonight ⛵",
+   "say": "Leonard. I need a warship in my hair. Tonight.",
+   "time": "6:12 PM"
+  },
+  {
+   "k": "in",
+   "text": "ur hair is already 3 feet tall",
+   "say": "Your hair is already three feet tall.",
+   "time": "6:12 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "make it 4. add cannons",
+   "say": "Make it four. Add cannons.",
+   "time": "6:13 PM"
+  },
+  {
+   "k": "in",
+   "text": "ma'am u won't fit through the door",
+   "say": "Ma'am, you won't fit through the door.",
+   "time": "6:13 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "then i'll ride to the party KNEELING in the carriage",
+   "say": "Then I'll ride to the party kneeling in the carriage.",
+   "time": "6:14 PM"
+  },
+  {
+   "k": "in",
+   "text": "france is literally broke rn",
+   "say": "France is literally broke right now.",
+   "time": "6:14 PM",
+   "typing": 1.0,
+   "el_say": "[sighs] France is literally broke right now."
+  },
+  {
+   "k": "out",
+   "text": "exactly. that's why the boat is SMALL 💅",
+   "say": "Exactly. That's why the boat is small.",
+   "time": "6:15 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "FRANCE: BROKE",
+  "bottom": "HAIR: HAS A NAVY",
+  "chips": [
+   "Doors fit through: 0 🚪",
+   "Cannons in hair: 4 ⛵"
+  ],
+  "say": "France was broke. Her hair had a navy."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
