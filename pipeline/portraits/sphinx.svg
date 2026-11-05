@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Annoyed Great Sphinx with striped headdress and a missing nose illustration">
+<defs><radialGradient id="sphinx-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#FFD98A"/><stop offset="1" stop-color="#C46A1E"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#sphinx-bg)"/>
+<g fill="#fff" opacity=".25"><circle cx="36" cy="46" r="16"/></g>
+<path d="M0 232 L40 196 L80 232Z M150 236 L178 206 L200 224 L200 236Z" fill="#B5763A" opacity=".6"/>
+<path d="M10 250 Q20 186 100 178 Q180 186 190 250Z" fill="#D9A86A"/>
+<path d="M44 76 Q100 40 156 76 L170 196 Q150 186 132 170 L68 170 Q50 186 30 196Z" fill="#2F5FA8"/>
+<g stroke="#E8C547" stroke-width="7" fill="none"><path d="M42 98 L56 186"/><path d="M158 98 L144 186"/><path d="M36 130 L46 190"/><path d="M164 130 L154 190"/></g>
+<path d="M56 74 Q100 50 144 74 L140 92 Q100 78 60 92Z" fill="#E8C547"/>
+<path d="M60 84 Q60 166 100 172 Q140 166 140 84 Q100 74 60 84Z" fill="#E0B070"/>
+<path d="M68 104 L90 110 M132 104 L110 110" stroke="#6A3E16" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="82" cy="120" rx="8" ry="6" fill="#2A1608"/><ellipse cx="118" cy="120" rx="8" ry="6" fill="#2A1608"/>
+<circle cx="84" cy="118" r="2.2" fill="#fff"/><circle cx="120" cy="118" r="2.2" fill="#fff"/>
+<path d="M92 128 L94 142 L106 142 L108 128 Q100 134 92 128Z" fill="#B07A40"/>
+<path d="M94 142 L97 138 L100 142 L103 138 L106 142" stroke="#7A4A1E" stroke-width="1.5" fill="none"/>
+<path d="M84 156 Q100 148 116 156" stroke="#6A3E16" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M92 172 L108 172 L104 200 L96 200Z" fill="#2F5FA8"/>
+</svg>

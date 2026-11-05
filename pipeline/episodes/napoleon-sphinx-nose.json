@@ -1,0 +1,123 @@
+{
+ "slug": "napoleon-sphinx-nose",
+ "format": "v2-B",
+ "youtube": {
+  "title": "The Sphinx blamed Napoleon for its nose. He has receipts 👃 #shorts",
+  "caption": "Did Napoleon's soldiers really shoot the nose off the Sphinx? 👃 Nope.\n\nTeam Sphinx or Team Napoleon? Pick one 👇\n\nParody · fictional chat. Based on history: the famous story says Napoleon's troops used the Great Sphinx of Giza for target practice in 1798. But Frederic Norden drew the Sphinx already without a nose in 1737, decades before Napoleon was even born (1769).\n\n#napoleon #sphinx #sphinxnose #ancientegypt #historymyths #historymemes #shorts",
+  "tags": [
+   "napoleon",
+   "sphinx nose",
+   "great sphinx of giza",
+   "napoleon sphinx",
+   "ancient egypt",
+   "history myths",
+   "egypt history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A08",
+  "glow": "#E8B830",
+  "footer": "🏜️ 1798 · GIZA",
+  "footerColor": "#E8B830",
+  "stamp": "NOT GUILTY"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "The Sphinx",
+  "label": "THE SPHINX",
+  "portrait": "sphinx.svg",
+  "face": "44 52 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08,
+  "status": "last seen invading egypt",
+  "subtitle": "Emperor (soon) · Tourist",
+  "about": "impossible is not french 🇫🇷",
+  "aboutDate": "1798"
+ },
+ "notifications": [
+  "wasn't me bro",
+  "check the drawings"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "GIZA · 1798"
+  },
+  {
+   "k": "out",
+   "text": "WHERE IS MY NOSE napoleon 👃",
+   "say": "Where is my nose, Napoleon?",
+   "time": "4:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "wasn't me bro",
+   "say": "Wasn't me, bro.",
+   "time": "4:02 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "everyone says ur cannons shot it off",
+   "say": "Everyone says your cannons shot it off.",
+   "time": "4:03 PM"
+  },
+  {
+   "k": "in",
+   "text": "there's a drawing of u from 1737. no nose. i was born in 1769",
+   "say": "There's a drawing of you from seventeen thirty seven. No nose. I was born in seventeen sixty nine.",
+   "time": "4:03 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "so who took it??",
+   "say": "So who took it?",
+   "time": "4:04 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "idk. i only take countries 🗺️",
+   "say": "I don't know. I only take countries.",
+   "time": "4:04 PM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "THE NOSE: GONE",
+  "bottom": "NAPOLEON: NOT GUILTY",
+  "chips": [
+   "Noses taken: 0 👃",
+   "Countries taken: a lot 🗺️"
+  ],
+  "say": "He took Europe. Not the nose."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

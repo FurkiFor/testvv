@@ -1,0 +1,136 @@
+{
+ "slug": "cleopatra-pearl-bet",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Cleopatra won a bet by drinking a priceless pearl 💎 #shorts",
+  "caption": "Cleopatra bet Mark Antony she could spend 10 million sesterces on ONE dinner… then drank a pearl. 💎\n\nComment the reply YOU would've sent Cleopatra 👇\n\nParody · fictional chat. Based on history: Pliny the Elder tells how Cleopatra won her bet with Mark Antony by dropping one of the largest pearls in the world into vinegar and drinking it.\n\n#cleopatra #markantony #ancientegypt #ancientrome #weirdhistory #historymemes #shorts",
+  "tags": [
+   "cleopatra",
+   "cleopatra pearl",
+   "mark antony",
+   "cleopatra and mark antony",
+   "ancient egypt",
+   "ancient rome",
+   "weird history",
+   "pliny the elder",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1F1606",
+  "glow": "#E8C547",
+  "footer": "💎 41 BC · ALEXANDRIA",
+  "footerColor": "#E8C547",
+  "stamp": "PAY UP"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Mark Antony",
+  "label": "MARK ANTONY",
+  "portrait": "antony.svg",
+  "face": "44 46 112 112",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Cleopatra 👑",
+  "label": "CLEOPATRA",
+  "portrait": "cleopatra.svg",
+  "face": "44 50 112 112",
+  "voice": "af_bella",
+  "speed": 1.12,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "el_speed": 1.08,
+  "status": "last seen buying vinegar",
+  "subtitle": "Queen of Egypt · Never loses",
+  "about": "i don't lose bets 💅",
+  "aboutDate": "41 BC"
+ },
+ "notifications": [
+  "watch this",
+  "pay up 💅"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ALEXANDRIA · 41 BC"
+  },
+  {
+   "k": "out",
+   "text": "bet u can't spend 10 MILLION on one dinner",
+   "say": "Bet you can't spend ten million on one dinner.",
+   "time": "8:01 PM"
+  },
+  {
+   "k": "in",
+   "text": "bet.",
+   "say": "Bet.",
+   "time": "8:01 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "babe it's been 3 hours. it's bread and fish. pay up 💀",
+   "say": "Babe, it's been three hours. It's bread and fish. Pay up.",
+   "time": "9:30 PM"
+  },
+  {
+   "k": "in",
+   "text": "watch this",
+   "say": "Watch this.",
+   "time": "9:30 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "why did the waiter bring u a cup of VINEGAR",
+   "say": "Why did the waiter bring you a cup of vinegar?",
+   "time": "9:31 PM"
+  },
+  {
+   "k": "out",
+   "text": "wait. did u just drop ur PEARL in it and DRINK it",
+   "say": "Wait. Did you just drop your pearl in it and drink it?",
+   "time": "9:31 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "biggest pearl in the world. tasted like vinegar",
+   "say": "Biggest pearl in the world. Tasted like vinegar.",
+   "time": "9:31 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "in",
+   "text": "10 million. pay up 💅",
+   "say": "Ten million. Pay up.",
+   "time": "9:31 PM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "ANTONY: BET",
+  "bottom": "CLEOPATRA: DRANK A PEARL",
+  "chips": [
+   "Dinner cost: 1 pearl 💎",
+   "Antony: broke 💸"
+  ],
+  "say": "She drank the bet."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
