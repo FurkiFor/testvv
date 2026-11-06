@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 10.87,
-      "sizeMB": 4.48
+      "sizeMB": 4.48,
+      "post_id": "p_V5n51kOhoD1J",
+      "publish_at": "2026-11-06T12:00:00+04:00"
     },
     {
       "file": "2026-11-06-2-pearl-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.23,
-      "sizeMB": 7.58
+      "sizeMB": 7.58,
+      "post_id": "p_faBqy5vZzsGK",
+      "publish_at": "2026-11-06T17:00:00+04:00"
     },
     {
       "file": "2026-11-06-3-metal-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.93,
-      "sizeMB": 7.98
+      "sizeMB": 7.98,
+      "post_id": "p_YTmQ6lvK3mw6",
+      "publish_at": "2026-11-06T21:00:00+04:00"
     }
   ]
 }
