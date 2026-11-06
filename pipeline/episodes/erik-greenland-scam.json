@@ -1,0 +1,137 @@
+{
+ "slug": "erik-greenland-scam",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Erik the Red called it Greenland to scam the Vikings 🧊 #shorts",
+  "caption": "Erik the Red named an icy island \"Greenland\"… on purpose. The first real estate ad in history. 🧊\n\nWould YOU have sailed there? Yes or no 👇\n\nParody · fictional chat. Based on history: around 985 AD Erik the Red led Viking settlers from Iceland to a huge, mostly ice-covered island. The Saga of Erik the Red says he called it Greenland because people would be more eager to go there if the land had a good name.\n\n#vikings #erikthered #greenland #vikinghistory #norse #medievalhistory #historymemes #shorts",
+  "tags": [
+   "erik the red",
+   "erik the red greenland",
+   "greenland",
+   "vikings",
+   "viking history",
+   "history of greenland",
+   "norse greenland",
+   "viking age",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0F2A3D",
+  "glow": "#7FD3F7",
+  "footer": "🧊 985 AD · GREENLAND",
+  "footerColor": "#7FD3F7",
+  "stamp": "SCAMMED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Bjorn",
+  "label": "BJORN",
+  "portrait": "bjorn.svg",
+  "face": "52 50 96 96",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Erik the Red 🔴",
+  "label": "ERIK THE RED",
+  "portrait": "erik.svg",
+  "face": "50 54 100 100",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08,
+  "status": "last seen naming things",
+  "subtitle": "Viking · Real estate agent",
+  "about": "location location location 🏡",
+  "aboutDate": "985 AD"
+ },
+ "notifications": [
+  "marketing bro",
+  "it's called branding"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "GREENLAND · 985 AD"
+  },
+  {
+   "k": "out",
+   "text": "ERIK. u said GREENLAND. it's ALL ICE 🧊",
+   "say": "Erik. You said Greenland. It's all ice.",
+   "time": "6:40 AM"
+  },
+  {
+   "k": "in",
+   "text": "marketing bro",
+   "say": "Marketing, bro.",
+   "time": "6:40 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "we sold our farms for this",
+   "say": "We sold our farms for this.",
+   "time": "6:41 AM"
+  },
+  {
+   "k": "in",
+   "text": "would u have sailed to a place called ICE ROCK?",
+   "say": "Would you have sailed to a place called Ice Rock?",
+   "time": "6:41 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "wait. so iceland is the GREEN one??",
+   "say": "Wait. So Iceland is the green one?",
+   "time": "6:42 AM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "yeah don't tell anyone",
+   "say": "Yeah. Don't tell anyone.",
+   "time": "6:42 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "this is a SCAM",
+   "say": "This is a scam.",
+   "time": "6:43 AM"
+  },
+  {
+   "k": "in",
+   "text": "it's not a scam. it's real estate 🏡",
+   "say": "It's not a scam. It's real estate.",
+   "time": "6:43 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "GREENLAND: ICE",
+  "bottom": "ICELAND: GREEN",
+  "chips": [
+   "Vikings scammed: all 🧊",
+   "Erik: top realtor 🏡"
+  ],
+  "say": "First real estate ad in history."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

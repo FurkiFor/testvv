@@ -1,0 +1,136 @@
+{
+ "slug": "napoleon-louisiana-sale",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon sold half of America for 3 cents an acre 🇺🇸 #shorts",
+  "caption": "The Louisiana Purchase: Jefferson only wanted New Orleans… Napoleon sold him half a continent. 🇺🇸\n\nTeam Jefferson or Team Napoleon? Pick one 👇\n\nParody · fictional chat. Based on history: in 1803 the US offered about $10 million for New Orleans. Napoleon, needing money for war with Britain, offered all of Louisiana instead: about 828,000 square miles for $15 million (roughly 3 cents an acre). It doubled the size of the United States, and Napoleon said he had just given England a rival that would one day humble her.\n\n#louisianapurchase #napoleon #thomasjefferson #americanhistory #ushistory #historymemes #shorts",
+  "tags": [
+   "louisiana purchase",
+   "louisiana purchase explained",
+   "napoleon",
+   "napoleon bonaparte",
+   "thomas jefferson",
+   "american history",
+   "us history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#14213D",
+  "glow": "#E8C36A",
+  "footer": "🇫🇷 1803 · PARIS",
+  "footerColor": "#E8C36A",
+  "stamp": "SOLD"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Thomas Jefferson",
+  "label": "JEFFERSON",
+  "portrait": "jefferson.svg",
+  "face": "50 56 100 100",
+  "voice": "am_michael",
+  "speed": 1.12,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08,
+  "status": "last seen needing war money",
+  "subtitle": "First Consul · Real estate",
+  "about": "everything must go 🏷️",
+  "aboutDate": "1803"
+ },
+ "notifications": [
+  "what if u bought ALL of it",
+  "15 million. final"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 1803"
+  },
+  {
+   "k": "out",
+   "text": "sell me new orleans. 10 million. final offer 💵",
+   "say": "Sell me New Orleans. Ten million. Final offer.",
+   "time": "10:14 AM"
+  },
+  {
+   "k": "in",
+   "text": "what if u bought ALL of louisiana",
+   "say": "What if you bought all of Louisiana?",
+   "time": "10:14 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "how big is that",
+   "say": "How big is that?",
+   "time": "10:15 AM"
+  },
+  {
+   "k": "in",
+   "text": "doubles ur country. 15 million",
+   "say": "Doubles your country. Fifteen million.",
+   "time": "10:15 AM",
+   "typing": 0.8,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "that's 3 cents an acre. what's the catch??",
+   "say": "That's three cents an acre. What's the catch?",
+   "time": "10:16 AM"
+  },
+  {
+   "k": "in",
+   "text": "i need war money. and britain will HATE it 😈",
+   "say": "I need war money. And Britain will hate it.",
+   "time": "10:16 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "so u're selling half a continent out of SPITE",
+   "say": "So you're selling half a continent out of spite.",
+   "time": "10:17 AM"
+  },
+  {
+   "k": "in",
+   "text": "u got a continent. britain got mad. everyone wins 🇺🇸",
+   "say": "You got a continent. Britain got mad. Everyone wins.",
+   "time": "10:17 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "JEFFERSON: 1 CITY PLS",
+  "bottom": "NAPOLEON: TAKE IT ALL",
+  "chips": [
+   "Price: 3¢ an acre 💵",
+   "Britain: furious 🇬🇧"
+  ],
+  "say": "He asked for a city. He got half a continent."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
