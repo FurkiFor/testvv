@@ -1,0 +1,28 @@
+{
+ "slug": "olympics-naked",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Ancient Olympians competed NAKED. The prize was a salad 🌿 #shorts",
+  "caption": "The ancient Olympics had no uniforms. At all 🫒\n\nWould YOU run naked for a crown of leaves? Yes or no 👇\n\nParody · fictional chat. Based on history: athletes at the ancient Greek Olympics competed nude, rubbed down with olive oil, in front of crowds of tens of thousands at Olympia. The winner's prize was a kotinos, a crown of wild olive leaves.\n\n#ancientolympics #ancientgreece #olympics #greekhistory #historyfacts #historymemes #shorts",
+  "tags": ["ancient olympics", "ancient greece", "olympics history", "ancient olympic games", "greek history", "olympia", "history facts", "ancient history", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {"hookBg": "#0E2A44", "glow": "#7ACB5A", "footer": "🏛️ 476 BC · OLYMPIA", "footerColor": "#BFE8A8", "stamp": "NO UNIFORM"},
+ "hook": {"mode": "none"},
+ "you": {"name": "Olympian", "label": "THE OLYMPIAN", "portrait": "olympian.svg", "face": "42 46 116 116", "voice": "am_puck", "speed": 1.15, "el_voice": "unWb9iRIK7Xxf4A5Hfis", "el_speed": 1.08},
+ "them": {"name": "Coach 🏛️", "label": "COACH", "portrait": "olympic-coach.svg", "face": "44 48 112 112", "voice": "bm_george", "speed": 1.12, "el_voice": "fGIZlgPQ75MMlvQ6WxgY", "el_speed": 1.08,
+  "status": "last seen oiling athletes", "subtitle": "Trainer · Olympia", "about": "no pain no olive 🫒", "aboutDate": "476 BC"},
+ "notifications": ["ur wearing it", "it's called skin"],
+ "chat": [
+  {"k": "chip", "text": "OLYMPIA · 476 BC"},
+  {"k": "out", "text": "coach WHERE is my uniform 😳", "say": "Coach, where is my uniform?", "time": "6:40 AM"},
+  {"k": "in", "text": "ur wearing it. it's called skin", "say": "You're wearing it. It's called skin.", "time": "6:40 AM", "typing": 0.7},
+  {"k": "out", "text": "there's like 40,000 people out there??", "say": "There's like forty thousand people out there?", "time": "6:41 AM", "sfx": "scratch"},
+  {"k": "in", "text": "relax. here's some olive oil 🫒", "say": "Relax. Here's some olive oil.", "time": "6:41 AM", "typing": 0.6},
+  {"k": "out", "text": "ok what do i win. gold?", "say": "Okay, what do I win? Gold?", "time": "6:42 AM"},
+  {"k": "in", "text": "a crown. made of leaves 🌿", "say": "A crown. Made of leaves.", "time": "6:42 AM", "typing": 0.9},
+  {"k": "out", "text": "i'm running naked for a SALAD??", "say": "I'm running naked for a salad?", "time": "6:43 AM", "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {"top": "UNIFORM: NONE", "bottom": "PRIZE: LEAVES", "chips": ["Clothes worn: 0 😳", "Olive oil used: a lot 🫒"], "say": "No clothes. No gold. Just leaves."},
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

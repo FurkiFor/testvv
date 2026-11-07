@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="embarrassed shirtless ancient greek athlete shining with olive oil">
+<defs><radialGradient id="olympian-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#9FD4F0"/><stop offset="1" stop-color="#1E5A8A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#olympian-bg)"/>
+<path d="M14 250 Q20 182 100 172 Q180 182 186 250Z" fill="#D9A06E"/>
+<path d="M58 212 Q78 222 96 212 M104 212 Q122 222 142 212" stroke="#B57A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M40 196 Q48 190 52 198 M150 194 Q156 188 160 196" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+<rect x="87" y="146" width="26" height="32" fill="#D9A06E"/>
+<ellipse cx="100" cy="114" rx="33" ry="38" fill="#E8B07E"/>
+<g fill="#3A2412"><circle cx="72" cy="88" r="11"/><circle cx="86" cy="78" r="11"/><circle cx="100" cy="74" r="11"/><circle cx="114" cy="78" r="11"/><circle cx="128" cy="88" r="11"/><circle cx="67" cy="102" r="8"/><circle cx="133" cy="102" r="8"/></g>
+<path d="M80 100 Q87 96 94 101 M106 101 Q113 96 120 100" stroke="#3A2412" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="111" rx="5" ry="6" fill="#fff"/><ellipse cx="113" cy="111" rx="5" ry="6" fill="#fff"/>
+<circle cx="87" cy="112" r="2.6" fill="#1E120A"/><circle cx="113" cy="112" r="2.6" fill="#1E120A"/>
+<path d="M100 116 Q95 126 99 128 Q104 130 106 126" stroke="#B57A4A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M88 138 Q94 134 100 138 Q106 134 112 138" stroke="#7A2E2E" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="76" cy="126" rx="9" ry="5" fill="#F06A6A" opacity=".75"/><ellipse cx="124" cy="126" rx="9" ry="5" fill="#F06A6A" opacity=".75"/>
+<path d="M132 96 Q136 104 132 108 Q128 104 132 96Z" fill="#8FD3FF"/>
+<path d="M78 92 Q82 88 86 92" stroke="#fff" stroke-width="2.5" fill="none" opacity=".8"/>
+</svg>

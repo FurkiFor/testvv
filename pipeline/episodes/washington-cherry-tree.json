@@ -1,0 +1,29 @@
+{
+ "slug": "washington-cherry-tree",
+ "format": "v2-B",
+ "youtube": {
+  "title": "George Washington never chopped the cherry tree. This guy made it up 🍒 #shorts",
+  "caption": "The George Washington cherry tree story? Totally made up 🍒\n\nTeam George or Team Weems? Pick one 👇\n\nParody · fictional chat. Based on history: Parson Mason Locke Weems added the \"I cannot tell a lie\" cherry tree tale to the 5th edition of his Washington biography in 1806, years after Washington died. There's no evidence it ever happened, but it ended up in school books for generations.\n\n#georgewashington #cherrytree #americanhistory #historymyths #foundingfathers #historymemes #shorts",
+  "tags": ["george washington", "george washington cherry tree", "cherry tree", "american history myths", "american myths", "founding fathers", "american history", "parson weems", "history group chat", "history memes", "funny history", "shorts"]
+ },
+ "theme": {"hookBg": "#3A0E14", "glow": "#E84A5A", "footer": "🍒 1806 · VIRGINIA", "footerColor": "#F2A0A8", "stamp": "FAKE NEWS"},
+ "hook": {"mode": "none"},
+ "you": {"name": "George", "label": "GEORGE WASHINGTON", "portrait": "washington.svg", "face": "42 44 116 116", "voice": "am_adam", "speed": 1.15, "el_voice": "mB6ZkFrKfGXPm8AMkuVl", "el_speed": 1.15},
+ "them": {"name": "Parson Weems 📚", "label": "PARSON WEEMS", "portrait": "weems.svg", "face": "44 50 112 112", "voice": "bm_lewis", "speed": 1.15, "el_voice": "2t3wubVNRseKNVjtlWx1", "el_speed": 1.12,
+  "status": "last seen writing chapter 6 (also fake)", "subtitle": "Biographer · Bestselling author", "about": "based on a true story (loosely) 📚", "aboutDate": "1806"},
+ "notifications": ["kids love it sir", "5th edition sold out 📚"],
+ "chat": [
+  {"k": "chip", "text": "VIRGINIA · 1806"},
+  {"k": "out", "text": "WHY does ur book say i chopped down a cherry tree 🪓", "say": "Why does your book say I chopped down a cherry tree?", "time": "9:14 AM"},
+  {"k": "in", "text": "kids love it sir", "say": "Kids love it, sir.", "time": "9:14 AM", "typing": 0.6},
+  {"k": "out", "text": "IT NEVER HAPPENED", "say": "It never happened!", "time": "9:15 AM", "sfx": "scratch"},
+  {"k": "in", "text": "5th edition. sold out 📚", "say": "Fifth edition. Sold out.", "time": "9:15 AM", "typing": 0.7},
+  {"k": "out", "text": "the whole story is about how i CAN'T tell a lie", "say": "The whole story is about how I can't tell a lie.", "time": "9:16 AM"},
+  {"k": "in", "text": "correct", "say": "Correct.", "time": "9:16 AM", "typing": 0.8},
+  {"k": "out", "text": "so u lied. about me not lying.", "say": "So you lied. About me not lying.", "time": "9:17 AM"},
+  {"k": "in", "text": "and they'll teach it in school for 200 years 🍒", "say": "And they'll teach it in school for two hundred years.", "time": "9:17 AM", "typing": 1.0, "sfx": "boom"}
+ ],
+ "ending": "cut",
+ "meme": {"top": "MYTH: THE CHERRY TREE", "bottom": "TRUTH: WEEMS MADE IT UP", "chips": ["Trees chopped: 0 🍒", "Lies told: 1 (not George)"], "say": "He couldn't tell a lie. Weems could."},
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

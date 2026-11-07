@@ -2,18 +2,19 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-06 ~08:55 Dubai, Kervly get_youtube_stats — token OK)
+## Summary (snapshot 2026-11-07 ~08:51 Dubai, Kervly get_youtube_stats — token OK)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
 | v1 (44–59 s) | 23 | 76 | 82 | 0.4 | 1 | 23 | 82 |
-| v2 (all, published) | 28 | 261 | 144 | 1.6 | 1 | 22 | 167 |
+| v2 (all, published) | 30 | 255 | 133 | 1.6 | 1 | 25 | 129 |
 | v2-A (hook) | 7 | 161 | 114 | 0.1 | 0 | 7 | 114 |
-| v2-B (cold open) | 21 | 294 | 159 | 2.0 | 1 | 15 | 169 |
+| v2-B (cold open) | 23 | 284 | 136 | 2.0 | 1 | 18 | 148 |
 
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-07: token OK (connection fine, 0 error posts). Matured B/A = 148 / 114 = 1.3× (A has had no new data since 29 Oct; same-period 24–30 Oct comparison B 344 vs A 114 = 3.0× still stands) → cold open in both slots stays. v2 matured median 129 vs v1 82 → 18–28 s stays, but the v2 median keeps sliding (the 2–6 Nov batch is mostly ~100–190, only napoleon-sphinx-nose 1105 broke out). Short test washington-whiskey (17.6 s) = 194 @32 h, best of the 4–5 Nov batch after the Sphinx → shorter keeps looking good; today's olympics-naked is 18.0 s. Yesterday: erik-greenland-scam 136 @12 h, napoleon-louisiana-sale 103 @16 h. ElevenLabs CDN still blocked → Kokoro. Today: washington-cherry-tree (B, 17:00, 20.5 s, Washington = 2 of top 3 videos, myth-bust) and olympics-naked (B, 21:00, 18.0 s, ancient Greece, new "everyday surprising fact" angle). vidIQ: 10 credits, balance 690 → 680.
 - 2026-11-06: token OK (connection fine, 0 error posts). **napoleon-sphinx-nose = 1061 views in 15 h** (fastest video ever, 7 likes) → Napoleon confirmed as the #1 character (1061 / 711 / 382 / 344 / 112). Short test washington-whiskey (17.6 s, 5 msgs) 159 @7 h = 2nd-best start of the week; cleopatra-pearl-bet weak (49 @11 h); marie-antoinette-warship-hair stalled (8 @35 h). Matured B/A = 169 / 114 = 1.5× (fell under 2× as the weaker 2–3 Nov B batch matured), but same-period comparison (24–30 Oct) is B 344 vs A 114 = 3.0× → cold open in both slots stays. v2 167 vs v1 82 → 18–28 s stays (short test still unmatured). ElevenLabs CDN still blocked → Kokoro. Today: napoleon-louisiana-sale (B, 17:00, 23.7 s, Napoleon again + US-history hook) and erik-greenland-scam (B, 21:00, 20.2 s, "famous myth/fact" Viking angle). vidIQ: 10 credits (2× keyword research), balance 715.
 - 2026-11-05: token OK (0 error posts, connection fine). henry-groom-of-stool published 01:00 (72 @8 h). Matured: B/A 256 / 113 = 2.3× → cold open in both slots stays; v2 168 vs v1 81 → 18–28 s stays. Recent trend is weak: the 9 v2 published since 2 Nov have median 102 (only napoleon-vs-pug 371 broke out). marie-antoinette-warship-hair has only 3 views @12 h (looks suppressed/stalled, watch it); alexander-gordian-knot 92 @16 h. Kokoro-only videos (4) median 91 vs same-age ElevenLabs ~100–165 — weak signal. ElevenLabs CDN still blocked → Kokoro again. Today: Napoleon returns (strongest character) with a myth-bust: napoleon-sphinx-nose (B, 17:00, 19.5 s); cleopatra-pearl-bet (B, 21:00, 20.9 s). Short test washington-whiskey publishes 6 Nov 01:00.
 - 2026-11-04: token OK (0 error posts). lincoln-wrestling finally published (99 @8 h). Kokoro-only pair from 3 Nov: napoleon-elba-escape 88 @16 h, caesar-calendar 48 @12 h vs ElevenLabs pair 2 Nov at the same age (newton 161 @16 h, roman 88 @12 h) → Kokoro looks ~45% weaker early, but n=2 and topic-confounded. Matured numbers unchanged (B/A 343 / 113 = 3.0×, v2 168 vs v1 81) → cold open in both slots + 18–28 s stay. Warning: the 6 newest B (not yet matured) have median 99 views — the short test (washington-whiskey, 6 Nov 01:00) is the next lever. ElevenLabs CDN still blocked → Kokoro again. Today: alexander-gordian-knot (B, 17:00) and marie-antoinette-warship-hair (B, 21:00), both "famous name + surprising true fact" titles.
@@ -79,17 +80,19 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 467 (179 h) | 1 | 0 |
 | cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 129 (159 h) | 2 | 0 |
 | poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (155 h) | 0 | 0 |
-| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 382 (79 h) | 3 | 0 |
-| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 166 (87 h) | 2 | 0 |
-| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 103 (83 h) | 0 | 0 |
-| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 193 (55 h) | 1 | 0 |
-| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 112 (63 h) | 1 | 0 |
-| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 109 (59 h) | 1 | 0 |
-| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 105 (39 h) | 0 | 0 |
-| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 8 (35 h) | 0 | 0 |
-| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 94 (31 h) | 0 | 0 |
-| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 159 (7 h) | 0 | 0 |
-| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1061 (15 h) | 7 | 0 |
-| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 49 (11 h) | 0 | 0 |
-| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 (sched.) | – | – | – |
-| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 (sched.) | – | – | – |
+| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 383 (103 h) | 3 | 0 |
+| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 166 (111 h) | 2 | 0 |
+| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 103 (107 h) | 0 | 0 |
+| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 193 (79 h) | 1 | 0 |
+| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 112 (87 h) | 1 | 0 |
+| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 109 (83 h) | 1 | 0 |
+| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 106 (63 h) | 0 | 0 |
+| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 10 (59 h) | 0 | 0 |
+| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 109 (55 h) | 0 | 0 |
+| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 194 (31 h) | 0 | 0 |
+| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1105 (39 h) | 7 | 0 |
+| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 79 (35 h) | 1 | 0 |
+| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 103 (15 h) | 2 | 0 |
+| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 136 (11 h) | 1 | 0 |
+| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 (sched.) | – | – | – |
+| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 (sched.) | – | – | – |
