@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 8.67,
-      "sizeMB": 1.96
+      "sizeMB": 1.96,
+      "post_id": "p_zwTJofheAJwb",
+      "publish_at": "2026-11-07T12:00:00+04:00"
     },
     {
       "file": "2026-11-07-2-glossy-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 9.57,
-      "sizeMB": 10.12
+      "sizeMB": 10.12,
+      "post_id": "p_dzVy7GGqDvTO",
+      "publish_at": "2026-11-07T17:00:00+04:00"
     },
     {
       "file": "2026-11-07-3-metal-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 10.27,
-      "sizeMB": 10.89
+      "sizeMB": 10.89,
+      "post_id": "p_QbdZxCaAF3RX",
+      "publish_at": "2026-11-07T21:00:00+04:00"
     }
   ]
 }
