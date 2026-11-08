@@ -1,0 +1,129 @@
+{
+ "slug": "egypt-cat-shields",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Persia beat Egypt by painting CATS on their shields 🐈 #shorts",
+  "caption": "Ancient Egyptians loved cats so much it cost them a war 😾\n\nComment the reply YOU would've sent 👇\n\nParody · fictional chat. Based on history: at the Battle of Pelusium in 525 BC, the Persian king Cambyses II is said to have put cats and images of cats in front of his army. Cats were sacred in Egypt and harming one was a serious crime, so the Egyptians hesitated, and Persia conquered Egypt.\n\n#ancientegypt #egypt #cats #persia #historyfacts #historymemes #shorts",
+  "tags": [
+   "ancient egypt",
+   "ancient egypt cats",
+   "history of cats",
+   "ancient civilizations",
+   "ancient history",
+   "bastet",
+   "battle of pelusium",
+   "history shorts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A08",
+  "glow": "#E8B830",
+  "footer": "🐈 525 BC · PELUSIUM",
+  "footerColor": "#E8B830",
+  "stamp": "CAT SHIELD"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Egyptian General",
+  "label": "EGYPT'S GENERAL",
+  "portrait": "egyptian-general.svg",
+  "face": "44 50 112 112",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Persian King 👑",
+  "label": "PERSIAN KING",
+  "portrait": "xerxes.svg",
+  "face": "40 14 120 150",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08,
+  "status": "last seen buying every cat in Persia",
+  "subtitle": "King of Kings · Cat Collector",
+  "about": "work smarter not harder 😼",
+  "aboutDate": "525 BC"
+ },
+ "notifications": [
+  "attack us",
+  "i dare u 😼"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PELUSIUM · 525 BC"
+  },
+  {
+   "k": "out",
+   "text": "WHY are there CATS on ur shields 😾",
+   "say": "Why are there cats on your shields?",
+   "time": "6:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "attack us. i dare u 😼",
+   "say": "Attack us. I dare you.",
+   "time": "6:02 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "we can't hurt a cat. that's literally a crime here",
+   "say": "We can't hurt a cat. That's literally a crime here.",
+   "time": "6:03 AM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "exactly. surrender or bonk the kitty",
+   "say": "Exactly. Surrender, or bonk the kitty.",
+   "time": "6:03 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "this is the dirtiest trick in history",
+   "say": "This is the dirtiest trick in history.",
+   "time": "6:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "so... egypt is mine? 👑",
+   "say": "So... Egypt is mine?",
+   "time": "6:04 AM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "fine. but u have to pet every single one 🐈",
+   "say": "Fine. But you have to pet every single one.",
+   "time": "6:05 AM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "ARMY: UNBEATABLE",
+  "bottom": "WEAKNESS: CATS",
+  "chips": [
+   "Battles lost: 1 😾",
+   "Cats harmed: 0 🐈"
+  ],
+  "say": "Egypt lost a war to cats."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

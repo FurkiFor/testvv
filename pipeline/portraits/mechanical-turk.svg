@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="wooden chess automaton in a turban and robe with a smug painted face, holding a long pipe, chessboard in front">
+<defs><radialGradient id="turk-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#5A7F9A"/><stop offset="1" stop-color="#1A2A3A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#turk-bg)"/>
+<path d="M14 250 Q20 180 100 170 Q180 180 186 250Z" fill="#8A1E2A"/>
+<path d="M100 172 L84 250 M100 172 L116 250" stroke="#E0B040" stroke-width="5"/>
+<path d="M60 196 Q100 186 140 196" stroke="#E0B040" stroke-width="4" fill="none"/>
+<rect x="88" y="146" width="24" height="28" fill="#C99A6A"/>
+<ellipse cx="100" cy="114" rx="31" ry="35" fill="#D9AE7C"/>
+<path d="M70 108 Q66 104 69 98 M130 108 Q134 104 131 98" stroke="#8A6236" stroke-width="2" fill="none"/>
+<path d="M62 92 Q58 52 100 46 Q142 52 138 92 Q120 80 100 82 Q80 80 62 92Z" fill="#F2EEE2"/>
+<path d="M66 86 Q100 70 134 86 M64 74 Q100 58 136 74" stroke="#D2CBB6" stroke-width="3" fill="none"/>
+<circle cx="100" cy="72" r="7" fill="#2E8BC0" stroke="#E0B040" stroke-width="2.5"/>
+<path d="M100 62 Q106 40 116 36" stroke="#F2EEE2" stroke-width="4" fill="none"/>
+<path d="M80 100 L94 104 M120 100 L106 104" stroke="#3A2210" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="87" cy="111" r="3.2" fill="#1A0E06"/><circle cx="113" cy="111" r="3.2" fill="#1A0E06"/>
+<path d="M76 130 Q88 122 100 128 Q112 122 124 130" stroke="#2A1608" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M88 138 Q100 144 114 136" stroke="#6A3A1A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M70 120 L66 120 M130 120 L134 120 M84 150 L84 145 M116 150 L116 145" stroke="#8A6236" stroke-width="2"/>
+<path d="M134 168 L176 132" stroke="#4A2E16" stroke-width="5" stroke-linecap="round"/>
+<rect x="170" y="122" width="14" height="12" rx="3" fill="#6A4422"/>
+<g transform="translate(30 214)"><rect width="140" height="36" fill="#E8DCC0"/>
+<g fill="#3A2A1A"><rect x="0" y="0" width="17.5" height="12"/><rect x="35" y="0" width="17.5" height="12"/><rect x="70" y="0" width="17.5" height="12"/><rect x="105" y="0" width="17.5" height="12"/><rect x="17.5" y="12" width="17.5" height="12"/><rect x="52.5" y="12" width="17.5" height="12"/><rect x="87.5" y="12" width="17.5" height="12"/><rect x="122.5" y="12" width="17.5" height="12"/><rect x="0" y="24" width="17.5" height="12"/><rect x="35" y="24" width="17.5" height="12"/><rect x="70" y="24" width="17.5" height="12"/><rect x="105" y="24" width="17.5" height="12"/></g></g>
+</svg>

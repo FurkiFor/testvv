@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="shocked ancient egyptian general in a striped blue and gold headdress holding a black cat">
+<defs><radialGradient id="egyptgen-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F4D58A"/><stop offset="1" stop-color="#B0702A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#egyptgen-bg)"/>
+<path d="M14 250 Q20 182 100 172 Q180 182 186 250Z" fill="#F2EEE2"/>
+<path d="M44 196 Q100 222 156 196 L160 212 Q100 240 40 212Z" fill="#2E6FB0"/>
+<path d="M50 204 Q100 228 150 204" stroke="#E0B040" stroke-width="4" fill="none"/>
+<rect x="88" y="146" width="24" height="30" fill="#A86A3A"/>
+<path d="M60 96 Q56 56 100 52 Q144 56 140 96 L150 168 L124 150 L76 150 L50 168Z" fill="#2E6FB0"/>
+<g stroke="#E0B040" stroke-width="5"><path d="M60 112 L52 160"/><path d="M140 112 L148 160"/><path d="M64 76 Q100 62 136 76"/></g>
+<ellipse cx="100" cy="114" rx="30" ry="34" fill="#B97A48"/>
+<path d="M70 92 Q100 80 130 92 L130 98 Q100 88 70 98Z" fill="#E0B040"/>
+<path d="M80 104 L94 100 M120 104 L106 100" stroke="#1A0E06" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="87" cy="112" rx="4.5" ry="5.5" fill="#fff"/><ellipse cx="113" cy="112" rx="4.5" ry="5.5" fill="#fff"/>
+<circle cx="87" cy="113" r="2.6" fill="#1A0E06"/><circle cx="113" cy="113" r="2.6" fill="#1A0E06"/>
+<path d="M78 112 L72 114 M122 112 L128 114" stroke="#1A0E06" stroke-width="2.5" stroke-linecap="round"/>
+<ellipse cx="100" cy="134" rx="7" ry="8" fill="#5A2A14"/>
+<path d="M96 146 L104 146 L102 158 L98 158Z" fill="#3A2210"/>
+<g transform="translate(150 196)"><ellipse cx="0" cy="18" rx="22" ry="20" fill="#1E1A22"/><circle cx="0" cy="-8" r="15" fill="#1E1A22"/>
+<path d="M-13 -16 L-12 -30 L-3 -21Z M13 -16 L12 -30 L3 -21Z" fill="#1E1A22"/>
+<ellipse cx="-5" cy="-9" rx="3" ry="3.5" fill="#E8D040"/><ellipse cx="5" cy="-9" rx="3" ry="3.5" fill="#E8D040"/>
+<path d="M-5 -10 L-5 -8 M5 -10 L5 -8" stroke="#000" stroke-width="1.5"/><circle cx="0" cy="-12" r="0" />
+<path d="M0 -3 L-3 0 M0 -3 L3 0" stroke="#E07090" stroke-width="1.5"/><circle cx="0" cy="12" r="5" fill="none" stroke="#E0B040" stroke-width="2"/></g>
+</svg>

@@ -1,0 +1,129 @@
+{
+ "slug": "napoleon-chess-turk",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon cheated at chess. The robot flipped the board 🤖 #shorts",
+  "caption": "Napoleon vs the Mechanical Turk, the 'chess robot' of 1809 ♟️\n\nNapoleon or the robot? Pick a side 👇\n\nParody · fictional chat. Based on history: in 1809 at Schönbrunn Palace, Napoleon played the Mechanical Turk, a famous chess automaton. Accounts say he made illegal moves on purpose until the Turk swept all the pieces off the board. The 'robot' was secretly a human chess master hidden inside the cabinet.\n\n#napoleon #mechanicalturk #chess #napoleonbonaparte #historyfacts #historymemes #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon chess",
+   "mechanical turk",
+   "napoleon bonaparte",
+   "chess history",
+   "history shorts",
+   "chess robot",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#14202C",
+  "glow": "#E0B040",
+  "footer": "♟️ 1809 · VIENNA",
+  "footerColor": "#E0B040",
+  "stamp": "CHECKMATE"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "The Turk 🤖",
+  "label": "THE TURK",
+  "portrait": "mechanical-turk.svg",
+  "face": "44 34 112 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen inside a suspicious box",
+  "subtitle": "Chess Automaton · Undefeated",
+  "about": "100% machine. 0% guy 📦",
+  "aboutDate": "1770"
+ },
+ "notifications": [
+  "illegal move",
+  "putting it back"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "SCHÖNBRUNN PALACE · 1809"
+  },
+  {
+   "k": "out",
+   "text": "robot. my knight moves 3 squares now. deal with it ♞",
+   "say": "Robot. My knight moves three squares now. Deal with it.",
+   "time": "8:12 PM"
+  },
+  {
+   "k": "in",
+   "text": "illegal. putting it back",
+   "say": "Illegal. Putting it back.",
+   "time": "8:12 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "i did it again 😏 now what",
+   "say": "I did it again. Now what?",
+   "time": "8:13 PM"
+  },
+  {
+   "k": "in",
+   "text": "🫳 swept the whole board. game over",
+   "say": "Swept the whole board. Game over.",
+   "time": "8:13 PM",
+   "typing": 0.9,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "u can't do that to an EMPEROR",
+   "say": "You can't do that to an emperor!",
+   "time": "8:14 PM"
+  },
+  {
+   "k": "in",
+   "text": "i'm a machine. i don't know what an emperor is",
+   "say": "I'm a machine. I don't know what an emperor is.",
+   "time": "8:14 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "then why is the box sweating 👀",
+   "say": "Then why is the box sweating?",
+   "time": "8:15 PM",
+   "sfx": "scratch"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "ROBOT: UNDEFEATED",
+  "bottom": "ROBOT: A GUY",
+  "chips": [
+   "Illegal moves: 3 ♞",
+   "Boards flipped: 1 🫳"
+  ],
+  "say": "The robot was a guy in a box."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
