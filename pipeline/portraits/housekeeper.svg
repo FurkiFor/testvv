@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="annoyed 1820s Viennese housekeeper holding a coffee cup">
+<defs><radialGradient id="housekeeper-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F0D9A8"/><stop offset="1" stop-color="#7A4A22"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#housekeeper-bg)"/>
+<path d="M18 250 Q26 184 100 174 Q174 184 182 250Z" fill="#3A4A6A"/>
+<path d="M70 186 Q100 200 130 186 L136 250 H64Z" fill="#F7F4EC"/>
+<rect x="88" y="148" width="24" height="30" fill="#E8B894"/>
+<ellipse cx="100" cy="116" rx="32" ry="38" fill="#F3C9A4"/>
+<path d="M66 112 Q60 70 100 64 Q140 70 134 112 Q128 88 100 86 Q72 88 66 112Z" fill="#6A3A1A"/>
+<path d="M60 84 Q100 40 140 84 Q120 70 100 70 Q80 70 60 84Z" fill="#F7F4EC" stroke="#D8D4CA" stroke-width="2"/>
+<path d="M78 98 L94 104 M122 98 L106 104" stroke="#4A2A10" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="87" cy="111" r="3.4" fill="#1E120A"/><circle cx="113" cy="111" r="3.4" fill="#1E120A"/>
+<path d="M100 116 Q95 126 99 129 Q104 131 106 127" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M86 138 H114" stroke="#7A2E2E" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="78" cy="126" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/><ellipse cx="122" cy="126" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/>
+<ellipse cx="150" cy="226" rx="26" ry="6" fill="#F7F4EC" stroke="#B8B4AA" stroke-width="2"/>
+<path d="M132 196 H168 L164 222 Q150 228 136 222Z" fill="#F7F4EC" stroke="#B8B4AA" stroke-width="2"/>
+<ellipse cx="150" cy="197" rx="17" ry="4" fill="#4A2A12"/>
+<path d="M168 202 Q180 204 176 214 Q172 218 164 216" stroke="#B8B4AA" stroke-width="3" fill="none"/>
+<path d="M144 188 Q140 180 146 172 M156 188 Q152 180 158 172" stroke="#fff" stroke-width="2.5" fill="none" opacity=".8" stroke-linecap="round"/>
+</svg>

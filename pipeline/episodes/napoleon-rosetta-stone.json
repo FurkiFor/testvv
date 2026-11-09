@@ -1,0 +1,129 @@
+{
+ "slug": "napoleon-rosetta-stone",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon's army found the Rosetta Stone. Britain took it 🪨 #shorts",
+  "caption": "The Rosetta Stone: found by Napoleon's army, kept by the British Museum 🇫🇷🇬🇧\n\nFrance or Britain? Pick a side 👇\n\nParody · fictional chat. Based on history: French soldiers in Napoleon's Egypt campaign found the Rosetta Stone in 1799. When the French army surrendered in 1801, the British took it, and it has been in the British Museum since 1802. In 1822 a Frenchman, Jean-François Champollion, used it to decode Egyptian hieroglyphs.\n\n#rosettastone #napoleon #britishmuseum #ancientegypt #hieroglyphs #historymemes #shorts",
+  "tags": [
+   "rosetta stone",
+   "napoleon",
+   "british museum",
+   "ancient egypt",
+   "egyptian hieroglyphs",
+   "napoleon bonaparte",
+   "history facts",
+   "history shorts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1C2430",
+  "glow": "#E0B040",
+  "footer": "🪨 1801 · ALEXANDRIA",
+  "footerColor": "#E0B040",
+  "stamp": "YOINKED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "British General 🇬🇧",
+  "label": "BRITISH GENERAL",
+  "portrait": "british-general.svg",
+  "face": "40 40 120 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen at a museum near you",
+  "subtitle": "His Majesty's Army · Egypt",
+  "about": "finders keepers. our rules 🫖",
+  "aboutDate": "1801"
+ },
+ "notifications": [
+  "it's british now",
+  "finders keepers"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ALEXANDRIA · 1801"
+  },
+  {
+   "k": "out",
+   "text": "give back my ROCK. now 🪨",
+   "say": "Give back my rock. Now.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "ur rock? it's in egypt bro",
+   "say": "Your rock? It's in Egypt, bro.",
+   "time": "9:02 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "my soldiers found it. it's FRENCH",
+   "say": "My soldiers found it. It's French!",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "ur army surrendered. it's british now 🇬🇧",
+   "say": "Your army surrendered. It's British now.",
+   "time": "9:03 AM",
+   "typing": 0.8,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "bro it's literally just a rock",
+   "say": "Bro, it's literally just a rock.",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "cool. then u won't mind it in OUR museum",
+   "say": "Cool. Then you won't mind it in our museum.",
+   "time": "9:04 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "fine. a frenchman will read it first 😏",
+   "say": "Fine. A Frenchman will read it first.",
+   "time": "9:05 AM",
+   "sfx": "scratch"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "FRANCE: FOUND IT",
+  "bottom": "BRITAIN: KEPT IT",
+  "chips": [
+   "Museums: 1 🇬🇧",
+   "Decoded by: 1 🇫🇷"
+  ],
+  "say": "A Frenchman cracked it in 1822."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
