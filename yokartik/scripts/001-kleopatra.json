@@ -1,0 +1,142 @@
+{
+  "id": "001-kleopatra",
+  "theme": "pop",
+  "topic": "tarih",
+  "hook_mechanism": "soru (tahmin ettiren boşluk) — izleyici 'piramitlere' der, cevap tersi",
+  "youtube": {
+    "title": "Kleopatra piramitlere mi, Ay'a inişe mi daha yakın yaşadı? 🤯 #shorts",
+    "caption": "Keops Piramidi ile Kleopatra arasında yaklaşık 2.530 yıl var. Kleopatra ile Ay'a iniş arasında ise sadece 1.998 yıl. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #kleopatra #tarih #ilginçbilgiler #bilgi #shorts",
+    "tags": [
+      "kleopatra",
+      "keops piramidi",
+      "ay'a iniş",
+      "tarih",
+      "ilginç bilgiler",
+      "bunları biliyor muydunuz",
+      "yok artık",
+      "tarih bilgisi",
+      "mısır",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Kleopatra hangisine daha yakın yaşadı? Piramitlere mi, Ay'a inişe mi?",
+      "icons": [
+        "pyramid",
+        "1f478",
+        "1f315"
+      ],
+      "text": "Kleopatra hangisine daha yakın yaşadı?",
+      "hl": {
+        "hangisine": "red"
+      },
+      "cap": "Kleopatra / hangisine daha / yakın yaşadı? / Piramitlere mi, / Ay'a inişe mi?"
+    },
+    {
+      "type": "number",
+      "say": "Keops Piramidi, milattan önce iki bin beş yüz altmış civarında tamamlandı.",
+      "cap": "Keops Piramidi, / MÖ 2560 civarında / tamamlandı.",
+      "icon": "pyramid",
+      "prefix": "MÖ ",
+      "value": 2560,
+      "year": true,
+      "label": "Keops Piramidi"
+    },
+    {
+      "type": "timeline",
+      "say": "Kleopatra ise milattan önce otuzda öldü. Arada yaklaşık iki bin beş yüz otuz yıl var!",
+      "cap": "Kleopatra ise / MÖ 30'da öldü. / Arada yaklaşık / 2.530 yıl var!",
+      "points": [
+        {
+          "at": -2560,
+          "icon": "pyramid",
+          "label": "Piramit",
+          "year": "MÖ 2560",
+          "delay": 0.0
+        },
+        {
+          "at": -30,
+          "icon": "1f478",
+          "label": "Kleopatra",
+          "year": "MÖ 30",
+          "delay": 0.25
+        },
+        {
+          "at": 1969,
+          "icon": "1f315",
+          "label": "Ay'a iniş",
+          "year": "1969",
+          "delay": 99
+        }
+      ],
+      "spans": [
+        {
+          "from": -2560,
+          "to": -30,
+          "text": "~2.530 YIL",
+          "color": "red",
+          "side": "below",
+          "delay": 3.8
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "say": "Ay'a ilk adım ise bin dokuz yüz altmış dokuzda atıldı. Kleopatra'nın ölümünden sadece bin dokuz yüz doksan sekiz yıl sonra!",
+      "cap": "Ay'a ilk adım ise / 1969'da atıldı. / Kleopatra'nın ölümünden / sadece 1.998 yıl sonra!",
+      "points": [
+        {
+          "at": -2560,
+          "icon": "pyramid",
+          "label": "Piramit",
+          "year": "MÖ 2560",
+          "delay": 0
+        },
+        {
+          "at": -30,
+          "icon": "1f478",
+          "label": "Kleopatra",
+          "year": "MÖ 30",
+          "delay": 0
+        },
+        {
+          "at": 1969,
+          "icon": "1f315",
+          "label": "Ay'a iniş",
+          "year": "1969",
+          "delay": 1.0
+        }
+      ],
+      "spans": [
+        {
+          "from": -2560,
+          "to": -30,
+          "text": "~2.530 YIL",
+          "color": "red",
+          "side": "below",
+          "delay": 0
+        },
+        {
+          "from": -30,
+          "to": 1969,
+          "text": "1.998 YIL",
+          "color": "green",
+          "side": "above",
+          "delay": 4.9
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani Kleopatra, piramitlerden çok Ay'a inişe yakın yaşadı. Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      },
+      "cap": "Yani Kleopatra, / piramitlerden çok / Ay'a inişe / yakın yaşadı. / Yok artık!"
+    }
+  ]
+}

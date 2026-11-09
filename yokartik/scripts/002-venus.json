@@ -1,0 +1,80 @@
+{
+  "id": "002-venus",
+  "theme": "pop",
+  "topic": "uzay",
+  "hook_mechanism": "çelişki (imkânsız gibi duran iddia) + gizlenen cevap",
+  "sources": [
+    "NASA Venus fact sheet: sidereal rotation 243.0 d, orbital period 224.7 d"
+  ],
+  "youtube": {
+    "title": "Kendi etrafında dönmesi bir yılından uzun süren gezegen 🤯 #shorts",
+    "caption": "Venüs kendi ekseni etrafında bir turu 243 Dünya gününde atıyor, Güneş'in etrafındaki turu ise yaklaşık 225 gün sürüyor. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #venüs #uzay #gezegenler #ilginçbilgiler #bilim #shorts",
+    "tags": [
+      "venüs",
+      "uzay",
+      "gezegenler",
+      "güneş sistemi",
+      "ilginç bilgiler",
+      "bilim",
+      "astronomi",
+      "yok artık",
+      "bunları biliyor muydunuz",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Öyle bir gezegen var ki, kendi etrafında tek bir tur atması, bir yılından daha uzun sürüyor!",
+      "cap": "Öyle bir gezegen / var ki, / kendi etrafında / tek bir tur atması, / bir yılından / daha uzun sürüyor!",
+      "icons": [
+        "2600",
+        "planet",
+        "2753"
+      ],
+      "text": "Bir turu, bir yılından uzun!",
+      "hl": {
+        "uzun!": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "[curious] Bu gezegen, Venüs.",
+      "cap": "Bu gezegen, / Venüs.",
+      "icon": "venus",
+      "text": "Venüs",
+      "hl": {
+        "Venüs": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Venüs kendi ekseni etrafında o kadar yavaş dönüyor ki, tek bir tur iki yüz kırk üç Dünya günü sürüyor.",
+      "cap": "Venüs kendi ekseni / etrafında / o kadar yavaş / dönüyor ki, / tek bir tur / 243 Dünya günü / sürüyor.",
+      "icon": "1f504",
+      "value": 243,
+      "suffix": " GÜN",
+      "label": "Kendi etrafında 1 tur"
+    },
+    {
+      "type": "number",
+      "say": "Güneş'in etrafındaki turu ise sadece iki yüz yirmi beş gün.",
+      "cap": "Güneş'in / etrafındaki turu ise / sadece 225 gün.",
+      "icon": "2600",
+      "value": 225,
+      "suffix": " GÜN",
+      "color": "green",
+      "label": "Güneş etrafında 1 tur"
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani Venüs, kendi etrafında bir tur bile atamadan Güneş'in etrafını dolaşıyor. Yok artık!",
+      "cap": "Yani Venüs, / kendi etrafında / bir tur bile atamadan / Güneş'in etrafını / dolaşıyor. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

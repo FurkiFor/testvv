@@ -1,0 +1,138 @@
+{
+  "id": "003-kopekbaligi",
+  "theme": "pop",
+  "topic": "doğa",
+  "hook_mechanism": "çelişki (zihinde canlanan imkânsız sahne) + karşılaştırmalı zaman çizgisi",
+  "sources": [
+    "Live Science: Are sharks really older than trees? (köpekbalıkları ~450 milyon yıl, ilk ağaçlar ~385 milyon yıl)",
+    "Discover Wildlife: sharks are older than trees"
+  ],
+  "youtube": {
+    "title": "Köpekbalıkları ağaçlardan daha eski! 🦈🌳 #shorts",
+    "caption": "İlk köpekbalıkları yaklaşık 450 milyon yıl önce ortaya çıktı, ilk ağaçlar ise yaklaşık 385 milyon yıl önce. Dinozorlar çok daha sonra geldi. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #köpekbalığı #doğa #evrim #ilginçbilgiler #bilim #shorts",
+    "tags": [
+      "köpekbalığı",
+      "ağaçlar",
+      "dinozorlar",
+      "evrim",
+      "doğa",
+      "ilginç bilgiler",
+      "bilim",
+      "yok artık",
+      "bunları biliyor muydunuz",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Bir zamanlar denizlerde köpekbalıkları yüzüyordu, ama karada tek bir ağaç bile yoktu!",
+      "cap": "Bir zamanlar / denizlerde / köpekbalıkları / yüzüyordu, / ama karada / tek bir ağaç bile / yoktu!",
+      "icons": [
+        "1f988",
+        "274c",
+        "1f333"
+      ],
+      "text": "Köpekbalıkları vardı, ağaçlar yoktu!",
+      "hl": {
+        "yoktu!": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "İlk köpekbalıkları, yaklaşık dört yüz elli milyon yıl önce ortaya çıktı.",
+      "cap": "İlk köpekbalıkları, / yaklaşık 450 / milyon yıl önce / ortaya çıktı.",
+      "icon": "1f988",
+      "value": 450,
+      "suffix": " MİLYON",
+      "size": 170,
+      "label": "yıl önce: ilk köpekbalıkları"
+    },
+    {
+      "type": "timeline",
+      "say": "İlk ağaçlar ise yaklaşık üç yüz seksen beş milyon yıl önce çıktı. Yani köpekbalıkları, ağaçlardan altmış milyon yıldan fazla daha eski!",
+      "cap": "İlk ağaçlar ise / yaklaşık 385 / milyon yıl önce / çıktı. / Yani köpekbalıkları, / ağaçlardan / 60 milyon yıldan / fazla daha eski!",
+      "points": [
+        {
+          "at": -450,
+          "icon": "1f988",
+          "label": "Köpekbalığı",
+          "year": "450 milyon",
+          "delay": 0.0
+        },
+        {
+          "at": -385,
+          "icon": "1f333",
+          "label": "Ağaç",
+          "year": "385 milyon",
+          "delay": 0.4
+        },
+        {
+          "at": -230,
+          "icon": "1f996",
+          "label": "Dinozor",
+          "year": "230 milyon",
+          "delay": 99
+        }
+      ],
+      "spans": [
+        {
+          "from": -450,
+          "to": -385,
+          "text": "60+ MİLYON YIL",
+          "color": "red",
+          "side": "below",
+          "delay": 6.2
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "say": "Dinozorlar mı? Onlar çok daha sonra, yaklaşık iki yüz otuz milyon yıl önce sahneye çıktı.",
+      "cap": "Dinozorlar mı? / Onlar çok / daha sonra, / yaklaşık 230 / milyon yıl önce / sahneye çıktı.",
+      "points": [
+        {
+          "at": -450,
+          "icon": "1f988",
+          "label": "Köpekbalığı",
+          "year": "450 milyon",
+          "delay": 0
+        },
+        {
+          "at": -385,
+          "icon": "1f333",
+          "label": "Ağaç",
+          "year": "385 milyon",
+          "delay": 0
+        },
+        {
+          "at": -230,
+          "icon": "1f996",
+          "label": "Dinozor",
+          "year": "230 milyon",
+          "delay": 3.0
+        }
+      ],
+      "spans": [
+        {
+          "from": -450,
+          "to": -385,
+          "text": "60+ MİLYON YIL",
+          "color": "red",
+          "side": "below",
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani köpekbalıkları, hem ağaçlardan hem de dinozorlardan daha eski. Yok artık!",
+      "cap": "Yani köpekbalıkları, / hem ağaçlardan / hem de / dinozorlardan / daha eski. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}
