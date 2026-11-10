@@ -1,0 +1,59 @@
+{
+  "id": "004-kemikler",
+  "theme": "pop",
+  "topic": "vücut",
+  "hook_mechanism": "gizem (kayıp) — 'yaklaşık 100 kemiğin kayboldu, nereye gitti?' Cevap: kaybolmadı, kaynaştı",
+  "sources": [
+    "Healthline: How many bones does a baby have? (doğumda yaklaşık 270–300 kemik, yetişkinde 206)",
+    "Popular Science: You'll never have as many bones as you did at birth"
+  ],
+  "youtube": {
+    "title": "Doğduğundan beri yaklaşık 100 kemiğin kayboldu 🦴 #shorts",
+    "caption": "Bebekler yaklaşık 300 kemikle doğar, yetişkin iskeletinde ise 206 kemik vardır. Kemikler kaybolmaz; büyürken birbiriyle kaynaşır. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #insanvücudu #kemik #bilim #ilginçbilgiler #shorts",
+    "tags": ["kemik sayısı", "insan vücudu", "bebek kemikleri", "206 kemik", "iskelet", "ilginç bilgiler", "bilim", "yok artık", "bunları biliyor muydunuz", "shorts"]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Doğduğundan beri vücudundan yaklaşık yüz kemik kayboldu. Peki nereye gittiler?",
+      "cap": "Doğduğundan beri / vücudundan / yaklaşık 100 kemik / kayboldu. / Peki nereye / gittiler?",
+      "icons": ["1f476", "1f9b4", "2753"],
+      "text": "Yaklaşık 100 kemiğin kayboldu!",
+      "hl": {"kayboldu": "red"}
+    },
+    {
+      "type": "number",
+      "say": "Bir bebek, yaklaşık üç yüz kemikle doğar.",
+      "cap": "Bir bebek, / yaklaşık 300 / kemikle doğar.",
+      "icon": "1f476",
+      "prefix": "~",
+      "value": 300,
+      "label": "doğumda kemik sayısı"
+    },
+    {
+      "type": "number",
+      "say": "Ama bir yetişkinin iskeletinde, sadece iki yüz altı kemik var.",
+      "cap": "Ama bir yetişkinin / iskeletinde, / sadece 206 / kemik var.",
+      "icon": "1f9d1",
+      "value": 206,
+      "color": "green",
+      "label": "yetişkinde kemik sayısı"
+    },
+    {
+      "type": "statement",
+      "say": "Çünkü kemikler aslında kaybolmuyor. Büyürken birbiriyle kaynaşıp tek parça oluyor. Kafatasın da böyle oluştu.",
+      "cap": "Çünkü kemikler / aslında / kaybolmuyor. / Büyürken / birbiriyle / kaynaşıp / tek parça oluyor. / Kafatasın da / böyle oluştu.",
+      "icon": "1f480",
+      "text": "Kemikler kaynaşıyor!",
+      "hl": {"kaynaşıyor": "red"}
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani bebekken, bugünkünden yaklaşık yüz kemik fazlan vardı. Yok artık!",
+      "cap": "Yani bebekken, / bugünkünden / yaklaşık 100 / kemik fazlan vardı. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {"gönder": "red"}
+    }
+  ]
+}

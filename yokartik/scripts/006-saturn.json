@@ -1,0 +1,83 @@
+{
+  "id": "006-saturn",
+  "theme": "pop",
+  "topic": "uzay",
+  "hook_mechanism": "imkânsız sahne / varsayım sorusu — 'Satürn'ü dev bir küvete atsan ne olurdu?' Cevap sonda: yüzerdi",
+  "sources": [
+    "NASA (science.gsfc.nasa.gov): Saturn — ortalama yoğunluğu sudan düşük tek gezegen (~0,69 g/cm³)",
+    "Space.com: How big is Saturn? (kütlesi Dünya'nın yaklaşık 95 katı)",
+    "BBC Sky at Night: Saturn could float on water"
+  ],
+  "youtube": {
+    "title": "Satürn'ü dev bir küvete atsan ne olurdu? 🪐 #shorts",
+    "caption": "Satürn, Dünya'dan yaklaşık 95 kat ağır ama ortalama yoğunluğu sudan düşük. Yeterince büyük bir okyanus olsaydı batmaz, yüzerdi. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #satürn #uzay #gezegenler #bilim #ilginçbilgiler #shorts",
+    "tags": [
+      "satürn",
+      "uzay",
+      "gezegenler",
+      "güneş sistemi",
+      "yoğunluk",
+      "astronomi",
+      "ilginç bilgiler",
+      "bilim",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Satürn'ü dev bir su küvetine atsaydın, sence ne olurdu?",
+      "cap": "Satürn'ü dev bir / su küvetine / atsaydın, / sence ne olurdu?",
+      "icons": [
+        "1fa90",
+        "1f6c1",
+        "2753"
+      ],
+      "text": "Satürn'ü suya atsan ne olur?",
+      "hl": {
+        "suya": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Satürn, Dünya'dan yaklaşık doksan beş kat daha ağır.",
+      "cap": "Satürn, / Dünya'dan / yaklaşık 95 kat / daha ağır.",
+      "icon": "1fa90",
+      "value": 95,
+      "suffix": " KAT",
+      "label": "Dünya'dan daha ağır"
+    },
+    {
+      "type": "statement",
+      "say": "Ama o kadar büyük ve gazlı ki, ortalama yoğunluğu sudan bile düşük.",
+      "cap": "Ama o kadar / büyük ve gazlı ki, / ortalama yoğunluğu / sudan bile düşük.",
+      "icon": "1f4a7",
+      "text": "Sudan bile hafif!",
+      "hl": {
+        "hafif": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Suyun yoğunluğu bir ise, Satürn'ünki yaklaşık sıfır virgül yedi. Güneş Sistemi'nde bu kadar hafif başka gezegen yok.",
+      "cap": "Suyun yoğunluğu / 1 ise, / Satürn'ünki / yaklaşık 0,7. / Güneş Sistemi'nde / bu kadar hafif / başka gezegen yok.",
+      "icon": "1fa90",
+      "prefix": "~",
+      "value": 0.7,
+      "decimals": 1,
+      "color": "green",
+      "label": "yoğunluk (su = 1)"
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani yeterince büyük bir okyanus bulsan, Satürn batmaz, yüzerdi. Yok artık!",
+      "cap": "Yani yeterince / büyük bir okyanus / bulsan, / Satürn batmaz, / yüzerdi. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

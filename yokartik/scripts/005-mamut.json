@@ -1,0 +1,64 @@
+{
+  "id": "005-mamut",
+  "theme": "pop",
+  "topic": "tarih",
+  "hook_mechanism": "yanlış bilinen (hata) — 'mamutlar buzul çağında yok oldu, değil mi?' sonra zaman çizgisiyle çürütme",
+  "sources": [
+    "PBS NOVA: Woolly mammoths probably died off by themselves, alone on an isolated Arctic island (Wrangel Adası, ~4.000 yıl önce)",
+    "WorldAtlas: Did woolly mammoths still roam parts of Earth when the Great Pyramids were built?",
+    "Britannica: Great Pyramid of Giza (MÖ 2560 civarı)"
+  ],
+  "youtube": {
+    "title": "Piramitler yapılırken mamutlar hâlâ yaşıyordu 🦣 #shorts",
+    "caption": "Keops Piramidi MÖ 2560 civarında tamamlandı. Son yünlü mamutlar ise Wrangel Adası'nda yaklaşık 4.000 yıl önceye kadar yaşadı. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #mamut #tarih #piramit #ilginçbilgiler #shorts",
+    "tags": ["mamut", "yünlü mamut", "keops piramidi", "wrangel adası", "tarih", "mısır", "ilginç bilgiler", "yok artık", "bunları biliyor muydunuz", "shorts"]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Mamutlar buzul çağında yok oldu, değil mi? Aslında Keops Piramidi yapılırken hâlâ yaşıyorlardı!",
+      "cap": "Mamutlar / buzul çağında / yok oldu, / değil mi? / Aslında / Keops Piramidi / yapılırken / hâlâ yaşıyorlardı!",
+      "icons": ["pyramid", "1f9a3", "2753"],
+      "text": "Piramitler yapılırken mamutlar yaşıyordu!",
+      "hl": {"yaşıyordu": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Mamutların çoğu, buzul çağının sonunda yok oldu. Ama küçük bir grup, Sibirya açıklarındaki Wrangel Adası'nda yaşamaya devam etti.",
+      "cap": "Mamutların çoğu, / buzul çağının / sonunda yok oldu. / Ama küçük / bir grup, / Sibirya açıklarındaki / Wrangel Adası'nda / yaşamaya / devam etti.",
+      "icon": "2744",
+      "text": "Wrangel Adası",
+      "hl": {"Wrangel": "red"}
+    },
+    {
+      "type": "timeline",
+      "say": "Keops Piramidi, milattan önce iki bin beş yüz altmış civarında tamamlandı.",
+      "cap": "Keops Piramidi, / MÖ 2560 civarında / tamamlandı.",
+      "points": [
+        {"at": -2560, "icon": "pyramid", "label": "Piramit", "year": "MÖ 2560", "delay": 0.0},
+        {"at": -2000, "icon": "1f9a3", "label": "Son mamut", "year": "MÖ 2000", "delay": 99}
+      ],
+      "spans": []
+    },
+    {
+      "type": "timeline",
+      "say": "Son mamutlar ise yaklaşık dört bin yıl önce yok oldu. Piramitten yüzlerce yıl sonra!",
+      "cap": "Son mamutlar ise / yaklaşık 4.000 / yıl önce / yok oldu. / Piramitten / yüzlerce yıl sonra!",
+      "points": [
+        {"at": -2560, "icon": "pyramid", "label": "Piramit", "year": "MÖ 2560", "delay": 0},
+        {"at": -2000, "icon": "1f9a3", "label": "Son mamut", "year": "MÖ 2000", "delay": 0.3}
+      ],
+      "spans": [
+        {"from": -2560, "to": -2000, "text": "YÜZLERCE YIL", "color": "red", "side": "below", "delay": 4.1}
+      ]
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani Mısırlılar piramit yaparken, dünyanın öbür ucunda mamutlar hâlâ geziniyordu. Yok artık!",
+      "cap": "Yani Mısırlılar / piramit yaparken, / dünyanın / öbür ucunda / mamutlar hâlâ / geziniyordu. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {"gönder": "red"}
+    }
+  ]
+}
