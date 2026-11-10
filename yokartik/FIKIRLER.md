@@ -6,7 +6,7 @@ havuzdaki başka bir konuyla değiştir ve özette belirt. Kullanılan satırı 
 
 | tarih | 12:00 | 17:00 | 21:00 |
 |---|---|---|---|
-| 10 Kas Sal | Vücut: doğarken ~300 kemik, yetişkinde 206 | Tarih: Keops Piramidi yapılırken mamutlar hâlâ yaşıyordu (Wrangel Adası) | Uzay: Satürn suya konsa yüzerdi |
+| 10 Kas Sal | ✅ p_-lgZHvCDXShr Vücut: doğarken ~300 kemik, yetişkinde 206 | ✅ p_zUWdDivyj0Et Tarih: Keops Piramidi yapılırken mamutlar hâlâ yaşıyordu (Wrangel Adası) | ✅ p__uVSl8gP3uZf Uzay: Satürn suya konsa yüzerdi |
 | 11 Kas Çar | Hayvan: kutup ayısının derisi siyah, tüyleri şeffaf | Uzay: şu an gördüğün Güneş 8 dakika önceki Güneş | Tarih: Oxford Üniversitesi, Aztek İmparatorluğu'ndan eski |
 | 12 Kas Per | Tarih: Nintendo 1889'da, Osmanlı döneminde kuruldu (oyun kartı) | Hayvan: ahtapotun 3 kalbi ve mavi kanı var | Vücut: DNA'n uç uca eklense Güneş'e defalarca gidip gelir |
 | 13 Kas Cum | Uzay: Ay her yıl Dünya'dan ~3,8 cm uzaklaşıyor | Vücut: kan damarların uç uca ~100.000 km, Dünya'yı 2 kezden fazla dolaşır | Hayvan: vombatın dışkısı küp şeklinde |
@@ -22,7 +22,6 @@ Tartışmalı ya da "efsane" olduğu bilinen bilgileri (Çin Seddi uzaydan gör�
 ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 
 ## Uzay / bilim
-- Satürn suya konsa yüzerdi (yoğunluğu sudan düşük)
 - Güneş'ten çıkan ışık bize ~8 dakikada ulaşıyor; şu an gördüğün Güneş 8 dakika önceki
 - Nötron yıldızının bir çay kaşığı milyarlarca ton
 - Ay her yıl Dünya'dan ~3,8 cm uzaklaşıyor
@@ -31,7 +30,6 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 
 ## Tarih
 - Oxford Üniversitesi, Aztek İmparatorluğu'ndan daha eski
-- Mamutlar, Giza piramitleri yapılırken hâlâ yaşıyordu (Wrangel Adası)
 - Napolyon'a tavşan sürüsü saldırdı (1807)
 - Fatih Sultan Mehmet İstanbul'u 21 yaşında fethetti
 - Nintendo, Osmanlı'nın son dönemlerinde (1889) kuruldu
@@ -40,7 +38,6 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 ## İnsan vücudu
 - Mide asidi metali eritebilecek kadar güçlü; mide astarı birkaç günde yenileniyor
 - Vücudundaki kan damarları uç uca eklense Dünya'yı ~2 kez dolaşır (~100.000 km)
-- Doğduğunda ~300 kemiğin var, yetişkinde 206
 - Kemik, aynı ağırlıktaki betondan daha dayanıklı
 - Gözün saniyede kaç kez kırpılıyor / hayatında yıllarca gözün kapalı geçiyor
 
