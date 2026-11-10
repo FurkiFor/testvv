@@ -103,3 +103,5 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 130 (35 h) | 1 | 0 |
 | napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 145 (15 h) | 0 | 0 |
 | beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 27 (11 h) | 0 | 0 |
+| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 (sched.) | – | – | – |
+| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 (sched.) | – | – | – |
