@@ -1,0 +1,128 @@
+{
+ "slug": "napoleon-canned-food",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon paid 12,000 francs to invent canned food 🥫 #shorts",
+  "caption": "Napoleon Bonaparte basically funded canned food 🥫\n\nWould you eat 200-year-old army soup? Yes or no 👇\n\nParody · fictional chat. Based on history: France offered a 12,000-franc prize for a way to preserve food for its armies. Confectioner Nicolas Appert won it in 1810 under Napoleon by sealing food in glass jars and boiling them. Two years later Napoleon invaded Russia anyway, and supply problems helped destroy his army.\n\n#napoleon #napoleonbonaparte #cannedfood #foodhistory #historyfacts #historymemes #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "canned food",
+   "canned food history",
+   "nicolas appert",
+   "food history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1A1F2E",
+  "glow": "#E8A040",
+  "footer": "🥫 1809 · PARIS",
+  "footerColor": "#E8A040",
+  "stamp": "SEALED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Nicolas Appert",
+  "label": "APPERT",
+  "portrait": "appert.svg",
+  "face": "50 30 100 110",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08,
+  "status": "last seen boiling jars",
+  "subtitle": "Chef · Inventor of canning",
+  "about": "if it's in a jar, it's forever 🫙",
+  "aboutDate": "1810"
+ },
+ "notifications": [
+  "bet. sealed it in a jar",
+  "lasts for years"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 1809"
+  },
+  {
+   "k": "out",
+   "text": "i need food that NEVER rots. 12,000 francs. go",
+   "say": "I need food that never rots. Twelve thousand francs. Go.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "bet. sealed it in a jar and boiled it 🫙",
+   "say": "Bet. Sealed it in a jar and boiled it.",
+   "time": "9:03 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "how long does it last",
+   "say": "How long does it last?",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "years. ur army can march anywhere now",
+   "say": "Years. Your army can march anywhere now.",
+   "time": "9:04 AM",
+   "typing": 0.6,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "ANYWHERE?? russia it is 🇷🇺",
+   "say": "Anywhere? Russia it is!",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "...wait not russia",
+   "say": "Wait. Not Russia.",
+   "time": "9:05 AM",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "relax. what's the worst that could happen ❄️",
+   "say": "Relax. What's the worst that could happen?",
+   "time": "9:05 AM",
+   "sfx": "scratch"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "FOOD: SOLVED",
+  "bottom": "WINTER: NOT SOLVED",
+  "chips": [
+   "Jars sealed: 1000s 🫙",
+   "Russia: 0-1 ❄️"
+  ],
+  "say": "The soup survived. The army didn't."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

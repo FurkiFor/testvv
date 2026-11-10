@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="proud French chef holding a sealed glass jar of food">
+<defs><radialGradient id="appert-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F6D98A"/><stop offset="1" stop-color="#A0602A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#appert-bg)"/>
+<path d="M14 250 Q24 182 100 172 Q176 182 186 250Z" fill="#F7F4EC"/>
+<path d="M70 178 L100 250 L130 178" fill="none" stroke="#D8D2C4" stroke-width="3"/>
+<path d="M84 174 L100 190 L116 174Z" fill="#2A3A6A"/>
+<rect x="88" y="148" width="24" height="30" fill="#E8B894"/>
+<ellipse cx="100" cy="118" rx="33" ry="38" fill="#F6CBA8"/>
+<path d="M66 112 Q64 88 80 82 L120 82 Q136 88 134 112 Q126 94 100 94 Q74 94 66 112Z" fill="#4A2E1A"/>
+<path d="M64 84 Q60 40 84 44 Q90 22 110 30 Q132 24 132 48 Q148 52 136 84Z" fill="#FFFFFF" stroke="#D8D2C4" stroke-width="2"/>
+<rect x="66" y="78" width="68" height="10" rx="3" fill="#EEE9DD"/>
+<path d="M80 106 Q87 101 94 105 M106 105 Q113 101 120 106" stroke="#4A2E1A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="114" r="3.4" fill="#2A1A10"/><circle cx="113" cy="114" r="3.4" fill="#2A1A10"/>
+<path d="M100 116 Q94 128 100 130 Q106 130 106 126" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M78 134 Q90 128 100 133 Q110 128 122 134" stroke="#4A2E1A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M86 141 Q100 152 114 141" stroke="#7A2E2E" stroke-width="3" fill="#FFFFFF"/>
+<ellipse cx="78" cy="128" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/><ellipse cx="122" cy="128" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/>
+<g transform="rotate(-6 150 210)"><rect x="126" y="182" width="46" height="58" rx="8" fill="#BFE3E8" opacity=".85" stroke="#6A9AA4" stroke-width="3"/>
+<rect x="124" y="174" width="50" height="12" rx="3" fill="#8A8A94"/>
+<circle cx="140" cy="214" r="8" fill="#E06A3A"/><circle cx="156" cy="224" r="7" fill="#7AB04A"/><circle cx="154" cy="202" r="6" fill="#E8C040"/></g>
+</svg>

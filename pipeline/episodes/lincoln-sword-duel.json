@@ -1,0 +1,127 @@
+{
+ "slug": "lincoln-sword-duel",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Abraham Lincoln got challenged to a duel. He picked SWORDS ⚔️ #shorts",
+  "caption": "Abraham Lincoln almost fought a real duel in 1842 ⚔️\n\nWould you show up to this duel? Comment the reply YOU would've sent 👇\n\nParody · fictional chat. Based on history: James Shields challenged Lincoln over anonymous letters mocking him. Lincoln, 6'4\" with long arms, chose cavalry broadswords. On the dueling ground he reportedly cut a branch high above Shields' head, and the duel was called off. In 1861 Lincoln made Shields a Union general.\n\n#abrahamlincoln #lincoln #duel #historyfacts #ushistory #historymemes #shorts",
+  "tags": [
+   "abraham lincoln",
+   "lincoln duel",
+   "abraham lincoln duel",
+   "abraham lincoln facts",
+   "james shields",
+   "us history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A10",
+  "glow": "#E8A65A",
+  "footer": "⚔️ 1842 · ILLINOIS",
+  "footerColor": "#F2B45C",
+  "stamp": "CANCELLED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "James Shields",
+  "label": "JAMES SHIELDS",
+  "portrait": "shields.svg",
+  "face": "50 56 100 100",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Abe Lincoln",
+  "label": "ABE LINCOLN",
+  "portrait": "lincoln.svg",
+  "face": "50 52 100 100",
+  "voice": "am_adam",
+  "speed": 1.12,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.1,
+  "status": "last seen sharpening something long",
+  "subtitle": "Lawyer · 6'4\" · Long arms",
+  "about": "honest abe. long reach ⚔️",
+  "aboutDate": "1842"
+ },
+ "notifications": [
+  "broadswords ⚔️",
+  "i'm 6'4"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ILLINOIS · 1842"
+  },
+  {
+   "k": "out",
+   "text": "u wrote letters mocking me. DUEL. pick ur weapon",
+   "say": "You wrote letters mocking me. Duel. Pick your weapon.",
+   "time": "6:01 AM"
+  },
+  {
+   "k": "in",
+   "text": "broadswords ⚔️",
+   "say": "Broadswords.",
+   "time": "6:01 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "BROADSWORDS?? ur arms are like 3 feet long",
+   "say": "Broadswords? Your arms are like three feet long!",
+   "time": "6:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "weird coincidence",
+   "say": "Weird coincidence.",
+   "time": "6:02 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "in",
+   "text": "*cuts a branch way above ur head* 🌳",
+   "say": "Cuts a branch way above your head.",
+   "time": "6:03 AM",
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "...ok what if we just stay friends",
+   "say": "Okay. What if we just stay friends?",
+   "time": "6:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "smart. one day i'll make u a general 🎖️",
+   "say": "Smart. One day I'll make you a general.",
+   "time": "6:04 AM",
+   "typing": 0.7
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "DUEL: CHALLENGED",
+  "bottom": "REACH: 6'4\"",
+  "chips": [
+   "Branches cut: 1 🌳",
+   "Duels fought: 0 ⚔️"
+  ],
+  "say": "He won the duel without swinging."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

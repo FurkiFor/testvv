@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="angry 1840s Illinois politician with sideburns pointing a small sword">
+<defs><radialGradient id="shields-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#E89A8A"/><stop offset="1" stop-color="#6A1E22"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#shields-bg)"/>
+<path d="M14 250 Q24 182 100 172 Q176 182 186 250Z" fill="#22283A"/>
+<path d="M84 174 L100 210 L116 174Z" fill="#F7F4EC"/>
+<path d="M88 178 L100 188 L112 178 L100 196Z" fill="#1A1A22"/>
+<rect x="88" y="148" width="24" height="30" fill="#E8B894"/>
+<ellipse cx="100" cy="116" rx="33" ry="39" fill="#F4C2A0"/>
+<path d="M66 108 Q60 68 100 64 Q140 68 134 108 Q130 82 100 80 Q72 82 66 108Z" fill="#3A2214"/>
+<path d="M67 104 Q64 128 74 142 L78 112Z M133 104 Q136 128 126 142 L122 112Z" fill="#3A2214"/>
+<path d="M78 100 L95 107 M122 100 L105 107" stroke="#3A2214" stroke-width="4" stroke-linecap="round"/>
+<circle cx="87" cy="113" r="3.6" fill="#2A1A10"/><circle cx="113" cy="113" r="3.6" fill="#2A1A10"/>
+<path d="M100 116 Q94 128 100 130 Q106 130 106 126" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="140" rx="11" ry="7" fill="#7A2E2E"/><path d="M92 137 H108" stroke="#FFFFFF" stroke-width="3"/>
+<ellipse cx="76" cy="126" rx="7" ry="4" fill="#E86A6A" opacity=".7"/><ellipse cx="124" cy="126" rx="7" ry="4" fill="#E86A6A" opacity=".7"/>
+<g transform="rotate(-35 160 210)"><rect x="156" y="150" width="6" height="56" fill="#D8DCE4" stroke="#8A8A94" stroke-width="1.5"/>
+<rect x="146" y="204" width="26" height="6" rx="2" fill="#E8C040"/><rect x="155" y="210" width="8" height="18" fill="#5A3A1A"/></g>
+</svg>
