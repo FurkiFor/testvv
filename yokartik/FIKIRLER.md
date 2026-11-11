@@ -7,7 +7,7 @@ havuzdaki başka bir konuyla değiştir ve özette belirt. Kullanılan satırı 
 | tarih | 12:00 | 17:00 | 21:00 |
 |---|---|---|---|
 | 10 Kas Sal | ✅ p_-lgZHvCDXShr Vücut: doğarken ~300 kemik, yetişkinde 206 | ✅ p_zUWdDivyj0Et Tarih: Keops Piramidi yapılırken mamutlar hâlâ yaşıyordu (Wrangel Adası) | ✅ p__uVSl8gP3uZf Uzay: Satürn suya konsa yüzerdi |
-| 11 Kas Çar | Hayvan: kutup ayısının derisi siyah, tüyleri şeffaf | Uzay: şu an gördüğün Güneş 8 dakika önceki Güneş | Tarih: Oxford Üniversitesi, Aztek İmparatorluğu'ndan eski |
+| 11 Kas Çar | ✅ p_HuyNsxmfqBFE Hayvan: kutup ayısının derisi siyah, tüyleri şeffaf | ✅ p_VKMYGaA9t-k8 Uzay: şu an gördüğün Güneş 8 dakika önceki Güneş | ✅ p_eMzwCP6J7Q9K Tarih: Oxford Üniversitesi, Aztek İmparatorluğu'ndan eski |
 | 12 Kas Per | Tarih: Nintendo 1889'da, Osmanlı döneminde kuruldu (oyun kartı) | Hayvan: ahtapotun 3 kalbi ve mavi kanı var | Vücut: DNA'n uç uca eklense Güneş'e defalarca gidip gelir |
 | 13 Kas Cum | Uzay: Ay her yıl Dünya'dan ~3,8 cm uzaklaşıyor | Vücut: kan damarların uç uca ~100.000 km, Dünya'yı 2 kezden fazla dolaşır | Hayvan: vombatın dışkısı küp şeklinde |
 | 14 Kas Cmt | Hayvan: bal bozulmaz, Mısır mezarlarından çıkan bal | Tarih: Fatih İstanbul'u 21 yaşında fethetti | Uzay: ISS'te astronotlar günde 16 gün doğumu görüyor |
@@ -22,14 +22,12 @@ Tartışmalı ya da "efsane" olduğu bilinen bilgileri (Çin Seddi uzaydan gör�
 ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 
 ## Uzay / bilim
-- Güneş'ten çıkan ışık bize ~8 dakikada ulaşıyor; şu an gördüğün Güneş 8 dakika önceki
 - Nötron yıldızının bir çay kaşığı milyarlarca ton
 - Ay her yıl Dünya'dan ~3,8 cm uzaklaşıyor
 - Uzayda bir günde 16 gün doğumu (ISS)
 - Mars'ta gün batımı mavi
 
 ## Tarih
-- Oxford Üniversitesi, Aztek İmparatorluğu'ndan daha eski
 - Napolyon'a tavşan sürüsü saldırdı (1807)
 - Fatih Sultan Mehmet İstanbul'u 21 yaşında fethetti
 - Nintendo, Osmanlı'nın son dönemlerinde (1889) kuruldu
@@ -44,7 +42,6 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 ## Hayvanlar / doğa
 - Ahtapotların 3 kalbi ve mavi kanı var
 - Vombatların dışkısı küp şeklinde
-- Kutup ayısının derisi siyah, tüyleri şeffaf
 - Bal hiç bozulmuyor (Mısır mezarlarında yenebilir bal)
 - Fillerin zıplayamaması
 - Köpekbalıkları ağaçlardan eski (yapıldı)
