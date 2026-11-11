@@ -2,18 +2,21 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-10 ~08:55 Dubai, Kervly get_youtube_stats — token OK)
+## Summary (snapshot 2026-11-11 ~08:50 Dubai, Kervly get_youtube_stats — token OK)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
-| v1 (44–59 s) | 23 | 76 | 82 | 0.4 | 1 | 23 | 82 |
-| v2 (all, published) | 36 | 255 | 142 | 1.4 | 2 | 32 | 153 |
+| v1 (44–59 s) | 23 | 76 | 82 | 0.5 | 1 | 23 | 82 |
+| v2 (all, published) | 38 | 248 | 138.5 | 1.4 | 2 | 34 | 153.5 |
 | v2-A (hook) | 7 | 161 | 114 | 0.1 | 0 | 7 | 114 |
-| v2-B (cold open) | 29 | 278 | 145 | 1.8 | 2 | 25 | 167 |
+| v2-B (cold open) | 31 | 268 | 139 | 1.6 | 2 | 27 | 168 |
+| v2-B ≤ 20 s | 11 | 253 | 116 | 1.1 | 1 | 7 | 138 |
+| v2-B > 20 s | 20 | 276 | 168.5 | 1.9 | 1 | 20 | 168.5 |
 
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-11: token OK (connection fine, 0 error posts). Matured B/A = 168 / 114 = 1.5× (same-period 3.0× still stands) → cold open in both slots stays. v2 matured median 153.5 vs v1 82 → no cut to 12–18 s. New split: matured B ≤ 20 s median 138 (n=7) vs B > 20 s 168.5 (n=20) → the ≤ 20 s builds are not beating 20–26 s (confounded: most > 20 s were ElevenLabs), so aim back at 20–26 s. Yesterday: napoleon-canned-food 108 @15 h (ok), lincoln-sword-duel 36 @11 h (weak). Beethoven 60 @35 h (weak, confirmed). ElevenLabs CDN still blocked (403) → Kokoro. Today: napoleon-hand-coat (B, 17:00, 22.2 s, hand-in-coat was just a portrait pose + short callback) and franklin-air-bath (B, 21:00, 25.5 s, Franklin's 1768 naked "air baths"; Franklin = 467 views last time). vidIQ: 10 credits (2× keyword research), balance 595 → 585.
 - 2026-11-10: token OK (connection fine, 0 error posts). Matured B/A = 167 / 114 = 1.5× (same-period 3.0× still stands) → cold open in both slots stays. v2 matured median 153 vs v1 82 → 18–28 s stays (≤ 20 s builds). Yesterday: napoleon-rosetta-stone 145 @15 h (ok), beethoven-60-beans 27 @11 h (weak → Beethoven not a repeat character). napoleon-chess-turk 530 @39 h (3rd best ever). Napoleon top-5: 1201 / 715 / 530 / 388 / 344. ElevenLabs CDN still blocked (403) → Kokoro. Today: napoleon-canned-food (B, 17:00, Napoleon funded canning → "what's the worst that could happen" Russia irony) and lincoln-sword-duel (B, 21:00, Lincoln picks broadswords vs Shields 1842). vidIQ: 10 credits (2× keyword research), balance 625 → 615.
 - 2026-11-09: token OK (connection fine, 0 error posts). Matured B/A = 167 / 114 = 1.5× (same-period 3.0× still stands) → cold open in both slots stays. v2 matured median 153 vs v1 82 → 18–28 s stays; ≤ 20 s keeps working. Yesterday: **napoleon-chess-turk 419 @16 h** (2nd-fastest start ever, 1 comment) → Napoleon confirmed again (1199 / 711 / 419 / 385 / 344); egypt-cat-shields 122 @12 h (ok). washington-cherry-tree 252 @40 h, erik-greenland-scam 249 @60 h. ElevenLabs CDN still blocked → Kokoro. Today: napoleon-rosetta-stone (B, 17:00, 19.0 s, "French found it, British kept it") and beethoven-60-beans (B, 21:00, 19.9 s, new character test: Beethoven's 60-bean coffee). vidIQ: 10 credits (2× keyword research), balance 650 → 640.
 - 2026-11-08: token OK (connection fine, 0 error posts). Matured B/A = 166 / 114 = 1.5× (same-period 24–30 Oct comparison 3.0× still stands, A has no new data) → cold open in both slots stays. v2 matured median 148 vs v1 82 → 18–28 s stays; short (≤ 20 s) keeps looking good: washington-whiskey (17.6 s) 212 @55 h, napoleon-sphinx-nose (19.5 s) 1168. Yesterday: washington-cherry-tree 136 @15 h (OK), olympics-naked 60 @11 h (weak). erik-greenland-scam 194 @35 h. ElevenLabs CDN still blocked → Kokoro. Today: napoleon-chess-turk (B, 17:00, 18.7 s, Napoleon = #1 character, "robot was a guy in a box") and egypt-cat-shields (B, 21:00, 19.1 s, ancient Egypt + cats, universal hook). vidIQ: 10 credits, balance 660 → 650.
@@ -67,41 +70,43 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | philip-vs-sparta | v1 | 59 | 2026-10-21 | 220 | 1 | 0 |
 | halley-vs-newton | v1 | 59 | 2026-10-21 | 83 | 0 | 0 |
 | darwin-vs-emma | v1 | 59 | 2026-10-22 | 37 | 0 | 0 |
-| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 17:00 | 168 (399 h) | 0 | 0 |
-| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 21:00 | 557 (395 h) | 1 | 0 |
-| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 01:00 | 293 (391 h) | 1 | 0 |
-| spartan-mom | v2-A | 25.6 | 2026-10-25 17:00 | 386 (375 h) | 0 | 0 |
-| washington-teeth | v2-B | 20.3 | 2026-10-25 21:00 | 1109 (371 h) | 9 | 0 |
-| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 01:00 | 344 (367 h) | 2 | 0 |
-| vangogh-sunflowers | v2-A | 28.3 | 2026-10-26 17:00 | 114 (351 h) | 0 | 0 |
-| alexander-city-names | v2-B | 24.7 | 2026-10-26 21:00 | 169 (347 h) | 3 | 0 |
-| diogenes-lamp | v2-A | 29.6 | 2026-10-27 17:00 | 65 (327 h) | 0 | 0 |
-| napoleon-short | v2-B | 26.2 | 2026-10-27 21:00 | 715 (323 h) | 9 | 1 |
-| revere-vs-dawes | v2-B | 26.1 | 2026-10-28 17:00 | 82 (303 h) | 0 | 0 |
-| viking-horns | v2-A | 28.3 | 2026-10-28 21:00 | 47 (299 h) | 0 | 0 |
-| leonardo-mona-lisa | v2-A | 29.2 | 2026-10-29 17:00 | 53 (279 h) | 0 | 0 |
-| franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 467 (275 h) | 1 | 0 |
-| cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 129 (255 h) | 2 | 0 |
-| poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (251 h) | 0 | 0 |
-| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 388 (175 h) | 3 | 0 |
-| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 167 (183 h) | 2 | 0 |
-| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 104 (179 h) | 0 | 0 |
-| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 199 (151 h) | 1 | 0 |
-| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 115 (159 h) | 1 | 0 |
-| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 115 (155 h) | 1 | 0 |
-| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (135 h) | 0 | 0 |
-| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 11 (131 h) | 0 | 0 |
-| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 112 (127 h) | 0 | 0 |
-| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (103 h) | 0 | 0 |
-| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1201 (111 h) | 7 | 0 |
-| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 125 (107 h) | 1 | 0 |
-| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 139 (87 h) | 2 | 0 |
-| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 249 (83 h) | 1 | 0 |
-| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (63 h) | 1 | 0 |
-| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 71 (59 h) | 0 | 0 |
-| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 530 (39 h) | 3 | 1 |
-| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 130 (35 h) | 1 | 0 |
-| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 145 (15 h) | 0 | 0 |
-| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 27 (11 h) | 0 | 0 |
-| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 (sched.) | – | – | – |
-| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 (sched.) | – | – | – |
+| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 17:00 | 168 (423 h) | 0 | 0 |
+| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 21:00 | 557 (419 h) | 1 | 0 |
+| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 01:00 | 293 (415 h) | 1 | 0 |
+| spartan-mom | v2-A | 25.6 | 2026-10-25 17:00 | 386 (399 h) | 0 | 0 |
+| washington-teeth | v2-B | 20.3 | 2026-10-25 21:00 | 1110 (395 h) | 9 | 0 |
+| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 01:00 | 344 (391 h) | 2 | 0 |
+| vangogh-sunflowers | v2-A | 28.3 | 2026-10-26 17:00 | 114 (375 h) | 0 | 0 |
+| alexander-city-names | v2-B | 24.7 | 2026-10-26 21:00 | 169 (371 h) | 3 | 0 |
+| diogenes-lamp | v2-A | 29.6 | 2026-10-27 17:00 | 65 (351 h) | 0 | 0 |
+| napoleon-short | v2-B | 26.2 | 2026-10-27 21:00 | 717 (347 h) | 9 | 1 |
+| revere-vs-dawes | v2-B | 26.1 | 2026-10-28 17:00 | 82 (327 h) | 0 | 0 |
+| viking-horns | v2-A | 28.3 | 2026-10-28 21:00 | 47 (323 h) | 0 | 0 |
+| leonardo-mona-lisa | v2-A | 29.2 | 2026-10-29 17:00 | 53 (303 h) | 0 | 0 |
+| franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 467 (299 h) | 1 | 0 |
+| cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 129 (279 h) | 2 | 0 |
+| poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (275 h) | 0 | 0 |
+| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 388 (199 h) | 3 | 0 |
+| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 168 (207 h) | 2 | 0 |
+| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 104 (203 h) | 0 | 0 |
+| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 199 (175 h) | 1 | 0 |
+| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 116 (183 h) | 1 | 0 |
+| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 115 (179 h) | 1 | 0 |
+| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (159 h) | 0 | 0 |
+| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 11 (155 h) | 0 | 0 |
+| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 112 (151 h) | 0 | 0 |
+| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (127 h) | 0 | 0 |
+| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1204 (135 h) | 7 | 0 |
+| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 126 (131 h) | 1 | 0 |
+| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 139 (111 h) | 2 | 0 |
+| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 249 (107 h) | 1 | 0 |
+| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (87 h) | 1 | 0 |
+| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 73 (83 h) | 0 | 0 |
+| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 567 (63 h) | 3 | 1 |
+| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 138 (59 h) | 1 | 0 |
+| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 161 (39 h) | 0 | 0 |
+| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 60 (35 h) | 0 | 0 |
+| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 108 (15 h) | 0 | 0 |
+| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 36 (11 h) | 0 | 0 |
+| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 (sched.) | – | – | – |
+| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 (sched.) | – | – | – |

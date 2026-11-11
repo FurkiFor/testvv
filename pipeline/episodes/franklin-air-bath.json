@@ -1,0 +1,136 @@
+{
+ "slug": "franklin-air-bath",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Ben Franklin sat NAKED by his window every morning 🌬️ #shorts",
+  "caption": "Benjamin Franklin took an 'air bath' every single morning 🌬️\n\nWould you rent a room to Ben? Yes or no 👇\n\nParody · fictional chat. Based on history: in a 1768 letter written in London, Franklin said he rose early almost every morning and sat in his room without any clothes for half an hour or an hour, reading or writing, and called it a 'tonic' air bath.\n\n#benjaminfranklin #benfranklin #airbath #weirdhistory #funnyhistory #historyfacts #historymemes #shorts",
+  "tags": [
+   "benjamin franklin",
+   "ben franklin",
+   "ben franklin air bath",
+   "franklin air baths",
+   "air bath",
+   "weird history",
+   "funny history",
+   "founding fathers",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1E2A22",
+  "glow": "#7FC8A0",
+  "footer": "🌬️ 1768 · LONDON",
+  "footerColor": "#7FC8A0",
+  "stamp": "EXPOSED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Mrs. Stevenson",
+  "label": "LANDLADY",
+  "portrait": "housekeeper.svg",
+  "face": "40 40 120 120",
+  "voice": "bf_emma",
+  "speed": 1.15,
+  "el_voice": "NPC1Rk3VsPo28KCMJFLI",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Ben Franklin",
+  "label": "BEN FRANKLIN",
+  "portrait": "franklin.svg",
+  "face": "40 46 120 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.1,
+  "status": "last seen by the window 🪟",
+  "subtitle": "Inventor · Lodger · Craven Street",
+  "about": "fresh air is free 🌬️",
+  "aboutDate": "1768"
+ },
+ "notifications": [
+  "air bath. very healthy",
+  "1 hour every morning"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LONDON · 1768"
+  },
+  {
+   "k": "out",
+   "text": "BENJAMIN. why are u sitting NAKED by the window",
+   "say": "Benjamin. Why are you sitting naked by the window?",
+   "time": "6:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "air bath. very healthy. 1 hour every morning 🌬️",
+   "say": "Air bath. Very healthy. One hour every morning.",
+   "time": "6:03 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "the neighbors can SEE u",
+   "say": "The neighbors can see you!",
+   "time": "6:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "then they're getting healthy too",
+   "say": "Then they're getting healthy too.",
+   "time": "6:04 AM",
+   "typing": 0.8,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "ur a famous SCIENTIST",
+   "say": "You're a famous scientist!",
+   "time": "6:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "exactly. this is science 🧪",
+   "say": "Exactly. This is science.",
+   "time": "6:05 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "what do i tell the neighbors",
+   "say": "What do I tell the neighbors?",
+   "time": "6:05 AM"
+  },
+  {
+   "k": "in",
+   "text": "a penny saved is a penny earned. no laundry 😌",
+   "say": "A penny saved is a penny earned. No laundry.",
+   "time": "6:06 AM",
+   "typing": 1.0,
+   "sfx": "scratch"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "FRANKLIN: AIR BATH",
+  "bottom": "NEIGHBORS: TRAUMATIZED",
+  "chips": [
+   "Clothes worn: 0 🌬️",
+   "Laundry saved: 100% 🪙"
+  ],
+  "say": "Founding Father. Zero clothes."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
