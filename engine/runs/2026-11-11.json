@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 8.4,
-      "sizeMB": 1.84
+      "sizeMB": 1.84,
+      "post_id": "p_Rgs3WBQepwDq",
+      "publish_at": "2026-11-11T12:00:00+04:00"
     },
     {
       "file": "2026-11-11-2-chrome-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 9.6,
-      "sizeMB": 7.78
+      "sizeMB": 7.78,
+      "post_id": "p_hxsr99zzD5ho",
+      "publish_at": "2026-11-11T17:00:00+04:00"
     },
     {
       "file": "2026-11-11-3-matte-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 10.47,
-      "sizeMB": 5.68
+      "sizeMB": 5.68,
+      "post_id": "p__jDeszxOV6Ky",
+      "publish_at": "2026-11-11T21:00:00+04:00"
     }
   ]
 }
