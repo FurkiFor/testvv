@@ -1,0 +1,86 @@
+{
+  "id": "008-gunes",
+  "theme": "pop",
+  "topic": "uzay",
+  "hook_mechanism": "imkânsız sahne — 'Güneş şu an yok olsa, bunu hemen fark etmezdin' (neden? sorusu açık kalıyor)",
+  "sources": [
+    "NASA Space Place / NASA: Güneş ışığının Dünya'ya ulaşması ortalama yaklaşık 8 dakika 20 saniye sürer (~150 milyon km)",
+    "Universe Today: How long does it take sunlight to reach the Earth? (ortalama 8 dk 20 sn)",
+    "Phys.org: How long does it take sunlight to reach the Earth?",
+    "LIGO/Virgo GW170817: kütleçekimi ışık hızıyla yayılır (Güneş yok olsa Dünya ~8 dk yörüngede kalırdı)"
+  ],
+  "youtube": {
+    "title": "Güneş şu an yok olsa, 8 dakika fark etmezdin ☀️ #shorts",
+    "caption": "Güneş ışığı yaklaşık 150 milyon kilometrelik yolu ortalama 8 dakika 20 saniyede alıyor. Yani gökyüzünde gördüğün Güneş, aslında 8 dakika önceki Güneş. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #güneş #uzay #ışıkhızı #bilim #ilginçbilgiler #shorts",
+    "tags": [
+      "güneş",
+      "ışık hızı",
+      "uzay",
+      "güneş ışığı",
+      "8 dakika",
+      "astronomi",
+      "bilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Güneş şu an aniden yok olsa, bunu hemen fark etmezdin.",
+      "cap": "Güneş şu an / aniden yok olsa, / bunu hemen / fark etmezdin.",
+      "icons": [
+        "2600",
+        "1f30d",
+        "2753"
+      ],
+      "text": "Güneş yok olsa fark etmezdin!",
+      "hl": {
+        "etmezdin": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Çünkü Güneş bizden yaklaşık yüz elli milyon kilometre uzakta.",
+      "cap": "Çünkü Güneş / bizden yaklaşık / 150 milyon km / uzakta.",
+      "icon": "2600",
+      "prefix": "~",
+      "value": 150,
+      "suffix": " MİLYON KM",
+      "size": 120,
+      "label": "Güneş'e uzaklık"
+    },
+    {
+      "type": "number",
+      "say": "Işık saniyede yaklaşık üç yüz bin kilometre yol alır. Ama bu kadar hızlı ışık bile, bu yolu ortalama sekiz dakika yirmi saniyede alıyor.",
+      "cap": "Işık saniyede / yaklaşık 300.000 km / yol alır. / Ama bu kadar / hızlı ışık bile, / bu yolu ortalama / 8 dakika / 20 saniyede alıyor.",
+      "icon": "23f1",
+      "value": 8,
+      "suffix": " DK 20 SN",
+      "size": 150,
+      "color": "green",
+      "label": "ışığın yolculuğu"
+    },
+    {
+      "type": "statement",
+      "say": "Yani gökyüzünde gördüğün Güneş, aslında sekiz dakika önceki Güneş.",
+      "cap": "Yani gökyüzünde / gördüğün Güneş, / aslında / 8 dakika önceki / Güneş.",
+      "icon": "1f440",
+      "text": "8 dakika önceki Güneş!",
+      "hl": {
+        "önceki": "red"
+      }
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Güneş yok olsa, Dünya bile sekiz dakika boyunca onun etrafında dönmeye devam ederdi. Yok artık!",
+      "cap": "Güneş yok olsa, / Dünya bile / 8 dakika boyunca / onun etrafında / dönmeye / devam ederdi. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

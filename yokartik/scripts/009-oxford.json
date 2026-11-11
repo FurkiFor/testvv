@@ -1,0 +1,131 @@
+{
+  "id": "009-oxford",
+  "theme": "pop",
+  "topic": "tarih",
+  "hook_mechanism": "karşılaştırma (şaşırtıcı sıralama) — 'bugün hâlâ öğrenci alan bir üniversite Aztek İmparatorluğu'ndan eski'; hangi üniversite olduğu ikinci sahnede",
+  "sources": [
+    "Smithsonian Magazine: Oxford University Is Older Than the Aztecs (Oxford'da 1096'da ders veriliyordu; Tenochtitlan 1325)",
+    "Britannica: What university is older than the Aztec Empire? (One Good Fact)",
+    "University of Oxford, Introduction and history: 'teaching existed at Oxford in some form in 1096'",
+    "Britannica: Aztec — Üçlü İttifak ve imparatorluğun yükselişi 1428"
+  ],
+  "youtube": {
+    "title": "Bu üniversite Aztek İmparatorluğu'ndan daha eski 🎓 #shorts",
+    "caption": "Oxford'da 1096'da ders veriliyordu. Aztekler başkentleri Tenochtitlan'ı 1325'te kurdu, imparatorlukları ise 1428'de yükselmeye başladı. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #oxford #aztekler #tarih #ilginçbilgiler #shorts",
+    "tags": [
+      "oxford",
+      "oxford üniversitesi",
+      "aztekler",
+      "aztek imparatorluğu",
+      "tenochtitlan",
+      "tarih",
+      "ilginç bilgiler",
+      "yok artık",
+      "bunları biliyor muydunuz",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Bugün hâlâ öğrenci alan bir üniversite, Aztek İmparatorluğu'ndan daha eski!",
+      "cap": "Bugün hâlâ / öğrenci alan / bir üniversite, / Aztek / İmparatorluğu'ndan / daha eski!",
+      "icons": [
+        "1f393",
+        "1f451",
+        "2753"
+      ],
+      "text": "Bu üniversite Azteklerden eski!",
+      "hl": {
+        "eski": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu üniversite, İngiltere'deki Oxford Üniversitesi.",
+      "cap": "Bu üniversite, / İngiltere'deki / Oxford Üniversitesi.",
+      "icon": "1f3db",
+      "text": "Oxford Üniversitesi",
+      "hl": {
+        "Oxford": "red"
+      }
+    },
+    {
+      "type": "timeline",
+      "say": "Oxford'da daha bin doksan altı yılında ders veriliyordu.",
+      "cap": "Oxford'da daha / 1096 yılında / ders veriliyordu.",
+      "points": [
+        {
+          "at": 1096,
+          "icon": "1f393",
+          "label": "Oxford",
+          "year": "1096",
+          "delay": 0.0
+        },
+        {
+          "at": 1325,
+          "icon": "1f3d8",
+          "label": "Başkent",
+          "year": "1325",
+          "delay": 99
+        },
+        {
+          "at": 1428,
+          "icon": "1f451",
+          "label": "İmp.",
+          "year": "1428",
+          "delay": 99
+        }
+      ],
+      "spans": []
+    },
+    {
+      "type": "timeline",
+      "say": "Aztekler, başkentleri Tenochtitlan'ı ancak bin üç yüz yirmi beşte kurdu. İmparatorluk olmaları ise bin dört yüz yirmi sekizi buldu.",
+      "cap": "Aztekler, / başkentleri / Tenochtitlan'ı / ancak 1325'te / kurdu. / İmparatorluk / olmaları ise / 1428'i buldu.",
+      "points": [
+        {
+          "at": 1096,
+          "icon": "1f393",
+          "label": "Oxford",
+          "year": "1096",
+          "delay": 0
+        },
+        {
+          "at": 1325,
+          "icon": "1f3d8",
+          "label": "Başkent",
+          "year": "1325",
+          "delay": 2.8
+        },
+        {
+          "at": 1428,
+          "icon": "1f451",
+          "label": "İmp.",
+          "year": "1428",
+          "delay": 6.1
+        }
+      ],
+      "spans": [
+        {
+          "from": 1096,
+          "to": 1428,
+          "text": "330+ YIL",
+          "color": "red",
+          "side": "below",
+          "delay": 7.0
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani Oxford'da ders verilirken, Aztek başkenti daha kurulmamıştı bile. Yok artık!",
+      "cap": "Yani Oxford'da / ders verilirken, / Aztek başkenti / daha / kurulmamıştı bile. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

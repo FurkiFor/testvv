@@ -1,0 +1,58 @@
+{
+  "id": "007-kutupayisi",
+  "theme": "pop",
+  "topic": "hayvan",
+  "hook_mechanism": "paradoks (çelişki) — 'bembeyaz görünüyor ama tek bir beyaz tüyü bile yok' ve sonda kapkara deri",
+  "sources": [
+    "National Geographic Education: Animals 101 — Polar Bears (siyah deri, renksiz/yarı saydam tüyler)",
+    "Natural Habitat Adventures / Polar Bears International: Do polar bears have white fur? (tüyler pigmentsiz ve içi boş, ışığı saçtığı için beyaz görünür)",
+    "Churchill Polar Bears: Polar bear skin is black"
+  ],
+  "youtube": {
+    "title": "Kutup ayısının tek bir beyaz tüyü bile yok 🐻‍❄️ #shorts",
+    "caption": "Kutup ayısının tüyleri aslında renksiz, yarı saydam ve içi boş; ışığı saçtıkları için beyaz görünürler. Altındaki derisi ise kapkara. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #kutupayısı #hayvanlar #doğa #ilginçbilgiler #bilim #shorts",
+    "tags": ["kutup ayısı", "kutup ayısı derisi", "hayvanlar", "doğa", "ilginç bilgiler", "bilim", "hayvan bilgileri", "yok artık", "bunları biliyor muydunuz", "shorts"]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Kutup ayısı bembeyaz görünür. Ama üzerinde tek bir beyaz tüy bile yok!",
+      "cap": "Kutup ayısı / bembeyaz görünür. / Ama üzerinde / tek bir / beyaz tüy / bile yok!",
+      "icons": ["1f43b-200d-2744-fe0f", "2744", "2753"],
+      "text": "Tek bir beyaz tüyü bile yok!",
+      "hl": {"yok": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Çünkü tüylerinin aslında rengi yok. Her biri yarı saydam ve içi boş, tıpkı küçük bir tüp gibi.",
+      "cap": "Çünkü tüylerinin / aslında / rengi yok. / Her biri / yarı saydam / ve içi boş, / tıpkı küçük / bir tüp gibi.",
+      "icon": "1f50d",
+      "text": "Tüyleri renksiz!",
+      "hl": {"renksiz": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Bu tüyler güneş ışığını her yöne saçıyor. Biz de onları, tıpkı kar gibi, beyaz görüyoruz.",
+      "cap": "Bu tüyler / güneş ışığını / her yöne saçıyor. / Biz de onları, / tıpkı kar gibi, / beyaz görüyoruz.",
+      "icon": "2744",
+      "text": "Kar gibi ışığı saçıyor",
+      "hl": {"saçıyor": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Asıl sürpriz ise tüylerin altında. Kutup ayısının derisi kapkara!",
+      "cap": "Asıl sürpriz ise / tüylerin altında. / Kutup ayısının / derisi kapkara!",
+      "icon": "1f5a4",
+      "text": "Derisi kapkara!",
+      "hl": {"kapkara": "red"}
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani bembeyaz sandığın bu dev, aslında siyah derili ve renksiz tüylü. Yok artık!",
+      "cap": "Yani bembeyaz / sandığın bu dev, / aslında / siyah derili / ve renksiz tüylü. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {"gönder": "red"}
+    }
+  ]
+}
