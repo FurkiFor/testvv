@@ -1,0 +1,126 @@
+{
+  "id": "010-nintendo",
+  "theme": "pop",
+  "topic": "tarih",
+  "hook_mechanism": "karşılaştırma (şaşırtıcı yaş) — 'Mario'yu yaratan şirket Türkiye Cumhuriyeti'nden daha yaşlı'; nasıl olduğu ve ilk ürünü sonra açılıyor",
+  "sources": [
+    "Nintendo resmi tarihçe (careers.nintendo.com/our-history): 1889'da Fusajiro Yamauchi Kyoto'da Hanafuda oyun kartı üretmeye başladı",
+    "Wikipedia: History of Nintendo — kuruluş 23 Eylül 1889, Kyoto",
+    "Britannica: Abdülhamid II (1876–1909 padişah); Türkiye Cumhuriyeti'nin ilanı 29 Ekim 1923"
+  ],
+  "youtube": {
+    "title": "Mario'nun şirketi Türkiye Cumhuriyeti'nden daha yaşlı 🎮 #shorts",
+    "caption": "Nintendo, 1889'da Japonya'nın Kyoto şehrinde hanafuda oyun kartı üreten küçük bir işletme olarak kuruldu. O yıllarda Osmanlı İmparatorluğu hâlâ ayaktaydı; Türkiye Cumhuriyeti ise 1923'te kuruldu. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #nintendo #mario #tarih #osmanlı #ilginçbilgiler #shorts",
+    "tags": [
+      "nintendo",
+      "nintendo tarihi",
+      "mario",
+      "hanafuda",
+      "osmanlı",
+      "türkiye cumhuriyeti",
+      "tarih",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Mario'yu yaratan şirket, Türkiye Cumhuriyeti'nden daha yaşlı!",
+      "cap": "Mario'yu yaratan / şirket, / Türkiye / Cumhuriyeti'nden / daha yaşlı!",
+      "icons": [
+        "1f3ae",
+        "1f1f9-1f1f7",
+        "2753"
+      ],
+      "text": "Cumhuriyet'ten daha yaşlı!",
+      "hl": {
+        "yaşlı!": "red"
+      }
+    },
+    {
+      "type": "timeline",
+      "say": "Bu şirket Nintendo. Bin sekiz yüz seksen dokuzda, Japonya'nın Kyoto şehrinde kuruldu.",
+      "cap": "Bu şirket / Nintendo. / 1889'da, / Japonya'nın / Kyoto şehrinde / kuruldu.",
+      "points": [
+        {
+          "at": 1889,
+          "icon": "1f3ae",
+          "label": "Nintendo",
+          "year": "1889",
+          "delay": 1.7
+        },
+        {
+          "at": 1923,
+          "icon": "1f1f9-1f1f7",
+          "label": "Cumhuriyet",
+          "year": "1923",
+          "delay": 99
+        }
+      ],
+      "spans": []
+    },
+    {
+      "type": "statement",
+      "say": "O yıllarda İstanbul'da hâlâ bir Osmanlı padişahı tahttaydı.",
+      "cap": "O yıllarda / İstanbul'da hâlâ / bir Osmanlı / padişahı / tahttaydı.",
+      "icon": "1f451",
+      "text": "Osmanlı hâlâ ayakta!",
+      "hl": {
+        "ayakta!": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Üstelik ilk ürünü bir oyun konsolu değil, hanafuda adlı oyun kartlarıydı.",
+      "cap": "Üstelik / ilk ürünü / bir oyun konsolu / değil, / hanafuda adlı / oyun kartlarıydı.",
+      "icon": "1f3b4",
+      "text": "İlk ürünü: oyun kartı",
+      "hl": {
+        "kartı": "red"
+      }
+    },
+    {
+      "type": "timeline",
+      "say": "Türkiye Cumhuriyeti ise bin dokuz yüz yirmi üçte kuruldu. Yani Nintendo, Cumhuriyet'ten otuz dört yıl önce kurulmuştu.",
+      "cap": "Türkiye / Cumhuriyeti ise / 1923'te kuruldu. / Yani Nintendo, / Cumhuriyet'ten / 34 yıl önce / kurulmuştu.",
+      "points": [
+        {
+          "at": 1889,
+          "icon": "1f3ae",
+          "label": "Nintendo",
+          "year": "1889",
+          "delay": 0
+        },
+        {
+          "at": 1923,
+          "icon": "1f1f9-1f1f7",
+          "label": "Cumhuriyet",
+          "year": "1923",
+          "delay": 1.4
+        }
+      ],
+      "spans": [
+        {
+          "from": 1889,
+          "to": 1923,
+          "text": "34 YIL",
+          "color": "red",
+          "side": "below",
+          "delay": 5.4
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Mario'nun şirketi, Osmanlı zamanında oyun kartı satarak başladı. Yok artık!",
+      "cap": "Mario'nun şirketi, / Osmanlı zamanında / oyun kartı / satarak başladı. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "012-dna",
+  "theme": "pop",
+  "topic": "vücut",
+  "hook_mechanism": "rakam (somut imkânsız görüntü) — 'neredeyse her hücrende 2 metrelik bir ip saklı'; ipin ne olduğu ve toplam uzunluk sonra açılıyor",
+  "sources": [
+    "Live Science / NIGMS: Genetics by the Numbers — bir hücredeki DNA uç uca eklenince yaklaşık 6 feet (~1,8 m); vücuttaki tüm DNA yaklaşık 67 milyar mil (~108 milyar km)",
+    "NASA: Dünya–Güneş ortalama uzaklığı ~150 milyon km (gidiş-dönüş ~300 milyon km; 108 milyar km ≈ 360 gidiş-dönüş)",
+    "Olgun kırmızı kan hücrelerinde çekirdek yoktur (bu yüzden 'neredeyse her hücre')"
+  ],
+  "youtube": {
+    "title": "Her hücrende 2 metrelik bir ip saklı 🧬 #shorts",
+    "caption": "Tek bir hücredeki DNA'yı açıp uç uca eklesen yaklaşık 2 metre tutar. Vücudundaki tüm DNA ise 100 milyar kilometreyi aşar; bu, Güneş'e 300'den fazla kez gidip gelmeye yeter. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #dna #insanvücudu #biyoloji #bilim #ilginçbilgiler #shorts",
+    "tags": [
+      "dna",
+      "dna uzunluğu",
+      "insan vücudu",
+      "hücre",
+      "genetik",
+      "biyoloji",
+      "bilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Vücudundaki neredeyse her hücrenin içinde, iki metrelik bir ip saklı!",
+      "cap": "Vücudundaki / neredeyse / her hücrenin / içinde, 2 metrelik / bir ip saklı!",
+      "icons": [
+        "1f52c",
+        "1f9f5",
+        "2753"
+      ],
+      "text": "Hücrende 2 metre ip!",
+      "hl": {
+        "metre": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu ip, senin DNA'n.",
+      "cap": "Bu ip, / senin DNA'n.",
+      "icon": "1f9ec",
+      "text": "DNA",
+      "hl": {
+        "DNA": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Tek bir hücredeki DNA'yı açıp uç uca eklesen, yaklaşık iki metre tutar.",
+      "cap": "Tek bir hücredeki / DNA'yı açıp / uç uca eklesen, / yaklaşık / 2 metre tutar.",
+      "icon": "1f4cf",
+      "prefix": "~",
+      "value": 2,
+      "suffix": " METRE",
+      "size": 190,
+      "label": "tek bir hücrede"
+    },
+    {
+      "type": "statement",
+      "say": "Ve bu iki metre, gözle göremeyeceğin kadar küçük bir hücre çekirdeğine sıkışmış durumda.",
+      "cap": "Ve bu 2 metre, / gözle / göremeyeceğin / kadar küçük / bir hücre / çekirdeğine / sıkışmış durumda.",
+      "icon": "1f52c",
+      "text": "Minicik çekirdekte!",
+      "hl": {
+        "Minicik": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Peki bütün hücrelerindeki DNA'yı uç uca eklesen? Yüz milyar kilometreyi aşar!",
+      "cap": "Peki bütün / hücrelerindeki / DNA'yı / uç uca eklesen? / 100 milyar km'yi / aşar!",
+      "icon": "1f9ec",
+      "value": 100,
+      "suffix": "+ MİLYAR KM",
+      "size": 120,
+      "color": "green",
+      "label": "vücudundaki tüm DNA"
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Bu, Güneş'e üç yüzden fazla kez gidip gelmeye yetecek bir uzunluk. Yok artık!",
+      "cap": "Bu, Güneş'e / 300'den fazla kez / gidip gelmeye / yetecek / bir uzunluk. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

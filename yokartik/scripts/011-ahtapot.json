@@ -1,0 +1,68 @@
+{
+  "id": "011-ahtapot",
+  "theme": "pop",
+  "topic": "hayvan",
+  "hook_mechanism": "gizem (kimliği gizli hayvan + imkânsız iddia) — 'bu hayvan yüzmeye başladığında kalbi duruyor'; hayvan ve neden ölmediği sonra açılıyor",
+  "sources": [
+    "Smithsonian Magazine: Ten Wild Facts About Octopuses (üç kalp; vücuda kan pompalayan kalp yüzerken durur; bakır içeren hemosiyanin, mavi kan)",
+    "Live Science: How many hearts does an octopus have? (iki solungaç kalbi, bir sistemik kalp)"
+  ],
+  "youtube": {
+    "title": "Bu hayvan yüzmeye başlayınca kalbi duruyor 🐙 #shorts",
+    "caption": "Ahtapotun üç kalbi var: ikisi kanı solungaçlara, biri bütün vücuda pompalıyor. Vücuda kan pompalayan kalp, ahtapot yüzerken duruyor. Kanı da bakır içeren hemosiyanin yüzünden mavi. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #ahtapot #hayvanlar #doğa #denizcanlıları #ilginçbilgiler #shorts",
+    "tags": ["ahtapot", "ahtapotun kalbi", "üç kalp", "mavi kan", "hayvanlar", "deniz canlıları", "doğa", "ilginç bilgiler", "yok artık", "shorts"]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Bu hayvan yüzmeye başladığında, kalbi duruyor!",
+      "cap": "Bu hayvan / yüzmeye / başladığında, / kalbi duruyor!",
+      "icons": ["1f3ca", "2764", "2753"],
+      "text": "Yüzerken kalbi duruyor!",
+      "hl": {"duruyor!": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Bu hayvan ahtapot. Ve tek bir kalbi yok, tam üç kalbi var.",
+      "cap": "Bu hayvan / ahtapot. / Ve tek bir / kalbi yok, / tam 3 kalbi var.",
+      "icon": "1f419",
+      "text": "Ahtapot",
+      "hl": {"Ahtapot": "red"}
+    },
+    {
+      "type": "number",
+      "say": "İki kalbi kanı solungaçlara pompalar. Üçüncüsü ise kanı bütün vücuda gönderir.",
+      "cap": "İki kalbi / kanı solungaçlara / pompalar. / Üçüncüsü ise / kanı bütün / vücuda gönderir.",
+      "icon": "2764",
+      "value": 3,
+      "suffix": " KALP",
+      "size": 190,
+      "color": "green",
+      "label": "2 solungaç + 1 vücut"
+    },
+    {
+      "type": "statement",
+      "say": "Ahtapot yüzdüğünde duran kalp, işte bu üçüncü kalp. Bu yüzden ahtapotlar genelde yüzmek yerine sürünmeyi seçer.",
+      "cap": "Ahtapot / yüzdüğünde / duran kalp, / işte bu / üçüncü kalp. / Bu yüzden / ahtapotlar genelde / yüzmek yerine / sürünmeyi seçer.",
+      "icon": "1f6d1",
+      "text": "Yüzmek yerine sürünüyor",
+      "hl": {"sürünüyor": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Üstelik kanı kırmızı değil, mavi. Çünkü kanında demir yerine bakır içeren bir protein var.",
+      "cap": "Üstelik kanı / kırmızı değil, / mavi. / Çünkü kanında / demir yerine / bakır içeren / bir protein var.",
+      "icon": "1f499",
+      "text": "Kanı mavi!",
+      "hl": {"mavi!": "red"}
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Üç kalp, mavi kan ve yüzerken duran bir kalp. Yok artık!",
+      "cap": "Üç kalp, / mavi kan / ve yüzerken / duran bir kalp. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {"gönder": "red"}
+    }
+  ]
+}
