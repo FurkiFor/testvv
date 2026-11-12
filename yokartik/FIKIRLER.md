@@ -8,7 +8,7 @@ havuzdaki başka bir konuyla değiştir ve özette belirt. Kullanılan satırı 
 |---|---|---|---|
 | 10 Kas Sal | ✅ p_-lgZHvCDXShr Vücut: doğarken ~300 kemik, yetişkinde 206 | ✅ p_zUWdDivyj0Et Tarih: Keops Piramidi yapılırken mamutlar hâlâ yaşıyordu (Wrangel Adası) | ✅ p__uVSl8gP3uZf Uzay: Satürn suya konsa yüzerdi |
 | 11 Kas Çar | ✅ p_HuyNsxmfqBFE Hayvan: kutup ayısının derisi siyah, tüyleri şeffaf | ✅ p_VKMYGaA9t-k8 Uzay: şu an gördüğün Güneş 8 dakika önceki Güneş | ✅ p_eMzwCP6J7Q9K Tarih: Oxford Üniversitesi, Aztek İmparatorluğu'ndan eski |
-| 12 Kas Per | Tarih: Nintendo 1889'da, Osmanlı döneminde kuruldu (oyun kartı) | Hayvan: ahtapotun 3 kalbi ve mavi kanı var | Vücut: DNA'n uç uca eklense Güneş'e defalarca gidip gelir |
+| 12 Kas Per | ✅ p_3yd_XXWZBAPH Tarih: Nintendo 1889'da, Osmanlı döneminde kuruldu (oyun kartı) | ✅ p_CA3CE-4nLLPY Hayvan: ahtapotun 3 kalbi ve mavi kanı var | ✅ p_Eks629efzvs8 Vücut: DNA'n uç uca eklense Güneş'e defalarca gidip gelir |
 | 13 Kas Cum | Uzay: Ay her yıl Dünya'dan ~3,8 cm uzaklaşıyor | Vücut: kan damarların uç uca ~100.000 km, Dünya'yı 2 kezden fazla dolaşır | Hayvan: vombatın dışkısı küp şeklinde |
 | 14 Kas Cmt | Hayvan: bal bozulmaz, Mısır mezarlarından çıkan bal | Tarih: Fatih İstanbul'u 21 yaşında fethetti | Uzay: ISS'te astronotlar günde 16 gün doğumu görüyor |
 | 15 Kas Paz | Vücut: mide asidi ve kendini birkaç günde yenileyen mide astarı | Uzay: nötron yıldızının bir çay kaşığı milyarlarca ton | Hayvan: mavi balinanın kalbi küçük bir araba boyutunda |
@@ -30,7 +30,6 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 ## Tarih
 - Napolyon'a tavşan sürüsü saldırdı (1807)
 - Fatih Sultan Mehmet İstanbul'u 21 yaşında fethetti
-- Nintendo, Osmanlı'nın son dönemlerinde (1889) kuruldu
 - Kleopatra (yapıldı)
 
 ## İnsan vücudu
@@ -40,7 +39,6 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 - Gözün saniyede kaç kez kırpılıyor / hayatında yıllarca gözün kapalı geçiyor
 
 ## Hayvanlar / doğa
-- Ahtapotların 3 kalbi ve mavi kanı var
 - Vombatların dışkısı küp şeklinde
 - Bal hiç bozulmuyor (Mısır mezarlarında yenebilir bal)
 - Fillerin zıplayamaması
