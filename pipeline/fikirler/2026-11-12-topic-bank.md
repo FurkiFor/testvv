@@ -20,7 +20,7 @@ Track in STATS.md as `title: meme` vs `title: fact`.
 | 3 | dancing-plague | Strasbourg mayor × doctor (1518) | "400 people can't stop DANCING" → doctor: "hire a band. more dancing" | cancan |
 | 4 | sandwich-earl | Earl of Sandwich × his cook (1762) | "bring meat. between bread. i'm NOT leaving this card table" → "ur naming food after urself??" | cancan |
 | 5 | medieval-cat-painter | Abbot × monk painter | "WHY does the cat have a human face" → "i've never seen one hold still" | greensleeves |
-| 6 | napoleon-pauline-statue / napoleon-bee | Napoleon again (series) — coronation 1804: takes the crown from the Pope's hands and crowns himself | "give me that. i'll do it myself" | marseillaise |
+| 6 | napoleon-crowns-himself | Pope Pius VII's aide × Napoleon (1804 coronation) — NOTE: keep the Pope off-screen (no religious figures as characters) | "the pope holds the crown. u kneel" → "give me that. i'll do it myself" | marseillaise |
 | 7 | versailles-no-toilets | Louis XIV × architect | "700 rooms. where's the bathroom" → "…behind the curtains, sire" | cancan |
 | 8 | lincoln-hat-office | Mary Todd × Lincoln | "WHY is the mail in ur HAT" → he kept letters and bills in his stovepipe hat | yankee |
 | 9 | roman-sponge-stick | Legionary × bath attendant | "is that sponge… SHARED" → "rinsed it in vinegar bro" | epic |
@@ -30,6 +30,6 @@ Track in STATS.md as `title: meme` vs `title: fact`.
 | 13 | washington-dog-howe | Washington × General Howe (1777) | returns Howe's lost dog mid-war: "found ur dog. still gonna beat u tho" | yankee |
 | 14 | mozart-fart-jokes | Mozart × his father | "WHY is ur letter 90% fart jokes" → "it's called art, dad" | ode |
 | 15 | qin-terracotta | Qin Shi Huang × sculptor | "i need an army. 8000. clay." → "can they all have the same face?" → "no." | epic |
-| 16 | henry-viii-tennis | Henry VIII (series) — played tennis in an 8-foot-wide waist era: armor size up | "the armor shrank" → "sire. it's steel." | greensleeves |
+| 16 | henry-viii-armor | Royal armorer × Henry VIII (series) — his armor went from a 32-inch to a 52-inch waist | "the armor shrank" → "sire. it's steel." | greensleeves |
 
 Skip (found in research but breaks our rules): Tesla / Edison (died after 1900), Charles II of Spain and Ferdinand VII (jokes about deformity), anything religious.
