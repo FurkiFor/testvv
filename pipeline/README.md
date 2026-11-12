@@ -87,6 +87,12 @@ Each character needs an SVG in `portraits/<name>.svg` (reuse an existing one if 
 ## Topic bank (12 Nov)
 `fikirler/2026-11-12-topic-bank.md` holds the episode ideas taken from 1M+ view Shorts in this niche (gross daily life, one famous name + one unbelievable fact, worst jobs, bad old art). Pick from it first, tick used ones off via LOG.md, and run the meme-style title test described there.
 
+## Style v3 (12 Nov, owner: "more realistic, things people actually laugh at")
+Two styles, one of each per day, both cold open:
+- **`v3-R` relatable** — an everyday situation everyone knows (mom texts, an ex, being removed from the group chat, "omw, 5 min", boss vs employee) played by a famous historical figure; the real history is the punchline, not the lecture. 12–18 s, 5–6 messages, ≤ 40 spoken words. Example: `episodes/napoleon-mom-texts.json`. Titles may be meme-style but keep the famous name.
+- **`v3-D` dark** — from `fikirler/2026-11-12-dark-humor-bank.md` (or the topic bank). 16–26 s, 6–8 messages.
+Verify every fact with a web search before building; if it is a legend, say "legend says" in the caption or drop it. No living people, ever. Compare v3-R / v3-D / v2-B medians in STATS.md.
+
 ## Dark humor (12 Nov, owner request)
 The owner wants darker, more realistic humor. Make **at least 1 of the 2 daily episodes** from `fikirler/2026-11-12-dark-humor-bank.md`: deadpan gallows humor about real deaths, bad medicine and grim daily life. Death, executions and plague are allowed as subjects when told matter-of-factly; the hard bans (detailed gore, suicide/self-harm, sexual violence, slavery, massacres, mocking atrocity victims, religious figures) stay. Tag these `dark` in LOG.md and STATS.md so they can be compared with the light ones.
 
