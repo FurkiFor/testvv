@@ -113,3 +113,5 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 45 (35 h) | 0 | 0 |
 | napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 119 (15 h) | 0 | 1 |
 | franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 24 (11 h) | 0 | 0 |
+| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 (sched.) | – | – | – |
+| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 (sched.) | – | – | – |
