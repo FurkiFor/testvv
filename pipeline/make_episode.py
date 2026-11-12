@@ -174,6 +174,7 @@ for attempt in range(4):
     boost *= min(1.12, (tl['total'] / MAX_LEN) ** 0.9 + 0.02)
 if tl['total'] > MAX_LEN + 6:
     sys.exit(f'TOO LONG ({tl["total"]:.1f}s): cut chat lines and rerun')
+tl['music'] = ep.get('theme', {}).get('music', 'sneaky')
 json.dump(tl, open(os.path.join(B, 'timeline.json'), 'w'), indent=1)
 
 # ---------- render frames ----------

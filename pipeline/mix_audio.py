@@ -59,24 +59,76 @@ for name, at in tl['vo']:
     a = norm(a, 0.9)
     i = int(at * SR); j = min(N, i + len(a)); vo[i:j] += a[:j - i]; vmask[i:j] = 1
 
-# sneaky pizzicato bed (Karplus-Strong), 112 bpm, ducked under voice
-def pluck(freq, dur=0.35):
-    n = int(dur * SR); p = int(SR / freq)
+# music bed: plucked (Karplus-Strong) themes, ducked under voice.
+# `theme.music` in the episode JSON picks one; all melodies are public-domain compositions
+# (or original), synthesized here, so there is no recording copyright.
+def pluck(freq, dur=0.35, decay=0.18):
+    n = int(dur * SR); p = max(2, int(SR / freq))
     buf = rng.uniform(-1, 1, p); out = np.zeros(n)
     for k in range(n):
         out[k] = buf[k % p]; buf[k % p] = 0.5 * (buf[k % p] + buf[(k + 1) % p]) * 0.996
-    return out * env(n, 0.001, 0.18)
-notes = [110, 0, 130.8, 110, 164.8, 0, 146.8, 130.8, 110, 0, 130.8, 110, 98, 0, 103.8, 110]
-cache = {f: pluck(f) for f in set(notes) if f}
-step = 60 / 112 / 2
-music = np.zeros(N); k = 0; t0 = 0.0
-while t0 < tl['total'] - 1.0:
-    f_ = notes[k % len(notes)]
-    if f_:
-        s = cache[f_]; i = int(t0 * SR); j = min(N, i + len(s)); music[i:j] += s[:j - i]
-        if k % 4 == 0:
-            h = norm(hp(noise(0.04), 6000) * env(int(0.04 * SR), 0.0005, 0.01), 1); jj = min(N, i + len(h)); music[i:jj] += 0.3 * h[:jj - i]
-    k += 1; t0 += step
+    return out * env(n, 0.001, decay)
+def hz(m): return 440.0 * 2 ** ((m - 69) / 12)
+# name: (seconds per unit, [(midi, units)...], bass [(midi, units)...], drum)
+THEMES = {
+ # Grieg, In the Hall of the Mountain King (1875): sneaky, the meme "something is about to go wrong" tune
+ 'mountain_king': (60 / 126 / 2, [(59,1),(61,1),(62,1),(64,1),(66,1),(62,1),(66,2),(65,1),(61,1),(65,2),(64,1),(60,1),(64,2),
+                   (59,1),(61,1),(62,1),(64,1),(66,1),(62,1),(66,1),(71,1),(69,1),(66,1),(62,1),(66,1),(69,4)],
+                   [(35,2),(42,2)] * 8, 'hat'),
+ # La Marseillaise (1792): Napoleon / France
+ 'marseillaise': (60 / 112 / 4, [(62,1),(62,3),(62,1),(67,4),(67,4),(69,4),(69,4),(74,6),(71,2),(67,3),(67,1),(71,3),(67,1),
+                  (64,4),(72,8),(69,3),(66,1),(67,8),(0,3)],
+                  [(0,5)] + [(43,4),(50,4)] * 7 + [(43,3)], 'snare'),
+ # Yankee Doodle (trad., 1700s): Washington, Franklin, Lincoln, anything American
+ 'yankee': (60 / 120 / 2, [(72,1),(72,1),(74,1),(76,1),(72,1),(76,1),(74,1),(67,1),(72,1),(72,1),(74,1),(76,1),(72,2),(71,2),
+            (72,1),(72,1),(74,1),(76,1),(77,1),(76,1),(74,1),(72,1),(71,1),(67,1),(69,1),(71,1),(72,2),(72,2)],
+            [(48,2),(43,2)] * 8, 'snare'),
+ # Greensleeves (trad., 1580): Henry VIII, Shakespeare, kings and queens
+ 'greensleeves': (60 / 150, [(69,1),(72,2),(74,1),(76,1.5),(77,.5),(76,1),(74,2),(71,1),(67,1.5),(69,.5),(71,1),
+                  (72,2),(69,1),(69,1.5),(68,.5),(69,1),(71,2),(68,1),(64,2)],
+                  [(0,1),(45,3),(45,3),(43,3),(43,3),(45,3),(45,3),(40,3),(40,2)], None),
+ # Offenbach, Can-can / Infernal Galop (1858): chaos, chases, things going off the rails
+ 'cancan': (60 / 150 / 2, [(72,2),(74,1),(77,1),(76,1),(74,1),(79,2),(79,2),(79,1),(81,1),(76,1),(77,1),(74,2),
+            (74,2),(74,1),(77,1),(76,1),(74,1),(72,1),(84,1),(83,1),(81,1),(79,1),(77,1),(76,1),(74,1),(72,2)],
+            [(48,1),(55,1)] * 16, 'hat'),
+ # Beethoven, Ode to Joy (1824): composers, Vienna, smug wins
+ 'ode': (60 / 126 / 2, [(64,2),(64,2),(65,2),(67,2),(67,2),(65,2),(64,2),(62,2),(60,2),(60,2),(62,2),(64,2),(64,3),(62,1),(62,4)],
+         [(48,4),(43,4)] * 4, None),
+ # original: low war-drum motif for Rome, Greece, Sparta, Egypt
+ 'epic': (60 / 100 / 2, [(50,2),(50,1),(51,1),(54,2),(55,2),(54,1),(51,1),(50,2),(48,2),(50,2),
+          (50,2),(50,1),(51,1),(54,2),(57,2),(55,1),(54,1),(51,2),(50,4)],
+          [(38,4)] * 8, 'tom'),
+ # original: the old sneaky pizzicato loop
+ 'sneaky': (60 / 112 / 2, [(45,1),(0,1),(48,1),(45,1),(52,1),(0,1),(50,1),(48,1),(45,1),(0,1),(48,1),(45,1),(43,1),(0,1),(44,1),(45,1)],
+            [], 'hat'),
+}
+unit, mel, bass, drum = THEMES.get(tl.get('music', 'sneaky'), THEMES['sneaky'])
+_c = {}
+def P(m, u, bassy=False):
+    key = (m, round(u, 2), bassy)
+    if key not in _c:
+        d = min(1.2, max(0.3, u * unit * 1.6))
+        _c[key] = pluck(hz(m), d, 0.35 if bassy else 0.22)
+    return _c[key]
+def lay(track, seq, gain, bassy=False):
+    span = sum(u for _, u in seq) * unit
+    if not seq or span <= 0: return
+    t0 = 0.0; k = 0
+    while t0 < tl['total'] - 1.0:
+        m, u = seq[k % len(seq)]
+        if m:
+            s = P(m, u, bassy); i = int(t0 * SR); j = min(N, i + len(s)); track[i:j] += gain * s[:j - i]
+        k += 1; t0 += u * unit
+music = np.zeros(N)
+lay(music, mel, 1.0); lay(music, bass, 0.7, True)
+if drum:
+    beat = sum(u for _, u in mel) * unit / (8 if drum != 'tom' else 4)
+    if drum == 'hat': h = norm(hp(noise(0.04), 6000) * env(int(0.04 * SR), 0.0005, 0.01), 0.3)
+    elif drum == 'snare': h = norm(bp(noise(0.09), 1200, 6000) * env(int(0.09 * SR), 0.0005, 0.03), 0.3)
+    else: h = norm(np.tanh(tone(90, 50, 0.4, 0.12) * 2), 0.9)
+    t0 = 0.0
+    while t0 < tl['total'] - 1.0:
+        i = int(t0 * SR); j = min(N, i + len(h)); music[i:j] += h[:j - i]; t0 += beat
 music = norm(music, 1.0)
 # ducking envelope (smoothed)
 from scipy.ndimage import uniform_filter1d

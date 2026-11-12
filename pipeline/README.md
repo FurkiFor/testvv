@@ -80,6 +80,13 @@ Each character needs an SVG in `portraits/<name>.svg` (reuse an existing one if 
 - No text, no photos, no external images. Prefix any gradient/def ids with the character name (e.g. `id="newton-bg"`).
 - Set `face` so the round crop shows the whole head.
 
+## Music themes (12 Nov)
+`theme.music` in the episode JSON picks the music bed (synthesized in `mix_audio.py`; public-domain melodies, no recordings). Match it to the characters instead of using the same loop every time:
+- `marseillaise` — Napoleon, France. `yankee` — Washington, Franklin, Lincoln, anything American. `greensleeves` — Henry VIII, Elizabeth I, Shakespeare, medieval/Tudor. `epic` — Rome, Greece, Sparta, Egypt, emperors. `ode` — Beethoven, Mozart, Vienna, scientists. `cancan` — chaos, parties, things going off the rails. `mountain_king` — sneaky schemes, anything else. `sneaky` — the old loop (default when the field is missing).
+
+## Topic bank (12 Nov)
+`fikirler/2026-11-12-topic-bank.md` holds the episode ideas taken from 1M+ view Shorts in this niche (gross daily life, one famous name + one unbelievable fact, worst jobs, bad old art). Pick from it first, tick used ones off via LOG.md, and run the meme-style title test described there.
+
 ## SEO (vidIQ)
 For each episode, before writing the final `youtube` block (≈10 vidIQ credits per episode):
 1. `vidiq_keyword_research` mode `research`, keyword = the two characters (e.g. "alexander the great diogenes"). Pick 1–2 high-volume, lower-competition keywords (prefer `overall` ≥ 55) that truly match the episode.
