@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Annoyed Josephine holding a rose illustration">
+<defs><radialGradient id="josephine-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#FCE3EC"/><stop offset=".6" stop-color="#D98AA8"/><stop offset="1" stop-color="#7A2E52"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#josephine-bg)"/>
+<path d="M18 250 Q26 190 100 182 Q174 190 182 250Z" fill="#F7F3EE"/>
+<path d="M58 206 Q100 222 142 206 L146 214 Q100 232 54 214Z" fill="#C9A24A"/>
+<rect x="89" y="148" width="22" height="36" fill="#EBC3A3"/>
+<path d="M58 118 Q50 70 100 62 Q150 70 142 118 Q146 140 134 150 L66 150 Q54 140 58 118Z" fill="#3A2216"/>
+<ellipse cx="100" cy="116" rx="30" ry="37" fill="#F2CFB2"/>
+<g fill="#3A2216"><circle cx="76" cy="86" r="9"/><circle cx="90" cy="80" r="9"/><circle cx="106" cy="79" r="9"/><circle cx="121" cy="84" r="9"/><circle cx="68" cy="100" r="7"/><circle cx="132" cy="98" r="7"/><circle cx="64" cy="128" r="7"/><circle cx="136" cy="128" r="7"/></g>
+<path d="M70 78 Q100 64 130 78" stroke="#E8C55A" stroke-width="5" fill="none"/>
+<circle cx="100" cy="68" r="5" fill="#E8C55A"/><circle cx="100" cy="68" r="2.4" fill="#7FC4E8"/>
+<path d="M78 104 Q86 98 95 104" stroke="#3A2216" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M105 100 Q114 92 123 98" stroke="#3A2216" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="114" rx="6.5" ry="3" fill="#fff"/><ellipse cx="113" cy="112" rx="6.5" ry="4.5" fill="#fff"/>
+<circle cx="89" cy="114" r="2.6" fill="#2A1A10"/><circle cx="115" cy="112" r="3" fill="#2A1A10"/>
+<path d="M80 111 L94 112" stroke="#D9A88A" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M98 120 Q102 128 97 131" stroke="#D9A88A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="80" cy="128" r="6" fill="#F2A0A8" opacity=".6"/><circle cx="120" cy="128" r="6" fill="#F2A0A8" opacity=".6"/>
+<path d="M89 139 Q100 135 112 140" stroke="#B5455A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M150 250 L156 188" stroke="#3C7A3A" stroke-width="5"/>
+<path d="M156 196 Q170 188 168 176" stroke="#3C7A3A" stroke-width="4" fill="#4E9A4A"/>
+<g fill="#D32F4A"><circle cx="156" cy="176" r="13"/></g>
+<path d="M148 176 Q156 166 164 176 Q156 186 148 176Z" fill="#A81E36"/>
+<path d="M152 172 Q156 168 160 172" stroke="#7A0E22" stroke-width="2" fill="none"/>
+</svg>

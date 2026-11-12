@@ -1,0 +1,136 @@
+{
+ "slug": "caesar-laurel-bald",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Julius Caesar wore his laurel wreath EVERYWHERE. Here's why 🌿 #shorts",
+  "caption": "Why did Julius Caesar never take off his laurel wreath? 🌿\n\nTeam Caesar or Team Senate? Pick one 👇\n\nParody · fictional chat. Based on history: the Roman historian Suetonius wrote that Caesar was embarrassed by his baldness, combed his thin hair forward, and that of all the honors the Senate gave him, the one he liked most was the right to wear a laurel wreath at all times.\n\n#juliuscaesar #ancientrome #romanhistory #caesar #historyfacts #funnyhistory #historymemes #shorts",
+  "tags": [
+   "julius caesar",
+   "julius caesar bald",
+   "caesar bald",
+   "julius caesar hair",
+   "julius caesar facts",
+   "laurel wreath",
+   "ancient rome",
+   "roman history",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1E10",
+  "glow": "#7FBF5A",
+  "footer": "🌿 45 BC · ROME",
+  "footerColor": "#7FBF5A",
+  "stamp": "BALD"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Julius Caesar 🏛️",
+  "label": "CAESAR",
+  "portrait": "caesar.svg",
+  "face": "40 48 120 120",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Senator Marcus",
+  "label": "SENATOR",
+  "portrait": "senator.svg",
+  "face": "44 52 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen staring at caesar's head",
+  "subtitle": "Roman Senate · since forever",
+  "about": "Bald and proud 🧑‍🦲",
+  "aboutDate": "45 BC"
+ },
+ "notifications": [
+  "u want... a hat?",
+  "is this bc ur bald"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ROME · 45 BC"
+  },
+  {
+   "k": "out",
+   "text": "senate. new law. i wear my laurel wreath ALWAYS 🌿",
+   "say": "Senate. New law. I wear my laurel wreath always.",
+   "time": "11:20 AM"
+  },
+  {
+   "k": "in",
+   "text": "u conquered gaul and u want... a hat?",
+   "say": "You conquered Gaul and you want... a hat?",
+   "time": "11:21 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "it's a crown of VICTORY",
+   "say": "It's a crown of victory!",
+   "time": "11:21 AM"
+  },
+  {
+   "k": "in",
+   "text": "u wore it to the BATHS",
+   "say": "You wore it to the baths.",
+   "time": "11:22 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "victory doesn't take days off",
+   "say": "Victory doesn't take days off.",
+   "time": "11:22 AM"
+  },
+  {
+   "k": "in",
+   "text": "is this bc ur bald 👀",
+   "say": "Is this because you're bald?",
+   "time": "11:22 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "VOTE. NOW.",
+   "say": "Vote. Now.",
+   "time": "11:23 AM"
+  },
+  {
+   "k": "in",
+   "text": "passed. nobody look at his head 🙈",
+   "say": "Passed. Nobody look at his head.",
+   "time": "11:23 AM",
+   "typing": 0.9,
+   "sfx": "scratch"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "THE WREATH: VICTORY",
+  "bottom": "THE REASON: BALD",
+  "chips": [
+   "Battles won: 50+ ⚔️",
+   "Hairs left: 3 🌿"
+  ],
+  "say": "Conquered Gaul. Lost to his hairline."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "slug": "napoleon-renamed-josephine",
+ "format": "v2-B",
+ "youtube": {
+  "title": "Napoleon renamed his wife. Her real name was Rose 🌹 #shorts",
+  "caption": "Napoleon Bonaparte didn't like his wife's name… so he changed it 🌹\n\nRose or Josephine? Pick one 👇\n\nParody · fictional chat. Based on history: Napoleon's wife was born Marie-Josèphe-Rose Tascher de La Pagerie and everyone called her Rose. Napoleon started calling her \"Joséphine\" instead, and the name stuck. He had already changed his own name too: he was born Napoleone di Buonaparte and Frenchified it to Napoléon Bonaparte.\n\n#napoleon #napoleonbonaparte #josephine #frenchhistory #historyfacts #funnyhistory #historymemes #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon and josephine",
+   "josephine bonaparte",
+   "josephine de beauharnais",
+   "napoleon vs josephine",
+   "french history",
+   "history facts",
+   "history group chat",
+   "history memes",
+   "funny history",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1520",
+  "glow": "#E0607E",
+  "footer": "🌹 1796 · PARIS",
+  "footerColor": "#E0607E",
+  "stamp": "RENAMED"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Rose 🌹",
+  "label": "ROSE",
+  "portrait": "josephine.svg",
+  "face": "52 58 96 100",
+  "voice": "af_bella",
+  "speed": 1.15,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08,
+  "status": "last seen renaming things",
+  "subtitle": "General · Army of Italy",
+  "about": "I name things. You're welcome 🇫🇷",
+  "aboutDate": "1796"
+ },
+ "notifications": [
+  "rose is mid",
+  "josephine hits different"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 1796"
+  },
+  {
+   "k": "out",
+   "text": "why does ur letter say JOSEPHINE. my name is ROSE 🌹",
+   "say": "Why does your letter say Josephine? My name is Rose.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "rose is mid. josephine hits different",
+   "say": "Rose is mid. Josephine hits different.",
+   "time": "9:03 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "everyone has called me rose for 32 years",
+   "say": "Everyone has called me Rose for thirty two years.",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "and now they'll call u josephine 💅",
+   "say": "And now they'll call you Josephine.",
+   "time": "9:04 AM",
+   "typing": 0.8,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "u can't just RENAME a person",
+   "say": "You can't just rename a person!",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "watch me. i renamed myself too",
+   "say": "Watch me. I renamed myself too.",
+   "time": "9:05 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "??? from WHAT",
+   "say": "From what?",
+   "time": "9:05 AM"
+  },
+  {
+   "k": "in",
+   "text": "napoleone di buonaparte 😎 sounded too italian",
+   "say": "Napoleone di Buonaparte. Sounded too Italian.",
+   "time": "9:05 AM",
+   "typing": 1.0,
+   "sfx": "scratch"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HER NAME WAS ROSE",
+  "bottom": "HE SAID: NEW PATCH",
+  "chips": [
+   "Names changed: 2 ✍️",
+   "Permission asked: 0 🙅"
+  ],
+  "say": "Her name was Rose. He didn't ask."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
