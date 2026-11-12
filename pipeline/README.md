@@ -87,6 +87,9 @@ Each character needs an SVG in `portraits/<name>.svg` (reuse an existing one if 
 ## Topic bank (12 Nov)
 `fikirler/2026-11-12-topic-bank.md` holds the episode ideas taken from 1M+ view Shorts in this niche (gross daily life, one famous name + one unbelievable fact, worst jobs, bad old art). Pick from it first, tick used ones off via LOG.md, and run the meme-style title test described there.
 
+## Dark humor (12 Nov, owner request)
+The owner wants darker, more realistic humor. Make **at least 1 of the 2 daily episodes** from `fikirler/2026-11-12-dark-humor-bank.md`: deadpan gallows humor about real deaths, bad medicine and grim daily life. Death, executions and plague are allowed as subjects when told matter-of-factly; the hard bans (detailed gore, suicide/self-harm, sexual violence, slavery, massacres, mocking atrocity victims, religious figures) stay. Tag these `dark` in LOG.md and STATS.md so they can be compared with the light ones.
+
 ## SEO (vidIQ)
 For each episode, before writing the final `youtube` block (≈10 vidIQ credits per episode):
 1. `vidiq_keyword_research` mode `research`, keyword = the two characters (e.g. "alexander the great diogenes"). Pick 1–2 high-volume, lower-competition keywords (prefer `overall` ≥ 55) that truly match the episode.
