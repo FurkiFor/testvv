@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Unimpressed Letizia Bonaparte, Napoleon's mother, illustration">
+<defs><linearGradient id="letizia-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9C7A8"/><stop offset="1" stop-color="#6E4A3A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#letizia-bg)"/>
+<path d="M20 250 Q28 188 100 180 Q172 188 180 250Z" fill="#2B2B38"/>
+<path d="M70 196 Q100 214 130 196 L126 190 Q100 204 74 190Z" fill="#F4EFE6"/>
+<rect x="89" y="148" width="22" height="36" fill="#E2B796"/>
+<path d="M56 130 Q48 66 100 60 Q152 66 144 130 Q146 160 130 176 L70 176 Q54 160 56 130Z" fill="#F4EFE6" opacity=".92"/>
+<ellipse cx="100" cy="116" rx="30" ry="37" fill="#EBC4A4"/>
+<path d="M70 104 Q72 76 100 74 Q128 76 130 104 Q116 86 100 88 Q84 86 70 104Z" fill="#4A4038"/>
+<path d="M82 82 Q100 76 118 82" stroke="#9A9088" stroke-width="3" fill="none"/>
+<path d="M68 82 Q100 62 132 82" stroke="#C9A24A" stroke-width="5" fill="none"/>
+<path d="M76 106 L96 102" stroke="#4A4038" stroke-width="4" stroke-linecap="round"/>
+<path d="M104 102 L124 106" stroke="#4A4038" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="87" cy="114" rx="6.5" ry="2.6" fill="#fff"/><ellipse cx="113" cy="114" rx="6.5" ry="2.6" fill="#fff"/>
+<circle cx="89" cy="114" r="2.4" fill="#2A1A10"/><circle cx="115" cy="114" r="2.4" fill="#2A1A10"/>
+<path d="M80 111 L94 111.5" stroke="#D2A688" stroke-width="2.5" stroke-linecap="round"/><path d="M106 111.5 L120 111" stroke="#D2A688" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M99 118 Q104 128 98 131" stroke="#C99A7C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M84 124 Q80 132 84 138" stroke="#D2A688" stroke-width="2" fill="none"/><path d="M116 124 Q120 132 116 138" stroke="#D2A688" stroke-width="2" fill="none"/>
+<path d="M90 142 L111 141" stroke="#8A3F3A" stroke-width="4" stroke-linecap="round"/>
+</svg>

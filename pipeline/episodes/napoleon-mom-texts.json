@@ -1,0 +1,121 @@
+{
+ "slug": "napoleon-mom-texts",
+ "format": "v2-B pilot (relatable)",
+ "youtube": {
+  "title": "Napoleon's mom was NOT impressed 💀 #shorts",
+  "caption": "Napoleon crowned himself Emperor. His mom had notes 💀\n\nWhat would YOUR mom text back? Comment it 👇\n\nParody · fictional chat. Based on history: Napoleon's mother Letizia Bonaparte skipped his 1804 coronation, kept saving money in case it all collapsed, and is famous for saying \"let's hope it lasts.\" In 1812 he invaded Russia anyway, and the winter destroyed his army.\n\n#napoleon #napoleonbonaparte #momtexts #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon mom",
+   "letizia bonaparte",
+   "mom texts",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1A2230",
+  "glow": "#5A9AD0",
+  "footer": "👑 1804 · PARIS",
+  "footerColor": "#5A9AD0",
+  "stamp": "MOM'D",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Mom 🇮🇹",
+  "label": "MOM",
+  "portrait": "letizia.svg",
+  "face": "48 54 104 104",
+  "voice": "bf_emma",
+  "speed": 1.12,
+  "el_voice": "QnYI2oCbco37NvlkNHTK",
+  "el_speed": 1.08,
+  "status": "last seen saving ur money",
+  "subtitle": "Letizia Bonaparte",
+  "about": "let's hope it lasts 🙄",
+  "aboutDate": "1804"
+ },
+ "notifications": [
+  "did u eat",
+  "wear a coat"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 1804"
+  },
+  {
+   "k": "out",
+   "text": "mom. i just crowned myself EMPEROR 👑",
+   "say": "Mom. I just crowned myself Emperor.",
+   "time": "2:14 PM"
+  },
+  {
+   "k": "in",
+   "text": "that's nice. did u eat",
+   "say": "That's nice. Did you eat?",
+   "time": "2:15 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "MOM. i rule EUROPE",
+   "say": "Mom! I rule Europe!",
+   "time": "2:15 PM"
+  },
+  {
+   "k": "in",
+   "text": "ok. wear a coat. russia is cold",
+   "say": "Okay. Wear a coat. Russia is cold.",
+   "time": "2:16 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "i'm not even going to russia??",
+   "say": "I'm not even going to Russia.",
+   "time": "2:16 PM"
+  },
+  {
+   "k": "in",
+   "text": "u will. u never listen 🙄",
+   "say": "You will. You never listen.",
+   "time": "2:17 PM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "1812: HE WENT",
+  "bottom": "NO COAT. MOM WAS RIGHT",
+  "chips": [
+   "Empires: 1 👑",
+   "Coats packed: 0 🧥"
+  ],
+  "say": "He went. Mom was right."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
