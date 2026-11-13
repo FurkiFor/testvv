@@ -1,0 +1,115 @@
+{
+  "id": "013-ay",
+  "theme": "pop",
+  "topic": "uzay",
+  "hook_mechanism": "imkânsız iddia + kanıt merakı — 'Ay her yıl bizden kaçıyor, bunu aynalar ele verdi'; ne kadar kaçtığı ve aynaların ne olduğu sonra açılıyor",
+  "sources": [
+    "Live Science (2023), Will Earth ever lose its moon?: NASA'ya göre Ay yılda yaklaşık 3,8 cm uzaklaşıyor, kabaca tırnakların uzama hızı; Apollo görevlerinde bırakılan yansıtıcı panellere 50 yılı aşkın süredir lazer gönderiliyor",
+    "NASA GSFC, Measuring the Moon's Distance (Apollo lazer yansıtıcıları, 1969'dan itibaren)",
+    "Hesap: 1969–2026 = 57 yıl × 3,8 cm ≈ 2,17 m"
+  ],
+  "youtube": {
+    "title": "Ay her yıl bizden kaçıyor, aynalar ele verdi 🌙 #shorts",
+    "caption": "Apollo astronotlarının Ay'a bıraktığı aynalara gönderilen lazerler gösteriyor: Ay her yıl Dünya'dan yaklaşık 3,8 cm uzaklaşıyor. Bu, kabaca tırnaklarının uzama hızı; 1969'dan bu yana 2 metreyi aştı. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #ay #uzay #nasa #apollo #bilim #shorts",
+    "tags": [
+      "ay",
+      "ay uzaklaşıyor",
+      "ay dünyadan uzaklaşıyor",
+      "apollo",
+      "nasa",
+      "lazer",
+      "uzay",
+      "astronomi",
+      "ilginç bilgiler",
+      "yok artık"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Ay, her yıl bizden biraz daha kaçıyor. Bunu da Ay'a bıraktığımız aynalar ele verdi!",
+      "cap": "Ay, her yıl / bizden biraz / daha kaçıyor. / Bunu da / Ay'a bıraktığımız / aynalar / ele verdi!",
+      "icons": [
+        "1f30d",
+        "1f3c3",
+        "1f319"
+      ],
+      "text": "Ay bizden kaçıyor!",
+      "hl": {
+        "kaçıyor!": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Apollo astronotları, bin dokuz yüz altmış dokuzdan itibaren Ay'a özel aynalar bıraktı. Bilim insanları bu aynalara hâlâ lazer gönderiyor.",
+      "cap": "Apollo / astronotları, / 1969'dan itibaren / Ay'a özel / aynalar bıraktı. / Bilim insanları / bu aynalara / hâlâ lazer / gönderiyor.",
+      "icon": "1fa9e",
+      "text": "Ay'da aynalar var!",
+      "hl": {
+        "aynalar": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Işığın gidip gelme süresi ölçülüyor ve sonuç şu: Ay, her yıl yaklaşık üç virgül sekiz santimetre uzaklaşıyor.",
+      "cap": "Işığın / gidip gelme / süresi ölçülüyor / ve sonuç şu: / Ay, her yıl / yaklaşık / 3,8 santimetre / uzaklaşıyor.",
+      "icon": "1f4cf",
+      "value": 3.8,
+      "decimals": 1,
+      "suffix": " CM",
+      "size": 210,
+      "label": "her yıl"
+    },
+    {
+      "type": "statement",
+      "say": "Bu, aşağı yukarı tırnaklarının uzama hızı kadar.",
+      "cap": "Bu, aşağı yukarı / tırnaklarının / uzama hızı kadar.",
+      "icon": "1f485",
+      "text": "Tırnak hızında!",
+      "hl": {
+        "Tırnak": "red"
+      }
+    },
+    {
+      "type": "timeline",
+      "say": "Yani Ay'a ilk ayak basıldığından bu yana, Ay bizden iki metreden fazla uzaklaştı.",
+      "cap": "Yani Ay'a / ilk ayak / basıldığından / bu yana, / Ay bizden / 2 metreden fazla / uzaklaştı.",
+      "points": [
+        {
+          "at": 1969,
+          "icon": "1f680",
+          "label": "Apollo 11",
+          "year": "1969",
+          "delay": 0
+        },
+        {
+          "at": 2026,
+          "icon": "1f30d",
+          "label": "Bugün",
+          "year": "2026",
+          "delay": 2.2
+        }
+      ],
+      "spans": [
+        {
+          "from": 1969,
+          "to": 2026,
+          "text": "2+ METRE",
+          "color": "red",
+          "side": "below",
+          "delay": 3.6
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Ay, gözümüzün önünde kaçıyor. Yok artık!",
+      "cap": "Ay, gözümüzün / önünde kaçıyor. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

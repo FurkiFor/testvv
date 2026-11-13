@@ -1,0 +1,93 @@
+{
+  "id": "014-mide",
+  "theme": "pop",
+  "topic": "vücut",
+  "hook_mechanism": "paradoks (soru + çelişki) — 'midendeki asit metali eritebilir, peki mideni neden eritmiyor?'; cevap sonra açılıyor",
+  "sources": [
+    "University of Alaska Fairbanks, Alaska Science Forum: Why doesn't the stomach digest itself? (mide asidi çinkoyu eritir; yüzey her dakika ~500.000 hücre döker ve kendini yaklaşık 3 günde tamamen yeniler)",
+    "Britannica: Stomach — mide mukozası asit ve pepsine karşı kalın bir mukus tabakasıyla korunur"
+  ],
+  "youtube": {
+    "title": "Mide asidi metali eritir, mideyi neden eritmez? 🧪 #shorts",
+    "caption": "Mide asidi, içine atılan bir çinko parçasını eritebilecek kadar güçlü. Miden ise kendini kalın bir mukus tabakasıyla koruyor; iç yüzeyi her dakika yaklaşık 500 bin hücre döküyor ve yaklaşık 3 günde tamamen yenileniyor. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #mide #insanvücudu #biyoloji #bilim #ilginçbilgiler #shorts",
+    "tags": [
+      "mide",
+      "mide asidi",
+      "insan vücudu",
+      "sindirim",
+      "biyoloji",
+      "hücre yenilenmesi",
+      "bilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Midendeki asit, metali bile eritebilir. Peki o zaman, neden mideni eritmiyor?",
+      "cap": "Midendeki asit, / metali bile / eritebilir. / Peki o zaman, / neden mideni / eritmiyor?",
+      "icons": [
+        "1f9ea",
+        "1f529",
+        "2753"
+      ],
+      "text": "Metali eritir, mideyi eritmez?",
+      "hl": {
+        "eritmez?": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Mide asidi o kadar güçlü ki, içine atılan bir çinko parçasını eritebilir.",
+      "cap": "Mide asidi / o kadar güçlü ki, / içine atılan / bir çinko / parçasını / eritebilir.",
+      "icon": "1f9ea",
+      "text": "Çinkoyu eritir!",
+      "hl": {
+        "eritir!": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Sırrı şu: miden, kendini kalın bir mukus tabakasıyla korur ve iç yüzeyini durmadan yeniler.",
+      "cap": "Sırrı şu: miden, / kendini kalın / bir mukus / tabakasıyla korur / ve iç yüzeyini / durmadan yeniler.",
+      "icon": "1f6e1",
+      "text": "Kalkan + yenilenme",
+      "hl": {
+        "Kalkan": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Midenin iç yüzeyi, her dakika yaklaşık beş yüz bin hücre döküyor.",
+      "cap": "Midenin / iç yüzeyi, / her dakika / yaklaşık / 500 bin hücre / döküyor.",
+      "icon": "1f52c",
+      "value": 500000,
+      "size": 190,
+      "label": "her dakika dökülen hücre"
+    },
+    {
+      "type": "number",
+      "say": "Ve bu yüzeyin tamamı, yaklaşık üç günde baştan yenileniyor.",
+      "cap": "Ve bu yüzeyin / tamamı, / yaklaşık 3 günde / baştan / yenileniyor.",
+      "icon": "1f504",
+      "prefix": "~",
+      "value": 3,
+      "suffix": " GÜN",
+      "size": 210,
+      "color": "green",
+      "label": "baştan yenilenme"
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Yani miden, kendini sindirmeden önce kendini yeniliyor. Yok artık!",
+      "cap": "Yani miden, / kendini / sindirmeden önce / kendini yeniliyor. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

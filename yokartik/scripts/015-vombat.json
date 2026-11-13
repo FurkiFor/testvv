@@ -1,0 +1,93 @@
+{
+  "id": "015-vombat",
+  "theme": "pop",
+  "topic": "hayvan",
+  "hook_mechanism": "rakam + gizli kimlik — 'bir hayvan her gece yüze yakın küp üretiyor, hem de kakasıyla'; hayvan ve nasıl yaptığı sonra açılıyor",
+  "sources": [
+    "Smithsonian Magazine: Why Wombats Make Cube-Shaped Poos (gecede 80–100 küp, kenarı yaklaşık 2 cm; şekil bağırsağın son %8'lik kısmında, farklı esneklikteki duvarlar sayesinde oluşuyor; küplerle bölge işaretleme, yuvarlanmadığı düşünülüyor)",
+    "Yang ve ark., Soft Matter (2021): How do wombats make cubed poo? (bağırsak duvarındaki sert ve esnek bölgeler)"
+  ],
+  "youtube": {
+    "title": "Bu hayvanın kakası küp şeklinde 🎲 #shorts",
+    "caption": "Avustralya'da yaşayan vombat, her gece 80 ila 100 küp şeklinde dışkı bırakıyor. Şekil, bağırsağın son kısmındaki sert ve esnek bölgeler sayesinde oluşuyor; vombatlar bu küplerle bölgelerini işaretliyor. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #vombat #hayvanlar #doğa #avustralya #ilginçbilgiler #shorts",
+    "tags": [
+      "vombat",
+      "wombat",
+      "küp kaka",
+      "hayvanlar",
+      "avustralya",
+      "doğa",
+      "hayvan bilgileri",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Avustralya'da bir hayvan, her gece yüze yakın küp üretiyor. Hem de kakasıyla!",
+      "cap": "Avustralya'da / bir hayvan, / her gece / yüze yakın küp / üretiyor. / Hem de kakasıyla!",
+      "icons": [
+        "1f319",
+        "1f3b2",
+        "2753"
+      ],
+      "text": "Her gece ~100 küp!",
+      "hl": {
+        "küp!": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu hayvan vombat. Ve kakası gerçekten küp şeklinde.",
+      "cap": "Bu hayvan / vombat. / Ve kakası / gerçekten / küp şeklinde.",
+      "icon": "1f4a9",
+      "text": "Vombat",
+      "hl": {
+        "Vombat": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Her gece seksen ila yüz küp bırakıyor. Her birinin kenarı yaklaşık iki santimetre.",
+      "cap": "Her gece / 80 ila 100 küp / bırakıyor. / Her birinin / kenarı yaklaşık / 2 santimetre.",
+      "icon": "1f3b2",
+      "prefix": "80-",
+      "value": 100,
+      "suffix": " KÜP",
+      "size": 170,
+      "label": "her gece"
+    },
+    {
+      "type": "statement",
+      "say": "Peki nasıl? Bağırsağının son yüzde sekizlik kısmında, duvarlar her yerde aynı esneklikte değil.",
+      "cap": "Peki nasıl? / Bağırsağının / son %8'lik / kısmında, / duvarlar / her yerde / aynı esneklikte / değil.",
+      "icon": "1f50d",
+      "text": "Sır bağırsakta",
+      "hl": {
+        "bağırsakta": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Kaka burada, sert ve esnek bölgelerin arasında sıkışarak köşeli bir şekil alıyor.",
+      "cap": "Kaka burada, / sert ve esnek / bölgelerin / arasında sıkışarak / köşeli bir / şekil alıyor.",
+      "icon": "1f4e6",
+      "text": "Köşeler oluşuyor!",
+      "hl": {
+        "Köşeler": "red"
+      }
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Vombatlar bu küplerle bölgelerini işaretliyor. Köşeli oldukları için de yuvarlanıp gitmedikleri düşünülüyor. Yok artık!",
+      "cap": "Vombatlar / bu küplerle / bölgelerini / işaretliyor. / Köşeli oldukları / için de / yuvarlanıp / gitmedikleri / düşünülüyor. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}
