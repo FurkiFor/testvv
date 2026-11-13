@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Overconfident 18th-century doctor in a powdered wig holding an empty metal basin">
+<defs><radialGradient id="craik-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#E8DFC8"/><stop offset="1" stop-color="#5A4A34"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#craik-bg)"/>
+<path d="M18 250 Q26 186 100 176 Q174 186 182 250Z" fill="#1E1E24"/>
+<path d="M78 180 L100 236 L122 180Z" fill="#F4F0E6"/>
+<path d="M90 180 Q100 196 110 180 L108 198 Q100 204 92 198Z" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<rect x="88" y="148" width="24" height="34" fill="#E8B894"/>
+<path d="M62 116 Q56 60 100 54 Q144 60 138 116 Q130 82 100 80 Q70 82 62 116Z" fill="#ECECEC"/>
+<g fill="#F6F6F6" stroke="#C8C8C8" stroke-width="1.5"><ellipse cx="64" cy="112" rx="9" ry="7"/><ellipse cx="64" cy="128" rx="9" ry="7"/><ellipse cx="136" cy="112" rx="9" ry="7"/><ellipse cx="136" cy="128" rx="9" ry="7"/></g>
+<ellipse cx="100" cy="118" rx="32" ry="38" fill="#F3C9A4"/>
+<path d="M70 90 Q100 72 130 90 Q116 82 100 82 Q84 82 70 90Z" fill="#ECECEC"/>
+<path d="M78 104 Q86 98 94 102 M106 102 Q114 98 122 104" stroke="#8A8A8A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="113" r="6" fill="#FFF"/><circle cx="113" cy="113" r="6" fill="#FFF"/>
+<circle cx="88" cy="114" r="3" fill="#1E120A"/><circle cx="114" cy="114" r="3" fill="#1E120A"/>
+<path d="M98 120 Q92 132 100 134 Q106 134 106 130" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M84 140 Q100 150 118 138" stroke="#7A2E2E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="78" cy="130" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/><ellipse cx="122" cy="130" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/>
+<g transform="translate(148 186)"><ellipse cx="0" cy="0" rx="30" ry="9" fill="#C9CDD6" stroke="#7A7E88" stroke-width="2.5"/><path d="M-28 0 Q-24 24 0 26 Q24 24 28 0" fill="#B0B4BE" stroke="#7A7E88" stroke-width="2.5"/><ellipse cx="0" cy="0" rx="22" ry="5" fill="#8A8E98"/></g>
+<ellipse cx="128" cy="196" rx="12" ry="9" fill="#F3C9A4"/>
+</svg>

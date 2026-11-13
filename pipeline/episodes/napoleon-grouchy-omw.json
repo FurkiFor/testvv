@@ -1,0 +1,122 @@
+{
+ "slug": "napoleon-grouchy-omw",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon's marshal texted 'omw' at Waterloo. He never came 🍓 #shorts",
+  "caption": "Every friend group has a Grouchy 🍓\n\nTag the friend who's ALWAYS \"5 min away\" 👇\n\nParody · fictional chat. Based on history: at Waterloo (18 June 1815) Marshal Grouchy and about 33,000 men were chasing the Prussians. When the cannons started, his generals begged him to march to the guns. He refused, and never reached the battle. Legend says he was finishing a breakfast of strawberries when he heard them.\n\n#napoleon #waterloo #napoleonbonaparte #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon waterloo",
+   "napoleon bonaparte",
+   "battle of waterloo",
+   "marshal grouchy",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1A2230",
+  "glow": "#E0233A",
+  "footer": "🍓 1815 · WATERLOO",
+  "footerColor": "#F2A0A8",
+  "stamp": "GHOSTED",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.2
+ },
+ "them": {
+  "name": "Grouchy 🍓",
+  "label": "MARSHAL GROUCHY",
+  "portrait": "grouchy.svg",
+  "face": "40 40 120 120",
+  "voice": "am_eric",
+  "speed": 1.12,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.2,
+  "status": "last seen at breakfast",
+  "subtitle": "Marshal of France",
+  "about": "omw 🏃",
+  "aboutDate": "1815"
+ },
+ "notifications": [
+  "omw 🏃 5 min",
+  "finishing my strawberries 🍓"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "WATERLOO · 18 JUNE 1815"
+  },
+  {
+   "k": "out",
+   "text": "where r u. the battle STARTED",
+   "say": "Where are you? The battle started!",
+   "time": "11:42 AM"
+  },
+  {
+   "k": "in",
+   "text": "omw 🏃 5 min",
+   "say": "On my way. Five minutes.",
+   "time": "11:43 AM",
+   "typing": 0.3
+  },
+  {
+   "k": "out",
+   "text": "it's been 3 HOURS",
+   "say": "It's been three hours!",
+   "time": "2:51 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "finishing my strawberries 🍓",
+   "say": "Finishing my strawberries.",
+   "time": "2:52 PM",
+   "typing": 0.5
+  },
+  {
+   "k": "out",
+   "text": "I'M LOSING WATERLOO",
+   "say": "I'm losing Waterloo!",
+   "time": "6:30 PM"
+  },
+  {
+   "k": "in",
+   "text": "literally on my horse rn 🐴",
+   "say": "I'm literally on my horse right now.",
+   "time": "6:31 PM",
+   "typing": 0.7,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HE NEVER SHOWED UP",
+  "bottom": "NAPOLEON LOST WATERLOO",
+  "chips": [
+   "Strawberries: 1 🍓",
+   "Waterloo: 0 💀"
+  ],
+  "say": "He never showed up."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.25
+ }
+}

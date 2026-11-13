@@ -1,0 +1,127 @@
+{
+ "slug": "washington-bloodletting",
+ "format": "v3-D",
+ "youtube": {
+  "title": "George Washington's doctors drained 40% of his blood 🩸 #shorts",
+  "caption": "George Washington had a sore throat. His doctors had a plan 🩸\n\nWorst old-school cure you know? Drop it 👇\n\nParody · fictional chat. Based on history: in December 1799 Washington woke up with a severe throat infection. He was bled four times in about 12 hours, an estimated 40% of his blood. He died that night. One of his last requests: don't put his body in the vault until three days after death, because he feared being buried alive.\n\n#georgewashington #washington #historymemes #darkhistory #funnyhistory #funnytexts #shorts",
+  "tags": [
+   "george washington",
+   "how did george washington die",
+   "george washington death",
+   "mount vernon",
+   "bloodletting",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A0A0E",
+  "glow": "#C8202A",
+  "footer": "🩸 1799 · MOUNT VERNON",
+  "footerColor": "#F2A0A8",
+  "stamp": "DRAINED",
+  "music": "yankee"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "George",
+  "label": "GEORGE WASHINGTON",
+  "portrait": "washington.svg",
+  "face": "42 44 116 116",
+  "voice": "am_adam",
+  "speed": 1.15,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.12
+ },
+ "them": {
+  "name": "Dr. Craik 🩺",
+  "label": "DR. CRAIK",
+  "portrait": "craik.svg",
+  "face": "44 50 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.1,
+  "status": "last seen sharpening something",
+  "subtitle": "Physician · 1 bowl at a time",
+  "about": "trust me i'm a doctor 🩸",
+  "aboutDate": "1799"
+ },
+ "notifications": [
+  "u said ur throat hurt",
+  "taking more 🩸"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "MOUNT VERNON · DEC 1799"
+  },
+  {
+   "k": "out",
+   "text": "WHY are there 4 bowls of my blood on the floor",
+   "say": "Why are there four bowls of my blood on the floor?",
+   "time": "3:10 PM"
+  },
+  {
+   "k": "in",
+   "text": "u said ur throat hurt",
+   "say": "You said your throat hurt.",
+   "time": "3:11 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "my THROAT. not my blood",
+   "say": "My throat! Not my blood!",
+   "time": "3:11 PM"
+  },
+  {
+   "k": "in",
+   "text": "blood's the problem. taking more 🩸",
+   "say": "Blood is the problem. Taking more.",
+   "time": "3:12 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "i feel WORSE",
+   "say": "I feel worse.",
+   "time": "6:40 PM"
+  },
+  {
+   "k": "in",
+   "text": "great. means it's working 👍",
+   "say": "Great. Means it's working.",
+   "time": "6:41 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "out",
+   "text": "ok. don't bury me for 3 days. in case ur wrong 💀",
+   "say": "Okay. Don't bury me for three days. In case you're wrong.",
+   "time": "9:58 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HE DIED THAT NIGHT",
+  "bottom": "40% OF HIS BLOOD. GONE",
+  "chips": [
+   "Bowls of blood: 4 🩸",
+   "Cures that worked: 0 💀"
+  ],
+  "say": "He died that night."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

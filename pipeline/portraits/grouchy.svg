@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Relaxed French marshal in a feathered bicorne happily eating a strawberry">
+<defs><radialGradient id="grouchy-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#FFD6DC"/><stop offset="1" stop-color="#B8455A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#grouchy-bg)"/>
+<path d="M18 250 Q24 184 100 174 Q176 184 182 250Z" fill="#1E2E6A"/>
+<path d="M60 184 Q100 200 140 184 L136 196 Q100 212 64 196Z" fill="#E8B923"/>
+<path d="M84 178 L100 214 L116 178Z" fill="#F4F4F0"/>
+<path d="M30 204 L64 190 M136 190 L170 204" stroke="#E8B923" stroke-width="8" stroke-linecap="round"/>
+<path d="M40 214 Q60 206 70 216 M130 216 Q140 206 160 214" stroke="#E8B923" stroke-width="3" fill="none"/>
+<rect x="88" y="146" width="24" height="34" fill="#E2B08C"/>
+<path d="M68 112 Q62 138 74 152 Q76 132 74 118Z M132 112 Q138 138 126 152 Q124 132 126 118Z" fill="#8A8A8A"/>
+<ellipse cx="100" cy="120" rx="31" ry="37" fill="#F2C6A2"/>
+<path d="M28 82 Q100 30 172 82 Q150 96 100 92 Q50 96 28 82Z" fill="#14141C"/>
+<path d="M34 82 Q100 100 166 82" stroke="#E8B923" stroke-width="3" fill="none"/>
+<path d="M60 66 Q80 26 116 30 Q96 40 96 60 Q84 50 60 66Z" fill="#FFFFFF"/>
+<path d="M70 60 Q88 36 108 36" stroke="#E0E0E8" stroke-width="2" fill="none"/>
+<circle cx="132" cy="74" r="7" fill="#2A4AB8" stroke="#F4F4F0" stroke-width="3"/><circle cx="132" cy="74" r="2.5" fill="#D8202A"/>
+<path d="M78 112 Q86 108 94 112 M106 112 Q114 108 122 112" stroke="#3A2416" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<path d="M80 118 Q87 122 94 118" stroke="#1E120A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M106 118 Q113 122 120 118" stroke="#1E120A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M97 124 Q100 134 104 130" stroke="#C99A78" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M84 138 Q100 150 116 138 Q100 144 84 138Z" fill="#7A2E2E"/>
+<ellipse cx="116" cy="138" rx="5" ry="6" fill="#F2C6A2"/>
+<ellipse cx="76" cy="132" rx="6" ry="3.5" fill="#F29C9C" opacity=".7"/><ellipse cx="124" cy="132" rx="6" ry="3.5" fill="#F29C9C" opacity=".7"/>
+<g transform="translate(140 150) rotate(-15)">
+<path d="M0 0 Q-16 6 -12 26 Q-4 44 4 46 Q12 44 20 26 Q24 6 8 0Z" fill="#E0233A"/>
+<g fill="#FFE27A"><circle cx="-4" cy="14" r="1.6"/><circle cx="6" cy="10" r="1.6"/><circle cx="12" cy="20" r="1.6"/><circle cx="0" cy="26" r="1.6"/><circle cx="8" cy="32" r="1.6"/><circle cx="-6" cy="22" r="1.6"/></g>
+<path d="M-8 2 L4 -10 L16 2 L10 0 L4 6 L-2 0Z" fill="#2E9A3A"/>
+</g>
+<ellipse cx="146" cy="200" rx="16" ry="12" fill="#F2C6A2"/>
+</svg>
