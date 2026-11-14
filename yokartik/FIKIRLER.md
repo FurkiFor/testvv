@@ -10,7 +10,7 @@ havuzdaki başka bir konuyla değiştir ve özette belirt. Kullanılan satırı 
 | 11 Kas Çar | ✅ p_HuyNsxmfqBFE Hayvan: kutup ayısının derisi siyah, tüyleri şeffaf | ✅ p_VKMYGaA9t-k8 Uzay: şu an gördüğün Güneş 8 dakika önceki Güneş | ✅ p_eMzwCP6J7Q9K Tarih: Oxford Üniversitesi, Aztek İmparatorluğu'ndan eski |
 | 12 Kas Per | ✅ p_3yd_XXWZBAPH Tarih: Nintendo 1889'da, Osmanlı döneminde kuruldu (oyun kartı) | ✅ p_CA3CE-4nLLPY Hayvan: ahtapotun 3 kalbi ve mavi kanı var | ✅ p_Eks629efzvs8 Vücut: DNA'n uç uca eklense Güneş'e defalarca gidip gelir |
 | 13 Kas Cum | ✅ p__8j_UD24zJko Uzay: Ay her yıl Dünya'dan ~3,8 cm uzaklaşıyor | ✅ p_YDvgnbMTijCi Hayvan: vombatın dışkısı küp şeklinde (17:00'ye alındı) | ✅ p_Fdu6D97erEaS Vücut: mide asidi çinkoyu eritir, mide ~3 günde yenilenir (kan damarı konusunun yerine; 100.000 km rakamı tartışmalı) |
-| 14 Kas Cmt | Hayvan: bal bozulmaz, Mısır mezarlarından çıkan bal | Tarih: Fatih İstanbul'u 21 yaşında fethetti | Uzay: ISS'te astronotlar günde 16 gün doğumu görüyor |
+| 14 Kas Cmt | 🎬 üretildi, planlanmadı (Kervly) 016-bal Hayvan: bal bozulmaz | 🎬 üretildi, planlanmadı 017-fatih Tarih: Fatih 12'sinde tahtta, 21'inde İstanbul (17:00 adayı) | 🎬 üretildi, planlanmadı 018-iss Uzay: ISS'te günde 16 gün doğumu |
 | 15 Kas Paz | Vücut: beyin vücut ağırlığının ~%2'si ama enerjinin ~%20'sini kullanıyor | Uzay: nötron yıldızının bir çay kaşığı milyarlarca ton | Hayvan: mavi balinanın kalbi küçük bir araba boyutunda |
 | 16 Kas Pzt | Hayvan: filler zıplayamaz | Tarih: fotoğrafa giren ilk insan (1838, Daguerre) | Vücut: vücudundaki atomların çoğu yıldızlarda üretildi |
 
@@ -23,12 +23,12 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 
 ## Uzay / bilim
 - Nötron yıldızının bir çay kaşığı milyarlarca ton
-- Uzayda bir günde 16 gün doğumu (ISS)
 - Mars'ta gün batımı mavi
+- Yıldırım kanalı Güneş yüzeyinden yaklaşık 5 kat sıcak (NOAA/NWS ile doğrula)
 
 ## Tarih
 - Napolyon'a tavşan sürüsü saldırdı (1807)
-- Fatih Sultan Mehmet İstanbul'u 21 yaşında fethetti
+- İstanbul'un ilk kahvehaneleri 1550'lerde açıldı; Londra'nınkinden ~100 yıl önce (Britannica ile doğrula)
 - Kleopatra (yapıldı)
 
 ## İnsan vücudu
@@ -39,6 +39,6 @@ ancak "yanlış bildiğimiz şey" formatında çürütmek için kullanılabilir.
 - Gözün saniyede kaç kez kırpılıyor / hayatında yıllarca gözün kapalı geçiyor
 
 ## Hayvanlar / doğa
-- Bal hiç bozulmuyor (Mısır mezarlarında yenebilir bal)
 - Fillerin zıplayamaması
+- Turritopsis dohrnii denizanası yaşlanınca gençliğe dönebiliyor, 'ölümsüz denizanası' (NatGeo/Smithsonian ile doğrula)
 - Köpekbalıkları ağaçlardan eski (yapıldı)

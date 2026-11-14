@@ -17,10 +17,13 @@
 | 2026-11-13 | 013-ay | uzay | Ay her yıl ~3,8 cm uzaklaşıyor (Apollo aynaları + lazer); 1969'dan beri 2+ m | imkânsız iddia + kanıt merakı | 35 sn | 13.11 12:00 | p__8j_UD24zJko |
 | 2026-11-13 | 015-vombat | hayvan | Vombat her gece 80–100 küp dışkı bırakıyor; şekil bağırsağın son %8'inde oluşuyor | rakam + gizli kimlik | 36 sn | 13.11 17:00 | p_YDvgnbMTijCi |
 | 2026-11-13 | 014-mide | vücut | Mide asidi çinkoyu eritir; mide mukusla korunur, yüzeyi dakikada ~500 bin hücre döker, ~3 günde yenilenir | paradoks (soru + çelişki) | 31 sn | 13.11 21:00 | p_Fdu6D97erEaS |
+| 2026-11-14 | 016-bal | hayvan | Mısır mezarlarında binlerce yıllık bozulmamış bal; ~%17 su, asitlik, arı enzimi → hidrojen peroksit | imkânsız sahne | 36 sn | PLANLANMADI (Kervly bağlantısı yok) | — |
+| 2026-11-14 | 017-fatih | tarih | Fatih 12 yaşında tahta çıktı (1444), 1446'da indirildi, 1451'de döndü, 1453'te 21 yaşında İstanbul'u aldı | çelişki + kimliği gizli | 31 sn | PLANLANMADI (Kervly bağlantısı yok) | — |
+| 2026-11-14 | 018-iss | uzay | ISS ~28.000 km/sa, ~90 dk'da bir tur → astronotlar günde 16 gün doğumu görüyor | paradoks / imkânsız sahne | 31 sn | PLANLANMADI (Kervly bağlantısı yok) | — |
 
 ## Performans
 
-Son güncelleme: 2026-11-13 09:32 (İstanbul). Değerler yayından ~0,5–4 gün sonrası (yaşlar farklı, karşılaştırma kaba).
+Son güncelleme: 2026-11-13 09:32 (İstanbul). 14.11 çalışmasında Kervly bağlantısı düştüğü için güncellenemedi. Değerler yayından ~0,5–4 gün sonrası (yaşlar farklı, karşılaştırma kaba).
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|
