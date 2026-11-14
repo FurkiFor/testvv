@@ -60,6 +60,11 @@ window.setup = async (cfg) => {
   const mod = await import(`./scenes/${family}.js`);
   const ctx = { THREE, rand, pick, range, makeMaterial, seed };
   plan = mod.default(ctx);
+  // Per-seed look variation (static, so loop-safe), from its own random stream
+  // so it doesn't shift the scene's own choices.
+  const vr = mulberry32((seed ^ 0x9e3779b9) >>> 0);
+  const vrange = (a, b) => a + (b - a) * vr();
+  const vpick = (arr) => arr[Math.floor(vr() * arr.length) % arr.length];
 
   // Backdrop, fog and floor (static, so loop-safe).
   const bg = new THREE.Color(plan.bg);
@@ -67,10 +72,24 @@ window.setup = async (cfg) => {
   if (plan.fog) scene.fog = new THREE.Fog(bg, plan.fog[0], plan.fog[1]);
   scene.environmentIntensity = plan.envIntensity ?? 0.55;
   if (plan.floor !== false) {
-    const floor = new THREE.Mesh(
-      new THREE.PlaneGeometry(400, 400),
-      new THREE.MeshStandardMaterial({ color: plan.floorColor ?? plan.bg, roughness: 0.92, metalness: 0 })
-    );
+    // Real surfaces instead of a flat colour: tinted from the backdrop so the fog
+    // still melts the horizon into the background.
+    const fc = plan.floorColor ?? plan.bg;
+    const SURF = {
+      linen: { roughness: 0.95, grain: 260, grainAmt: 0.5, mottle: 1.2, mottleAmt: 0.25, colorVar: 0.12, bump: 0.004, sheen: 0.4, sheenRoughness: 0.9 },
+      concrete: { roughness: 0.85, grain: 90, grainAmt: 0.6, mottle: 0.9, mottleAmt: 0.5, colorVar: 0.2, bump: 0.006, roughVar: 0.2 },
+      paper: { roughness: 0.9, grain: 380, grainAmt: 0.35, mottle: 1.5, mottleAmt: 0.2, colorVar: 0.07 },
+      wood: { roughness: 0.5, clearcoat: 0.25, clearcoatRoughness: 0.4, vein: true, veinScale: 9, grain: 40, grainAmt: 0.25, mottle: 0.7, mottleAmt: 0.3, colorVar: 0.18, wood: true },
+      stone: { roughness: 0.25, clearcoat: 0.6, clearcoatRoughness: 0.2, vein: true, veinScale: 1.6, mottle: 0.8, mottleAmt: 0.25, colorVar: 0.1, stone: true },
+    };
+    const sk = plan.surface ?? vpick(plan.surfaces ?? ['linen', 'concrete', 'paper', 'wood', 'stone']);
+    const so = { ...SURF[sk] };
+    const base = new THREE.Color(fc);
+    if (so.wood) { so.color = '#' + base.clone().lerp(new THREE.Color('#9a6a42'), base.getHSL({}).l < 0.3 ? 0.35 : 0.55).getHexString(); so.veinColor = '#' + new THREE.Color(so.color).multiplyScalar(0.72).getHexString(); }
+    else if (so.stone) { so.color = fc; so.veinColor = '#' + base.clone().multiplyScalar(base.getHSL({}).l < 0.3 ? 1.8 : 0.78).getHexString(); }
+    else so.color = fc;
+    const floor = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), makeMaterial(so));
+    floor.userData.surface = sk;
     floor.rotation.x = -Math.PI / 2;
     floor.receiveShadow = true;
     scene.add(floor);
@@ -96,10 +115,6 @@ window.setup = async (cfg) => {
   rim.position.set(tgt[0] - 6, tgt[1] + 4, tgt[2] - 7);
   scene.add(rim);
 
-  // Per-seed camera and light variation (static, so loop-safe). Uses its own
-  // random stream so it doesn't shift the scene's own choices.
-  const vr = mulberry32((seed ^ 0x9e3779b9) >>> 0);
-  const vrange = (a, b) => a + (b - a) * vr();
   const cam = plan.camera;
   const cv = plan.cameraVar ?? {};
   const yawV = vrange(-1, 1) * (cv.yaw ?? 0.2);

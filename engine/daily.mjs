@@ -8,12 +8,13 @@ import { fileURLToPath } from 'node:url';
 import { openScene, renderVideo } from './render.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
-const FAMILIES = ['cubecut', 'nestshell', 'dominospiral', 'funnelmarbles'];
+const FAMILIES = ['cubecut', 'nestshell', 'dominospiral', 'funnelmarbles', 'nestbox', 'spiralstairs'];
 // Slot plan (12:00, 17:00, 21:00 Dubai), from channel data 2026-10-19: dominoes and
-// marbles get far more views than spheres and cubes, so they run every day and the
-// weaker two alternate in the first slot.
+// marbles get far more views than spheres and cubes, so they run every day. The
+// first slot rotates through the other four (Furkan, 2026-11-14).
+const ROTATION = ['cubecut', 'spiralstairs', 'nestshell', 'nestbox'];
 function familyFor(dayIndex, i) {
-  const plan = [dayIndex % 2 ? 'cubecut' : 'nestshell', 'funnelmarbles', 'dominospiral'];
+  const plan = [ROTATION[((dayIndex % 4) + 4) % 4], 'funnelmarbles', 'dominospiral'];
   return i < plan.length ? plan[i] : FAMILIES[(dayIndex + i) % FAMILIES.length];
 }
 const RAW = 'https://raw.githubusercontent.com/FurkiFor/testvv/main/videos/asmrvideo/';

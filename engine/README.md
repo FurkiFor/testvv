@@ -21,6 +21,8 @@ buffer of the exact video length (events wrap around, beds and reverb are circul
 | `nestshell` | hollow sphere cracks, halves roll into rocking bowls, smaller sphere inside |
 | `dominospiral` | dominoes topple along a log spiral, each smaller than the last |
 | `funnelmarbles` | marbles roll down a spiral track into a funnel, shrinking forever |
+| `nestbox` | lid pops off, four walls fall open, a smaller box is inside; fallen walls slide away |
+| `spiralstairs` | a ball bounces down floating spiral stairs that curl inward and drop into the void |
 
 Each run picks materials, palettes, timing and camera variation from a seed, so every
 video is different.
@@ -33,6 +35,15 @@ Variety (added 2026-11-14):
 | `nestshell` | ceramic, pearl, chrome, soft touch, candy, marble, egg, wood |
 | `dominospiral` | glossy, wood, pastel, metal, marble, neon (dark bg), pearl, velvet |
 | `funnelmarbles` | glossy, chrome, pearl, gold, copper, neon (dark cone), marble stone, wood, candy |
+| `nestbox` | cardboard (tape), wood, gift (ribbon + bow), velvet, lacquer; coloured lining |
+| `spiralstairs` | marble, wood, concrete, rainbow, pastel steps; chrome, gold, bouncy, pearl, glossy ball |
+
+Realism: floors are real surfaces (linen, concrete, paper, wood, stone) tinted from the
+backdrop, dominoes have rounded edges, pips and a centre bar, boxes and stairs use
+rounded edges, and the encoder adds a soft vignette.
+
+Slot plan (`familyFor`): 12:00 rotates cubecut → spiralstairs → nestshell → nestbox by
+date, 17:00 funnelmarbles, 21:00 dominospiral.
 
 - `main.js` also varies the camera (yaw ±~11°, distance ±5 %, height ±8 %), key-light
   direction and colour, and exposure per seed, from a separate random stream. All static,

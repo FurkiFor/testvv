@@ -64,7 +64,7 @@ export async function renderVideo({ family, seed, out, fps = 30, width = 720, he
   const wav = path.join(tmpDir, 'a.wav');
 
   const ff = spawn('ffmpeg', ['-y', '-v', 'error', '-f', 'image2pipe', '-c:v', 'mjpeg', '-framerate', String(fps), '-i', '-',
-    '-vf', `scale=${outW}:${outH}:flags=lanczos,unsharp=5:5:0.6:5:5:0`,
+    '-vf', `scale=${outW}:${outH}:flags=lanczos,unsharp=5:5:0.6:5:5:0,vignette=angle=PI/6`,
     '-c:v', 'libx264', '-preset', 'slow', '-crf', '20', '-maxrate', '10M', '-bufsize', '20M', '-pix_fmt', 'yuv420p', '-r', String(fps), silent],
     { stdio: ['pipe', 'inherit', 'inherit'] });
   const ffDone = new Promise((res, rej) => ff.on('exit', (c) => (c === 0 ? res() : rej(new Error('ffmpeg encode failed')))));

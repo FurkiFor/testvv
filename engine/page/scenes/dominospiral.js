@@ -1,12 +1,13 @@
 // Domino spiral: dominoes on a logarithmic spiral topple inward, each one smaller
 // than the last. The camera follows the wave, so it never reaches the centre.
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 const STYLES = {
   gloss: { label: 'Glossy', mat: { roughness: 0.2, clearcoat: 1, clearcoatRoughness: 0.06 } },
   wood: { label: 'Wooden', mat: { roughness: 0.55, grain: 9, grainAmt: 0.35, mottle: 1.5, mottleAmt: 0.3, colorVar: 0.22, bump: 0.002 }, wood: true },
   matte: { label: 'Pastel', mat: { roughness: 0.7, sheen: 0.4 } },
   metal: { label: 'Metal', mat: { roughness: 0.22, metalness: 1 } },
-  marble: { label: 'Marble', mat: { roughness: 0.16, clearcoat: 0.9, clearcoatRoughness: 0.08, vein: true, veinScale: 22, veinColor: '#3a3f44', mottle: 6, mottleAmt: 0.15, colorVar: 0.08 }, fixedGrads: [['#f4f1ea', '#d9d4ca'], ['#e9e6f0', '#b9b3c9'], ['#f2e8de', '#c7b9a6']] },
-  neon: { label: 'Neon', mat: { roughness: 0.3, clearcoat: 1, emissiveIntensity: 0.75 }, neon: true },
+  marble: { label: 'Marble', mat: { roughness: 0.16, clearcoat: 0.9, clearcoatRoughness: 0.08, vein: true, veinScale: 22, mottle: 6, mottleAmt: 0.15, colorVar: 0.08 }, marble: true },
+  neon: { label: 'Neon', mat: { roughness: 0.35, clearcoat: 1, clearcoatRoughness: 0.1, emissiveIntensity: 1.6 }, neon: true },
   pearl: { label: 'Pearl', mat: { roughness: 0.28, clearcoat: 0.8, sheen: 1, sheenRoughness: 0.3 } },
   velvet: { label: 'Velvet', mat: { roughness: 0.9, sheen: 1, sheenRoughness: 0.5, mottle: 8, mottleAmt: 0.12, colorVar: 0.08 } },
 };
@@ -19,6 +20,8 @@ const GRADS = [
 const WOODS = [['#c8925a', '#8c5a32'], ['#e0b47c', '#a8703e']];
 const BG = ['#ece8e1', '#e1e6ec', '#ebe4ea', '#22252b', '#e6ebe2', '#f1e6d6', '#dfe9e6', '#1c1f2b'];
 const DARK = ['#22252b', '#1c1f2b'];
+// marble: [stone colour, vein colour, backdrop]
+const MARBLES = [['#1d1f22', '#d8d4cc', '#e7e2da'], ['#2f4a3e', '#e6efe8', '#e8e6df'], ['#efe9e1', '#4a3f3a', '#2a2c31'], ['#d9c3b0', '#6d4c3d', '#e9e5df'], ['#f2f0ec', '#5b6066', '#c9ced6']];
 const NEON = [['#ff2e88', '#00e5ff'], ['#39ff14', '#ff00e6'], ['#ffea00', '#ff3d00'], ['#7c4dff', '#00e5ff']];
 
 const clamp01 = (x) => Math.min(1, Math.max(0, x));
@@ -27,8 +30,9 @@ const ease = (x) => { x = clamp01(x); return x * x * (3 - 2 * x); };
 export default function build({ THREE, rand, pick, range, makeMaterial }) {
   const styleKey = pick(Object.keys(STYLES));
   const S = STYLES[styleKey];
-  const grad = S.wood ? pick(WOODS) : S.neon ? pick(NEON) : S.fixedGrads ? pick(S.fixedGrads) : pick(GRADS);
-  const bg = S.neon ? pick(DARK) : pick(BG);
+  const mb = S.marble ? pick(MARBLES) : null;
+  const grad = S.wood ? pick(WOODS) : S.neon ? pick(NEON) : mb ? [mb[0], mb[0]] : pick(GRADS);
+  const bg = S.neon ? pick(DARK) : mb ? mb[2] : pick(BG);
   const dark = DARK.includes(bg);
   const perTurn = Math.floor(range(14, 19));
   const phi = (2 * Math.PI) / perTurn;
@@ -41,7 +45,7 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
   const mats = Array.from({ length: P }, (_, i) => {
     const t = 0.5 - 0.5 * Math.cos((2 * Math.PI * i) / P);
     const c = '#' + ca.clone().lerp(cb, t).getHexString();
-    return makeMaterial({ ...S.mat, color: c, ...(S.neon ? { color: '#' + new THREE.Color(c).multiplyScalar(0.12).getHexString(), emissive: c } : {}) });
+    return makeMaterial({ ...S.mat, color: c, ...(mb ? { veinColor: mb[1] } : {}), ...(S.neon ? { color: '#' + new THREE.Color(c).multiplyScalar(0.05).getHexString(), emissive: c } : {}) });
   });
 
   const h = 0.5, w = 0.24, t = 0.066;
@@ -52,8 +56,31 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
   const gap = d.length() - t;
   const thC = Math.asin(Math.min(0.98, gap / h));
   const thR = 1.25;
-  const geo = new THREE.BoxGeometry(w, h, t);
+  const geo = new RoundedBoxGeometry(w, h, t, 3, t * 0.22);
   geo.translate(0, h / 2, -t / 2); // pivot at front-bottom edge
+
+  // Pips and the centre bar, as decals on both faces. Six different faces, used
+  // in order (cycles is a multiple of 6, so the loop stays exact).
+  const lum = new THREE.Color(grad[0]).lerp(new THREE.Color(grad[1]), 0.5).getHSL({}).l;
+  const pipCol = S.neon ? '#0b0c10' : styleKey === 'metal' ? '#1b1c1f' : lum < 0.35 ? '#f4f1ea' : '#191a1d';
+  const FACES = [[6, 6], [5, 3], [4, 1], [2, 5], [3, 3], [1, 4]];
+  const SPOTS = { 1: [[1, 1]], 2: [[0, 0], [2, 2]], 3: [[0, 0], [1, 1], [2, 2]], 4: [[0, 0], [2, 0], [0, 2], [2, 2]], 5: [[0, 0], [2, 0], [1, 1], [0, 2], [2, 2]], 6: [[0, 0], [2, 0], [0, 1], [2, 1], [0, 2], [2, 2]] };
+  const pipMats = FACES.map(([a, b]) => {
+    const cv = document.createElement('canvas');
+    cv.width = 128; cv.height = 256;
+    const g = cv.getContext('2d');
+    g.fillStyle = pipCol;
+    g.fillRect(14, 126, 100, 4);
+    [[a, 0], [b, 128]].forEach(([k, y0]) => SPOTS[k].forEach(([i, j]) => {
+      g.beginPath(); g.arc(30 + i * 34, y0 + 30 + j * 34, 11, 0, Math.PI * 2); g.fill();
+    }));
+    const tex = new THREE.CanvasTexture(cv);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    tex.anisotropy = 4;
+    return new THREE.MeshStandardMaterial({ map: tex, transparent: true, roughness: 0.5, depthWrite: false, polygonOffset: true, polygonOffsetFactor: -2 });
+  });
+  const pipGeo = new THREE.PlaneGeometry(w * 0.86, h * 0.92);
+  pipGeo.translate(0, h / 2, 0);
 
   function makeCopy(n) {
     const root = new THREE.Group();
@@ -61,6 +88,13 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     yawG.position.copy(p0).addScaledVector(d.clone().normalize(), t / 2);
     yawG.rotation.y = yaw;
     const mesh = new THREE.Mesh(geo, mats[((n % P) + P) % P]);
+    const pm = pipMats[((n % 6) + 6) % 6];
+    const front = new THREE.Mesh(pipGeo, pm);
+    front.position.z = 0.0008;
+    const back = new THREE.Mesh(pipGeo, pm);
+    back.position.z = -t - 0.0008; back.rotation.y = Math.PI;
+    front.userData.noShadow = back.userData.noShadow = true;
+    mesh.add(front, back);
     yawG.add(mesh);
     root.add(yawG);
     root.userData.update = (tau) => {
@@ -96,7 +130,8 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     M: { c: new THREE.Vector3(0, 0, 0), r, phi },
     nMin: -40, nMax: 135, minScale: 3e-3,
     cycles, cycleSec,
-    bg, fog: [9, 20], envIntensity: dark ? 0.45 : 0.6, keyIntensity: dark ? 2.8 : 2.3,
+    fillIntensity: S.neon ? 0.15 : 0.5, rimIntensity: S.neon ? 0.3 : 0.9,
+    bg, fog: [9, 20], envIntensity: S.neon ? 0.2 : dark ? 0.45 : 0.6, keyIntensity: S.neon ? 1.1 : dark ? 2.8 : 2.3,
     camera: { pos: [0.2, 7.9, 5.0], target: [0.05, 0, 0.1], fov: 36 },
     keyPos: [2.5, 8, 3.5], shadowSize: 4,
     makeCopy,
