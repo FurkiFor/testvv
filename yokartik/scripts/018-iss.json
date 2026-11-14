@@ -1,0 +1,93 @@
+{
+  "id": "018-iss",
+  "theme": "pop",
+  "topic": "uzay",
+  "hook_mechanism": "paradoks / imkânsız sahne — 'bazı insanlar için Güneş bugün 16 kez doğdu'; kimler olduğu ve nasıl mümkün olduğu sonra açılıyor",
+  "sources": [
+    "NASA, International Space Station Facts and Figures: istasyon Dünya'nın çevresini yaklaşık 90 dakikada bir dolaşır, saatte yaklaşık 28.000 km (17.500 mil) hızla gider, günde 16 tur atar",
+    "NASA (ISS mürettebatı): astronotlar her gün 16 gün doğumu ve 16 gün batımı görür"
+  ],
+  "youtube": {
+    "title": "Bazı insanlar için Güneş bugün 16 kez doğdu 🌅 #shorts",
+    "caption": "Uluslararası Uzay İstasyonu saatte yaklaşık 28.000 km hızla gidiyor ve Dünya'nın çevresini yaklaşık 90 dakikada bir dolaşıyor. Bu yüzden astronotlar her gün 16 gün doğumu ve 16 gün batımı görüyor. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #uzay #nasa #uzayistasyonu #astronot #bilim #shorts",
+    "tags": [
+      "uzay",
+      "uluslararası uzay istasyonu",
+      "iss",
+      "astronot",
+      "gün doğumu",
+      "nasa",
+      "bilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Bazı insanlar için bugün Güneş, on altı kez doğdu!",
+      "cap": "Bazı insanlar / için bugün / Güneş, / 16 kez doğdu!",
+      "icons": [
+        "1f305",
+        "1f305",
+        "2753"
+      ],
+      "text": "Güneş bugün 16 kez doğdu!",
+      "hl": {
+        "16": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu insanlar, Uluslararası Uzay İstasyonu'ndaki astronotlar.",
+      "cap": "Bu insanlar, / Uluslararası / Uzay İstasyonu'ndaki / astronotlar.",
+      "icon": "1f6f0",
+      "text": "Uzay İstasyonu",
+      "hl": {
+        "Uzay": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "İstasyon, saatte yaklaşık yirmi sekiz bin kilometre hızla gidiyor.",
+      "cap": "İstasyon, / saatte yaklaşık / 28.000 kilometre / hızla gidiyor.",
+      "icon": "1f680",
+      "value": 28000,
+      "suffix": " KM",
+      "size": 190,
+      "label": "her saatte"
+    },
+    {
+      "type": "number",
+      "say": "Bu hızla Dünya'nın çevresini yaklaşık doksan dakikada bir dolaşıyor.",
+      "cap": "Bu hızla / Dünya'nın / çevresini / yaklaşık / 90 dakikada bir / dolaşıyor.",
+      "icon": "1f30d",
+      "value": 90,
+      "suffix": " DK",
+      "size": 220,
+      "color": "green",
+      "label": "bir tur"
+    },
+    {
+      "type": "statement",
+      "say": "Her turda bir kez gündüze, bir kez geceye giriyor. Bu yüzden astronotlar her gün on altı gün doğumu, on altı gün batımı görüyor.",
+      "cap": "Her turda / bir kez gündüze, / bir kez / geceye giriyor. / Bu yüzden / astronotlar / her gün / 16 gün doğumu, / 16 gün batımı / görüyor.",
+      "icon": "1f307",
+      "text": "Günde 16 gün doğumu!",
+      "hl": {
+        "16": "red"
+      }
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Bizim tek bir sabahımız, onlar için on altı sabah. Yok artık!",
+      "cap": "Bizim tek / bir sabahımız, / onlar için / 16 sabah. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

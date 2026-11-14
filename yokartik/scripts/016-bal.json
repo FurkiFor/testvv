@@ -1,0 +1,67 @@
+{
+  "id": "016-bal",
+  "theme": "pop",
+  "topic": "hayvan",
+  "hook_mechanism": "imkânsız sahne — 'Mısır mezarlarında binlerce yıllık bir yiyecek bulundu, hâlâ bozulmamıştı'; yiyeceğin ne olduğu ve neden bozulmadığı sonra açılıyor",
+  "sources": [
+    "Smithsonian Magazine, The Science Behind Honey's Eternal Shelf Life (arkeologlar Mısır mezarlarında binlerce yıllık, bozulmamış bal kapları buldu; düşük nem, asitlik ve arıların eklediği glukoz oksidaz enziminin ürettiği hidrojen peroksit)",
+    "Smithsonian Smart News, Why Honey Never Spoils"
+  ],
+  "youtube": {
+    "title": "Mısır mezarında binlerce yıllık yiyecek: hâlâ bozulmamış 🍯 #shorts",
+    "caption": "Arkeologlar Mısır mezarlarında binlerce yıllık bal kapları buldu ve bal hâlâ bozulmamıştı. Sebebi: balda çok az su var, bal asidik ve arıların eklediği bir enzim hidrojen peroksit üretiyor. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #bal #arılar #doğa #antikmısır #ilginçbilgiler #shorts",
+    "tags": ["bal", "bal bozulur mu", "bal neden bozulmaz", "arılar", "antik mısır", "mısır mezarları", "doğa", "ilginç bilgiler", "yok artık", "shorts"]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Mısır mezarlarında binlerce yıllık bir yiyecek bulundu. Ve hâlâ bozulmamıştı!",
+      "cap": "Mısır / mezarlarında / binlerce yıllık / bir yiyecek / bulundu. / Ve hâlâ / bozulmamıştı!",
+      "icons": ["1f3fa", "23f3", "2753"],
+      "text": "Binlerce yıllık ama bozulmamış!",
+      "hl": {"bozulmamış!": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Bu yiyecek bal. Arkeologlar, içinde bal olan çok eski kaplar buldu.",
+      "cap": "Bu yiyecek / bal. / Arkeologlar, / içinde bal olan / çok eski / kaplar buldu.",
+      "icon": "1f36f",
+      "text": "Bal!",
+      "hl": {"Bal!": "red"}
+    },
+    {
+      "type": "number",
+      "say": "İlk sır: balda çok az su var, yaklaşık yüzde on yedi. Mikroplar bu kadar kuru bir ortamda çoğalamaz.",
+      "cap": "İlk sır: / balda çok / az su var, / yaklaşık %17. / Mikroplar / bu kadar kuru / bir ortamda / çoğalamaz.",
+      "icon": "1f4a7",
+      "value": 17,
+      "prefix": "%",
+      "size": 220,
+      "label": "su oranı"
+    },
+    {
+      "type": "statement",
+      "say": "İkinci sır: bal çok asidik. Üstelik arılar içine bir enzim ekliyor ve bu enzim, hidrojen peroksit üretiyor.",
+      "cap": "İkinci sır: / bal çok asidik. / Üstelik arılar / içine bir / enzim ekliyor / ve bu enzim, / hidrojen peroksit / üretiyor.",
+      "icon": "1f41d",
+      "text": "Arıdan gelen kalkan",
+      "hl": {"kalkan": "red"}
+    },
+    {
+      "type": "statement",
+      "say": "Yani ağzı sıkıca kapalı bir kavanoz bal, neredeyse hiç bozulmaz.",
+      "cap": "Yani ağzı / sıkıca kapalı / bir kavanoz bal, / neredeyse / hiç bozulmaz.",
+      "icon": "1f6e1",
+      "text": "Neredeyse hiç bozulmaz",
+      "hl": {"bozulmaz": "red"}
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Firavunların balı, binlerce yıl sonra hâlâ bal. Yok artık!",
+      "cap": "Firavunların balı, / binlerce yıl sonra / hâlâ bal. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {"gönder": "red"}
+    }
+  ]
+}

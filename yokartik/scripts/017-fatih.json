@@ -1,0 +1,138 @@
+{
+  "id": "017-fatih",
+  "theme": "pop",
+  "topic": "tarih",
+  "hook_mechanism": "çelişki + kimliği gizli — '12 yaşında tahta çıktı, 2 yıl sonra tahttan indirildi'; kim olduğu ve 21 yaşında ne yaptığı sonra açılıyor; Türk izleyicinin bildiği referans (Fatih, İstanbul)",
+  "sources": [
+    "Britannica, Mehmed II: Osmanlı sultanı 1444–1446 ve 1451–1481; 30 Mart 1432 doğumlu; 29 Mayıs 1453'te Konstantinopolis'i aldı",
+    "Britannica, Murad II: 1444'te tahtı oğluna bıraktı, 1446'da yeniden tahta geçti"
+  ],
+  "youtube": {
+    "title": "12 yaşında padişah oldu, 14'ünde tahttan indirildi 👑 #shorts",
+    "caption": "Fatih Sultan Mehmet 1444'te 12 yaşında tahta çıktı, 1446'da babası II. Murad tahta geri döndü. 1451'de yeniden padişah oldu ve 29 Mayıs 1453'te, henüz 21 yaşındayken İstanbul'u fethetti. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #fatihsultanmehmet #istanbulunfethi #osmanlı #tarih #ilginçbilgiler #shorts",
+    "tags": [
+      "fatih sultan mehmet",
+      "istanbul'un fethi",
+      "1453",
+      "osmanlı",
+      "osmanlı tarihi",
+      "padişah",
+      "tarih",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] On iki yaşında padişah oldu. İki yıl sonra tahttan indirildi. Ama asıl hikâye bundan sonra başlıyor!",
+      "cap": "12 yaşında / padişah oldu. / 2 yıl sonra / tahttan / indirildi. / Ama asıl hikâye / bundan sonra / başlıyor!",
+      "icons": [
+        "1f476",
+        "1f451",
+        "2753"
+      ],
+      "text": "12'sinde padişah, 14'ünde tahtsız!",
+      "hl": {
+        "tahtsız!": "red"
+      }
+    },
+    {
+      "type": "timeline",
+      "say": "Babası, bin dört yüz kırk dörtte tahtı ona bıraktı. Ama bin dört yüz kırk altıda tahta geri döndü.",
+      "cap": "Babası, / 1444'te / tahtı ona / bıraktı. / Ama 1446'da / tahta / geri döndü.",
+      "points": [
+        {
+          "at": 1444,
+          "icon": "1f451",
+          "label": "12 yaş",
+          "year": "1444",
+          "delay": 0.65
+        },
+        {
+          "at": 1446,
+          "icon": "1f6aa",
+          "label": "14 yaş",
+          "year": "1446",
+          "delay": 3.6
+        },
+        {
+          "at": 1453,
+          "icon": "1f3f0",
+          "label": "?",
+          "year": "1453",
+          "delay": 99
+        }
+      ],
+      "spans": []
+    },
+    {
+      "type": "statement",
+      "say": "Bu çocuk, Fatih Sultan Mehmet.",
+      "cap": "Bu çocuk, / Fatih / Sultan Mehmet.",
+      "icon": "1f451",
+      "text": "Fatih Sultan Mehmet",
+      "hl": {
+        "Fatih": "red"
+      }
+    },
+    {
+      "type": "timeline",
+      "say": "On dokuz yaşına gelmeden yeniden tahta çıktı. Ve bin dört yüz elli üçte İstanbul'u fethetti.",
+      "cap": "19 yaşına / gelmeden / yeniden / tahta çıktı. / Ve 1453'te / İstanbul'u / fethetti.",
+      "points": [
+        {
+          "at": 1444,
+          "icon": "1f451",
+          "label": "12 yaş",
+          "year": "1444",
+          "delay": 0
+        },
+        {
+          "at": 1446,
+          "icon": "1f6aa",
+          "label": "14 yaş",
+          "year": "1446",
+          "delay": 0
+        },
+        {
+          "at": 1451,
+          "icon": "1f451",
+          "label": "18 yaş",
+          "year": "1451",
+          "delay": 1.5
+        },
+        {
+          "at": 1453,
+          "icon": "1f3f0",
+          "label": "21 yaş",
+          "year": "1453",
+          "delay": 3.2
+        }
+      ],
+      "spans": []
+    },
+    {
+      "type": "number",
+      "say": "Fetih günü sadece yirmi bir yaşındaydı.",
+      "cap": "Fetih günü / sadece / 21 yaşındaydı.",
+      "icon": "1f3f0",
+      "value": 21,
+      "suffix": " YAŞ",
+      "size": 220,
+      "color": "green",
+      "label": "29 Mayıs 1453"
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Bugün üniversitede okuyacağı yaşta, koca bir imparatorluğa son verdi. Yok artık!",
+      "cap": "Bugün / üniversitede / okuyacağı yaşta, / koca bir / imparatorluğa / son verdi. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}
