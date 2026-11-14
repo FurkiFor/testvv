@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Unimpressed old Roman doctor with a scroll">
+<defs><linearGradient id="antistius-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D8E4E0"/><stop offset="1" stop-color="#6E8C86"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#antistius-bg)"/>
+<path d="M22 250 Q28 186 100 178 Q172 186 178 250Z" fill="#8FA7C4"/>
+<path d="M60 250 Q70 200 112 186" stroke="#E9E4D8" stroke-width="12" fill="none"/>
+<rect x="88" y="146" width="24" height="36" fill="#C6977A"/>
+<ellipse cx="100" cy="114" rx="33" ry="39" fill="#E1B394"/>
+<ellipse cx="66" cy="118" rx="6" ry="9" fill="#C6977A"/><ellipse cx="134" cy="118" rx="6" ry="9" fill="#C6977A"/>
+<path d="M68 106 Q66 82 82 78 Q100 72 118 78 Q134 82 132 106 Q126 92 100 90 Q74 92 68 106Z" fill="#CFCFCF"/>
+<path d="M70 128 Q72 168 100 172 Q128 168 130 128 Q122 146 100 146 Q78 146 70 128Z" fill="#E4E4E4"/>
+<path d="M78 104 L95 106" stroke="#9A9A9A" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M105 106 L122 104" stroke="#9A9A9A" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M81 114 L94 114" stroke="#2A1A10" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M106 114 L119 114" stroke="#2A1A10" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M100 116 Q106 126 98 130" stroke="#B88468" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M88 138 L112 138" stroke="#7A3A26" stroke-width="4" stroke-linecap="round"/>
+<g><rect x="132" y="196" width="40" height="30" rx="4" fill="#F1E3BE"/><rect x="128" y="192" width="8" height="38" rx="4" fill="#C9A86A"/><rect x="168" y="192" width="8" height="38" rx="4" fill="#C9A86A"/><path d="M140 204 H164 M140 211 H160 M140 218 H164" stroke="#8A6A3A" stroke-width="2"/></g>
+</svg>

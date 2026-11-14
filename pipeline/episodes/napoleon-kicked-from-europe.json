@@ -1,0 +1,119 @@
+{
+ "slug": "napoleon-kicked-from-europe",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Europe kicked Napoleon out. He came back in 100 days 😎 #shorts",
+  "caption": "Napoleon got removed from the group. He did NOT stay removed 😎\n\nWhat's the pettiest way YOU ever got back into a group chat? 👇\n\nParody · fictional chat. Based on history: in 1814 the Allies exiled Napoleon to the tiny island of Elba. In February 1815 he escaped, landed in France and was back in Paris on 20 March. After Waterloo they sent him to St Helena, in the middle of the South Atlantic.\n\n#napoleon #napoleonbonaparte #groupchat #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon exile",
+   "elba",
+   "hundred days",
+   "group chat",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#14202E",
+  "glow": "#5A9AD0",
+  "footer": "🏝️ 1815 · ELBA → PARIS",
+  "footerColor": "#5A9AD0",
+  "stamp": "REMOVED",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.16
+ },
+ "them": {
+  "name": "Britain 🇬🇧 (admin)",
+  "label": "BRITAIN",
+  "portrait": "british-general.svg",
+  "face": "40 40 120 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.16,
+  "status": "last seen changing the group password",
+  "subtitle": "Admin · Europe 🇪🇺",
+  "about": "stay on ur island 🏝️",
+  "aboutDate": "1814"
+ },
+ "notifications": [
+  "ur on an island now",
+  "HOW ARE U BACK"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ELBA · 1814"
+  },
+  {
+   "k": "out",
+   "text": "why did u kick me out of EUROPE 😤",
+   "say": "Why did you kick me out of Europe?",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "u invaded everyone. ur on an island now 🏝️",
+   "say": "You invaded everyone. You're on an island now.",
+   "time": "9:03 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "it's tiny. i'm coming back",
+   "say": "It's tiny. I'm coming back.",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "chip",
+   "text": "PARIS · MARCH 1815"
+  },
+  {
+   "k": "in",
+   "text": "HOW ARE U BACK IN PARIS",
+   "say": "How are you back in Paris?!",
+   "time": "6:41 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "u never changed the password 😎",
+   "say": "You never changed the password.",
+   "time": "6:41 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "100 DAYS LATER:",
+  "bottom": "KICKED AGAIN. FURTHER ISLAND",
+  "chips": [
+   "Comebacks: 1 😎",
+   "Islands: 2 🏝️"
+  ],
+  "say": "Next island was way further."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.25
+ }
+}

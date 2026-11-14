@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Shifty Roman senator Brutus with a dagger">
+<defs><linearGradient id="brutus-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A1E24"/><stop offset="1" stop-color="#2A0A0E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#brutus-bg)"/>
+<g fill="#fff" opacity=".12"><rect x="14" y="30" width="16" height="190"/><rect x="170" y="30" width="16" height="190"/></g>
+<path d="M22 250 Q28 186 100 178 Q172 186 178 250Z" fill="#F4EFE4"/>
+<path d="M44 250 Q60 198 120 184" stroke="#8E1F2E" stroke-width="10" fill="none"/>
+<rect x="88" y="146" width="24" height="36" fill="#C99472"/>
+<ellipse cx="100" cy="114" rx="32" ry="38" fill="#DDA882"/>
+<ellipse cx="67" cy="118" rx="6" ry="9" fill="#C99472"/><ellipse cx="133" cy="118" rx="6" ry="9" fill="#C99472"/>
+<path d="M68 104 Q70 72 100 70 Q130 72 132 104 Q126 88 116 86 Q110 92 100 88 Q90 92 84 86 Q74 88 68 104Z" fill="#2B1B12"/>
+<path d="M78 103 Q86 100 95 105" stroke="#2B1B12" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M105 105 Q114 100 122 103" stroke="#2B1B12" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="90" cy="114" r="4" fill="#1A0E08"/><circle cx="114" cy="114" r="4" fill="#1A0E08"/>
+<circle cx="88" cy="113" r="1.4" fill="#fff"/><circle cx="112" cy="113" r="1.4" fill="#fff"/>
+<path d="M100 116 Q105 126 98 130" stroke="#B5805E" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M86 138 Q98 142 114 134" stroke="#6E2A1C" stroke-width="4" fill="none" stroke-linecap="round"/>
+<g transform="rotate(-25 150 210)"><rect x="146" y="150" width="8" height="58" rx="2" fill="#D9DDE2"/><path d="M146 150 L150 138 L154 150Z" fill="#D9DDE2"/><rect x="138" y="206" width="24" height="6" rx="2" fill="#B8862E"/><rect x="146" y="212" width="8" height="18" rx="2" fill="#5A3A1E"/></g>
+</svg>

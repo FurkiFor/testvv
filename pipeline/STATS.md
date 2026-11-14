@@ -2,24 +2,25 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-13 ~09:00 Dubai, Kervly get_youtube_stats — token OK)
+## Summary (snapshot 2026-11-14 ~09:00 Dubai, vidIQ vidiq_channel_videos — Kervly connector disconnected)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
 | v1 (44–59 s) | 23 | 76 | 82 | 0.5 | 1 | 23 | 82 |
 | v2 (all, published) | 42 | 251 | 138.5 | 1.3 | 5 | 38 | 138.5 |
 | v2-A (hook) | 7 | 161 | 114 | 0.1 | 0 | 7 | 114 |
-| v2-B (cold open) | 35 | 270 | 140 | 1.5 | 5 | 31 | 140 |
+| v2-B (cold open) | 35 | 270 | 140 | 1.5 | 5 | 33 | 140 |
 | v2-B Kokoro | 20 | 230 | 124.5 | 1.1 | 4 | 16 | 124.5 |
 | v2-B ElevenLabs | 15 | 322 | 200 | 2.2 | 1 | 15 | 200 |
-| v3-R (relatable) | 0 published (1 sched.) | – | – | – | – | 0 | – |
-| v3-D (dark) | 0 published | – | – | – | – | 0 | – |
+| v3-R (relatable) | 2 | 704 | 703.5 | 6.5 | 0 | 0 | – |
+| v3-D (dark) | 1 | 21 | 21 | 0 | 0 | 0 | – |
 
 v3 rule (12 Nov): once v3-R and v3-D each have ≥ 6 videos past 48 h, the style whose matured median is ≥ 1.5× the other's takes both slots. Benchmark to beat: v2-B matured median (167 on 12 Nov; 140 today with more matured videos).
 
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-14: **Kervly connector disconnected in this session (needs reconnect in claude.ai) → today's 2 videos built and pushed but NOT scheduled**; stats via vidIQ channel_videos (5 credits). First v3 data (none matured yet): **napoleon-mom-texts (v3-R) 1110 views / 12 likes @16 h** (best start ever, most likes ever), napoleon-grouchy-omw (v3-R) 297 @15 h, washington-bloodletting (v3-D) 21 @12 h (weak). v3-R early median 703.5 vs v2-B matured 140 → promising, but rule needs ≥ 6 matured each → keep 1 R + 1 D. ElevenLabs CDN reachable (HTTP 403 at root, downloads OK) → both voiced with ElevenLabs; upload.wikimedia.org still blocked (000). Built: napoleon-kicked-from-europe (v3-R, 17.9 s) and caesar-23-stabs (v3-D, 25.4 s). vidIQ: 5 credits (no keyword research), balance 427 → 422. ElevenLabs ≈ 467 credits (13 lines, 1 take).
 - 2026-11-13: token OK (0 error posts). v3 has no data yet (0 published; pilot napoleon-mom-texts goes live today 17:00) → no style decision possible, keep 1 R + 1 D. v2-B matured median 140 (n=31). Yesterday: **napoleon-renamed-josephine 790 @16 h** (2nd-fastest start ever, Napoleon again), caesar-laurel-bald 103 @12 h. **ElevenLabs CDN (elevenlabsusercontent.com) is reachable again** → both new episodes voiced with ElevenLabs (first since 2 Nov; matured EL v2-B median 200 vs Kokoro 124.5). upload.wikimedia.org still blocked (403). Today: napoleon-grouchy-omw (v3-R, 18:00 — 17:00 taken by the pilot) and washington-bloodletting (v3-D, 21:00). vidIQ: 10 credits (2× keyword research), balance 502 → 492. ElevenLabs ≈ 490 credits (15 lines, 1 take each).
 - 2026-11-12 (evening, owner session): owner said the channel is not progressing and handed over full control. **Style v3 from 13 Nov: one v3-R (relatable everyday situation, 12–18 s) + one v3-D (dark humor bank, 16–26 s) per day**, themed music (`theme.music`), every fact web-verified. Pilot napoleon-mom-texts scheduled 13 Nov 17:00. Compare v3-R / v3-D / v2-B; ≥ 6 matured each → 1.5× rule. Blocked: realistic voices and real paintings need the owner to allow elevenlabsusercontent.com, assets.vidiq.com, upload.wikimedia.org, commons.wikimedia.org. vidIQ this session: 48 credits (4 outlier searches + 1 voiceover test).
 - 2026-11-12: token OK (connection fine, 0 error posts). Matured B/A = 167 / 114 = 1.5× (same-period 3.0× still stands) → cold open in both slots stays. v2 matured median 153 vs v1 82 → no cut to 12–18 s. New split: matured ElevenLabs B median 199 (n=15) vs Kokoro B 132.5 (n=14) — voice quality may matter, but ElevenLabs CDN still blocked (elevenlabsusercontent.com 403) → Kokoro again. Yesterday: napoleon-hand-coat 119 @16 h + 1 comment (good), franklin-air-bath 24 @12 h (weak; Franklin's 2nd video flops). Today: napoleon-renamed-josephine (B, 17:00, Napoleon renamed Rose → Josephine, and himself from Buonaparte) and caesar-laurel-bald (B, 21:00, Suetonius: Caesar's always-on laurel wreath hid his baldness). vidIQ: 10 credits (2× keyword research), balance 570 → 560.
@@ -93,32 +94,34 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 469 (348 h) | 1 | 0 |
 | cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 129 (328 h) | 2 | 0 |
 | poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (324 h) | 0 | 0 |
-| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 389 (248 h) | 3 | 0 |
-| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 168 (256 h) | 2 | 0 |
-| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 104 (252 h) | 0 | 0 |
-| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 200 (224 h) | 1 | 0 |
-| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 118 (232 h) | 1 | 0 |
-| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 115 (228 h) | 1 | 0 |
-| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (208 h) | 0 | 0 |
-| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 13 (204 h) | 0 | 0 |
-| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 112 (200 h) | 0 | 0 |
-| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (176 h) | 0 | 0 |
-| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1206 (184 h) | 8 | 0 |
-| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 127 (180 h) | 1 | 0 |
-| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 140 (160 h) | 2 | 0 |
-| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 249 (156 h) | 1 | 0 |
-| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (136 h) | 1 | 0 |
-| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 72 (132 h) | 0 | 0 |
-| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 571 (112 h) | 3 | 1 |
-| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 137 (108 h) | 1 | 0 |
-| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 168 (88 h) | 0 | 0 |
-| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 73 (84 h) | 0 | 0 |
-| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 122 (64 h) | 0 | 0 |
-| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 50 (60 h) | 0 | 0 |
-| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 144 (40 h) | 0 | 3 |
-| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 27 (36 h) | 0 | 0 |
-| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 790 (16 h) | 1 | 0 |
-| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 103 (12 h) | 1 | 0 |
-| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 (sched.) | – | – | – |
-| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 (sched.) | – | – | – |
-| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 (sched.) | – | – | – |
+| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 389 (272 h) | 3 | 0 |
+| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 168 (280 h) | 2 | 0 |
+| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 104 (276 h) | 0 | 0 |
+| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 200 (248 h) | 1 | 0 |
+| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 118 (256 h) | 1 | 0 |
+| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 115 (252 h) | 1 | 0 |
+| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (232 h) | 0 | 0 |
+| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 14 (228 h) | 0 | 0 |
+| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 112 (224 h) | 0 | 0 |
+| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (200 h) | 0 | 0 |
+| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1206 (208 h) | 8 | 0 |
+| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 127 (204 h) | 1 | 0 |
+| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 140 (184 h) | 2 | 0 |
+| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 249 (180 h) | 1 | 0 |
+| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (160 h) | 1 | 0 |
+| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 72 (156 h) | 0 | 0 |
+| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 571 (136 h) | 3 | 1 |
+| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 137 (132 h) | 1 | 0 |
+| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 169 (112 h) | 0 | 0 |
+| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 73 (108 h) | 0 | 0 |
+| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 123 (88 h) | 0 | 0 |
+| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 52 (84 h) | 0 | 0 |
+| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 145 (64 h) | 0 | 3 |
+| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 27 (60 h) | 0 | 0 |
+| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 805 (40 h) | 1 | 0 |
+| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 111 (36 h) | 1 | 0 |
+| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1110 (16 h) | 12 | 0 |
+| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 297 (15 h) | 1 | 0 |
+| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 21 (12 h) | 0 | 0 |
+| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | not scheduled (Kervly disconnected) | – | – | – |
+| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | not scheduled (Kervly disconnected) | – | – | – |

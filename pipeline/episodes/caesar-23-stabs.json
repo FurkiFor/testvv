@@ -1,0 +1,122 @@
+{
+ "slug": "caesar-23-stabs",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Julius Caesar was stabbed 23 times. Only 1 wound killed him 💀 #shorts",
+  "caption": "Julius Caesar was stabbed 23 times. The doctor said only ONE of them mattered 💀\n\nWorst group project you've been in? Drop it 👇\n\nParody · fictional chat. Based on history: Suetonius writes that Caesar was stabbed 23 times on the Ides of March, 44 BC, by a plot of more than sixty conspirators, and that the physician Antistius found only one wound fatal, the second, in the chest. It's often called the first recorded autopsy.\n\n#juliuscaesar #caesar #idesofmarch #brutus #darkhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "julius caesar",
+   "julius caesar death",
+   "ides of march",
+   "brutus",
+   "et tu brute",
+   "caesar autopsy",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A0A0E",
+  "glow": "#C8202A",
+  "footer": "🗡️ 44 BC · ROME",
+  "footerColor": "#F2A0A8",
+  "stamp": "1 OF 23",
+  "music": "epic"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Brutus 🗡️",
+  "label": "BRUTUS",
+  "portrait": "brutus.svg",
+  "face": "44 50 112 112",
+  "voice": "am_michael",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.16
+ },
+ "them": {
+  "name": "Dr. Antistius 🩺",
+  "label": "DR. ANTISTIUS",
+  "portrait": "antistius.svg",
+  "face": "44 50 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.16,
+  "status": "last seen counting holes",
+  "subtitle": "Physician · first autopsy ever",
+  "about": "cause of death: teamwork",
+  "aboutDate": "44 BC"
+ },
+ "notifications": [
+  "23 stab wounds",
+  "only ONE was fatal"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ROME · MARCH 15, 44 BC"
+  },
+  {
+   "k": "out",
+   "text": "doc. who gets credit for the kill",
+   "say": "Doc. Who gets credit for the kill?",
+   "time": "4:20 PM"
+  },
+  {
+   "k": "in",
+   "text": "u all stabbed him. 23 wounds",
+   "say": "You all stabbed him. Twenty-three wounds.",
+   "time": "4:22 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "ok but whose was the FATAL one",
+   "say": "Okay, but whose was the fatal one?",
+   "time": "4:22 PM"
+  },
+  {
+   "k": "in",
+   "text": "only ONE was fatal. the 2nd one",
+   "say": "Only one was fatal. The second one.",
+   "time": "4:23 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "so 22 of those stabs did NOTHING??",
+   "say": "So twenty-two of those stabs did nothing?",
+   "time": "4:23 PM"
+  },
+  {
+   "k": "in",
+   "text": "classic group project. one guy did all the work 💀",
+   "say": "Classic group project. One guy did all the work.",
+   "time": "4:24 PM",
+   "typing": 0.6,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "60+ CONSPIRATORS",
+  "bottom": "1 DID THE JOB",
+  "chips": [
+   "Stabs: 23 🗡️",
+   "Useful: 1 💀"
+  ],
+  "say": "Sixty guys. One did the work."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.25
+ }
+}
