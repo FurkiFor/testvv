@@ -31,9 +31,39 @@ const MATS = {
     mat: { roughness: 0.18, clearcoat: 0.8, clearcoatRoughness: 0.1, vein: true, veinScale: 4.5, mottle: 2, mottleAmt: 0.2, colorVar: 0.1 },
     cut: 'stone',
   },
+  wax: {
+    label: 'Wax', word: 'wax',
+    pals: [['#f6d6ad', '#c4e3cb', '#f4b6c2', '#b8c0ff'], ['#fff3b0', '#e09f3e', '#9e2a2b', '#540b0e']],
+    mat: { roughness: 0.45, sheen: 0.7, sheenRoughness: 0.5, clearcoat: 0.3, mottle: 2.5, mottleAmt: 0.2, colorVar: 0.1 },
+    cut: 'soap',
+  },
+  cheese: {
+    label: 'Cheese', word: 'cheese',
+    pals: [['#f6c945', '#f2b134'], ['#fbe8a6', '#f4c95d']],
+    mat: { roughness: 0.6, grain: 60, grainAmt: 0.2, mottle: 3, mottleAmt: 0.3, bump: 0.008, colorVar: 0.16, sheen: 0.3 },
+    cut: 'soap',
+  },
+  jelly: {
+    label: 'Jelly', word: 'jelly',
+    pals: [['#ff4d6d', '#ffbe0b', '#3a86ff', '#06d6a0'], ['#c1121f', '#7209b7', '#f77f00', '#2a9d8f']],
+    mat: { roughness: 0.05, clearcoat: 1, clearcoatRoughness: 0.02, sheen: 0.4, colorVar: 0.05, mottle: 1.5, mottleAmt: 0.1 },
+    cut: 'soap',
+  },
+  granite: {
+    label: 'Granite', word: 'granite',
+    pals: [['#b9b4ac', '#5d5a57'], ['#c9a99a', '#4b4f54']],
+    mat: { roughness: 0.3, clearcoat: 0.7, grain: 220, grainAmt: 0.9, mottle: 4, mottleAmt: 0.2, colorVar: 0.55, roughVar: 0.1 },
+    cut: 'stone',
+  },
+  foam: {
+    label: 'Floral Foam', word: 'foam',
+    pals: [['#3f7d4f', '#5a9a62'], ['#2f6e4a', '#6fae73']],
+    mat: { roughness: 0.98, grain: 180, grainAmt: 0.8, mottle: 4, mottleAmt: 0.2, bump: 0.03, colorVar: 0.25, roughVar: 0.02 },
+    cut: 'sand',
+  },
 };
 
-const BG = ['#e9e5df', '#dfe6ea', '#ebe3ea', '#e4e9e1', '#d9d6e4'];
+const BG = ['#e9e5df', '#dfe6ea', '#ebe3ea', '#e4e9e1', '#d9d6e4', '#f0e3d3', '#d8e4e8', '#2a2c31', '#e6dccf'];
 
 const clamp01 = (x) => Math.min(1, Math.max(0, x));
 const ease = (x) => { x = clamp01(x); return x * x * (3 - 2 * x); };
@@ -149,6 +179,10 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     `Cutting ${M0.label}… Forever 🔁 #asmr #satisfying`,
     `The ${M0.label} Cube That Keeps Shrinking 🔁 #asmr`,
     `Every Cut Reveals Another Cube 🔁 #satisfying #asmr`,
+    `Slicing ${M0.label} Into Infinity 🔁 #asmr`,
+    `The Last ${M0.label} Cube Never Comes 🔁 #satisfying`,
+    `How Small Can This ${M0.label} Cube Get? 🔁 #asmr`,
+    `Endless ${M0.label} Cutting 🔁 #asmr #satisfying`,
   ];
   const caps = [
     `Cut it into eight. Keep the last piece. Cut it again… it never runs out. Watch till the end — there is no end. 🔁`,

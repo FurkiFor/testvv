@@ -96,10 +96,27 @@ window.setup = async (cfg) => {
   rim.position.set(tgt[0] - 6, tgt[1] + 4, tgt[2] - 7);
   scene.add(rim);
 
+  // Per-seed camera and light variation (static, so loop-safe). Uses its own
+  // random stream so it doesn't shift the scene's own choices.
+  const vr = mulberry32((seed ^ 0x9e3779b9) >>> 0);
+  const vrange = (a, b) => a + (b - a) * vr();
   const cam = plan.camera;
+  const cv = plan.cameraVar ?? {};
+  const yawV = vrange(-1, 1) * (cv.yaw ?? 0.2);
+  const distV = vrange(1 - (cv.dist ?? 0.05), 1 + (cv.dist ?? 0.05));
+  const liftV = vrange(1 - (cv.lift ?? 0.08), 1 + (cv.lift ?? 0.08));
+  const off = new THREE.Vector3(cam.pos[0] - tgt[0], cam.pos[1] - tgt[1], cam.pos[2] - tgt[2]);
+  off.applyAxisAngle(new THREE.Vector3(0, 1, 0), yawV);
+  off.y *= liftV;
+  off.multiplyScalar(distV);
   camera = new THREE.PerspectiveCamera(cam.fov ?? 32, width / height, 0.01, 200);
-  camera.position.set(...cam.pos);
+  camera.position.set(tgt[0] + off.x, tgt[1] + off.y, tgt[2] + off.z);
   camera.lookAt(...cam.target);
+  const moods = [0xffffff, 0xfff1e0, 0xffe6cc, 0xe8f0ff, 0xfff6ec];
+  key.color.setHex(moods[Math.floor(vr() * moods.length) % moods.length]);
+  renderer.toneMappingExposure = vrange(0.94, 1.08);
+  const kOff = new THREE.Vector3(kp[0], kp[1], kp[2]).applyAxisAngle(new THREE.Vector3(0, 1, 0), vrange(-0.5, 0.5));
+  key.position.set(tgt[0] + kOff.x, tgt[1] + kOff.y, tgt[2] + kOff.z);
 
   copies = [];
   for (let n = plan.nMin; n <= plan.nMax; n++) {

@@ -35,6 +35,9 @@ export function makeMaterial(o = {}) {
     ior: o.ior ?? 1.5,
     side: o.side ?? THREE.FrontSide,
     envMapIntensity: o.envMapIntensity ?? 1,
+    iridescence: o.iridescence ?? 0,
+    iridescenceIOR: o.iridescenceIOR ?? 1.3,
+    iridescenceThicknessRange: o.iridescenceThicknessRange ?? [100, 400],
   });
   if (o.emissive) { m.emissive = new THREE.Color(o.emissive); m.emissiveIntensity = o.emissiveIntensity ?? 1; }
   const detail = o.grain || o.mottleAmt || o.vein;

@@ -6,6 +6,9 @@ const SHELLS = {
   chrome: { label: 'Chrome', mat: { roughness: 0.08, metalness: 1 } },
   matte: { label: 'Soft Touch', mat: { roughness: 0.62, sheen: 0.6, sheenRoughness: 0.8, mottle: 3, mottleAmt: 0.15, colorVar: 0.06 } },
   candy: { label: 'Candy', mat: { roughness: 0.1, clearcoat: 1, clearcoatRoughness: 0.03, specularIntensity: 1 } },
+  marble: { label: 'Marble', mat: { roughness: 0.18, clearcoat: 0.9, vein: true, veinScale: 9, veinColor: '#3a3f44', mottle: 4, mottleAmt: 0.15, colorVar: 0.08 }, pals: [['#f4f1ea', '#e7e1f0'], ['#f2e8de', '#dfe9e6']] },
+  egg: { label: 'Egg', mat: { roughness: 0.55, grain: 90, grainAmt: 0.25, mottle: 5, mottleAmt: 0.25, colorVar: 0.18 }, pals: [['#f2e6d6', '#d7b899'], ['#c9dfe0', '#f3efe6'], ['#d9a679', '#ead8c0']] },
+  wood: { label: 'Wooden', mat: { roughness: 0.5, vein: true, veinScale: 26, veinColor: '#6b4226', grain: 14, grainAmt: 0.35, mottle: 3, mottleAmt: 0.3, colorVar: 0.22, clearcoat: 0.3 }, pals: [['#c8925a', '#a8703e'], ['#e0b47c', '#8c5a32']] },
 };
 const PALS = [
   ['#ff5d8f', '#ffd166', '#06d6a0', '#118ab2'],
@@ -13,13 +16,21 @@ const PALS = [
   ['#c77dff', '#ff9e00', '#00bbf9', '#f15bb5'],
   ['#ef476f', '#2ec4b6'],
   ['#ffb5a7', '#a2d2ff', '#cdb4db', '#b9fbc0'],
+  ['#264653', '#2a9d8f', '#e9c46a', '#e76f51'],
+  ['#9b5de5', '#f15bb5', '#fee440', '#00bbf9'],
+  ['#ff9f1c', '#2ec4b6'],
+  ['#d8e2dc', '#ffcad4', '#f4acb7', '#9d8189'],
 ];
 const INSIDES = [
   { color: '#e8c36a', metalness: 1, roughness: 0.22, label: 'gold' },
   { color: '#f4f1ea', roughness: 0.55, label: 'white' },
   { color: '#c9ccd3', metalness: 1, roughness: 0.18, label: 'silver' },
+  { color: '#c8743f', metalness: 1, roughness: 0.2, label: 'copper' },
+  { color: '#ff6b6b', roughness: 0.4, label: 'coral' },
+  { color: '#1f2a44', roughness: 0.3, clearcoat: 1, label: 'navy' },
 ];
-const BG = ['#e8e4dd', '#dde3ea', '#e9e1e6', '#e2e7de', '#1d1f24'];
+const BG = ['#e8e4dd', '#dde3ea', '#e9e1e6', '#e2e7de', '#1d1f24', '#f0e4d4', '#dbe7e4', '#24202c'];
+const DARKBG = ['#1d1f24', '#24202c'];
 
 const clamp01 = (x) => Math.min(1, Math.max(0, x));
 const ease = (x) => { x = clamp01(x); return x * x * (3 - 2 * x); };
@@ -27,11 +38,11 @@ const ease = (x) => { x = clamp01(x); return x * x * (3 - 2 * x); };
 export default function build({ THREE, rand, pick, range, makeMaterial }) {
   const shellKey = pick(Object.keys(SHELLS));
   const S = SHELLS[shellKey];
-  const pal = pick(PALS);
+  const pal = S.pals ? pick(S.pals) : pick(PALS);
   const P = pal.length;
   const inside = pick(INSIDES);
   const bg = pick(BG);
-  const dark = bg === '#1d1f24';
+  const dark = DARKBG.includes(bg);
   const r = range(0.56, 0.64);
   const cycles = 4;
   const cycleSec = range(2.0, 2.4);
@@ -108,6 +119,10 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     `The ${S.label} Sphere That Never Ends 🔁 #asmr`,
     `How Deep Does This Sphere Go? 🔁 #satisfying #asmr`,
     `Open It… There's Always One More 🔁 #asmr #satisfying`,
+    `${S.label} Spheres All The Way Down 🔁 #asmr`,
+    `What's Inside The ${S.label} Sphere? 🔁 #satisfying`,
+    `Cracking ${S.label} Shells Forever 🔁 #asmr #satisfying`,
+    `The Sphere Inside The Sphere Inside The… 🔁 #asmr`,
   ];
   const caps = [
     `Crack it open… there's always one more inside. How deep does it go? Keep watching. 🔁`,

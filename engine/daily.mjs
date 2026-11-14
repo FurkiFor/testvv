@@ -1,5 +1,5 @@
 // Make the day's videos: distinct scene families, fresh random variations.
-//   node daily.mjs [--date 2026-10-16] [--count 3] [--outdir ../videos/asmrvideo]
+//   node daily.mjs [--date 2026-10-16] [--count 3] [--outdir ../videos/asmrvideo] [--dry]
 // Writes engine/runs/<date>.json with file names, public URLs, titles, captions
 // and tags for scheduling. Re-running skips videos that already exist.
 import fs from 'node:fs';
@@ -30,33 +30,52 @@ fs.mkdirSync(runsDir, { recursive: true });
 
 function fnv(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 
-// titles used in the last two weeks, to avoid repeats
+// titles used in the last two weeks, and styles (material slug) used in the last
+// STYLE_DAYS days, to avoid repeats
+const STYLE_DAYS = 6;
 const recent = new Set();
-for (const f of fs.readdirSync(runsDir).filter((f) => f.endsWith('.json')).sort().slice(-14)) {
-  try { for (const v of JSON.parse(fs.readFileSync(path.join(runsDir, f))).videos) recent.add(v.title); } catch {}
-}
+const recentStyles = new Set();
+const runFiles = fs.readdirSync(runsDir).filter((f) => f.endsWith('.json') && f < `${date}.json`).sort();
+runFiles.slice(-14).forEach((f, idx, arr) => {
+  try {
+    for (const v of JSON.parse(fs.readFileSync(path.join(runsDir, f))).videos) {
+      recent.add(v.title);
+      if (idx >= arr.length - STYLE_DAYS) recentStyles.add(v.file.replace(/^\d{4}-\d{2}-\d{2}-\d+-/, '').replace(/\.mp4$/, ''));
+    }
+  } catch {}
+});
 
 const dayIndex = Math.round((Date.parse(date) - Date.parse('2026-01-01')) / 864e5);
 const manifestPath = path.join(runsDir, `${date}.json`);
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath)) : { date, videos: [] };
 
+const todayMats = new Set(); // material word (slug prefix) already used in another slot today
 for (let i = 0; i < count; i++) {
   const family = familyFor(dayIndex, i);
   if (manifest.videos[i] && fs.existsSync(path.join(outdir, manifest.videos[i].file))) {
     console.log(`skip ${manifest.videos[i].file} (exists)`);
+    todayMats.add(manifest.videos[i].file.replace(/^\d{4}-\d{2}-\d{2}-\d+-/, '').split('-')[0]);
     continue;
   }
-  let seed = fnv(`${date}#${i}`), meta;
-  for (let attempt = 0; attempt < 6; attempt++) {
-    const s = await openScene({ family, seed, width: 64, height: 114 });
-    meta = s.info.meta;
+  // Prefer a seed whose style and title are both fresh; fall back to a fresh title.
+  const base = fnv(`${date}#${i}`);
+  let seed = base, meta, fallback = null;
+  for (let attempt = 0; attempt < 16; attempt++) {
+    const cand = (base + attempt * 7919) >>> 0;
+    const s = await openScene({ family, seed: cand, width: 64, height: 114 });
+    const m = s.info.meta;
     await s.close();
-    if (!recent.has(meta.title)) break;
-    seed = (seed + 7919) >>> 0;
+    if (recent.has(m.title)) continue;
+    if (!fallback) fallback = { seed: cand, meta: m };
+    if (!recentStyles.has(m.slug) && !todayMats.has(m.slug.split('-')[0])) { seed = cand; meta = m; break; }
   }
+  if (!meta) ({ seed, meta } = fallback ?? { seed: base, meta: (await (async () => { const s = await openScene({ family, seed: base, width: 64, height: 114 }); const m = s.info.meta; await s.close(); return m; })()) });
+  recentStyles.add(meta.slug);
+  todayMats.add(meta.slug.split('-')[0]);
   recent.add(meta.title);
   const file = `${date}-${i + 1}-${meta.slug}.mp4`;
   console.log(`[${i + 1}/${count}] ${family} seed=${seed} -> ${file}`);
+  if ('dry' in args) continue; // --dry: show the day's picks without rendering
   const res = await renderVideo({ family, seed, out: path.join(outdir, file) });
   manifest.videos[i] = {
     file, url: RAW + file, family, seed,
@@ -66,4 +85,4 @@ for (let i = 0; i < count; i++) {
   };
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
 }
-console.log(`DONE ${manifestPath}`);
+if (!('dry' in args)) console.log(`DONE ${manifestPath}`);

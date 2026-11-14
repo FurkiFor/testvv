@@ -23,7 +23,25 @@ buffer of the exact video length (events wrap around, beds and reverb are circul
 | `funnelmarbles` | marbles roll down a spiral track into a funnel, shrinking forever |
 
 Each run picks materials, palettes, timing and camera variation from a seed, so every
-video is different. To add a family, add a module that returns the same shape
+video is different.
+
+Variety (added 2026-11-14):
+
+| family | materials |
+|---|---|
+| `cubecut` | kinetic sand, soap, clay, chocolate, marble, wax, cheese, jelly, granite, floral foam |
+| `nestshell` | ceramic, pearl, chrome, soft touch, candy, marble, egg, wood |
+| `dominospiral` | glossy, wood, pastel, metal, marble, neon (dark bg), pearl, velvet |
+| `funnelmarbles` | glossy, chrome, pearl, gold, copper, neon (dark cone), marble stone, wood, candy |
+
+- `main.js` also varies the camera (yaw ±~11°, distance ±5 %, height ±8 %), key-light
+  direction and colour, and exposure per seed, from a separate random stream. All static,
+  so loops stay seamless.
+- `daily.mjs` avoids any material+family (slug) used in the last 6 days, never repeats a
+  material word across the day's slots, and still avoids titles from the last 14 days.
+- `node engine/daily.mjs --date <d> --dry` prints the day's picks without rendering.
+- Iridescent ("holographic") materials were tried and dropped: swiftshader renders them as
+  plain chrome. To add a family, add a module that returns the same shape
 (`M`, `makeCopy`, `cycles`, `cycleSec`, `events`, `meta`, camera) and append it to
 `FAMILIES` in `daily.mjs`.
 
@@ -51,7 +69,7 @@ and tags. Re-running skips videos that already exist.
 5. Kervly: `get_calendar` for `asmrvideo`, then `schedule_post` each video to
    `youtube` at 12:00, 17:00 and 21:00 Asia/Dubai (skip taken or past slots, max 3 a day),
    with the manifest title, caption and tags and options
-   `{youtube:{privacy:"public", category:"ENTERTAINMENT", madeForKids:false, notifySubscribers:true, language:"en", audioLanguage:"en", aiGenerated:false}}`.
+   `{youtube:{privacy:"public", category:"FILM_ANIMATION", madeForKids:false, notifySubscribers:true, language:"en", audioLanguage:"en", aiGenerated:false}}`.
 
 Uploading through Kervly's own upload link is blocked from the cloud sandbox, so
 videos reach storage by git push; the raw.githubusercontent.com URL is the brand's

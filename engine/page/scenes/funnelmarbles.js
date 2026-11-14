@@ -6,20 +6,30 @@ const BALLS = {
   chrome: { label: 'Chrome', mat: { roughness: 0.05, metalness: 1 } },
   pearl: { label: 'Pearl', mat: { roughness: 0.25, clearcoat: 0.8, sheen: 1, sheenRoughness: 0.3 } },
   gold: { label: 'Golden', mat: { roughness: 0.15, metalness: 1 }, fixed: ['#e8c36a', '#d9a441', '#f3d98b'] },
+  copper: { label: 'Copper', mat: { roughness: 0.18, metalness: 1 }, fixed: ['#c8743f', '#b5603a', '#e09a6b'], plain: true },
+  neon: { label: 'Neon', mat: { roughness: 0.25, clearcoat: 1, emissiveIntensity: 0.75 }, neon: true },
+  stone: { label: 'Marble Stone', mat: { roughness: 0.2, clearcoat: 0.9, vein: true, veinScale: 40, veinColor: '#3a3f44', mottle: 12, mottleAmt: 0.15, colorVar: 0.08 }, fixed: ['#f4f1ea', '#2e3236', '#d8cfc4'], plain: true },
+  wood: { label: 'Wooden', mat: { roughness: 0.55, grain: 60, grainAmt: 0.35, mottle: 10, mottleAmt: 0.3, colorVar: 0.22 }, fixed: ['#c8925a', '#8c5a32', '#e0b47c'] },
+  candy: { label: 'Candy', mat: { roughness: 0.06, clearcoat: 1, clearcoatRoughness: 0.02 } },
 };
+const NEON = [['#ff2e88', '#00e5ff', '#39ff14'], ['#ffea00', '#ff00e6', '#00e5ff'], ['#7c4dff', '#ff3d00', '#00ffa3']];
 const PALS = [
   ['#ff4d6d', '#ffd23f', '#3a86ff'], ['#06d6a0', '#ef476f', '#ffd166'], ['#8338ec', '#ff006e', '#fb5607'],
   ['#4cc9f0', '#f72585', '#b8f2e6'], ['#f4f1de', '#e07a5f', '#3d405b'],
+  ['#ff9f1c', '#2ec4b6', '#e71d36'], ['#9b5de5', '#f15bb5', '#fee440'], ['#00bbf9', '#00f5d4', '#ffffff'],
+  ['#264653', '#e9c46a', '#e76f51'], ['#cdb4db', '#ffc8dd', '#a2d2ff'],
 ];
 const CONES = [
   ['#e9e4dc', '#d8d1c6'], ['#262a31', '#1b1e23'], ['#dfe7ee', '#c9d4de'], ['#2f3e46', '#354f52'], ['#efe1d1', '#e4cdb4'],
+  ['#3d2c4f', '#2a1f38'], ['#e8dfee', '#d6c8e2'], ['#1f3b36', '#18302c'], ['#f2e3c9', '#e3caa0'], ['#5a2a2a', '#3f1d1d'],
 ];
+const DARK_CONES = [['#14161a', '#1d2128'], ['#1a1530', '#120f22'], ['#0f1d1b', '#162a27']];
 
 export default function build({ THREE, rand, pick, range, makeMaterial }) {
   const ballKey = pick(Object.keys(BALLS));
   const B = BALLS[ballKey];
-  const pal = B.fixed ?? pick(PALS);
-  const cone = pick(CONES);
+  const pal = B.fixed ?? (B.neon ? pick(NEON) : pick(PALS));
+  const cone = B.neon ? pick(DARK_CONES) : pick(CONES);
   const dark = new THREE.Color(cone[0]).getHSL({}).l < 0.4;
   const perTurn = Math.floor(range(9, 13));
   const phi = (2 * Math.PI) / perTurn;
@@ -32,7 +42,7 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
   const m = 0.115;
   const bands = Math.floor(range(1, 3));
 
-  const mats = pal.map((c) => makeMaterial({ ...B.mat, color: c }));
+  const mats = pal.map((c) => makeMaterial({ ...B.mat, color: c, ...(B.neon ? { color: '#' + new THREE.Color(c).multiplyScalar(0.12).getHexString(), emissive: c } : {}) }));
   const nrm = new THREE.Vector3(-slope, 1, 0).normalize();
   const center = new THREE.Vector3(1, slope, 0).addScaledVector(nrm, m);
   const geo = new THREE.SphereGeometry(m, 32, 20);
@@ -46,7 +56,7 @@ export default function build({ THREE, rand, pick, range, makeMaterial }) {
     ball.position.copy(center);
     const body = new THREE.Mesh(geo, mats[((n % P) + P) % P]);
     ball.add(body);
-    if (ballKey !== 'chrome' && ballKey !== 'gold') {
+    if (ballKey !== 'chrome' && ballKey !== 'gold' && !B.plain) {
       const st = new THREE.Mesh(stripeGeo, stripeMat);
       st.userData.noShadow = true;
       ball.add(st);
