@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug Anne Boleyn in a French hood and pearl necklace illustration">
+<defs><radialGradient id="anne-boleyn-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#E8A0A0"/><stop offset=".6" stop-color="#9A2A34"/><stop offset="1" stop-color="#4A0E16"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#anne-boleyn-bg)"/>
+<path d="M18 250 Q26 192 100 184 Q174 192 182 250Z" fill="#2A1A24"/>
+<path d="M50 206 Q100 230 150 206 L154 250 L46 250Z" fill="#7A1E2E"/>
+<path d="M56 204 Q100 226 144 204" stroke="#E8C55A" stroke-width="4" fill="none"/>
+<rect x="90" y="148" width="20" height="38" fill="#F0D2BC"/>
+<path d="M56 130 Q46 64 100 56 Q154 64 144 130 L134 150 L66 150Z" fill="#141014"/>
+<path d="M60 112 Q56 70 100 64 Q144 70 140 112" stroke="#E8C55A" stroke-width="5" fill="none"/>
+<g fill="#F4F0E8"><circle cx="66" cy="96" r="3"/><circle cx="72" cy="84" r="3"/><circle cx="82" cy="74" r="3"/><circle cx="94" cy="69" r="3"/><circle cx="106" cy="69" r="3"/><circle cx="118" cy="74" r="3"/><circle cx="128" cy="84" r="3"/><circle cx="134" cy="96" r="3"/></g>
+<ellipse cx="100" cy="118" rx="29" ry="36" fill="#F6DCC8"/>
+<path d="M72 112 Q76 84 100 82 Q124 84 128 112 Q120 92 100 92 Q80 92 72 112Z" fill="#3A2216"/>
+<path d="M100 84 L100 94" stroke="#2A160C" stroke-width="2"/>
+<path d="M80 106 Q87 101 95 105 M105 104 Q113 99 121 104" stroke="#2A160C" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M80 114 Q87 110 94 114 Q87 116 80 114Z" fill="#fff"/><path d="M106 113 Q113 109 120 113 Q113 115 106 113Z" fill="#fff"/>
+<circle cx="88" cy="113.5" r="2.4" fill="#1E120A"/><circle cx="114" cy="112.5" r="2.4" fill="#1E120A"/>
+<path d="M79 111 Q87 107 95 111 M105 110 Q113 106 121 110" stroke="#2A160C" stroke-width="2" fill="none"/>
+<path d="M100 118 Q96 128 100 130" stroke="#D9A88A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<circle cx="80" cy="128" r="6" fill="#F2A0A8" opacity=".55"/><circle cx="120" cy="128" r="6" fill="#F2A0A8" opacity=".55"/>
+<path d="M88 139 Q102 146 114 136" stroke="#B5455A" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+<g fill="#F7F3EA" stroke="#C9BFAE" stroke-width=".8"><circle cx="86" cy="172" r="3.4"/><circle cx="93" cy="175" r="3.4"/><circle cx="100" cy="176" r="3.4"/><circle cx="107" cy="175" r="3.4"/><circle cx="114" cy="172" r="3.4"/></g>
+<path d="M100 180 L100 186" stroke="#E8C55A" stroke-width="2"/>
+<path d="M94 186 L106 186 L106 200 L94 200Z" fill="#E8C55A" stroke="#B88A10" stroke-width="1.5"/>
+<g fill="#F7F3EA"><circle cx="96" cy="204" r="2.6"/><circle cx="100" cy="205" r="2.6"/><circle cx="104" cy="204" r="2.6"/></g>
+</svg>

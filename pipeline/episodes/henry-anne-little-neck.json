@@ -1,0 +1,129 @@
+{
+ "slug": "henry-anne-little-neck",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Henry VIII got engaged 1 day after beheading his wife 💍 #shorts",
+  "caption": "Henry VIII booked the best executioner in France for Anne Boleyn. Her reply is history's darkest joke 💀\n\nName a worse ex. We'll wait 👇\n\nParody · fictional chat. Based on history: Anne Boleyn was executed at the Tower of London on 19 May 1536 by an expert swordsman brought over from Calais instead of an axeman. The Tower's constable William Kingston wrote that she laughed and said \"I heard say the executioner was very good, and I have a little neck.\" Henry VIII was betrothed to Jane Seymour the next day, 20 May.\n\n#henryviii #anneboleyn #tudors #darkhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "henry viii",
+   "anne boleyn",
+   "anne boleyn execution",
+   "tudors",
+   "jane seymour",
+   "six wives of henry viii",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A0A10",
+  "glow": "#C8202A",
+  "footer": "🗡️ 1536 · TOWER OF LONDON",
+  "footerColor": "#F2A0A8",
+  "stamp": "EX'D",
+  "music": "greensleeves"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Henry 👑",
+  "label": "HENRY VIII",
+  "portrait": "henry-viii.svg",
+  "face": "36 42 128 128",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Anne 💅",
+  "label": "ANNE BOLEYN",
+  "portrait": "anne-boleyn.svg",
+  "face": "44 52 112 112",
+  "voice": "bf_isabella",
+  "speed": 1.1,
+  "el_voice": "NPC1Rk3VsPo28KCMJFLI",
+  "el_speed": 1.08,
+  "status": "last seen at the tower",
+  "subtitle": "Anne Boleyn",
+  "about": "queen (for now) 👑",
+  "aboutDate": "1536"
+ },
+ "notifications": [
+  "a SWORD? how sweet",
+  "i have a little neck 💅"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "TOWER OF LONDON · MAY 1536"
+  },
+  {
+   "k": "out",
+   "text": "good news. got u the best executioner in FRANCE 🗡️",
+   "say": "Good news. Got you the best executioner in France.",
+   "time": "7:58 AM"
+  },
+  {
+   "k": "in",
+   "text": "a sword? not the axe? how sweet",
+   "say": "A sword? Not the axe? How sweet.",
+   "time": "8:00 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "only the best for my ex 😌",
+   "say": "Only the best for my ex.",
+   "time": "8:00 AM"
+  },
+  {
+   "k": "in",
+   "text": "heard he's very good",
+   "say": "Heard he's very good.",
+   "time": "8:01 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "one swing. very fast",
+   "say": "One swing. Very fast.",
+   "time": "8:01 AM"
+  },
+  {
+   "k": "in",
+   "text": "perfect. i have a little neck 💅",
+   "say": "Perfect. I have a little neck.",
+   "el_say": "[laughs] Perfect. I have a little neck.",
+   "time": "8:02 AM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "anyway gtg. getting engaged tomorrow 💍",
+   "say": "Anyway, got to go. Getting engaged tomorrow.",
+   "time": "8:03 AM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "MAY 19: ANNE, GONE",
+  "bottom": "MAY 20: ENGAGED 💍",
+  "chips": [
+   "Wives: 6 👑",
+   "Waiting period: 1 day ⏱️"
+  ],
+  "say": "He got engaged the next day."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

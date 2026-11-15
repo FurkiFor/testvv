@@ -1,0 +1,120 @@
+{
+ "slug": "napoleon-dutch-rabbit",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon's brother called himself a RABBIT in Dutch 🐇 #shorts",
+  "caption": "Napoleon made his brother Louis King of Holland. Then Louis tried to speak Dutch 🐇\n\nWorst thing YOU ever said in a foreign language? Comment it 👇\n\nParody · fictional chat. Based on history: in 1806 Napoleon made his brother Louis Bonaparte King of Holland. Legend says Louis, still learning Dutch, introduced himself as \"Ik ben uw konijn\" (I am your rabbit) instead of \"koning\" (king).\n\n#napoleon #napoleonbonaparte #louisbonaparte #netherlands #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "louis bonaparte",
+   "king of holland",
+   "napoleon brother",
+   "dutch language",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A08",
+  "glow": "#F08A24",
+  "footer": "🌷 1806 · THE HAGUE",
+  "footerColor": "#F5A04A",
+  "stamp": "KONIJN",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Louis 🇳🇱",
+  "label": "LOUIS BONAPARTE",
+  "portrait": "louis-bonaparte.svg",
+  "face": "36 40 128 128",
+  "voice": "am_echo",
+  "speed": 1.12,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.08,
+  "status": "last seen practicing dutch",
+  "subtitle": "Louis Bonaparte",
+  "about": "new job. no idea 🌷",
+  "aboutDate": "1806"
+ },
+ "notifications": [
+  "i don't speak dutch",
+  "nailed it 😎"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "THE HAGUE · 1806"
+  },
+  {
+   "k": "out",
+   "text": "congrats bro. ur king of HOLLAND now 👑",
+   "say": "Congrats bro. You're king of Holland now.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "i don't even speak dutch??",
+   "say": "I don't even speak Dutch?",
+   "time": "9:03 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "learn it. speech is tomorrow",
+   "say": "Learn it. Speech is tomorrow.",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "nailed it. told them \"i am ur king\" in dutch 😎",
+   "say": "Nailed it. Told them I am your king, in Dutch.",
+   "time": "6:40 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "u said \"ik ben uw konijn\"",
+   "say": "You said, ick ben oov ko-nine.",
+   "time": "6:41 PM"
+  },
+  {
+   "k": "out",
+   "text": "konijn means RABBIT 🐇",
+   "say": "Konijn means rabbit.",
+   "time": "6:41 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "KING OF HOLLAND",
+  "bottom": "LEGEND SAYS: KING RABBIT",
+  "chips": [
+   "Kingdoms: 1 👑",
+   "Bonapartes vs rabbits: 0–2 🐇"
+  ],
+  "say": "Legend says. King Rabbit."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
