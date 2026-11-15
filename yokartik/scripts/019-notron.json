@@ -1,0 +1,103 @@
+{
+  "id": "019-notron",
+  "theme": "pop",
+  "topic": "uzay",
+  "hook_mechanism": "imkânsız sahne — 'şeker küpü kadar bir parça, bir dağ kadar ağır'; parçanın nereden geldiği ve nedeni sonra açılıyor",
+  "sources": [
+    "NASA Science, 'Neutron Stars Are Weird': bir şeker küpü kadar nötron yıldızı maddesi Dünya'da yaklaşık 1 trilyon kg (1 milyar ton) gelir, 'yaklaşık bir dağ kadar'; Güneş'in iki katına kadar kütle bir şehir çapındaki küreye sıkışır",
+    "NASA Imagine the Universe (Pulsars/Neutron Stars): nötron yıldızları süpernova sonrası çöken dev yıldız çekirdekleridir"
+  ],
+  "youtube": {
+    "title": "Şeker küpü kadar ama bir dağ kadar ağır 🤯 Nötron yıldızı #shorts",
+    "caption": "Nötron yıldızları Güneş'in iki katına kadar kütleyi bir şehir büyüklüğündeki bir küreye sıkıştırır. Bu yüzden şeker küpü kadar bir parçası Dünya'da yaklaşık 1 milyar ton gelir; bir dağ kadar! Bilmeyen arkadaşına gönder 👇\n\n#yokartık #uzay #nötronyıldızı #astronomi #bilim #nasa #shorts",
+    "tags": [
+      "nötron yıldızı",
+      "uzay",
+      "astronomi",
+      "yıldızlar",
+      "nasa",
+      "şeker küpü",
+      "bilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Şeker küpü kadar küçük bir parça, koca bir dağ kadar ağır olabiliyor!",
+      "cap": "Şeker küpü / kadar küçük / bir parça, / koca bir dağ / kadar ağır / olabiliyor!",
+      "icons": [
+        "1f9ca",
+        "2696",
+        "1f3d4"
+      ],
+      "text": "Şeker küpü = bir DAĞ!",
+      "hl": {
+        "DAĞ": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu parça, bir nötron yıldızından.",
+      "cap": "Bu parça, / bir nötron / yıldızından.",
+      "icon": "1f31f",
+      "text": "Nötron yıldızı",
+      "hl": {
+        "Nötron": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Nötron yıldızı, ölen dev bir yıldızın çöken çekirdeği.",
+      "cap": "Nötron yıldızı, / ölen dev / bir yıldızın / çöken çekirdeği.",
+      "icon": "1f4a5",
+      "text": "Çöken bir çekirdek",
+      "hl": {
+        "Çöken": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Kütlesi, Güneş'in iki katına kadar çıkabiliyor.",
+      "cap": "Kütlesi, / Güneş'in / 2 katına kadar / çıkabiliyor.",
+      "icon": "2600",
+      "value": 2,
+      "suffix": " GÜNEŞ",
+      "size": 200,
+      "label": "kütleye kadar"
+    },
+    {
+      "type": "statement",
+      "say": "Ama bütün bu kütle, bir şehir büyüklüğünde bir küreye sıkışıyor.",
+      "cap": "Ama bütün / bu kütle, / bir şehir / büyüklüğünde / bir küreye / sıkışıyor.",
+      "icon": "1f3d9",
+      "text": "Bir şehir kadar!",
+      "hl": {
+        "şehir": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Bu yüzden şeker küpü kadar bir parçası, Dünya'da yaklaşık bir milyar ton geliyor.",
+      "cap": "Bu yüzden / şeker küpü / kadar bir parçası, / Dünya'da yaklaşık / 1 milyar ton / geliyor.",
+      "icon": "1f9ca",
+      "value": 1,
+      "suffix": " MİLYAR TON",
+      "size": 150,
+      "color": "green",
+      "label": "tek bir şeker küpü"
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Avucuna sığan bir parça, bir dağ kadar ağır. Yok artık!",
+      "cap": "Avucuna sığan / bir parça, / bir dağ / kadar ağır. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

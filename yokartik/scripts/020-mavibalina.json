@@ -1,0 +1,101 @@
+{
+  "id": "020-mavibalina",
+  "theme": "pop",
+  "topic": "hayvan",
+  "hook_mechanism": "paradoks (çelişki) + kimliği gizli — 'bilinen en büyük kalp, dakikada sadece 2 kez atabiliyor'; kimin kalbi olduğu ve nasıl mümkün olduğu sonra açılıyor",
+  "sources": [
+    "Live Science, 'A blue whale had his heartbeat taken for the first time ever' (2019, Stanford/Goldbogen): nabız yüzeyde dakikada 34'e kadar çıkıyor, en derinde dakikada 2'ye düşüyor",
+    "Live Science / Royal Ontario Museum (2015): karaya vuran bir mavi balinanın kalbi 180 kg geldi, yaklaşık bir golf arabası büyüklüğünde"
+  ],
+  "youtube": {
+    "title": "Bilinen en büyük kalp dakikada sadece 2 kez atıyor 🐋 #shorts",
+    "caption": "Mavi balinanın kalbi yaklaşık 180 kg ve bir golf arabası büyüklüğünde. 2019'da ilk kez ölçülen nabzı yüzeyde dakikada 34'e kadar çıkıyor, derin dalışta ise dakikada 2 atışa kadar düşüyor. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #mavibalina #hayvanlar #doğa #okyanus #bilim #shorts",
+    "tags": [
+      "mavi balina",
+      "balina",
+      "kalp",
+      "hayvanlar",
+      "okyanus",
+      "doğa",
+      "bilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[surprised] Bilinen en büyük kalp, dakikada sadece iki kez atabiliyor!",
+      "cap": "Bilinen / en büyük kalp, / dakikada sadece / 2 kez / atabiliyor!",
+      "icons": [
+        "1fac0",
+        "23f1",
+        "2753"
+      ],
+      "text": "Dakikada sadece 2 atış!",
+      "hl": {
+        "2": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu kalp, mavi balinaya ait.",
+      "cap": "Bu kalp, / mavi balinaya / ait.",
+      "icon": "1f40b",
+      "text": "Mavi balina",
+      "hl": {
+        "Mavi": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Bir mavi balinanın kalbi yaklaşık yüz seksen kilo geliyor. Boyutu ise bir golf arabası kadar.",
+      "cap": "Bir mavi / balinanın kalbi / yaklaşık / 180 kilo geliyor. / Boyutu ise / bir golf / arabası kadar.",
+      "icon": "1fac0",
+      "value": 180,
+      "suffix": " KG",
+      "size": 210,
+      "label": "golf arabası boyunda"
+    },
+    {
+      "type": "number",
+      "say": "Bilim insanları nabzını ilk kez iki bin on dokuzda ölçtü. Yüzeyde dakikada otuz dörde kadar çıkıyor.",
+      "cap": "Bilim insanları / nabzını ilk kez / 2019'da ölçtü. / Yüzeyde / dakikada / 34'e kadar / çıkıyor.",
+      "icon": "1f30a",
+      "value": 34,
+      "size": 230,
+      "color": "green",
+      "label": "yüzeyde, dakikada"
+    },
+    {
+      "type": "number",
+      "say": "Ama derine dalınca, dakikada iki atışa kadar düşüyor.",
+      "cap": "Ama derine / dalınca, / dakikada / 2 atışa kadar / düşüyor.",
+      "icon": "23f1",
+      "value": 2,
+      "size": 260,
+      "label": "derinde, dakikada"
+    },
+    {
+      "type": "statement",
+      "say": "Böylece dalışta oksijenini idareli kullanıyor.",
+      "cap": "Böylece / dalışta / oksijenini idareli / kullanıyor.",
+      "icon": "1f4a8",
+      "text": "Oksijen tasarrufu",
+      "hl": {
+        "Oksijen": "red"
+      }
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Senin kalbin dakikada yaklaşık yetmiş kez atarken, onunki sadece iki kez. Yok artık!",
+      "cap": "Senin kalbin / dakikada / yaklaşık 70 kez / atarken, / onunki sadece / 2 kez. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}

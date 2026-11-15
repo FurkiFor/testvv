@@ -20,10 +20,13 @@
 | 2026-11-14 | 016-bal | hayvan | Mısır mezarlarında binlerce yıllık bozulmamış bal; ~%17 su, asitlik, arı enzimi → hidrojen peroksit | imkânsız sahne | 36 sn | PLANLANMADI (Kervly bağlantısı yok) | — |
 | 2026-11-14 | 017-fatih | tarih | Fatih 12 yaşında tahta çıktı (1444), 1446'da indirildi, 1451'de döndü, 1453'te 21 yaşında İstanbul'u aldı | çelişki + kimliği gizli | 31 sn | PLANLANMADI (Kervly bağlantısı yok) | — |
 | 2026-11-14 | 018-iss | uzay | ISS ~28.000 km/sa, ~90 dk'da bir tur → astronotlar günde 16 gün doğumu görüyor | paradoks / imkânsız sahne | 31 sn | PLANLANMADI (Kervly bağlantısı yok) | — |
+| 2026-11-15 | 019-notron | uzay | Şeker küpü kadar nötron yıldızı maddesi ~1 milyar ton; Güneş'in 2 katına kadar kütle şehir büyüklüğünde | imkânsız sahne | — | ÜRETİLMEDİ (ElevenLabs ödeme hatası; senaryo hazır) | — |
+| 2026-11-15 | 020-mavibalina | hayvan | Mavi balina kalbi ~180 kg (golf arabası), nabız yüzeyde 34'e kadar, derinde 2 | paradoks + kimliği gizli | — | ÜRETİLMEDİ (ElevenLabs ödeme hatası; senaryo hazır) | — |
+| 2026-11-15 | 021-beyin | vücut | Beyin ~1,4 kg (~%2), dinlenme enerjisinin ~%20'si | gizem (kimliği gizli organ) + rakam | — | ÜRETİLMEDİ (ElevenLabs ödeme hatası; senaryo hazır) | — |
 
 ## Performans
 
-Son güncelleme: 2026-11-13 09:32 (İstanbul). 14.11 çalışmasında Kervly bağlantısı düştüğü için güncellenemedi. Değerler yayından ~0,5–4 gün sonrası (yaşlar farklı, karşılaştırma kaba).
+Son güncelleme: 2026-11-13 09:32 (İstanbul). 14.11 ve 15.11 çalışmalarında Kervly bağlantısı düştüğü için güncellenemedi. Değerler yayından ~0,5–4 gün sonrası (yaşlar farklı, karşılaştırma kaba).
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|

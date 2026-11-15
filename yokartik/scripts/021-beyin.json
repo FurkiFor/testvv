@@ -1,0 +1,103 @@
+{
+  "id": "021-beyin",
+  "theme": "pop",
+  "topic": "vücut",
+  "hook_mechanism": "gizem (kimliği gizli organ) + rakam — 'ağırlığının %2'si ama enerjinin beşte birini yakıyor'; organ ikinci sahnede açılıyor",
+  "sources": [
+    "Raichle & Gusnard / PNAS (PMC): beyin vücut ağırlığının yaklaşık %2'si ama dinlenme enerjisinin yaklaşık %20'sini tüketir; göreve bağlı ek artış küçüktür, enerjinin çoğu dinlenirken harcanır",
+    "Britannica, 'brain': yetişkin insan beyni yaklaşık 1,4 kg (3 lb)"
+  ],
+  "youtube": {
+    "title": "Vücudunun %2'si ama enerjinin %20'sini yakıyor 🧠 #shorts",
+    "caption": "Beyin yaklaşık 1,4 kg; vücut ağırlığının sadece %2'si civarında. Ama dinlenirken harcadığın enerjinin yaklaşık %20'sini tek başına tüketiyor, üstelik hiçbir şey yapmıyorken bile. Bilmeyen arkadaşına gönder 👇\n\n#yokartık #beyin #insanvücudu #bilim #sağlık #biyoloji #shorts",
+    "tags": [
+      "beyin",
+      "insan vücudu",
+      "enerji",
+      "biyoloji",
+      "bilim",
+      "sağlık",
+      "nörobilim",
+      "ilginç bilgiler",
+      "yok artık",
+      "shorts"
+    ]
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "say": "[curious] Vücudundaki bir organ, ağırlığının sadece yüzde ikisi. Ama enerjinin beşte birini tek başına yakıyor!",
+      "cap": "Vücudundaki / bir organ, / ağırlığının / sadece %2'si. / Ama enerjinin / beşte birini / tek başına / yakıyor!",
+      "icons": [
+        "2696",
+        "26a1",
+        "2753"
+      ],
+      "text": "%2 ağırlık, %20 enerji!",
+      "hl": {
+        "20": "red"
+      }
+    },
+    {
+      "type": "statement",
+      "say": "Bu organ, beynin.",
+      "cap": "Bu organ, / beynin.",
+      "icon": "1f9e0",
+      "text": "Beyin",
+      "hl": {
+        "Beyin": "red"
+      }
+    },
+    {
+      "type": "number",
+      "say": "Yetişkin bir beyin yaklaşık bin dört yüz gram gelir.",
+      "cap": "Yetişkin / bir beyin / yaklaşık / 1.400 gram gelir.",
+      "icon": "2696",
+      "value": 1400,
+      "suffix": " GRAM",
+      "size": 150,
+      "label": "yetişkin beyni"
+    },
+    {
+      "type": "number",
+      "say": "Bu, vücut ağırlığının yalnızca yüzde ikisi civarında.",
+      "cap": "Bu, vücut / ağırlığının / yalnızca %2'si / civarında.",
+      "icon": "1f9cd",
+      "value": 2,
+      "prefix": "%",
+      "size": 240,
+      "color": "green",
+      "label": "vücut ağırlığı"
+    },
+    {
+      "type": "number",
+      "say": "Ama dinlenirken harcadığın enerjinin yaklaşık yüzde yirmisini tüketiyor.",
+      "cap": "Ama dinlenirken / harcadığın / enerjinin / yaklaşık %20'sini / tüketiyor.",
+      "icon": "26a1",
+      "value": 20,
+      "prefix": "%",
+      "size": 240,
+      "label": "enerji"
+    },
+    {
+      "type": "statement",
+      "say": "Üstelik bu enerjinin çoğunu, hiçbir şey yapmıyorken bile harcıyor.",
+      "cap": "Üstelik / bu enerjinin / çoğunu, / hiçbir şey / yapmıyorken bile / harcıyor.",
+      "icon": "1f634",
+      "text": "Boş dururken bile!",
+      "hl": {
+        "bile": "red"
+      }
+    },
+    {
+      "type": "outro",
+      "say": "[excited] Kafandaki küçük bir organ, enerjinin beşte birini yiyor. Yok artık!",
+      "cap": "Kafandaki / küçük bir organ, / enerjinin / beşte birini / yiyor. / Yok artık!",
+      "icon": "1f92f",
+      "text": "Bilmeyen arkadaşına gönder",
+      "hl": {
+        "gönder": "red"
+      }
+    }
+  ]
+}
