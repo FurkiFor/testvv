@@ -1,0 +1,130 @@
+{
+ "slug": "marie-antoinette-pardon-me",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Marie Antoinette apologized to her executioner. Seriously 🙏 #shorts",
+  "caption": "Marie Antoinette's last words were… an apology to the executioner 🙏\n\nPolite to the very end, or the coldest move in history? Pick one 👇\n\nParody · fictional chat. Based on history: on 16 October 1793, on the scaffold in Paris, Marie Antoinette accidentally stepped on the executioner's foot. Her reported last words: \"Pardonnez-moi, monsieur, je ne l'ai pas fait exprès\" (\"Pardon me, sir, I didn't do it on purpose\"). She almost certainly never said \"let them eat cake\": the line appears in Rousseau's Confessions, written when she was a child in Austria.\n\n#marieantoinette #frenchrevolution #darkhistory #lastwords #historymemes #funnyhistory #shorts",
+  "tags": [
+   "marie antoinette",
+   "marie antoinette last words",
+   "marie antoinette execution",
+   "french revolution",
+   "let them eat cake",
+   "last words",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1C1A2A",
+  "glow": "#C8202A",
+  "footer": "🇫🇷 1793 · PARIS",
+  "footerColor": "#9AB0F0",
+  "stamp": "PARDON?",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Executioner 🪓",
+  "label": "THE EXECUTIONER",
+  "portrait": "executioner.svg",
+  "face": "44 46 112 112",
+  "voice": "am_fenrir",
+  "speed": 1.12,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Marie 👑",
+  "label": "MARIE ANTOINETTE",
+  "portrait": "marie-antoinette.svg",
+  "face": "50 76 100 100",
+  "voice": "af_bella",
+  "speed": 1.1,
+  "el_voice": "uOKjDs6WxcKhmWoVHGF8",
+  "el_speed": 1.06,
+  "status": "last seen on the scaffold",
+  "subtitle": "Marie Antoinette",
+  "about": "manners first 💅",
+  "aboutDate": "1793"
+ },
+ "notifications": [
+  "pardon me, sir 🙏",
+  "i never even said that 🍰"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 16 OCT 1793"
+  },
+  {
+   "k": "out",
+   "text": "OW. u just stepped on my foot",
+   "say": "Ow! You just stepped on my foot.",
+   "time": "12:14 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "pardon me, sir. i didn't do it on purpose 🙏",
+   "say": "Pardon me, sir. I didn't do it on purpose.",
+   "time": "12:14 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "lady. u know what i'm about to do, right",
+   "say": "Lady. You know what I'm about to do, right?",
+   "time": "12:14 PM"
+  },
+  {
+   "k": "in",
+   "text": "yes. that's no excuse for bad manners 💅",
+   "say": "Yes. That's no excuse for bad manners.",
+   "time": "12:15 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "and they call YOU the rude one",
+   "say": "And they call you the rude one.",
+   "time": "12:15 PM"
+  },
+  {
+   "k": "in",
+   "text": "bc of the cake thing? i never even said that 🍰",
+   "say": "Because of the cake thing? I never even said that.",
+   "el_say": "[sighs] Because of the cake thing? I never even said that.",
+   "time": "12:15 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "great. now i feel like the bad guy 😬",
+   "say": "Great. Now I feel like the bad guy.",
+   "time": "12:15 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HER LAST WORDS:",
+  "bottom": "\"PARDON ME, SIR\" 🙏",
+  "chips": [
+   "Cake quote: fake 🍰",
+   "Manners: 10/10 💅"
+  ],
+  "say": "Her real last words were an apology."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

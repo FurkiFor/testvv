@@ -1,0 +1,120 @@
+{
+ "slug": "mozart-borrows-money",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Mozart's friend lent him money. He got paid in songs 💀 #shorts",
+  "caption": "Mozart kept borrowing money from his friend Puchberg. The repayment plan was… creative 🎻\n\nWhat's the worst IOU a friend ever gave YOU? 👇\n\nParody · fictional chat. Based on history: in 1788–1791 a broke Mozart wrote a string of begging letters to his friend and fellow Freemason, the Viennese merchant Michael Puchberg, who lent him well over 1,000 florins. In 1788 Mozart wrote his String Trio Divertimento in E-flat, K. 563, for Puchberg.\n\n#mozart #classicalmusic #friendtexts #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "mozart",
+   "wolfgang amadeus mozart",
+   "mozart funny",
+   "michael puchberg",
+   "mozart debt",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A26",
+  "glow": "#D86A9A",
+  "footer": "🎻 1788 · VIENNA",
+  "footerColor": "#F2A8C8",
+  "stamp": "BROKE",
+  "music": "ode"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Mozart 🎹",
+  "label": "MOZART",
+  "portrait": "mozart.svg",
+  "face": "52 56 96 96",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Michael 💼",
+  "label": "MICHAEL PUCHBERG",
+  "portrait": "puchberg.svg",
+  "face": "50 56 100 100",
+  "voice": "bm_george",
+  "speed": 1.1,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.06,
+  "status": "last seen counting florins",
+  "subtitle": "Michael Puchberg",
+  "about": "no more loans 🙅",
+  "aboutDate": "1788"
+ },
+ "notifications": [
+  "u still owe me 300",
+  "can i pay RENT with a song??"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "VIENNA · 1788"
+  },
+  {
+   "k": "out",
+   "text": "bro. lend me 100 florins? 🙏",
+   "say": "Bro. Lend me a hundred florins?",
+   "time": "11:42 PM"
+  },
+  {
+   "k": "in",
+   "text": "u still owe me 300",
+   "say": "You still owe me three hundred.",
+   "time": "11:43 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "i'll pay u back. i'm MOZART",
+   "say": "I'll pay you back. I'm Mozart!",
+   "time": "11:43 PM"
+  },
+  {
+   "k": "out",
+   "text": "ok fine. wrote u a song instead 🎻",
+   "say": "Okay fine. Wrote you a song instead.",
+   "time": "11:44 PM"
+  },
+  {
+   "k": "in",
+   "text": "can i pay RENT with a song??",
+   "say": "Can I pay rent with a song?",
+   "time": "11:45 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "if u figure that out, tell me 💀",
+   "say": "If you figure that out, tell me.",
+   "time": "11:45 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "PAID HIM BACK WITH",
+  "bottom": "A STRING TRIO 🎻",
+  "chips": [
+   "Songs written: 600+ 🎼",
+   "Rent paid with them: 0 🏠"
+  ],
+  "say": "He paid him back in music."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

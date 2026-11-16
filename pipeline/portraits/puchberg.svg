@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Fed-up merchant Michael Puchberg, illustration">
+<defs><linearGradient id="puchberg-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6E2C8"/><stop offset="1" stop-color="#4E6A44"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#puchberg-bg)"/>
+<path d="M18 250 Q26 186 100 178 Q174 186 182 250Z" fill="#5A4030"/>
+<path d="M82 186 Q100 206 118 186 L112 214 Q100 222 88 214Z" fill="#F2EEE4"/>
+<rect x="89" y="148" width="22" height="34" fill="#E0B898"/>
+<ellipse cx="100" cy="114" rx="32" ry="38" fill="#EBC6A6"/>
+<path d="M68 104 Q66 70 100 66 Q134 70 132 104 Q126 84 100 84 Q74 84 68 104Z" fill="#BFB8AE"/>
+<ellipse cx="68" cy="116" rx="7" ry="12" fill="#BFB8AE"/><ellipse cx="132" cy="116" rx="7" ry="12" fill="#BFB8AE"/>
+<path d="M76 104 L95 100" stroke="#6A5A4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M105 100 L124 104" stroke="#6A5A4A" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="87" cy="113" rx="6.5" ry="2.8" fill="#fff"/><ellipse cx="113" cy="113" rx="6.5" ry="2.8" fill="#fff"/>
+<circle cx="87" cy="113" r="2.4" fill="#2A1A10"/><circle cx="113" cy="113" r="2.4" fill="#2A1A10"/>
+<path d="M79 110 L95 110.5" stroke="#CFA284" stroke-width="2.5" stroke-linecap="round"/><path d="M105 110.5 L121 110" stroke="#CFA284" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="87" cy="113" r="10" fill="none" stroke="#7A6A3A" stroke-width="2"/><circle cx="113" cy="113" r="10" fill="none" stroke="#7A6A3A" stroke-width="2"/>
+<path d="M97 113 L103 113" stroke="#7A6A3A" stroke-width="2"/>
+<path d="M100 118 Q106 128 99 131" stroke="#C99A7C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M88 141 Q100 137 112 141" stroke="#7A3A30" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="128" y="196" width="36" height="46" rx="3" fill="#7A2A20" stroke="#3A1A10" stroke-width="2"/>
+<path d="M134 206 H158 M134 214 H158 M134 222 H152" stroke="#E8C35A" stroke-width="2"/>
+</svg>
