@@ -24,6 +24,8 @@
 | 2026-11-15 | 020-mavibalina | hayvan | Mavi balina kalbi ~180 kg (golf arabası), nabız yüzeyde 34'e kadar, derinde 2 | paradoks + kimliği gizli | — | ÜRETİLMEDİ (ElevenLabs ödeme hatası; senaryo hazır) | — |
 | 2026-11-15 | 021-beyin | vücut | Beyin ~1,4 kg (~%2), dinlenme enerjisinin ~%20'si | gizem (kimliği gizli organ) + rakam | — | ÜRETİLMEDİ (ElevenLabs ödeme hatası; senaryo hazır) | — |
 
+> 2026-11-16: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" hatası verdi (019/020/021 için deneme, kredi düşmedi). Kervly bağlantısı düşük (yeniden bağlanmalı). Bugünün plan konuları (fil, Daguerre 1838, yıldız atomları) havuzda bekliyor; sıradaki çalışma önce hazır 019–021'i üretmeli.
+
 ## Performans
 
 Son güncelleme: 2026-11-13 09:32 (İstanbul). 14.11 ve 15.11 çalışmalarında Kervly bağlantısı düştüğü için güncellenemedi. Değerler yayından ~0,5–4 gün sonrası (yaşlar farklı, karşılaştırma kaba).
