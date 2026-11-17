@@ -26,8 +26,8 @@
   "scenes": [
     {
       "type": "hook",
-      "say": "[curious] Vücudundaki bir organ, ağırlığının sadece yüzde ikisi. Ama enerjinin beşte birini tek başına yakıyor!",
-      "cap": "Vücudundaki / bir organ, / ağırlığının / sadece %2'si. / Ama enerjinin / beşte birini / tek başına / yakıyor!",
+      "say": "[curious] Vücudundaki bir organ, toplam ağırlığının sadece yüzde ikisi. Ama enerjinin beşte birini tek başına yakıyor!",
+      "cap": "Vücudundaki / bir organ, / toplam ağırlığının / sadece %2'si. / Ama enerjinin / beşte birini / tek başına / yakıyor!",
       "icons": [
         "2696",
         "26a1",
