@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 11.1,
-      "sizeMB": 3.42
+      "sizeMB": 3.42,
+      "post_id": "p_fMsEORFS0_K1",
+      "publish_at": "2026-11-17T12:00:00+04:00"
     },
     {
       "file": "2026-11-17-2-candy-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.3,
-      "sizeMB": 8.9
+      "sizeMB": 8.9,
+      "post_id": "p_4FAzrHAMMJNK",
+      "publish_at": "2026-11-17T17:00:00+04:00"
     },
     {
       "file": "2026-11-17-3-marble-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.27,
-      "sizeMB": 12.19
+      "sizeMB": 12.19,
+      "post_id": "p_Q-4lXg2Qsvgb",
+      "publish_at": "2026-11-17T21:00:00+04:00"
     }
   ]
 }
