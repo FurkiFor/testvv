@@ -1,0 +1,137 @@
+{
+ "slug": "napoleon-green-wallpaper",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Napoleon's wallpaper had ARSENIC in it 💚 #shorts",
+  "caption": "Napoleon's last room on St Helena was painted with poison 💚\n\nWallpaper or cancer? Pick one 👇\n\nParody · fictional chat. Based on history: a scrap of wallpaper from Longwood House, where Napoleon spent his exile, was found to contain arsenic from the fashionable green pigment of the time (Scheele's green). In damp rooms, mould can release arsenic gas, and Longwood was famously damp. It's a theory, not a verdict: his doctors' autopsy blamed stomach cancer, and he died there in 1821.\n\n#napoleon #napoleonbonaparte #darkhistory #sainthelena #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon death",
+   "was napoleon poisoned",
+   "st helena",
+   "arsenic wallpaper",
+   "french history",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#10241A",
+  "glow": "#3FBF6A",
+  "footer": "🏝️ 1820 · ST HELENA",
+  "footerColor": "#3FBF6A",
+  "stamp": "POISONED?",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "The Governor 🇬🇧",
+  "label": "THE GOVERNOR",
+  "portrait": "british-general.svg",
+  "face": "40 40 120 120",
+  "voice": "bm_george",
+  "speed": 1.1,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.06,
+  "status": "last seen choosing paint 💚",
+  "subtitle": "Governor of St Helena",
+  "about": "keep calm and redecorate",
+  "aboutDate": "1816"
+ },
+ "notifications": [
+  "must be the weather",
+  "it's the hottest color in london"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ST HELENA · 1820"
+  },
+  {
+   "k": "out",
+   "text": "why do i feel sick EVERY day on this island 🤢",
+   "say": "Why do I feel sick every day on this island?",
+   "time": "8:10 AM"
+  },
+  {
+   "k": "in",
+   "text": "must be the weather",
+   "say": "Must be the weather.",
+   "time": "8:12 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "or the new green wallpaper u gave me",
+   "say": "Or the new green wallpaper you gave me.",
+   "time": "8:12 AM"
+  },
+  {
+   "k": "in",
+   "text": "it's the hottest color in london rn 💚",
+   "say": "It's the hottest color in London right now.",
+   "time": "8:13 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "what makes it SO green??",
+   "say": "What makes it so green?",
+   "time": "8:13 AM"
+  },
+  {
+   "k": "in",
+   "text": "arsenic. it's totally fine if the room stays dry",
+   "say": "Arsenic. It's fine if the room stays dry.",
+   "time": "8:14 AM",
+   "typing": 0.8,
+   "sfx": "scratch"
+  },
+  {
+   "k": "out",
+   "text": "it's been DAMP here for 5 YEARS",
+   "say": "It's been damp here for five years!",
+   "time": "8:14 AM"
+  },
+  {
+   "k": "in",
+   "text": "...so anyway how are u feeling 😬",
+   "say": "So anyway. How are you feeling?",
+   "time": "8:16 AM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "1821: HE DIED THERE",
+  "bottom": "WALLPAPER: STILL GREEN",
+  "chips": [
+   "Autopsy: stomach cancer",
+   "Wallpaper: arsenic 💚"
+  ],
+  "say": "He died there. The wallpaper stayed green."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
