@@ -26,30 +26,35 @@
 
 > 2026-11-16: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" hatası verdi (019/020/021 için deneme, kredi düşmedi). Kervly bağlantısı düşük (yeniden bağlanmalı). Bugünün plan konuları (fil, Daguerre 1838, yıldız atomları) havuzda bekliyor; sıradaki çalışma önce hazır 019–021'i üretmeli.
 > 2026-11-17: Kervly yeniden bağlı. ElevenLabs hâlâ "failed or incomplete payment" (019/020/021 denendi, üretim başarısız, kredi düşmedi). Yeni ses üretilemediği için 14.11'de üretilmiş ama planlanamamış 016-bal / 017-fatih / 018-iss bugüne planlandı (12:00 · 17:00 · 21:00). 021-beyin hook'unda "ağırlığının" → "toplam ağırlığının" düzeltildi. Sıradaki çalışma: ödeme düzelince 019–021'i üret.
+> 2026-11-18: üretim yapılamadı. ElevenLabs hâlâ "failed or incomplete payment" (019-notron denendi, üretim başarısız, kredi düşmedi; 020/021 denenmedi). Kervly bağlı, bugün takvim boş; planlanacak hazır video kalmadı. Sıradaki çalışma: ödeme düzelince 019–021'i üret.
 
 ## Performans
 
-Son güncelleme: 2026-11-17 09:25 (İstanbul). Tüm videolar en az 3 günlük.
+Son güncelleme: 2026-11-18 09:25 (İstanbul). 016–018 yalnızca ~1 günlük, ortalamalara dahil edilmedi.
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|
 | 001-kleopatra | tarih | soru | 896 | 6 | 1 |
-| 002-venus | uzay | çelişki | 1.328 | 8 | 0 |
+| 002-venus | uzay | çelişki | 1.329 | 8 | 0 |
 | 003-kopekbaligi | hayvan | çelişki (sahne) | 1.078 | 7 | 1 |
 | 004-kemikler | vücut | gizem (kayıp) | 1.125 | 10 | 0 |
-| 005-mamut | tarih | yanlış bilinen (hata) | 1.020 | 6 | 1 |
+| 005-mamut | tarih | yanlış bilinen (hata) | 1.021 | 6 | 1 |
 | 006-saturn | uzay | imkânsız sahne / varsayım | 1.086 | 6 | 0 |
 | 007-kutupayisi | hayvan | paradoks (çelişki) | 1.165 | 7 | 0 |
 | 008-gunes | uzay | imkânsız sahne | 1.213 | 8 | 0 |
 | 009-oxford | tarih | karşılaştırma | 375 | 1 | 0 |
 | 010-nintendo | tarih | karşılaştırma (şaşırtıcı yaş) | 1.269 | 9 | 1 |
 | 011-ahtapot | hayvan | gizem (kimliği gizli) | 694 | 1 | 0 |
-| 012-dna | vücut | rakam (imkânsız görüntü) | 568 | 1 | 0 |
-| 013-ay | uzay | imkânsız iddia + kanıt | 800 | 5 | 0 |
-| 014-mide | vücut | paradoks (soru + çelişki) | 199 | 0 | 0 |
-| 015-vombat | hayvan | rakam + gizli kimlik | 1.215 | 6 | 1 |
+| 012-dna | vücut | rakam (imkânsız görüntü) | 569 | 1 | 0 |
+| 013-ay | uzay | imkânsız iddia + kanıt | 799 | 5 | 0 |
+| 014-mide | vücut | paradoks (soru + çelişki) | 197 | 0 | 0 |
+| 015-vombat | hayvan | rakam + gizli kimlik | 1.214 | 6 | 1 |
+| 016-bal | hayvan | imkânsız sahne | 890 | 4 | 0 |
+| 017-fatih | tarih | çelişki + kimliği gizli | 1.149 | 2 | 0 |
+| 018-iss | uzay | paradoks / imkânsız sahne | 1.178 | 7 | 0 |
 
-- Kategori ortalaması: uzay 1.107 · hayvan 1.038 · tarih 890 (009 hariç 1.062) · vücut 631.
+- 18.11 erken sinyal (ilk ~1 gün): 018-iss 1.178, 017-fatih 1.149 (Türk tarihi referansı iyi başladı), 016-bal 890. Kanal: 2.450 abone, 18 video.
+- Kategori ortalaması (001–015): uzay 1.107 · hayvan 1.038 · tarih 890 (009 hariç 1.062) · vücut 631.
 - Hook ortalaması: imkânsız sahne 1.033 · hata 1.020 · çelişki/paradoks 943 (014 hariç 1.190) · gizem 910 · soru 896 · rakam 892 · karşılaştırma 822.
 - En çok izlenen: 002-venus 1.328, 010-nintendo 1.269, 015-vombat 1.215. En düşük: 014-mide 199, 009-oxford 375.
 - **Karar (15 video, 2026-11-17):** 13.11 kararı geçerli (her gün 1 uzay; 3 videonun en az 2'sinde çelişki/paradoks ya da imkânsız sahne; düz soru yok; tarihte Türk izleyicinin bildiği referans). Ek: vücut kategorisi son iki videoda zayıf (012: 568, 014: 199) — vücut konularında başlık soru değil somut, tuhaf bir iddia olsun ("Bu hayvanın kakası küp şeklinde" tipi); başlıkta "Mide asidi ... neden eritmez?" gibi soru başlıklarından kaçın. Hayvan + tuhaf görsel iddia (vombat 1.215) iyi çalışıyor.
