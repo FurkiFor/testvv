@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Nervous Tudor armorer illustration">
+<defs><radialGradient id="armorer-bg" cx="50%" cy="40%" r="80%"><stop offset="0" stop-color="#E58A3A"/><stop offset=".6" stop-color="#8A3B12"/><stop offset="1" stop-color="#3A1606"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#armorer-bg)"/>
+<g fill="#FFD27A" opacity=".55"><circle cx="26" cy="40" r="2.4"/><circle cx="172" cy="52" r="2"/><circle cx="34" cy="168" r="1.8"/><circle cx="168" cy="160" r="2.4"/><circle cx="150" cy="30" r="1.6"/></g>
+<path d="M8 250 Q16 182 100 172 Q184 182 192 250Z" fill="#5A4636"/>
+<path d="M58 250 L64 188 Q100 178 136 188 L142 250Z" fill="#7A4A26"/>
+<path d="M64 188 Q100 200 136 188" stroke="#4A2C14" stroke-width="3" fill="none"/>
+<circle cx="76" cy="206" r="3" fill="#C9C9C9"/><circle cx="124" cy="206" r="3" fill="#C9C9C9"/>
+<rect x="88" y="150" width="24" height="26" fill="#E2A77E"/>
+<ellipse cx="65" cy="114" rx="7" ry="10" fill="#D6956C"/><ellipse cx="135" cy="114" rx="7" ry="10" fill="#D6956C"/>
+<ellipse cx="100" cy="112" rx="35" ry="41" fill="#EBB58C"/>
+<path d="M64 98 Q66 62 100 60 Q134 62 136 98 Q122 80 100 82 Q78 80 64 98Z" fill="#3B2414"/>
+<path d="M66 132 Q70 158 100 160 Q130 158 134 132 Q120 146 100 146 Q80 146 66 132Z" fill="#3B2414"/>
+<path d="M78 98 Q86 92 95 97" stroke="#3B2414" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M105 97 Q114 92 122 98" stroke="#3B2414" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="8" ry="8" fill="#fff"/><ellipse cx="113" cy="110" rx="8" ry="8" fill="#fff"/>
+<circle cx="89" cy="112" r="3.2" fill="#1E120A"/><circle cx="111" cy="112" r="3.2" fill="#1E120A"/>
+<path d="M98 116 Q94 126 100 128" stroke="#B9774F" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M88 138 Q94 134 100 138 Q106 142 112 138" stroke="#6E3A22" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M136 86 q6 8 2 14 q-6 -2 -2 -14Z" fill="#9FD8F0" stroke="#2F7FA8" stroke-width="1.2"/>
+<g transform="translate(150 196) rotate(-30)"><rect x="-4" y="-6" width="8" height="46" rx="3" fill="#8B5A2B"/><rect x="-16" y="-18" width="32" height="14" rx="3" fill="#9AA3AD" stroke="#5E6670" stroke-width="2"/></g>
+</svg>

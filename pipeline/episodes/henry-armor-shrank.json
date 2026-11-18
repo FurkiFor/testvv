@@ -1,0 +1,121 @@
+{
+ "slug": "henry-armor-shrank",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Henry VIII swore his armor SHRANK 💀 #shorts",
+  "caption": "King Henry VIII blamed the armor. The armor had receipts 💀\n\nWhat's YOUR \"it shrank in the wash\" excuse? 👇\n\nParody · fictional chat. Based on history: Henry VIII's surviving suits of armour track his weight. As a young athletic king his armour had a waist of about 32 inches; the armour made for him in the 1540s measures about 52 inches.\n\n#henryviii #kinghenryviii #tudorhistory #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "henry viii",
+   "king henry viii",
+   "henry viii armor",
+   "tudor history",
+   "british history",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1810",
+  "glow": "#E58A3A",
+  "footer": "🛡️ 1544 · GREENWICH",
+  "footerColor": "#E58A3A",
+  "stamp": "DENIED",
+  "music": "greensleeves"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Henry VIII 👑",
+  "label": "HENRY VIII",
+  "portrait": "henry-viii.svg",
+  "face": "36 42 128 128",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Royal Armorer 🔨",
+  "label": "ARMORER",
+  "portrait": "armorer.svg",
+  "face": "48 52 104 104",
+  "voice": "bm_lewis",
+  "speed": 1.12,
+  "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+  "el_speed": 1.08,
+  "status": "last seen measuring nervously",
+  "subtitle": "Greenwich Armoury",
+  "about": "steel doesn't shrink 🔨",
+  "aboutDate": "1544"
+ },
+ "notifications": [
+  "sire. it's steel.",
+  "32 → 52 👀"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "GREENWICH · 1544"
+  },
+  {
+   "k": "out",
+   "text": "my armor SHRANK 😤",
+   "say": "My armor shrank!",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "sire. it's steel 🔨",
+   "say": "Sire. It's steel.",
+   "time": "9:03 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "then why won't it CLOSE",
+   "say": "Then why won't it close?",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "first suit: 32 inch waist. this one: 52 👀",
+   "say": "First suit: thirty-two inch waist. This one: fifty-two.",
+   "time": "9:04 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "who else knows this",
+   "say": "Who else knows this?",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "...nobody, sire. nobody at all 😶",
+   "say": "Nobody, sire. Nobody at all.",
+   "time": "9:05 AM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "IT DIDN'T SHRINK",
+  "bottom": "HENRY GREW 20 INCHES",
+  "chips": [
+   "Waist: 32 → 52 📏",
+   "Armorers fired: 0 (yet)"
+  ],
+  "say": "Steel doesn't shrink. Kings do."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

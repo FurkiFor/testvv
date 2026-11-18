@@ -1,0 +1,62 @@
+{
+ "slug": "socrates-rooster",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Socrates' last words were about a CHICKEN 🐓 #shorts",
+  "caption": "Socrates' famous last words: not about truth. About a chicken 🐓\n\nWhat would YOUR famous last words be? 👇\n\nParody · fictional chat. Based on history: in 399 BC Athens sentenced Socrates to death by hemlock. In Plato's Crito his friend Crito begs him to escape and he refuses. In Plato's Phaedo his last words are to Crito: \"we owe a rooster to Asclepius; pay it and don't forget.\"\n\n#socrates #famouslastwords #ancientgreece #philosophy #darkhistory #historymemes #funnyhistory #shorts",
+  "tags": ["socrates", "socrates last words", "famous last words", "socrates death", "ancient greece", "greek philosophy", "dark history", "history memes", "funny history", "history group chat", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#2A2010",
+  "glow": "#F2C46B",
+  "footer": "🏛️ 399 BC · ATHENS",
+  "footerColor": "#F2C46B",
+  "stamp": "PAID",
+  "music": "epic"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "Crito 🏛️",
+  "label": "CRITO",
+  "portrait": "crito.svg",
+  "face": "48 50 104 104",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Socrates 🧠",
+  "label": "SOCRATES",
+  "portrait": "socrates.svg",
+  "face": "40 52 120 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen asking questions",
+  "subtitle": "Philosopher · Athens",
+  "about": "i know that i know nothing",
+  "aboutDate": "399 BC"
+ },
+ "notifications": ["no thanks. rules are rules", "pay it 🐓"],
+ "chat": [
+  {"k": "chip", "text": "ATHENS · 399 BC"},
+  {"k": "out", "text": "the guards are BRIBED. boat leaves at sunset 🚣", "say": "The guards are bribed. Boat leaves at sunset.", "time": "4:10 PM"},
+  {"k": "in", "text": "no thanks. rules are rules", "say": "No thanks. Rules are rules.", "time": "4:11 PM", "typing": 0.8},
+  {"k": "out", "text": "THEY'RE MAKING U DRINK POISON", "say": "They're making you drink poison!", "time": "4:11 PM"},
+  {"k": "in", "text": "and i'll be very polite about it 🍵", "say": "And I'll be very polite about it.", "time": "4:12 PM", "typing": 0.8},
+  {"k": "out", "text": "ok. last words?? something DEEP", "say": "Okay. Last words? Something deep.", "time": "5:58 PM"},
+  {"k": "in", "text": "crito. we owe a guy a rooster", "say": "Crito. We owe a guy a rooster.", "time": "5:59 PM", "typing": 1.0},
+  {"k": "out", "text": "THAT'S IT?? greatest mind in greece??", "say": "That's it? Greatest mind in Greece?", "time": "5:59 PM"},
+  {"k": "in", "text": "pay it. don't forget 🐓", "say": "Pay it. Don't forget.", "time": "6:00 PM", "typing": 1.1, "sfx": "boom"}
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HIS LAST WORDS",
+  "bottom": "WERE ABOUT A CHICKEN",
+  "chips": ["Philosophy: invented 🧠", "Rooster: paid? 🐓"],
+  "say": "Greatest mind in Greece. Last words: chicken."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Panicking Athenian Crito illustration">
+<defs><linearGradient id="crito-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2C46B"/><stop offset="1" stop-color="#B9772E"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#crito-bg)"/>
+<g fill="#FBEFD4" opacity=".5"><rect x="12" y="62" width="16" height="188"/><rect x="172" y="62" width="16" height="188"/><rect x="6" y="52" width="28" height="10"/><rect x="166" y="52" width="28" height="10"/></g>
+<path d="M14 250 Q24 186 100 176 Q176 186 186 250Z" fill="#3E6FA8"/>
+<path d="M44 250 Q66 198 136 182 Q104 214 96 250Z" fill="#2E5684"/>
+<path d="M120 182 Q150 200 160 250" stroke="#F4E7C8" stroke-width="6" fill="none"/>
+<rect x="88" y="150" width="24" height="28" fill="#D9A07A"/>
+<ellipse cx="65" cy="112" rx="7" ry="10" fill="#CF9470"/><ellipse cx="135" cy="112" rx="7" ry="10" fill="#CF9470"/>
+<ellipse cx="100" cy="110" rx="34" ry="40" fill="#E3AD86"/>
+<path d="M66 100 Q64 70 100 66 Q136 70 134 100 Q130 84 116 82 Q100 74 84 82 Q70 84 66 100Z" fill="#9A9A9A"/>
+<path d="M68 122 Q70 160 100 168 Q130 160 132 122 Q122 140 100 140 Q78 140 68 122Z" fill="#A8A8A8"/>
+<path d="M76 94 Q84 86 94 92" stroke="#7A7A7A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M106 92 Q116 86 124 94" stroke="#7A7A7A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="86" cy="106" rx="9" ry="10" fill="#fff"/><ellipse cx="114" cy="106" rx="9" ry="10" fill="#fff"/>
+<circle cx="86" cy="107" r="3.4" fill="#1E140C"/><circle cx="114" cy="107" r="3.4" fill="#1E140C"/>
+<path d="M100 112 Q95 122 101 124" stroke="#B57A55" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="134" rx="8" ry="9" fill="#5A2416"/>
+<g fill="#9FD8F0" stroke="#2F7FA8" stroke-width="1.2"><path d="M60 88 q-6 9 0 13 q6 -4 0 -13Z"/><path d="M140 80 q-6 9 0 13 q6 -4 0 -13Z"/></g>
+</svg>

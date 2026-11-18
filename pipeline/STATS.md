@@ -2,18 +2,18 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-17 ~09:00 Dubai, Kervly get_youtube_stats — Kervly connector back)
+## Summary (snapshot 2026-11-18 ~08:50 Dubai, Kervly get_youtube_stats)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
 | v1 (44–59 s) | 23 | 76 | 82 | 0.5 | 1 | 23 | 82 |
-| v2 (all, published) | 42 | 252 | 138.5 | 1.3 | 5 | 42 | 138.5 |
+| v2 (all, published) | 42 | 253 | 140.5 | 1.3 | 5 | 42 | 140.5 |
 | v2-A (hook) | 7 | 161 | 114 | 0.1 | 0 | 7 | 114 |
-| v2-B (cold open) | 35 | 271 | 143 | 1.5 | 5 | 35 | 143 |
-| v2-B Kokoro | 20 | 232 | 124 | 1.1 | 4 | 20 | 124 |
+| v2-B (cold open) | 35 | 271 | 144 | 1.5 | 5 | 35 | 144 |
+| v2-B Kokoro | 20 | 232 | 124.5 | 1.1 | 4 | 20 | 124.5 |
 | v2-B ElevenLabs | 15 | 323 | 200 | 2.2 | 1 | 15 | 200 |
-| v3-R (relatable) | 2 | 790 | 789.5 | 6.5 | 0 | 2 | 789.5 |
-| v3-D (dark) | 1 | 47 | 47 | 0 | 0 | 1 | 47 |
+| v3-R (relatable) | 4 | 428 | 212 | 4 | 0 | 2 | 795 |
+| v3-D (dark) | 2 | 28 | 27.5 | 0 | 0 | 1 | 48 |
 
 (v1 counts unchanged from the last snapshot; vidIQ's recent-uploads list stops at 20 Oct.)
 
@@ -22,6 +22,7 @@ v3 rule (12 Nov): once v3-R and v3-D each have ≥ 6 videos past 48 h, the style
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-18: token OK (0 error posts). Matured: v3-R 795 (n=2), v3-D 48 (n=1), v2-B 144 (n=35) → rule needs ≥ 6 matured each → no style decision, keep 1 R + 1 D. Early v3 (not matured): caesar-three-word-update (R) 77 @15 h, napoleon-green-wallpaper (D) 7 @11 h, napoleon-kicked-from-europe (R) 47 @7 h. **Dark is weak: all v3-D so far < 50 views (48 / 7)**; if caesar-23-stabs, henry-anne-little-neck and marie-antoinette-pardon-me also stay < 100 at 48 h, propose replacing D with a second R. ElevenLabs: test line failed again ("subscription has a failed or incomplete payment", 16 credits shown, not charged) → Kokoro. upload.wikimedia.org 000 (blocked), elevenlabsusercontent.com 403 at root (reachable). Built: henry-armor-shrank (v3-R, 17.7 s, "my armor shrank" excuse, 32 → 52 inch waist) at 17:00 and socrates-rooster (v3-D, 24.5 s, dark bank #18, last words about a rooster) at 21:00. vidIQ: 10 credits (2× keyword research), balance 1905 → 1895.
 - 2026-11-17: **Kervly connector is back (YouTube token OK, 0 error posts) → backlog of 6 videos scheduled at 01:00 Dubai, 18–23 Nov** (napoleon-kicked-from-europe, caesar-23-stabs, napoleon-dutch-rabbit, henry-anne-little-neck, mozart-borrows-money, marie-antoinette-pardon-me) + today's 2 at 17:00 / 21:00 → 3 posts/day max. Matured: v3-R 789.5 (n=2), v3-D 47 (n=1), v2-B 143 (n=35). Rule needs ≥ 6 matured each → no style decision yet, keep 1 R + 1 D (v3-R looks 5× v2-B but n=2, both Napoleon). ElevenLabs: subscription payment failed again → Kokoro. Nothing new on YouTube since 13 Nov (no posts 14–16 Nov).
 - 2026-11-16: **Kervly still needs reconnecting → nothing published since 13 Nov; backlog now 6 unscheduled videos** (the 4 from 14–15 Nov + today's 2). First matured v3 numbers: v3-R median 769.5 (n=2: napoleon-mom-texts 1199, napoleon-grouchy-omw 340), v3-D 46 (n=1: washington-bloodletting), v2-B matured ~140 (n=35; 129 for the 31 in the table). Rule needs ≥ 6 matured each → no style decision; keep 1 R + 1 D, but dark is 0 for 1 so far — if the next dark videos also stay < 100, propose dropping D. ElevenLabs: test generation failed again ("subscription has a failed or incomplete payment", no charge shown) → Kokoro. elevenlabsusercontent.com 403 at root (reachable), upload.wikimedia.org 000 (blocked). Built: mozart-borrows-money (v3-R, 16.9 s, new character) and marie-antoinette-pardon-me (v3-D, 22.2 s, dark bank #3). vidIQ: 5 credits (channel_videos), balance 1945 → 1940.
 - 2026-11-15: **Kervly still disconnected (needs reconnect) → nothing published since 13 Nov 21:00; backlog now 4 unscheduled videos** (napoleon-kicked-from-europe, caesar-23-stabs, napoleon-dutch-rabbit, henry-anne-little-neck). v3 still has 0 matured videos (oldest 40 h) → no style decision, keep 1 R + 1 D. Early numbers: napoleon-mom-texts 1170 @40 h (growth slowed: +60 in 24 h), napoleon-grouchy-omw 317 @39 h, washington-bloodletting 30 @36 h → v3-R early median 743.5, v3-D 30, v2-B matured 140. Dark start is weak (n=1). **ElevenLabs generations all failed: "subscription has a failed or incomplete payment"** (15 lines, no audio) → both built with Kokoro. elevenlabsusercontent.com 403 at root (reachable), upload.wikimedia.org 000 (blocked). Metricool is connected but only has the kuranikerim_tr brand, so it cannot post to this channel. Built: napoleon-dutch-rabbit (v3-R, 16.7 s) and henry-anne-little-neck (v3-D, 20.3 s). vidIQ: 5 credits (no keyword research), balance 1970 → 1965.
@@ -83,56 +84,58 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | philip-vs-sparta | v1 | 59 | 2026-10-21 | 220 | 1 | 0 |
 | halley-vs-newton | v1 | 59 | 2026-10-21 | 83 | 0 | 0 |
 | darwin-vs-emma | v1 | 59 | 2026-10-22 | 37 | 0 | 0 |
-| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 17:00 | 168 (544 h) | 0 | 0 |
-| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 21:00 | 569 (540 h) | 1 | 0 |
-| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 01:00 | 293 (536 h) | 1 | 0 |
-| spartan-mom | v2-A | 25.6 | 2026-10-25 17:00 | 386 (520 h) | 0 | 0 |
-| washington-teeth | v2-B | 20.3 | 2026-10-25 21:00 | 1114 (516 h) | 9 | 0 |
-| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 01:00 | 344 (512 h) | 2 | 0 |
-| vangogh-sunflowers | v2-A | 28.3 | 2026-10-26 17:00 | 114 (496 h) | 0 | 0 |
-| alexander-city-names | v2-B | 24.7 | 2026-10-26 21:00 | 169 (492 h) | 3 | 0 |
-| diogenes-lamp | v2-A | 29.6 | 2026-10-27 17:00 | 65 (472 h) | 0 | 0 |
-| napoleon-short | v2-B | 26.2 | 2026-10-27 21:00 | 718 (492 h) | 9 | 1 |
-| revere-vs-dawes | v2-B | 26.1 | 2026-10-28 17:00 | 85 (472 h) | 0 | 0 |
-| viking-horns | v2-A | 28.3 | 2026-10-28 21:00 | 47 (468 h) | 0 | 0 |
-| leonardo-mona-lisa | v2-A | 29.2 | 2026-10-29 17:00 | 53 (448 h) | 0 | 0 |
-| franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 469 (444 h) | 1 | 0 |
-| cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 129 (424 h) | 2 | 0 |
-| poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (420 h) | 0 | 0 |
-| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 389 (344 h) | 3 | 0 |
-| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 168 (352 h) | 2 | 0 |
-| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 104 (348 h) | 0 | 0 |
-| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 200 (320 h) | 1 | 0 |
-| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 118 (328 h) | 1 | 0 |
-| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 115 (324 h) | 1 | 0 |
-| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (304 h) | 0 | 0 |
-| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 15 (300 h) | 0 | 0 |
-| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 112 (296 h) | 0 | 0 |
-| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (272 h) | 0 | 0 |
-| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1206 (280 h) | 8 | 0 |
-| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 127 (276 h) | 1 | 0 |
-| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 143 (256 h) | 2 | 0 |
-| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 251 (252 h) | 1 | 0 |
-| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (232 h) | 1 | 0 |
-| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 72 (228 h) | 0 | 0 |
-| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 574 (208 h) | 3 | 1 |
-| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 137 (204 h) | 1 | 0 |
-| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 169 (184 h) | 0 | 0 |
-| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 74 (180 h) | 0 | 0 |
-| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 122 (160 h) | 0 | 0 |
-| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 51 (156 h) | 0 | 0 |
-| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 144 (136 h) | 0 | 3 |
-| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 25 (132 h) | 0 | 0 |
-| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 807 (112 h) | 1 | 0 |
-| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 114 (108 h) | 1 | 0 |
-| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1235 (88 h) | 12 | 0 |
-| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 344 (87 h) | 1 | 0 |
-| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 47 (84 h) | 0 | 0 |
-| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 (scheduled) | – | – | – |
+| caesar-vs-pirates | v2-A | 28.7 | 2026-10-24 17:00 | 168 (591 h) | 0 | 0 |
+| henry-viii-catfish-v2 | v2-B | 24.3 | 2026-10-24 21:00 | 570 (587 h) | 1 | 0 |
+| xerxes-vs-leonidas | v2-A | 27.4 | 2026-10-25 01:00 | 294 (583 h) | 1 | 0 |
+| spartan-mom | v2-A | 25.6 | 2026-10-25 17:00 | 387 (567 h) | 0 | 0 |
+| washington-teeth | v2-B | 20.3 | 2026-10-25 21:00 | 1114 (563 h) | 9 | 0 |
+| napoleon-vs-rabbits | v2-B | 22.7 | 2026-10-26 01:00 | 344 (559 h) | 2 | 0 |
+| vangogh-sunflowers | v2-A | 28.3 | 2026-10-26 17:00 | 114 (543 h) | 0 | 0 |
+| alexander-city-names | v2-B | 24.7 | 2026-10-26 21:00 | 169 (539 h) | 3 | 0 |
+| diogenes-lamp | v2-A | 29.6 | 2026-10-27 17:00 | 65 (519 h) | 0 | 0 |
+| napoleon-short | v2-B | 26.2 | 2026-10-27 21:00 | 718 (515 h) | 9 | 1 |
+| revere-vs-dawes | v2-B | 26.1 | 2026-10-28 17:00 | 85 (495 h) | 0 | 0 |
+| viking-horns | v2-A | 28.3 | 2026-10-28 21:00 | 47 (491 h) | 0 | 0 |
+| leonardo-mona-lisa | v2-A | 29.2 | 2026-10-29 17:00 | 53 (471 h) | 0 | 0 |
+| franklin-vs-eagle | v2-B | 26.9 | 2026-10-29 21:00 | 469 (467 h) | 1 | 0 |
+| cleopatra-iphone | v2-B | 25.3 | 2026-10-30 17:00 | 129 (447 h) | 2 | 0 |
+| poe-vs-raven | v2-B | 24.3 | 2026-10-30 21:00 | 64 (443 h) | 0 | 0 |
+| napoleon-vs-pug | v2-B | 23.7 | 2026-11-03 01:00 | 389 (367 h) | 3 | 0 |
+| newton-south-sea | v2-B | 26.3 | 2026-11-02 17:00 | 168 (375 h) | 2 | 0 |
+| roman-pee-laundry | v2-B | 23.1 | 2026-11-02 21:00 | 104 (371 h) | 0 | 0 |
+| lincoln-wrestling | v2-B | 26.2 | 2026-11-04 01:00 | 200 (343 h) | 1 | 0 |
+| napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 118 (351 h) | 1 | 0 |
+| caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 116 (347 h) | 1 | 0 |
+| alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (327 h) | 0 | 0 |
+| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 15 (323 h) | 0 | 0 |
+| henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 112 (319 h) | 0 | 0 |
+| washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (295 h) | 0 | 0 |
+| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1206 (303 h) | 8 | 0 |
+| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 127 (299 h) | 1 | 0 |
+| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 144 (279 h) | 2 | 0 |
+| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 251 (275 h) | 1 | 0 |
+| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (255 h) | 1 | 0 |
+| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 72 (251 h) | 0 | 0 |
+| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 574 (231 h) | 3 | 1 |
+| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 137 (227 h) | 1 | 0 |
+| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 169 (207 h) | 0 | 0 |
+| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 74 (203 h) | 0 | 0 |
+| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 122 (183 h) | 0 | 0 |
+| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 51 (179 h) | 0 | 0 |
+| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 144 (159 h) | 0 | 3 |
+| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 26 (155 h) | 0 | 0 |
+| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 808 (135 h) | 1 | 0 |
+| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 115 (131 h) | 1 | 0 |
+| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1243 (111 h) | 12 | 0 |
+| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 347 (110 h) | 1 | 0 |
+| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (107 h) | 0 | 0 |
+| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 47 (7 h) | 0 | 0 |
 | caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 (scheduled) | – | – | – |
 | napoleon-dutch-rabbit | v3-R (kokoro) | 16.7 | 2026-11-20 01:00 (scheduled) | – | – | – |
 | henry-anne-little-neck | v3-D (kokoro) | 20.3 | 2026-11-21 01:00 (scheduled) | – | – | – |
 | mozart-borrows-money | v3-R (kokoro) | 16.9 | 2026-11-22 01:00 (scheduled) | – | – | – |
 | marie-antoinette-pardon-me | v3-D (kokoro) | 22.2 | 2026-11-23 01:00 (scheduled) | – | – | – |
-| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | – | – | – |
-| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | – | – | – |
+| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 77 (15 h) | 3 | 0 |
+| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 7 (11 h) | 0 | 0 |
+| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 (scheduled) | – | – | – |
+| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 (scheduled) | – | – | – |
