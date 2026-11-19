@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 9.17,
-      "sizeMB": 2.48
+      "sizeMB": 2.48,
+      "post_id": "p_qFkIrQYgrtUK",
+      "publish_at": "2026-11-19T12:00:00+04:00"
     },
     {
       "file": "2026-11-19-2-wood-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.3,
-      "sizeMB": 8.4
+      "sizeMB": 8.4,
+      "post_id": "p__EmvLdVwPj5O",
+      "publish_at": "2026-11-19T17:00:00+04:00"
     },
     {
       "file": "2026-11-19-3-neon-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.63,
-      "sizeMB": 12.62
+      "sizeMB": 12.62,
+      "post_id": "p_gEvXiXShYgr1",
+      "publish_at": "2026-11-19T21:00:00+04:00"
     }
   ]
 }
