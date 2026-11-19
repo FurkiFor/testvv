@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Horrified 18th-century French doctor in a powdered wig, illustration">
+<defs><linearGradient id="guillotin-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FA6C8"/><stop offset="1" stop-color="#2C3E5A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#guillotin-bg)"/>
+<path d="M16 250 Q24 184 100 176 Q176 184 184 250Z" fill="#23232B"/>
+<path d="M76 180 L100 230 L124 180 Q100 192 76 180Z" fill="#F4F1EA"/>
+<path d="M86 184 Q100 200 114 184 Q112 206 100 210 Q88 206 86 184Z" fill="#FFFFFF" stroke="#D8D4CC" stroke-width="1.5"/>
+<circle cx="100" cy="222" r="3" fill="#B8B0A0"/>
+<rect x="89" y="146" width="22" height="34" fill="#E2BC9E"/>
+<path d="M60 96 Q58 56 100 52 Q142 56 140 96 Q142 120 136 136 L64 136 Q58 120 60 96Z" fill="#EDEBE6"/>
+<ellipse cx="100" cy="112" rx="31" ry="37" fill="#EDC8AA"/>
+<path d="M68 96 Q70 66 100 64 Q130 66 132 96 Q120 78 100 78 Q80 78 68 96Z" fill="#F7F6F2"/>
+<g fill="#F7F6F2" stroke="#D2CEC6" stroke-width="2">
+<ellipse cx="62" cy="104" rx="10" ry="7"/><ellipse cx="62" cy="120" rx="10" ry="7"/>
+<ellipse cx="138" cy="104" rx="10" ry="7"/><ellipse cx="138" cy="120" rx="10" ry="7"/>
+</g>
+<path d="M74 92 Q85 84 95 92" stroke="#8A7A6A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M105 92 Q115 84 126 92" stroke="#8A7A6A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="86" cy="106" r="8" fill="#fff"/><circle cx="114" cy="106" r="8" fill="#fff"/>
+<circle cx="86" cy="106" r="3" fill="#1A1010"/><circle cx="114" cy="106" r="3" fill="#1A1010"/>
+<path d="M100 110 Q108 122 99 125" stroke="#C0907A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="135" rx="8" ry="9" fill="#5A2020"/>
+<ellipse cx="78" cy="124" rx="6" ry="3.5" fill="#E89A8A" opacity=".5"/><ellipse cx="122" cy="124" rx="6" ry="3.5" fill="#E89A8A" opacity=".5"/>
+<path d="M140 82 Q146 92 142 98 Q136 94 140 82Z" fill="#9FD3F0"/>
+</svg>

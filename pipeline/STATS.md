@@ -2,7 +2,7 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-18 ~08:50 Dubai, Kervly get_youtube_stats)
+## Summary (snapshot 2026-11-19 ~08:50 Dubai, Kervly get_youtube_stats)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
@@ -12,8 +12,8 @@ Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly 
 | v2-B (cold open) | 35 | 271 | 144 | 1.5 | 5 | 35 | 144 |
 | v2-B Kokoro | 20 | 232 | 124.5 | 1.1 | 4 | 20 | 124.5 |
 | v2-B ElevenLabs | 15 | 323 | 200 | 2.2 | 1 | 15 | 200 |
-| v3-R (relatable) | 4 | 428 | 212 | 4 | 0 | 2 | 795 |
-| v3-D (dark) | 2 | 28 | 27.5 | 0 | 0 | 1 | 48 |
+| v3-R (relatable) | 5 | 387 | 173 | 3.2 | 0 | 2 | 795 |
+| v3-D (dark) | 4 | 31 | 32.5 | 0 | 0 | 1 | 48 |
 
 (v1 counts unchanged from the last snapshot; vidIQ's recent-uploads list stops at 20 Oct.)
 
@@ -22,6 +22,7 @@ v3 rule (12 Nov): once v3-R and v3-D each have ≥ 6 videos past 48 h, the style
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-19: token OK (0 error posts). Matured: v3-R 795 (n=2), v3-D 48 (n=1), v2-B 144 (n=35) → rule needs ≥ 6 matured each → no style decision, keep 1 R + 1 D. **Dark keeps failing: all 4 published v3-D are < 50 views** (washington-bloodletting 48 @107 h, caesar-23-stabs 41 @8 h, socrates-rooster 24 @12 h, napoleon-green-wallpaper 10 @36 h) vs v3-R henry-armor-shrank 173 @16 h, caesar-three-word-update 109 @40 h. If henry-anne-little-neck (21 Nov) and marie-antoinette-pardon-me (23 Nov) also stay < 100 at 48 h, replace D with a second R before the 6-video rule completes. Today's D tests a different dark angle (a name everyone knows — the guillotine — instead of a death scene). ElevenLabs: test line failed again ("subscription has a failed or incomplete payment", 36 credits shown on the failed take) → Kokoro; storage.googleapis.com 200, elevenlabsusercontent.com 403 at root (reachable), upload.wikimedia.org 000 (blocked). Built: lincoln-hat-late-reply (v3-R, 15.6 s, "sorry for the late reply" — real 1850 letter: he lost it in his old hat) at 17:00 and guillotin-name (v3-D, 21.4 s, dark bank #20) at 21:00. vidIQ: 10 credits (2× keyword research), balance 1875 → 1865.
 - 2026-11-18: token OK (0 error posts). Matured: v3-R 795 (n=2), v3-D 48 (n=1), v2-B 144 (n=35) → rule needs ≥ 6 matured each → no style decision, keep 1 R + 1 D. Early v3 (not matured): caesar-three-word-update (R) 77 @15 h, napoleon-green-wallpaper (D) 7 @11 h, napoleon-kicked-from-europe (R) 47 @7 h. **Dark is weak: all v3-D so far < 50 views (48 / 7)**; if caesar-23-stabs, henry-anne-little-neck and marie-antoinette-pardon-me also stay < 100 at 48 h, propose replacing D with a second R. ElevenLabs: test line failed again ("subscription has a failed or incomplete payment", 16 credits shown, not charged) → Kokoro. upload.wikimedia.org 000 (blocked), elevenlabsusercontent.com 403 at root (reachable). Built: henry-armor-shrank (v3-R, 17.7 s, "my armor shrank" excuse, 32 → 52 inch waist) at 17:00 and socrates-rooster (v3-D, 24.5 s, dark bank #18, last words about a rooster) at 21:00. vidIQ: 10 credits (2× keyword research), balance 1905 → 1895.
 - 2026-11-17: **Kervly connector is back (YouTube token OK, 0 error posts) → backlog of 6 videos scheduled at 01:00 Dubai, 18–23 Nov** (napoleon-kicked-from-europe, caesar-23-stabs, napoleon-dutch-rabbit, henry-anne-little-neck, mozart-borrows-money, marie-antoinette-pardon-me) + today's 2 at 17:00 / 21:00 → 3 posts/day max. Matured: v3-R 789.5 (n=2), v3-D 47 (n=1), v2-B 143 (n=35). Rule needs ≥ 6 matured each → no style decision yet, keep 1 R + 1 D (v3-R looks 5× v2-B but n=2, both Napoleon). ElevenLabs: subscription payment failed again → Kokoro. Nothing new on YouTube since 13 Nov (no posts 14–16 Nov).
 - 2026-11-16: **Kervly still needs reconnecting → nothing published since 13 Nov; backlog now 6 unscheduled videos** (the 4 from 14–15 Nov + today's 2). First matured v3 numbers: v3-R median 769.5 (n=2: napoleon-mom-texts 1199, napoleon-grouchy-omw 340), v3-D 46 (n=1: washington-bloodletting), v2-B matured ~140 (n=35; 129 for the 31 in the table). Rule needs ≥ 6 matured each → no style decision; keep 1 R + 1 D, but dark is 0 for 1 so far — if the next dark videos also stay < 100, propose dropping D. ElevenLabs: test generation failed again ("subscription has a failed or incomplete payment", no charge shown) → Kokoro. elevenlabsusercontent.com 403 at root (reachable), upload.wikimedia.org 000 (blocked). Built: mozart-borrows-money (v3-R, 16.9 s, new character) and marie-antoinette-pardon-me (v3-D, 22.2 s, dark bank #3). vidIQ: 5 credits (channel_videos), balance 1945 → 1940.
@@ -126,16 +127,18 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 26 (155 h) | 0 | 0 |
 | napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 808 (135 h) | 1 | 0 |
 | caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 115 (131 h) | 1 | 0 |
-| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1243 (111 h) | 12 | 0 |
-| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 347 (110 h) | 1 | 0 |
-| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (107 h) | 0 | 0 |
-| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 47 (7 h) | 0 | 0 |
-| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 (scheduled) | – | – | – |
+| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1243 (135 h) | 12 | 0 |
+| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 347 (134 h) | 1 | 0 |
+| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (131 h) | 0 | 0 |
+| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 63 (31 h) | 0 | 0 |
+| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 | 41 (7 h) | 0 | 0 |
 | napoleon-dutch-rabbit | v3-R (kokoro) | 16.7 | 2026-11-20 01:00 (scheduled) | – | – | – |
 | henry-anne-little-neck | v3-D (kokoro) | 20.3 | 2026-11-21 01:00 (scheduled) | – | – | – |
 | mozart-borrows-money | v3-R (kokoro) | 16.9 | 2026-11-22 01:00 (scheduled) | – | – | – |
 | marie-antoinette-pardon-me | v3-D (kokoro) | 22.2 | 2026-11-23 01:00 (scheduled) | – | – | – |
-| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 77 (15 h) | 3 | 0 |
-| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 7 (11 h) | 0 | 0 |
-| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 (scheduled) | – | – | – |
-| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 (scheduled) | – | – | – |
+| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 109 (39 h) | 3 | 0 |
+| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 10 (35 h) | 0 | 0 |
+| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 | 173 (15 h) | 0 | 0 |
+| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 | 24 (11 h) | 0 | 0 |
+| lincoln-hat-late-reply | v3-R (kokoro) | 15.6 | 2026-11-19 17:00 (scheduled) | – | – | – |
+| guillotin-name | v3-D (kokoro) | 21.4 | 2026-11-19 21:00 (scheduled) | – | – | – |

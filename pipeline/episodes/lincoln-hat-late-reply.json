@@ -1,0 +1,123 @@
+{
+ "slug": "lincoln-hat-late-reply",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Abraham Lincoln's excuse for not texting back 💀 #shorts",
+  "caption": "Abraham Lincoln left a client on read for weeks. His excuse was a HAT 🎩\n\nWhat's YOUR worst late-reply excuse? Comment it 👇\n\nParody · fictional chat. Based on history: in a real letter of 27 June 1850 to Richard S. Thomas, Lincoln apologized for answering late: he had put the letter in his old hat, bought a new hat the next day, and the letter was \"lost sight of for a time.\" Ten years later he was elected president.\n\n#abrahamlincoln #lincoln #americanhistory #leftonread #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "abraham lincoln",
+   "lincoln",
+   "abe lincoln's hat",
+   "abraham lincoln top hat",
+   "american history",
+   "did you know",
+   "left on read",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A10",
+  "glow": "#E8A65A",
+  "footer": "🎩 1850 · ILLINOIS",
+  "footerColor": "#F2B45C",
+  "stamp": "LEFT ON READ",
+  "music": "yankee"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Richard Thomas",
+  "label": "RICHARD THOMAS",
+  "portrait": "richard-thomas.svg",
+  "face": "50 56 100 100",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.1
+ },
+ "them": {
+  "name": "Abe Lincoln 🎩",
+  "label": "ABE LINCOLN",
+  "portrait": "lincoln.svg",
+  "face": "50 52 100 100",
+  "voice": "am_adam",
+  "speed": 1.12,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.1,
+  "status": "last seen 3 weeks ago",
+  "subtitle": "Lawyer · Springfield",
+  "about": "my office is my hat 🎩",
+  "aboutDate": "1850"
+ },
+ "notifications": [
+  "sorry. it was in my hat",
+  "then i bought a new hat"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ILLINOIS · 1850"
+  },
+  {
+   "k": "out",
+   "text": "it's been WEEKS. did u even read my letter??",
+   "say": "It's been weeks. Did you even read my letter?",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "sorry. i put it in my hat 🎩",
+   "say": "Sorry. I put it in my hat.",
+   "time": "9:40 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "ur HAT??",
+   "say": "Your hat?",
+   "time": "9:40 AM"
+  },
+  {
+   "k": "in",
+   "text": "then i bought a new hat",
+   "say": "Then I bought a new hat.",
+   "time": "9:41 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "so where's my letter",
+   "say": "So where's my letter?",
+   "time": "9:41 AM"
+  },
+  {
+   "k": "in",
+   "text": "ask the old hat 🤷",
+   "say": "Ask the old hat.",
+   "time": "9:43 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HIS OFFICE WAS A HAT",
+  "bottom": "10 YEARS LATER: PRESIDENT",
+  "chips": [
+   "Letters answered: late ✉️",
+   "Hats owned: 2 🎩"
+  ],
+  "say": "Ten years later, he ran the country."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

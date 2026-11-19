@@ -1,0 +1,123 @@
+{
+ "slug": "guillotin-name",
+ "format": "v3-D",
+ "youtube": {
+  "title": "The guillotine was named after a doctor who HATED it 💀 #shorts",
+  "caption": "Dr. Guillotin wanted executions to be quick and equal. Then France named the machine after him 💀\n\nWould YOU change your last name too? 👇\n\nParody · fictional chat. Based on history: Joseph-Ignace Guillotin proposed a quick, equal method of execution to the National Assembly in 1789, but the machine was designed by Dr. Antoine Louis and was first nicknamed \"Louisette\". Guillotin was NOT killed by it; he died in 1814. His family asked the government to rename the machine, was refused, and changed its own surname instead.\n\n#guillotine #frenchrevolution #reignofterror #darkhistory #historymemes #funnyhistory #funnytexts #shorts",
+  "tags": [
+   "guillotine",
+   "joseph guillotin",
+   "french revolution",
+   "guillotine execution",
+   "reign of terror",
+   "the guillotine",
+   "historical facts",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1C1A2A",
+  "glow": "#C8202A",
+  "footer": "🇫🇷 1792 · PARIS",
+  "footerColor": "#9AB0F0",
+  "stamp": "RENAMED",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Dr. Guillotin 🩺",
+  "label": "DR. GUILLOTIN",
+  "portrait": "guillotin.svg",
+  "face": "48 50 104 104",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Executioner 🪓",
+  "label": "THE EXECUTIONER",
+  "portrait": "executioner.svg",
+  "face": "44 46 112 112",
+  "voice": "am_fenrir",
+  "speed": 1.12,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.08,
+  "status": "last seen at work",
+  "subtitle": "Paris · since 1792",
+  "about": "business is booming 🪓",
+  "aboutDate": "1792"
+ },
+ "notifications": [
+  "ur famous doc",
+  "everyone's saying ur name"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 1792"
+  },
+  {
+   "k": "out",
+   "text": "WHY is everyone calling it the GUILLOTINE 😤",
+   "say": "Why is everyone calling it the guillotine?",
+   "time": "8:10 AM"
+  },
+  {
+   "k": "in",
+   "text": "u pitched it doc. ur name stuck",
+   "say": "You pitched it, doc. Your name stuck.",
+   "time": "8:11 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "i'm a DOCTOR. i'm supposed to SAVE people",
+   "say": "I'm a doctor. I'm supposed to save people!",
+   "time": "8:11 AM"
+  },
+  {
+   "k": "in",
+   "text": "well. now ur famous for the other thing 💀",
+   "say": "Well. Now you're famous for the other thing.",
+   "time": "8:12 AM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "i'll make them change the name",
+   "say": "I'll make them change the name.",
+   "time": "8:12 AM"
+  },
+  {
+   "k": "in",
+   "text": "they won't. ur family will change THEIRS 😬",
+   "say": "They won't. Your family will change theirs.",
+   "time": "8:13 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "FAMILY NAME: CHANGED",
+  "bottom": "MACHINE NAME: NEVER",
+  "chips": [
+   "Lives saved: debatable 🩺",
+   "Name kept: by the machine"
+  ],
+  "say": "The family changed their name. The machine kept his."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
