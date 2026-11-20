@@ -28,10 +28,11 @@
 > 2026-11-17: Kervly yeniden bağlı. ElevenLabs hâlâ "failed or incomplete payment" (019/020/021 denendi, üretim başarısız, kredi düşmedi). Yeni ses üretilemediği için 14.11'de üretilmiş ama planlanamamış 016-bal / 017-fatih / 018-iss bugüne planlandı (12:00 · 17:00 · 21:00). 021-beyin hook'unda "ağırlığının" → "toplam ağırlığının" düzeltildi. Sıradaki çalışma: ödeme düzelince 019–021'i üret.
 > 2026-11-18: üretim yapılamadı. ElevenLabs hâlâ "failed or incomplete payment" (019-notron denendi, üretim başarısız, kredi düşmedi; 020/021 denenmedi). Kervly bağlı, bugün takvim boş; planlanacak hazır video kalmadı. Sıradaki çalışma: ödeme düzelince 019–021'i üret.
 > 2026-11-19: üretim yapılamadı. elevenlabsusercontent.com erişimi açık, ama ElevenLabs yine "failed or incomplete payment" (019-notron denendi, üretim başarısız; 020/021 denenmedi). Kervly/YouTube bağlı, bugün takvim boş, hata yok; planlanacak hazır video yok. 4. gün üst üste yayın yok — ElevenLabs faturası ödenmeli.
+> 2026-11-20: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 5. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
 
 ## Performans
 
-Son güncelleme: 2026-11-19 09:25 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
+Son güncelleme: 2026-11-20 09:25 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|
@@ -44,16 +45,17 @@ Son güncelleme: 2026-11-19 09:25 (İstanbul). 016–018 ~2 günlük, ortalamala
 | 007-kutupayisi | hayvan | paradoks (çelişki) | 1.165 | 7 | 0 |
 | 008-gunes | uzay | imkânsız sahne | 1.213 | 8 | 0 |
 | 009-oxford | tarih | karşılaştırma | 375 | 1 | 0 |
-| 010-nintendo | tarih | karşılaştırma (şaşırtıcı yaş) | 1.272 | 9 | 1 |
+| 010-nintendo | tarih | karşılaştırma (şaşırtıcı yaş) | 1.274 | 9 | 1 |
 | 011-ahtapot | hayvan | gizem (kimliği gizli) | 694 | 1 | 0 |
 | 012-dna | vücut | rakam (imkânsız görüntü) | 569 | 1 | 0 |
 | 013-ay | uzay | imkânsız iddia + kanıt | 799 | 5 | 0 |
-| 014-mide | vücut | paradoks (soru + çelişki) | 197 | 0 | 0 |
+| 014-mide | vücut | paradoks (soru + çelişki) | 198 | 0 | 0 |
 | 015-vombat | hayvan | rakam + gizli kimlik | 1.214 | 6 | 1 |
-| 016-bal | hayvan | imkânsız sahne | 895 | 5 | 0 |
-| 017-fatih | tarih | çelişki + kimliği gizli | 1.150 | 2 | 0 |
-| 018-iss | uzay | paradoks / imkânsız sahne | 1.182 | 7 | 0 |
+| 016-bal | hayvan | imkânsız sahne | 898 | 5 | 0 |
+| 017-fatih | tarih | çelişki + kimliği gizli | 1.151 | 2 | 0 |
+| 018-iss | uzay | paradoks / imkânsız sahne | 1.252 | 8 | 0 |
 
+- 20.11: kanal 2.450 abone, 17.338 toplam izlenme (+78/gün; büyümenin çoğu 018-iss'ten, 1.252 ile artık en çok izlenen 2. video). Yayın kesintisi sürüyor.
 - 19.11: kanal 2.450 abone, 17.260 toplam izlenme; yeni yayın olmadığı için izlenmeler 1 günde neredeyse yerinde saydı (016–018 toplam +10). Shorts'ta düzenli yayın kesintisi büyümeyi durduruyor.
 - 18.11 erken sinyal (ilk ~1 gün): 018-iss 1.178, 017-fatih 1.149 (Türk tarihi referansı iyi başladı), 016-bal 890. Kanal: 2.450 abone, 18 video.
 - Kategori ortalaması (001–015): uzay 1.107 · hayvan 1.038 · tarih 890 (009 hariç 1.062) · vücut 631.
