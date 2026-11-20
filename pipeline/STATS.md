@@ -143,5 +143,5 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 | 87 (35 h) | 1 | 0 |
 | lincoln-hat-late-reply | v3-R (kokoro) | 15.6 | 2026-11-19 17:00 | 122 (15 h) | 1 | 0 |
 | guillotin-name | v3-D (kokoro) | 21.4 | 2026-11-19 21:00 | 15 (11 h) | 0 | 0 |
-| newton-lockdown-bread | v3-R (kokoro) | 17.8 | 2026-11-20 17:00 (scheduled) | – | – | – |
-| mummy-medicine | v3-D (kokoro) | 22.5 | 2026-11-20 21:00 (scheduled) | – | – | – |
+| newton-lockdown-bread | v3-R (kokoro) | 17.8 | 2026-11-20 17:00 (scheduled p_xS36-SmKFS3N) | – | – | – |
+| mummy-medicine | v3-D (kokoro) | 22.5 | 2026-11-20 21:00 (scheduled p_lR_EuVMCFCIs) | – | – | – |
