@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug 1660s Cambridge student in a black gown and square cap holding a loaf of bread">
+<defs><radialGradient id="classmate-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#F0D9A0"/><stop offset="1" stop-color="#8A5A2A"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#classmate-bg)"/>
+<path d="M18 250 Q26 184 100 174 Q174 184 182 250Z" fill="#141418"/>
+<path d="M78 178 L100 210 L122 178Z" fill="#F4EEDD"/>
+<rect x="88" y="146" width="24" height="34" fill="#F0C6A0"/>
+<path d="M66 118 Q62 84 100 80 Q138 84 134 118 Q136 140 126 146 L74 146 Q64 140 66 118Z" fill="#C8902E"/>
+<ellipse cx="100" cy="118" rx="32" ry="38" fill="#F6CFAA"/>
+<path d="M70 92 Q100 70 130 92 Q100 84 70 92Z" fill="#C8902E"/>
+<path d="M62 76 L100 60 L138 76 L100 92Z" fill="#141418"/>
+<rect x="76" y="76" width="48" height="12" fill="#141418"/>
+<path d="M136 76 Q144 90 140 104" stroke="#D8B040" stroke-width="3" fill="none"/>
+<circle cx="140" cy="106" r="4" fill="#D8B040"/>
+<path d="M80 104 Q87 100 94 104 M106 104 Q113 100 120 104" stroke="#6A4A1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="87" cy="114" r="5.5" fill="#FFF"/><circle cx="113" cy="114" r="5.5" fill="#FFF"/>
+<circle cx="88" cy="115" r="3" fill="#1E120A"/><circle cx="114" cy="115" r="3" fill="#1E120A"/>
+<path d="M99 120 Q93 132 101 134" stroke="#C08A62" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M84 140 Q100 152 118 138" stroke="#7A2E2E" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="78" cy="130" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/><ellipse cx="122" cy="130" rx="6" ry="3.5" fill="#F29C9C" opacity=".6"/>
+<g transform="translate(148 200)"><ellipse cx="0" cy="0" rx="30" ry="17" fill="#C98A3E" stroke="#7A4E1E" stroke-width="2.5"/><path d="M-16 -8 L-8 4 M-2 -12 L6 2 M12 -10 L18 0" stroke="#F0D09A" stroke-width="3" stroke-linecap="round"/></g>
+<ellipse cx="124" cy="204" rx="12" ry="9" fill="#F6CFAA"/>
+</svg>

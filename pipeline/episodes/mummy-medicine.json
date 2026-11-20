@@ -1,0 +1,139 @@
+{
+ "slug": "mummy-medicine",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Europeans ate Egyptian MUMMIES as medicine 💀 #shorts",
+  "caption": "Headache in the 1600s? Your apothecary had a cure: powdered mummy 💀\n\nWould YOU drink it? Yes or no 👇\n\nParody · fictional chat. Based on history: for centuries European apothecaries sold \"mumia\", ground-up Egyptian mummies, mixed into drinks and ointments for headaches, bruises and almost everything else. Demand got so high that fakes were made from the bodies of the recently dead, dried and passed off as ancient.\n\n#mummy #egyptianmummy #darkhistory #historicalmedicine #weirdhistory #ancientegypt #historymemes #funnyhistory #shorts",
+  "tags": [
+   "mummy",
+   "egyptian mummy",
+   "mummy medicine",
+   "mumia",
+   "eating mummies",
+   "medieval medicine",
+   "dark history",
+   "weird history",
+   "history memes",
+   "ancient egypt",
+   "history shorts",
+   "egyptian mummies",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1E2A20",
+  "glow": "#C8A04A",
+  "footer": "🏺 1650 · LONDON",
+  "footerColor": "#C8A04A",
+  "stamp": "FRESH",
+  "music": "mountain_king"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Patient 🤕",
+  "label": "PATIENT",
+  "portrait": "patient.svg",
+  "face": "46 56 108 108",
+  "voice": "am_eric",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Apothecary ⚗️",
+  "label": "APOTHECARY",
+  "portrait": "apothecary.svg",
+  "face": "46 52 108 108",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen grinding something",
+  "subtitle": "Apothecary · London",
+  "about": "no refunds 🏺",
+  "aboutDate": "1650"
+ },
+ "notifications": [
+  "mummy powder",
+  "stir it in ur wine"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LONDON · 1650"
+  },
+  {
+   "k": "out",
+   "text": "my head is KILLING me 🤕 got anything",
+   "say": "My head is killing me. Got anything?",
+   "time": "7:41 PM"
+  },
+  {
+   "k": "in",
+   "text": "mummy powder. stir it in ur wine 🍷",
+   "say": "Mummy powder. Stir it in your wine.",
+   "time": "7:42 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "MUMMY?? like an EGYPTIAN mummy??",
+   "say": "Mummy? Like an Egyptian mummy?",
+   "time": "7:42 PM"
+  },
+  {
+   "k": "in",
+   "text": "imported. very ancient. very premium 🏺",
+   "say": "Imported. Very ancient. Very premium.",
+   "time": "7:43 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "ok but is it a REAL mummy",
+   "say": "Okay, but is it a real mummy?",
+   "time": "7:43 PM"
+  },
+  {
+   "k": "in",
+   "text": "...define real",
+   "say": "Define real.",
+   "time": "7:44 PM",
+   "typing": 1.1
+  },
+  {
+   "k": "out",
+   "text": "WHO IS IN MY WINE",
+   "say": "Who is in my wine?!",
+   "time": "7:44 PM"
+  },
+  {
+   "k": "in",
+   "text": "some guy from last month. tastes the same 😬",
+   "say": "Some guy from last month. Tastes the same.",
+   "time": "7:45 PM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "cut",
+ "meme": {
+  "top": "MUMMY POWDER",
+  "bottom": "SOLD FOR 300 YEARS",
+  "chips": [
+   "Headaches cured: 0 🤕",
+   "Mummies eaten: tons 🏺"
+  ],
+  "say": "People really drank this."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

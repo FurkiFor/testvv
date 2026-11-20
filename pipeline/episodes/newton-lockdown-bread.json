@@ -1,0 +1,127 @@
+{
+ "slug": "newton-lockdown-bread",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Isaac Newton's lockdown was better than yours 💀 #shorts",
+  "caption": "Isaac Newton's plague lockdown vs everyone else's 💀\n\nWhat did YOU do in lockdown? Be honest 👇\n\nParody · fictional chat. Based on history: in 1665 the Great Plague closed Cambridge University and Isaac Newton went home to Woolsthorpe. In the next year and a half (his \"year of wonders\") he worked out early calculus, split white light with prisms and began his theory of gravity. The falling apple is a story Newton himself told later; legend says it was the spark.\n\n#isaacnewton #newton #lockdown #quarantine #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "isaac newton",
+   "newton",
+   "newton quarantine",
+   "newton plague",
+   "lockdown",
+   "quarantine",
+   "funny texts",
+   "history memes",
+   "history of science",
+   "history shorts",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1E2416",
+  "glow": "#E0B04A",
+  "footer": "🍎 1665 · CAMBRIDGE",
+  "footerColor": "#E0B04A",
+  "stamp": "OUTWORKED",
+  "music": "ode"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Tom (Trinity) 🍞",
+  "label": "TOM",
+  "portrait": "classmate.svg",
+  "face": "52 54 96 96",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Isaac Newton 🍎",
+  "label": "ISAAC NEWTON",
+  "portrait": "newton.svg",
+  "face": "44 54 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "el_speed": 1.08,
+  "status": "last seen under a tree",
+  "subtitle": "Trinity College · Cambridge",
+  "about": "busy. don't text 🍎",
+  "aboutDate": "1665"
+ },
+ "notifications": [
+  "going home",
+  "gonna sit under a tree"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "CAMBRIDGE · 1665"
+  },
+  {
+   "k": "out",
+   "text": "uni's CLOSED. plague 😷 ur plans?",
+   "say": "Uni's closed. Plague. Your plans?",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "going home. sitting under a tree 🌳",
+   "say": "Going home. Sitting under a tree.",
+   "time": "9:04 AM",
+   "typing": 0.4
+  },
+  {
+   "k": "out",
+   "text": "lol. i'm learning to bake bread 🍞",
+   "say": "I'm learning to bake bread.",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "chip",
+   "text": "1667 · UNI REOPENS"
+  },
+  {
+   "k": "out",
+   "text": "we're back. so what did u do",
+   "say": "We're back. So what did you do?",
+   "time": "8:15 AM"
+  },
+  {
+   "k": "in",
+   "text": "invented calculus. figured out light. gravity 🍎",
+   "say": "Invented calculus. Figured out light. Gravity.",
+   "time": "8:16 AM",
+   "typing": 0.5
+  },
+  {
+   "k": "out",
+   "text": "...my bread came out nice tho 😐",
+   "say": "My bread came out nice though.",
+   "time": "8:17 AM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HIS LOCKDOWN: GRAVITY",
+  "bottom": "MY LOCKDOWN: BREAD",
+  "chips": [
+   "Laws of physics: 3 🍎",
+   "Loaves of bread: 1 🍞"
+  ],
+  "say": "He found gravity. We found bread."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
