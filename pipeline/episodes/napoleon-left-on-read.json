@@ -1,0 +1,122 @@
+{
+ "slug": "napoleon-left-on-read",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon got left on read by Josephine 💀 #shorts",
+  "caption": "Napoleon could conquer Italy. He could NOT get Josephine to text back 💀\n\nWhat's the worst text YOU sent after being left on read? 👇\n\nParody · fictional chat. Based on history: in 1796, while leading the Army of Italy, Napoleon sent Josephine letter after passionate letter and kept complaining that she hardly wrote back. In one real letter he told her \"I don't love you anymore; on the contrary, I detest you\"... and in the same letter said he hoped to hold her in his arms soon.\n\n#napoleon #napoleonbonaparte #josephine #leftonread #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon and josephine",
+   "josephine bonaparte",
+   "napoleon love letters to josephine",
+   "napoleon love letters",
+   "left on read",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1A2230",
+  "glow": "#E06A8A",
+  "footer": "💌 1796 · ITALY",
+  "footerColor": "#E06A8A",
+  "stamp": "SEEN",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Josephine 💅",
+  "label": "JOSEPHINE",
+  "portrait": "josephine.svg",
+  "face": "52 58 96 100",
+  "voice": "af_bella",
+  "speed": 1.15,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "el_speed": 1.08,
+  "status": "last seen at a party in paris",
+  "subtitle": "Joséphine Bonaparte",
+  "about": "busy 💅",
+  "aboutDate": "1796"
+ },
+ "notifications": [
+  "busy",
+  "cool 👍"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ITALY · 1796"
+  },
+  {
+   "k": "out",
+   "text": "u left me on read. AGAIN 😤",
+   "say": "You left me on read. Again.",
+   "time": "11:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "busy. paris is fun 💅",
+   "say": "Busy. Paris is fun.",
+   "time": "11:40 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "i won 3 battles since ur last text",
+   "say": "I won three battles since your last text!",
+   "time": "11:41 PM"
+  },
+  {
+   "k": "in",
+   "text": "cool 👍",
+   "say": "Cool.",
+   "time": "1:15 AM",
+   "typing": 1.1
+  },
+  {
+   "k": "out",
+   "text": "that's it. i don't love u anymore. i DETEST u",
+   "say": "That's it. I don't love you anymore. I detest you.",
+   "time": "1:16 AM"
+  },
+  {
+   "k": "out",
+   "text": "...u up? 🥺",
+   "say": "You up?",
+   "time": "1:16 AM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HE REALLY WROTE THAT",
+  "bottom": "THEN SENT KISSES 💋",
+  "chips": [
+   "Battles won: easy ⚔️",
+   "Josephine: undefeated 💅"
+  ],
+  "say": "He really wrote that. Then sent kisses."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

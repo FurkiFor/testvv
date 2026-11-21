@@ -1,0 +1,140 @@
+{
+ "slug": "king-14-desserts",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Sweden's king ate 14 desserts and died 💀 #shorts",
+  "caption": "King Adolf Frederick of Sweden had one last meal. A BIG one 💀\n\nHow many could YOU eat? Be honest 👇\n\nParody · fictional chat. Based on history: on 12 February 1771 (Fat Tuesday), King Adolf Frederick of Sweden ate lobster, caviar, sauerkraut, smoked herring and champagne, then dessert: semla buns in hot milk. Legend says he had 14 of them. He died a few hours later, and Swedes still eat semlor every Fat Tuesday.\n\n#sweden #semla #kingofsweden #darkhistory #weirdhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "adolf frederick",
+   "king of sweden",
+   "king who ate himself to death",
+   "semla",
+   "swedish history",
+   "weird deaths in history",
+   "dark history",
+   "weird history",
+   "weird history facts",
+   "history facts",
+   "history shorts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1C2E52",
+  "glow": "#F4C430",
+  "footer": "🍰 1771 · STOCKHOLM",
+  "footerColor": "#F4C430",
+  "stamp": "STUFFED",
+  "music": "cancan"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "King Adolf Frederick 👑",
+  "label": "THE KING",
+  "portrait": "adolf-frederick.svg",
+  "face": "50 40 100 110",
+  "voice": "bm_daniel",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Royal Cook 👨‍🍳",
+  "label": "ROYAL COOK",
+  "portrait": "royal-cook.svg",
+  "face": "52 44 96 112",
+  "voice": "am_eric",
+  "speed": 1.15,
+  "el_voice": "qvI9Sgo8A9eFU874jTGo",
+  "el_speed": 1.08,
+  "status": "last seen baking. a lot",
+  "subtitle": "Royal Kitchen · Stockholm",
+  "about": "no more buns 🙏",
+  "aboutDate": "1771"
+ },
+ "notifications": [
+  "sire?",
+  "...sire? 👀"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "STOCKHOLM · FAT TUESDAY 1771"
+  },
+  {
+   "k": "out",
+   "text": "DESSERT. now. i'm starving 🍰",
+   "say": "Dessert. Now. I'm starving.",
+   "time": "6:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "sire u just ate lobster, caviar, sauerkraut AND herring",
+   "say": "Sire, you just ate lobster, caviar, sauerkraut, and herring.",
+   "time": "6:03 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "and champagne. bring the buns",
+   "say": "And champagne. Bring the buns.",
+   "time": "6:03 PM"
+  },
+  {
+   "k": "in",
+   "text": "that's ur 13th semla 😳",
+   "say": "That's your thirteenth semla.",
+   "time": "7:40 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "one more. i'm the KING 👑",
+   "say": "One more. I'm the king.",
+   "time": "7:41 PM"
+  },
+  {
+   "k": "in",
+   "text": "sire?",
+   "say": "Sire?",
+   "time": "9:15 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "in",
+   "text": "...sire? 👀",
+   "say": "Sire?",
+   "time": "9:20 PM",
+   "typing": 1.0
+  },
+  {
+   "k": "in",
+   "text": "should i save one for the next king? 🍰",
+   "say": "Should I save one for the next king?",
+   "time": "9:31 PM",
+   "typing": 1.2,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HE DIED HOURS LATER",
+  "bottom": "SWEDES STILL EAT THEM",
+  "chips": [
+   "Semlor eaten: 14 🍰",
+   "Kings left: 0 👑"
+  ],
+  "say": "He died hours later. Swedes still eat them."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

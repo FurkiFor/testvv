@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Nervous 18th-century royal cook in a tall white chef hat holding a tray of cream buns">
+<defs><radialGradient id="royalcook-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#E8C88A"/><stop offset="1" stop-color="#6A4320"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#royalcook-bg)"/>
+<path d="M18 250 Q26 182 100 172 Q174 182 182 250Z" fill="#F4F1EA"/>
+<g fill="#C9C2B4"><circle cx="88" cy="204" r="3"/><circle cx="88" cy="222" r="3"/><circle cx="112" cy="204" r="3"/><circle cx="112" cy="222" r="3"/></g>
+<path d="M76 176 Q100 190 124 176 L120 186 Q100 196 80 186Z" fill="#C8382E"/>
+<rect x="88" y="146" width="24" height="32" fill="#DCA880"/>
+<ellipse cx="100" cy="118" rx="33" ry="38" fill="#EBBC94"/>
+<path d="M68 82 Q56 52 74 40 Q80 18 100 22 Q120 18 126 40 Q144 52 132 82Z" fill="#FFFFFF" stroke="#D6D0C4" stroke-width="2.5"/>
+<rect x="68" y="78" width="64" height="14" rx="4" fill="#F6F3EC" stroke="#D6D0C4" stroke-width="2.5"/>
+<path d="M66 100 Q64 92 70 92 L70 112 Q64 110 66 100Z M134 100 Q136 92 130 92 L130 112 Q136 110 134 100Z" fill="#6A4A30"/>
+<path d="M80 100 Q86 94 94 100 M106 100 Q114 94 120 100" stroke="#5A3A24" stroke-width="3" fill="none" stroke-linecap="round" transform="rotate(-6 100 100)"/>
+<ellipse cx="88" cy="112" rx="6" ry="7" fill="#FFFFFF"/><ellipse cx="112" cy="112" rx="6" ry="7" fill="#FFFFFF"/>
+<circle cx="89" cy="113" r="3.2" fill="#1E120A"/><circle cx="113" cy="113" r="3.2" fill="#1E120A"/>
+<path d="M98 118 Q94 128 102 130" stroke="#B57A56" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M86 142 Q93 136 100 142 Q107 148 114 140" stroke="#5A2424" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+<path d="M128 96 Q134 104 130 110 Q124 104 128 96Z" fill="#8FD0F0"/>
+<g transform="translate(140 206)"><ellipse cx="0" cy="6" rx="38" ry="9" fill="#C0C4C8" stroke="#7A7E84" stroke-width="2.5"/><g transform="translate(-16 -4)"><ellipse cx="0" cy="4" rx="12" ry="6" fill="#C98A4A"/><path d="M-11 2 Q0 -10 11 2Z" fill="#FFFFFF"/></g><g transform="translate(12 -4)"><ellipse cx="0" cy="4" rx="12" ry="6" fill="#C98A4A"/><path d="M-11 2 Q0 -10 11 2Z" fill="#FFFFFF"/></g></g>
+<ellipse cx="104" cy="214" rx="11" ry="8" fill="#EBBC94"/>
+</svg>
