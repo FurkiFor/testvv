@@ -29,10 +29,11 @@
 > 2026-11-18: üretim yapılamadı. ElevenLabs hâlâ "failed or incomplete payment" (019-notron denendi, üretim başarısız, kredi düşmedi; 020/021 denenmedi). Kervly bağlı, bugün takvim boş; planlanacak hazır video kalmadı. Sıradaki çalışma: ödeme düzelince 019–021'i üret.
 > 2026-11-19: üretim yapılamadı. elevenlabsusercontent.com erişimi açık, ama ElevenLabs yine "failed or incomplete payment" (019-notron denendi, üretim başarısız; 020/021 denenmedi). Kervly/YouTube bağlı, bugün takvim boş, hata yok; planlanacak hazır video yok. 4. gün üst üste yayın yok — ElevenLabs faturası ödenmeli.
 > 2026-11-20: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 5. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
+> 2026-11-21: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron denendi, başarısız, kredi düşmedi; 020/021 denenmedi). Kervly/YouTube bağlı, takvim boş, hata yok. 6. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
 
 ## Performans
 
-Son güncelleme: 2026-11-20 09:25 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
+Son güncelleme: 2026-11-21 09:25 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|
@@ -55,6 +56,7 @@ Son güncelleme: 2026-11-20 09:25 (İstanbul). 016–018 ~2 günlük, ortalamala
 | 017-fatih | tarih | çelişki + kimliği gizli | 1.151 | 2 | 0 |
 | 018-iss | uzay | paradoks / imkânsız sahne | 1.252 | 8 | 0 |
 
+- 21.11: kanal 2.450 abone, 17.335 toplam izlenme — bir günde artış yok (yayın kesintisinin 6. günü); en çok izlenen 002-venus 1.329, 010-nintendo 1.273, 018-iss 1.246.
 - 20.11: kanal 2.450 abone, 17.338 toplam izlenme (+78/gün; büyümenin çoğu 018-iss'ten, 1.252 ile artık en çok izlenen 2. video). Yayın kesintisi sürüyor.
 - 19.11: kanal 2.450 abone, 17.260 toplam izlenme; yeni yayın olmadığı için izlenmeler 1 günde neredeyse yerinde saydı (016–018 toplam +10). Shorts'ta düzenli yayın kesintisi büyümeyi durduruyor.
 - 18.11 erken sinyal (ilk ~1 gün): 018-iss 1.178, 017-fatih 1.149 (Türk tarihi referansı iyi başladı), 016-bal 890. Kanal: 2.450 abone, 18 video.
