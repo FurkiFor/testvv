@@ -1,0 +1,125 @@
+{
+ "slug": "napoleon-moscow-airbnb",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon's Moscow Airbnb was a DISASTER 🔥 #shorts",
+  "caption": "Napoleon finally made it to Moscow. The host had other plans 🔥\n\nWorst place YOU ever stayed? Hotel, Airbnb, anything 👇\n\nParody · fictional chat. Based on history: Napoleon entered Moscow on 14 September 1812 and found the city almost empty. Fires broke out that night and burned most of it (the governor, Rostopchin, is widely blamed). Napoleon waited over a month for Tsar Alexander I to answer his peace offers. No reply. He left on 19 October and his army retreated through the Russian winter.\n\n#napoleon #napoleonbonaparte #moscow1812 #frenchinvasionofrussia #airbnb #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "french invasion of russia",
+   "napoleon moscow",
+   "napoleon 1812",
+   "fire of moscow",
+   "tsar alexander i",
+   "history shorts",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1A14",
+  "glow": "#E8743A",
+  "footer": "🔥 1812 · MOSCOW",
+  "footerColor": "#E8743A",
+  "stamp": "1 STAR",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Tsar Alexander 🇷🇺",
+  "label": "TSAR ALEXANDER",
+  "portrait": "tsar-alexander.svg",
+  "face": "50 62 100 100",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08,
+  "status": "last seen far, far away",
+  "subtitle": "Alexander I · Host",
+  "about": "superhost ⭐ (self-rated)",
+  "aboutDate": "1812"
+ },
+ "notifications": [
+  "self check-in 🔑",
+  "enjoy the walk home ❄️"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "MOSCOW · SEPT 1812"
+  },
+  {
+   "k": "out",
+   "text": "i'm in moscow. where is EVERYONE?? 🏙️",
+   "say": "I'm in Moscow. Where is everyone?",
+   "time": "6:12 PM"
+  },
+  {
+   "k": "in",
+   "text": "self check-in. key's under the mat 🔑",
+   "say": "Self check-in. Key's under the mat.",
+   "time": "6:20 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "the house is ON FIRE",
+   "say": "The house is on fire!",
+   "time": "11:47 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "it's called a fireplace 🔥",
+   "say": "It's called a fireplace.",
+   "time": "11:48 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "i'm leaving u 1 star ⭐",
+   "say": "I'm leaving you one star.",
+   "time": "OCT 19"
+  },
+  {
+   "k": "in",
+   "text": "cool. enjoy the walk home ❄️",
+   "say": "Cool. Enjoy the walk home.",
+   "time": "OCT 19",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HE WAITED A MONTH",
+  "bottom": "THEN WALKED. IN WINTER ❄️",
+  "chips": [
+   "Moscow stay: 1 ⭐",
+   "Russian winter: 5 ⭐ ❄️"
+  ],
+  "say": "He waited a month. Then walked home. In winter."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

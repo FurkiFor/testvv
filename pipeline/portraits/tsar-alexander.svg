@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Smug Tsar Alexander I illustration">
+<defs><linearGradient id="tsar-alexander-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B8D4E8"/><stop offset="1" stop-color="#3A5A7A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#tsar-alexander-bg)"/>
+<path d="M18 250 Q26 186 100 178 Q174 186 182 250Z" fill="#1F4E2E"/>
+<path d="M62 190 L138 236" stroke="#3A7BD5" stroke-width="10"/>
+<path d="M26 200 Q40 184 62 186 L58 202 Q40 200 30 210Z" fill="#E8C24A"/><path d="M174 200 Q160 184 138 186 L142 202 Q160 200 170 210Z" fill="#E8C24A"/>
+<path d="M78 178 L100 198 L122 178 L122 170 L78 170Z" fill="#C0392B"/>
+<rect x="89" y="146" width="22" height="30" fill="#F0CBA8"/>
+<ellipse cx="100" cy="114" rx="32" ry="38" fill="#F3D2B3"/>
+<path d="M66 108 Q62 70 100 66 Q140 70 134 104 Q126 84 112 86 Q100 78 86 86 Q74 90 66 108Z" fill="#C89A5A"/>
+<path d="M68 108 Q64 128 72 140 L74 118Z" fill="#C89A5A"/><path d="M132 108 Q136 128 128 140 L126 118Z" fill="#C89A5A"/>
+<path d="M78 104 Q87 100 95 104" stroke="#8A6A3A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M105 102 Q114 96 122 101" stroke="#8A6A3A" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M80 113 Q87 109 94 113" stroke="#2A1A10" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M106 113 Q113 109 120 113" stroke="#2A1A10" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M99 116 Q104 126 98 129" stroke="#D6A888" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M86 137 Q102 146 118 134" stroke="#8A3F3A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="78" cy="128" r="6" fill="#F2A6A0" opacity=".5"/><circle cx="122" cy="128" r="6" fill="#F2A6A0" opacity=".5"/>
+</svg>
