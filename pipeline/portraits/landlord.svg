@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="grumpy 1810s Viennese landlord in a nightcap holding a candle at 2 AM">
+<defs><radialGradient id="landlord-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#3A4870"/><stop offset="1" stop-color="#121830"/></radialGradient>
+<radialGradient id="landlord-glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFE7A0" stop-opacity=".75"/><stop offset="1" stop-color="#FFE7A0" stop-opacity="0"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#landlord-bg)"/>
+<circle cx="160" cy="170" r="48" fill="url(#landlord-glow)"/>
+<path d="M18 250 Q26 184 100 174 Q174 184 182 250Z" fill="#E9E2D0"/>
+<path d="M84 178 L100 206 L116 178" fill="none" stroke="#C9C0AA" stroke-width="3"/>
+<rect x="88" y="148" width="24" height="30" fill="#E2B08C"/>
+<ellipse cx="100" cy="116" rx="33" ry="38" fill="#EFC3A0"/>
+<ellipse cx="66" cy="118" rx="7" ry="10" fill="#E2B08C"/><ellipse cx="134" cy="118" rx="7" ry="10" fill="#E2B08C"/>
+<path d="M68 104 Q66 124 72 132 M132 104 Q134 124 128 132" stroke="#D8D8D8" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M64 96 Q70 50 112 52 Q150 56 156 40 Q168 64 150 70 L136 92 Q100 80 64 96Z" fill="#8A9A6A"/>
+<path d="M62 98 Q100 82 138 94" stroke="#6E7E50" stroke-width="7" fill="none" stroke-linecap="round"/>
+<circle cx="158" cy="38" r="6" fill="#6E7E50"/>
+<path d="M76 100 L94 107 M124 100 L106 107" stroke="#E8E8E8" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="87" cy="114" rx="4.5" ry="2.6" fill="#1E120A"/><ellipse cx="113" cy="114" rx="4.5" ry="2.6" fill="#1E120A"/>
+<path d="M78 120 Q87 124 96 120 M104 120 Q113 124 122 120" stroke="#B88464" stroke-width="2" fill="none"/>
+<path d="M100 116 Q93 130 99 133 Q106 135 108 129" stroke="#B87A56" stroke-width="2.6" fill="#E6A888" stroke-linecap="round"/>
+<path d="M84 144 Q100 136 116 144" stroke="#6A2A2A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="150" y="186" width="18" height="40" rx="3" fill="#F7F0DC"/>
+<path d="M159 186 Q152 174 159 160 Q166 174 159 186Z" fill="#FFB52E"/>
+<path d="M159 184 Q156 177 159 170 Q162 177 159 184Z" fill="#FFF2B0"/>
+<ellipse cx="159" cy="228" rx="24" ry="6" fill="#C9A24A"/>
+<path d="M140 232 Q150 214 160 226" stroke="#E2B08C" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

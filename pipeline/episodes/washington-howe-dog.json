@@ -1,0 +1,122 @@
+{
+ "slug": "washington-howe-dog",
+ "format": "v3-R",
+ "youtube": {
+  "title": "George Washington returned his enemy's DOG mid-war 🐶 #shorts",
+  "caption": "George Washington lost the battle… then returned the enemy general's dog 🐶\n\nWould YOU have given the dog back? Yes or no 👇\n\nParody · fictional chat. Based on history: after the Battle of Germantown (October 1777), British General William Howe's dog wandered into the American camp. On 6 October 1777 Washington sent it back under a flag of truce with a note: \"General Washington's compliments to General Howe\" — the collar showed whose dog it was.\n\n#georgewashington #americanrevolution #dogsofhistory #historymemes #funnyhistory #funnytexts #shorts",
+  "tags": [
+   "george washington",
+   "washington howe dog",
+   "general howe",
+   "battle of germantown",
+   "american revolution",
+   "dog history",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#16223A",
+  "glow": "#C8A050",
+  "footer": "🐶 1777 · PENNSYLVANIA",
+  "footerColor": "#C8A050",
+  "stamp": "RETURNED",
+  "music": "yankee"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "General Howe 🇬🇧",
+  "label": "GENERAL HOWE",
+  "portrait": "british-general.svg",
+  "face": "40 40 120 120",
+  "voice": "bm_george",
+  "speed": 1.14,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "George 🇺🇸",
+  "label": "GEORGE WASHINGTON",
+  "portrait": "washington.svg",
+  "face": "42 44 116 116",
+  "voice": "am_adam",
+  "speed": 1.15,
+  "el_voice": "dqoktGAat2XIYpd4sTb7",
+  "el_speed": 1.08,
+  "status": "last seen petting ur dog",
+  "subtitle": "George Washington",
+  "about": "compliments to general howe 🫡",
+  "aboutDate": "1777"
+ },
+ "notifications": [
+  "he's a good boy",
+  "sent him back"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "GERMANTOWN · OCT 1777"
+  },
+  {
+   "k": "out",
+   "text": "WHERE IS MY DOG 😤",
+   "say": "Where is my dog?",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "ran into my camp after u beat me 🐶",
+   "say": "Ran into my camp after you beat me.",
+   "time": "9:03 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "give him BACK.",
+   "say": "Give him back!",
+   "time": "9:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "already did. with a polite note 💌",
+   "say": "Already did. With a polite note.",
+   "time": "9:04 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "why r u being NICE?? we're at WAR",
+   "say": "Why are you being nice? We're at war!",
+   "time": "9:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "he's a good boy. ur still losing tho 😌",
+   "say": "He's a good boy. You're still losing though.",
+   "time": "9:05 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HOWE GOT HIS DOG",
+  "bottom": "AMERICA GOT AMERICA",
+  "chips": [
+   "Dogs returned: 1 🐶",
+   "Colonies returned: 0 🇺🇸"
+  ],
+  "say": "He got the dog. We got America."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "slug": "beethoven-landlord-2am",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Beethoven was the WORST neighbor in Vienna 💀 #shorts",
+  "caption": "Beethoven: genius composer, nightmare tenant 💀\n\nWorst neighbor YOU ever had? Tell us 👇\n\nParody · fictional chat. Based on history: Beethoven moved more than 60 times in Vienna (the Haus der Musik counts 68). Landlords weren't fans of piano at 2 AM, he was sometimes evicted, and he'd pour a bucket of cold water over his head while composing, to the displeasure of the neighbors below. Several of his old Vienna apartments are museums today.\n\n#beethoven #ludwigvanbeethoven #worstneighbor #historymemes #funnyhistory #funnytexts #shorts",
+  "tags": [
+   "beethoven",
+   "ludwig van beethoven",
+   "beethoven vienna",
+   "beethoven apartments",
+   "worst neighbor",
+   "landlord texts",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#141A30",
+  "glow": "#E0B050",
+  "footer": "🎹 1810s · VIENNA",
+  "footerColor": "#E0B050",
+  "stamp": "EVICTED",
+  "music": "ode"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Landlord 🏠",
+  "label": "THE LANDLORD",
+  "portrait": "landlord.svg",
+  "face": "50 30 100 100",
+  "voice": "bm_george",
+  "speed": 1.14,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Beethoven 🎼",
+  "label": "BEETHOVEN",
+  "portrait": "beethoven.svg",
+  "face": "34 22 132 132",
+  "voice": "am_puck",
+  "speed": 1.18,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08,
+  "status": "last seen at 2 AM. composing",
+  "subtitle": "Ludwig van Beethoven",
+  "about": "genius has no bedtime 🎹",
+  "aboutDate": "1810"
+ },
+ "notifications": [
+  "genius has no schedule",
+  "bucket helps me think"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "VIENNA · 2:07 AM"
+  },
+  {
+   "k": "out",
+   "text": "it's 2 AM. the PIANO. again?? 😤",
+   "say": "Two A.M. The piano. Again?",
+   "time": "2:07 AM"
+  },
+  {
+   "k": "in",
+   "text": "genius has no schedule 🎹",
+   "say": "Genius has no schedule.",
+   "time": "2:07 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "why is my CEILING dripping??",
+   "say": "Why is my ceiling dripping?",
+   "time": "2:08 AM"
+  },
+  {
+   "k": "in",
+   "text": "bucket on my head. helps me think 🪣",
+   "say": "Bucket on my head. Helps me think.",
+   "time": "2:08 AM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "ur EVICTED.",
+   "say": "You're evicted.",
+   "time": "2:09 AM"
+  },
+  {
+   "k": "in",
+   "text": "fine. one day they'll sell TICKETS to this apartment 🎟️",
+   "say": "Fine. One day they'll sell tickets here.",
+   "time": "2:09 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "MOVED 60+ TIMES",
+  "bottom": "NOW THEY'RE MUSEUMS",
+  "chips": [
+   "Evictions: many 🏠",
+   "Symphonies: 9 🎼"
+  ],
+  "say": "Now they're museums."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
