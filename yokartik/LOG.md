@@ -31,15 +31,16 @@
 > 2026-11-20: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 5. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
 > 2026-11-21: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron denendi, başarısız, kredi düşmedi; 020/021 denenmedi). Kervly/YouTube bağlı, takvim boş, hata yok. 6. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
 > 2026-11-22: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron denendi, başarısız, kredi düşmedi; 020/021 denenmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 7. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
+> 2026-11-23: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 8. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır (bilgiler bugün NASA / Stanford / PMC kaynaklarıyla yeniden doğrulandı).
 
 ## Performans
 
-Son güncelleme: 2026-11-22 09:30 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
+Son güncelleme: 2026-11-23 09:30 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|
 | 001-kleopatra | tarih | soru | 896 | 6 | 1 |
-| 002-venus | uzay | çelişki | 1.329 | 8 | 0 |
+| 002-venus | uzay | çelişki | 1.330 | 8 | 0 |
 | 003-kopekbaligi | hayvan | çelişki (sahne) | 1.078 | 7 | 1 |
 | 004-kemikler | vücut | gizem (kayıp) | 1.125 | 10 | 0 |
 | 005-mamut | tarih | yanlış bilinen (hata) | 1.021 | 6 | 1 |
@@ -57,6 +58,7 @@ Son güncelleme: 2026-11-22 09:30 (İstanbul). 016–018 ~2 günlük, ortalamala
 | 017-fatih | tarih | çelişki + kimliği gizli | 1.151 | 2 | 0 |
 | 018-iss | uzay | paradoks / imkânsız sahne | 1.252 | 8 | 0 |
 
+- 23.11: kanal 2.450 abone, 17.340 toplam izlenme — +4/gün, büyüme durdu (kesintinin 8. günü); en çok izlenen 002-venus 1.330, 010-nintendo 1.273, 018-iss 1.246.
 - 22.11: kanal 2.450 abone, 17.336 toplam izlenme — yine yerinde sayıyor (kesintinin 7. günü); en çok izlenen 002-venus 1.329, 010-nintendo 1.273, 018-iss 1.246.
 - 21.11: kanal 2.450 abone, 17.335 toplam izlenme — bir günde artış yok (yayın kesintisinin 6. günü); en çok izlenen 002-venus 1.329, 010-nintendo 1.273, 018-iss 1.246.
 - 20.11: kanal 2.450 abone, 17.338 toplam izlenme (+78/gün; büyümenin çoğu 018-iss'ten, 1.252 ile artık en çok izlenen 2. video). Yayın kesintisi sürüyor.
