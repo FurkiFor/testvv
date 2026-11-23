@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 8.83,
-      "sizeMB": 3.19
+      "sizeMB": 3.19,
+      "post_id": "p_HMI8cqdo0MPD",
+      "publish_at": "2026-11-23T12:00:00+04:00"
     },
     {
       "file": "2026-11-23-2-neon-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.47,
-      "sizeMB": 9.94
+      "sizeMB": 9.94,
+      "post_id": "p_CJvgh1mqnhv5",
+      "publish_at": "2026-11-23T17:00:00+04:00"
     },
     {
       "file": "2026-11-23-3-pearl-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.57,
-      "sizeMB": 10.86
+      "sizeMB": 10.86,
+      "post_id": "p_g27nFwa1bF4u",
+      "publish_at": "2026-11-23T21:00:00+04:00"
     }
   ]
 }
