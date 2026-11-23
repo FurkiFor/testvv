@@ -2,7 +2,7 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-22 ~08:50 Dubai, Kervly get_youtube_stats)
+## Summary (snapshot 2026-11-23 ~08:51 Dubai, Kervly get_youtube_stats; v1/v2 rows unchanged from 22 Nov)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
@@ -12,8 +12,8 @@ Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly 
 | v2-B (cold open) | 35 | 271 | 144 | 1.5 | 5 | 35 | 144 |
 | v2-B Kokoro | 20 | 233 | 124.5 | 1.1 | 4 | 20 | 124.5 |
 | v2-B ElevenLabs | 15 | 323 | 200 | 2.2 | 1 | 15 | 200 |
-| v3-R (relatable) | 10 | 388 | 168.5 | 2.7 | 0 | 7 | 154 |
-| v3-D (dark) | 8 | 289 | 115 | 2.0 | 0 | 5 | 60 |
+| v3-R (relatable) | 11 | 382 | 159 | 2.4 | 0 | 8 | 156.5 |
+| v3-D (dark) | 10 | 320 | 232 | 1.9 | 0 | 7 | 70 |
 
 (v1 counts unchanged from the last snapshot; vidIQ's recent-uploads list stops at 20 Oct.)
 
@@ -22,6 +22,7 @@ v3 rule (12 Nov): once v3-R and v3-D each have ≥ 6 videos past 48 h, the style
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-23: token OK (0 error posts). **6-video rule fired: matured medians v3-R 156.5 (n=8) vs v3-D 70 (n=7) → R ≥ 1.5× D → both slots go to v3-R from today. Neither beats the v2-B benchmark (167; 144 on current data).** Caveat: the matured D median is dragged by the early "death scene" Ds (wallpaper 11, bloodletting 48, stabs 60, guillotin 70); the newer "gross/absurd death + sassy line" Ds are the channel's best recent videos (little-neck 953 @56 h, king-14-desserts 864 @36 h, plague-doctor 402 @12 h, marie-antoinette 303 @8 h), and all-video median D 232 > R 159. Proposed new direction (v4, waiting for owner): one format = relatable everyday text situation + one shocking/gross real fact as the punchline (mom-texts 1261, little-neck 953, left-on-read 878, desserts 864, mozart 783 all share it). Channel 6 subs, 16.4k views. Today: beethoven-landlord-2am (R, 17.4 s, worst-neighbor bit: piano at 2 AM + bucket of water → "they'll sell tickets to this apartment", 60+ moves, now museums) at 17:00 and washington-howe-dog (R, 18.0 s, returns enemy general's dog after losing Germantown 1777 → "he's a good boy. ur still losing tho") at 21:00. ElevenLabs: test line failed again (failed/incomplete payment, 16 credits shown) → Kokoro; storage.googleapis.com 200, elevenlabsusercontent.com 403 at root, upload.wikimedia.org 000. vidIQ: 0 credits (SEO written by hand).
 - 2026-11-22: token OK (0 error posts). **Matured medians: v3-R 154 (n=7), v3-D 60 (n=5), v2-B 144 (n=35) → neither v3 style beats the 167 benchmark yet**; v3-D has only 5 matured → 6-video rule not complete → no style decision, keep 1 R + 1 D (mummy-medicine matures today → rule can fire tomorrow). **But the last 24 h were the best day the channel ever had**: napoleon-left-on-read (R) 879 @16 h, king-14-desserts (D) 851 @12 h, henry-anne-little-neck (D) 811 @32 h, mozart-borrows-money (R) 617 @8 h; channel 6 subs, 14.9k total views. The 3 newest D (little-neck 811, desserts 851, mummy 301) all beat every R except mom-texts → the "gross/absurd death or bad medicine + sassy line" D works; the old "death scene" D (wallpaper 11, stabs 60, guillotin 69, bloodletting 48) drags the matured median. Today: napoleon-moscow-airbnb (R, 17.7 s, "Airbnb host from hell": Moscow 1812 fire + Tsar never replied → "enjoy the walk home ❄️") at 17:00 and plague-doctor-beak (D, 23.3 s, dark bank #7, beak full of flowers → "he smelled great 😶") at 21:00. ElevenLabs: test line failed again (failed/incomplete payment, 47 credits shown on the failed take) → Kokoro; storage.googleapis.com 200, elevenlabsusercontent.com 403 at root, upload.wikimedia.org 000. vidIQ: 10 credits (2× keyword research), balance 1815 → 1805.
 - 2026-11-21: token OK (0 error posts). Matured: v3-R 178 (n=5), v3-D 53.5 (n=4), v2-B 144 (n=35) → rule needs ≥ 6 matured each → no style decision, keep 1 R + 1 D. **Dark is turning: the "gross/shocking daily life" angle works** — mummy-medicine (D) 268 @11 h (best D ever, beats every R since 13 Nov at that age), henry-anne-little-neck (D) 171 @7 h, socrates-rooster recovered to 162 @59 h; the "death scene" Ds stay weak (green-wallpaper 10, guillotin-name 34, caesar-23-stabs 59). v3-R matured 178 still beats the v2-B benchmark (144); newton-lockdown-bread (R) only 95 @15 h. Today's D follows the winning angle (food + shocking death: king-14-desserts), R goes back to Napoleon (channel #1 character): napoleon-left-on-read. ElevenLabs: test line failed again ("subscription has a failed or incomplete payment", 27 credits shown on the failed take) → Kokoro; storage.googleapis.com 200, elevenlabsusercontent.com 403 at root (reachable), upload.wikimedia.org 000 (blocked). vidIQ: 10 credits (2× keyword research), balance 1835 → 1825.
 - 2026-11-20: token OK (0 error posts). Matured: v3-R 234.5 (n=4), v3-D 29 (n=2), v2-B 144 (n=35) → rule needs ≥ 6 matured each → no style decision, keep 1 R + 1 D. **v3-D still failing: all 5 published dark videos < 100 views** (best socrates-rooster 87 @35 h; guillotin-name 15 @11 h), while v3-R matured median (234.5) beats the v2-B benchmark (144). Yesterday: lincoln-hat-late-reply (R) 122 @15 h, guillotin-name (D) 15 @11 h. Today's D switches from "death scene" to "gross daily life" (topic-bank angle that hits 1M+ in the niche): mummy medicine. ElevenLabs: test line failed again ("subscription has a failed or incomplete payment", 33 credits shown on the failed take) → Kokoro. storage.googleapis.com 200, elevenlabsusercontent.com 403 at root (reachable), upload.wikimedia.org 000 (blocked). Built: newton-lockdown-bread (v3-R, 17.8 s, plague lockdown 1665: Newton = calculus + gravity, classmate = bread) at 17:00 and mummy-medicine (v3-D, 22.5 s, dark bank #14) at 21:00. vidIQ: 10 credits (2× keyword research), balance 1855 → 1845.
@@ -130,24 +131,26 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 26 (252 h) | 0 | 0 |
 | napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 817 (232 h) | 1 | 0 |
 | caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 115 (228 h) | 1 | 0 |
-| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1258 (208 h) | 12 | 0 |
-| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 348 (207 h) | 1 | 0 |
-| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (204 h) | 0 | 0 |
-| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 70 (104 h) | 0 | 0 |
-| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 | 60 (80 h) | 0 | 0 |
-| napoleon-dutch-rabbit | v3-R (kokoro) | 16.7 | 2026-11-20 01:00 | 115 (56 h) | 2 | 0 |
-| henry-anne-little-neck | v3-D (kokoro) | 20.3 | 2026-11-21 01:00 | 811 (32 h) | 6 | 0 |
-| mozart-borrows-money | v3-R (kokoro) | 16.9 | 2026-11-22 01:00 | 617 (8 h) | 1 | 0 |
-| marie-antoinette-pardon-me | v3-D (kokoro) | 22.2 | 2026-11-23 01:00 (scheduled) | – | – | – |
-| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 127 (112 h) | 3 | 0 |
-| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 11 (108 h) | 0 | 0 |
-| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 | 183 (88 h) | 0 | 0 |
-| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 | 161 (84 h) | 1 | 0 |
-| lincoln-hat-late-reply | v3-R (kokoro) | 15.6 | 2026-11-19 17:00 | 154 (64 h) | 2 | 0 |
-| guillotin-name | v3-D (kokoro) | 21.4 | 2026-11-19 21:00 | 69 (60 h) | 3 | 0 |
-| newton-lockdown-bread | v3-R (kokoro) | 17.8 | 2026-11-20 17:00 | 129 (40 h) | 4 | 0 |
-| mummy-medicine | v3-D (kokoro) | 22.5 | 2026-11-20 21:00 | 301 (36 h) | 1 | 0 |
-| napoleon-left-on-read | v3-R (kokoro) | 16.0 | 2026-11-21 17:00 | 879 (16 h) | 2 | 0 |
-| king-14-desserts | v3-D (kokoro) | 23.9 | 2026-11-21 21:00 | 851 (12 h) | 5 | 0 |
-| napoleon-moscow-airbnb | v3-R (kokoro) | 17.7 | 2026-11-22 17:00 (scheduled) | – | – | – |
-| plague-doctor-beak | v3-D (kokoro) | 23.3 | 2026-11-22 21:00 (scheduled) | – | – | – |
+| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1261 (236 h) | 12 | 0 |
+| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 350 (235 h) | 1 | 0 |
+| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (232 h) | 0 | 0 |
+| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 70 (128 h) | 0 | 0 |
+| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 | 60 (104 h) | 0 | 0 |
+| napoleon-dutch-rabbit | v3-R (kokoro) | 16.7 | 2026-11-20 01:00 | 118 (80 h) | 2 | 0 |
+| henry-anne-little-neck | v3-D (kokoro) | 20.3 | 2026-11-21 01:00 | 953 (56 h) | 6 | 0 |
+| mozart-borrows-money | v3-R (kokoro) | 16.9 | 2026-11-22 01:00 | 783 (32 h) | 2 | 0 |
+| marie-antoinette-pardon-me | v3-D (kokoro) | 22.2 | 2026-11-23 01:00 | 303 (8 h) | 1 | 0 |
+| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 127 (136 h) | 3 | 0 |
+| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 11 (132 h) | 0 | 0 |
+| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 | 183 (112 h) | 0 | 0 |
+| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 | 161 (108 h) | 1 | 0 |
+| lincoln-hat-late-reply | v3-R (kokoro) | 15.6 | 2026-11-19 17:00 | 154 (88 h) | 2 | 0 |
+| guillotin-name | v3-D (kokoro) | 21.4 | 2026-11-19 21:00 | 70 (84 h) | 3 | 0 |
+| newton-lockdown-bread | v3-R (kokoro) | 17.8 | 2026-11-20 17:00 | 159 (64 h) | 4 | 0 |
+| mummy-medicine | v3-D (kokoro) | 22.5 | 2026-11-20 21:00 | 324 (60 h) | 1 | 0 |
+| napoleon-left-on-read | v3-R (kokoro) | 16.0 | 2026-11-21 17:00 | 878 (40 h) | 2 | 0 |
+| king-14-desserts | v3-D (kokoro) | 23.9 | 2026-11-21 21:00 | 864 (36 h) | 5 | 0 |
+| napoleon-moscow-airbnb | v3-R (kokoro) | 17.7 | 2026-11-22 17:00 | 123 (16 h) | 0 | 0 |
+| plague-doctor-beak | v3-D (kokoro) | 23.3 | 2026-11-22 21:00 | 402 (12 h) | 2 | 0 |
+| beethoven-landlord-2am | v3-R (kokoro) | 17.4 | 2026-11-23 17:00 (scheduled) | – | – | – |
+| washington-howe-dog | v3-R (kokoro) | 18.0 | 2026-11-23 21:00 (scheduled) | – | – | – |
