@@ -1,0 +1,136 @@
+{
+ "slug": "steininger-beard",
+ "format": "v3-D",
+ "youtube": {
+  "title": "This mayor's 4.5-foot beard killed him 💀 #shorts",
+  "caption": "Hans Steininger had the longest beard in town. It did NOT end well 💀\n\nBeard or your life? Pick one 👇\n\nParody · fictional chat. Based on history (legend says): Hans Steininger, mayor of Braunau am Inn, had a beard about 4.5 feet (1.4 m) long that he usually kept rolled up in a leather pouch. In September 1567 a fire broke out; legend says he ran without rolling it up, stepped on it and broke his neck. His beard is still kept in the town's district museum.\n\n#weirdhistory #weirddeaths #darkhistory #beard #historymemes #funnyhistory #shorts",
+  "tags": [
+   "hans steininger",
+   "man killed by his beard",
+   "longest beard",
+   "weird deaths in history",
+   "weird history",
+   "dark history",
+   "history facts",
+   "history memes",
+   "history shorts",
+   "weird deaths",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#3A1408",
+  "glow": "#FF8A30",
+  "footer": "🔥 1567 · BRAUNAU",
+  "footerColor": "#FF8A30",
+  "stamp": "TRIPPED",
+  "music": "mountain_king"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Town Guard 🛡️",
+  "label": "TOWN GUARD",
+  "portrait": "town-guard.svg",
+  "face": "44 40 112 112",
+  "voice": "am_fenrir",
+  "speed": 1.15,
+  "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Mayor Hans 🧔",
+  "label": "MAYOR HANS",
+  "portrait": "steininger.svg",
+  "face": "44 52 112 112",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen on the stairs",
+  "subtitle": "Mayor of Braunau",
+  "about": "the beard is the brand 🧔",
+  "aboutDate": "1567"
+ },
+ "notifications": [
+  "one sec. rolling up my beard",
+  "taking the stairs 🏃"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "BRAUNAU · SEPTEMBER 1567"
+  },
+  {
+   "k": "out",
+   "text": "FIRE 🔥 sir we have to RUN. now",
+   "say": "Fire! Sir, we have to run. Now!",
+   "time": "9:41 PM"
+  },
+  {
+   "k": "in",
+   "text": "one sec. rolling up my beard",
+   "say": "One second. Rolling up my beard.",
+   "time": "9:41 PM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "SIR. EVERYTHING IS ON FIRE",
+   "say": "Sir! Everything is on fire!",
+   "time": "9:42 PM"
+  },
+  {
+   "k": "in",
+   "text": "it's 4.5 FEET long. it goes in its little pouch 👝",
+   "say": "It's four and a half feet long. It goes in its little pouch.",
+   "time": "9:42 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "NO TIME. just RUN",
+   "say": "No time! Just run!",
+   "time": "9:42 PM"
+  },
+  {
+   "k": "in",
+   "text": "fine. leaving it out. taking the stairs 🏃",
+   "say": "Fine. Leaving it out. Taking the stairs.",
+   "time": "9:43 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "...sir? 👀",
+   "say": "Sir?",
+   "time": "9:45 PM",
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "good news. the beard made it. it's in a museum now 🧔",
+   "say": "Good news. The beard made it. It's in a museum now.",
+   "time": "9:47 PM"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "LEGEND SAYS HE TRIPPED",
+  "bottom": "BEARD STILL ON DISPLAY",
+  "chips": [
+   "Beard: 4.5 ft 🧔",
+   "Pouches used: 0 👝"
+  ],
+  "say": "Legend says he tripped on it."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

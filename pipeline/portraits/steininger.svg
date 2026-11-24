@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Proud 16th-century mayor with an enormously long brown beard rolled up and a gold chain of office">
+<defs><radialGradient id="steininger-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#D9A05A"/><stop offset="1" stop-color="#5A2E14"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#steininger-bg)"/>
+<path d="M18 250 Q24 182 100 172 Q176 182 182 250Z" fill="#2A2A3A"/>
+<path d="M30 250 Q34 196 62 184 L70 250Z M170 250 Q166 196 138 184 L130 250Z" fill="#7A4E2A"/>
+<path d="M66 188 Q100 222 134 188" stroke="#E8B830" stroke-width="5" fill="none"/>
+<circle cx="100" cy="214" r="9" fill="#F4C430" stroke="#B88A10" stroke-width="2"/>
+<rect x="88" y="146" width="24" height="26" fill="#DCA880"/>
+<ellipse cx="100" cy="114" rx="33" ry="38" fill="#EBBC94"/>
+<path d="M66 92 Q66 62 100 60 Q134 62 134 92 L134 76 Q100 50 66 76Z" fill="#1E1E28"/>
+<ellipse cx="100" cy="72" rx="44" ry="10" fill="#1E1E28"/>
+<path d="M82 98 Q89 94 96 98 M104 98 Q111 94 118 98" stroke="#4A2A14" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="89" cy="108" rx="5" ry="6" fill="#FFFFFF"/><ellipse cx="111" cy="108" rx="5" ry="6" fill="#FFFFFF"/>
+<circle cx="90" cy="109" r="2.8" fill="#1E120A"/><circle cx="112" cy="109" r="2.8" fill="#1E120A"/>
+<path d="M98 112 Q94 124 102 126" stroke="#B57A56" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M68 122 Q66 170 82 196 Q92 214 104 206 Q110 224 98 236 Q118 236 124 214 Q134 186 132 122 Q118 138 100 138 Q82 138 68 122Z" fill="#7A4A22"/>
+<path d="M80 140 Q86 170 92 190 M100 142 Q102 172 106 200 M120 140 Q118 166 116 190" stroke="#5A3214" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M78 128 Q90 122 100 128 Q110 122 122 128 Q110 134 100 130 Q90 134 78 128Z" fill="#6A3A18"/>
+<path d="M92 134 Q100 140 108 134" stroke="#5A2424" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

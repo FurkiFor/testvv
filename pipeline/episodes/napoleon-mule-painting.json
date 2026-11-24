@@ -1,0 +1,123 @@
+{
+ "slug": "napoleon-mule-painting",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon edited his MULE into a horse 💀 #shorts",
+  "caption": "Napoleon crossing the Alps: the painting vs. the reality 💀\n\nWhat's the most edited pic YOU'VE ever posted? 👇\n\nParody · fictional chat. Based on history: in May 1800 Napoleon crossed the Great St Bernard Pass on a sure-footed mule, led by a local guide. In 1801 Jacques-Louis David painted him on a rearing stallion — Napoleon reportedly asked to be shown \"calm on a fiery steed\". In 1850 Paul Delaroche painted the realistic version: tired Napoleon, on a mule, with the guide.\n\n#napoleon #napoleonbonaparte #napoleoncrossingthealps #expectationvsreality #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon crossing the alps",
+   "napoleon painting",
+   "napoleon mule",
+   "expectation vs reality",
+   "history memes",
+   "art history",
+   "jacques louis david",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1A2A3E",
+  "glow": "#8EC5F0",
+  "footer": "🏔️ 1800 · THE ALPS",
+  "footerColor": "#8EC5F0",
+  "stamp": "EDITED",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Mountain Guide 🏔️",
+  "label": "THE GUIDE",
+  "portrait": "alpine-guide.svg",
+  "face": "40 38 120 120",
+  "voice": "am_michael",
+  "speed": 1.15,
+  "el_voice": "2UyW0L6yjNuo3ZH3XnoV",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08,
+  "status": "last seen posing on a horse",
+  "subtitle": "First Consul of France",
+  "about": "calm on a fiery steed 🐎",
+  "aboutDate": "1801"
+ },
+ "notifications": [
+  "it's called content 😌",
+  "cropped."
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "PARIS · 1801"
+  },
+  {
+   "k": "out",
+   "text": "bro why are u on a HORSE in this painting 🐎",
+   "say": "Bro, why are you on a horse in this painting?",
+   "time": "11:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "it's called content 😌",
+   "say": "It's called content.",
+   "time": "11:03 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "u crossed the alps on my MULE",
+   "say": "You crossed the Alps on my mule!",
+   "time": "11:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "mules don't go viral",
+   "say": "Mules don't go viral.",
+   "time": "11:04 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "and where am I?? i was holding the rope",
+   "say": "And where am I? I was holding the rope!",
+   "time": "11:04 AM"
+  },
+  {
+   "k": "in",
+   "text": "cropped. it's my aesthetic 💅",
+   "say": "Cropped. It's my aesthetic.",
+   "time": "11:05 AM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "1850: SOMEONE PAINTED",
+  "bottom": "THE MULE VERSION 🫏",
+  "chips": [
+   "Horses ridden: 0 🐎",
+   "Guides cropped: 1 ✂️"
+  ],
+  "say": "Fifty years later, someone painted the mule."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

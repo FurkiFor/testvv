@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Panicked 16th-century town guard in a metal morion helmet holding a halberd, fire glow behind">
+<defs><radialGradient id="townguard-bg" cx="50%" cy="80%" r="80%"><stop offset="0" stop-color="#FFB040"/><stop offset="1" stop-color="#8A1E10"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#townguard-bg)"/>
+<path d="M150 20 L156 250" stroke="#6A4A2A" stroke-width="7"/>
+<path d="M156 14 L176 36 L158 46 L144 36Z" fill="#C0C6CC" stroke="#6A6E74" stroke-width="2"/>
+<path d="M18 250 Q24 182 100 172 Q176 182 182 250Z" fill="#B0242A"/>
+<path d="M100 172 L100 250" stroke="#F4C430" stroke-width="10"/>
+<rect x="88" y="146" width="24" height="30" fill="#DCA880"/>
+<ellipse cx="100" cy="120" rx="33" ry="38" fill="#EBBC94"/>
+<path d="M54 92 Q60 80 74 82 Q80 52 100 48 Q120 52 126 82 Q140 80 146 92 Q130 98 100 96 Q70 98 54 92Z" fill="#C8CED4" stroke="#6A6E74" stroke-width="2.5"/>
+<path d="M100 48 Q104 34 112 30" stroke="#6A6E74" stroke-width="4" fill="none"/>
+<path d="M80 102 Q88 96 96 104 M104 104 Q112 96 120 102" stroke="#4A2A14" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="88" cy="114" rx="7" ry="8" fill="#FFFFFF"/><ellipse cx="112" cy="114" rx="7" ry="8" fill="#FFFFFF"/>
+<circle cx="88" cy="115" r="3" fill="#1E120A"/><circle cx="112" cy="115" r="3" fill="#1E120A"/>
+<path d="M98 120 Q94 130 102 132" stroke="#B57A56" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="144" rx="9" ry="10" fill="#5A2424"/>
+<path d="M76 136 Q82 128 90 132 M124 136 Q118 128 110 132" stroke="#6A4A2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M130 100 Q136 108 132 114 Q126 108 130 100Z" fill="#8FD0F0"/>
+</svg>

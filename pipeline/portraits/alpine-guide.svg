@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Annoyed Alpine mountain guide in a wool cap with a coil of rope over his shoulder, snowy peaks behind">
+<defs><linearGradient id="guide-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9EC8E8"/><stop offset="1" stop-color="#E8F2FA"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#guide-bg)"/>
+<path d="M0 150 L40 80 L70 120 L110 60 L150 115 L175 85 L200 120 L200 250 L0 250Z" fill="#B8C6D4"/>
+<path d="M40 80 L52 100 L44 98 L36 104Z M110 60 L124 80 L112 78 L100 84Z M175 85 L184 98 L176 96 L168 100Z" fill="#FFFFFF"/>
+<path d="M18 250 Q24 182 100 172 Q176 182 182 250Z" fill="#7A5634"/>
+<path d="M70 176 Q100 196 130 176 L128 192 Q100 206 72 192Z" fill="#C8382E"/>
+<path d="M40 214 Q100 168 160 214" stroke="#C9A866" stroke-width="12" fill="none"/>
+<path d="M44 206 Q100 162 156 206" stroke="#A88A4E" stroke-width="5" fill="none" stroke-dasharray="6 5"/>
+<rect x="88" y="146" width="24" height="30" fill="#C99470"/>
+<ellipse cx="100" cy="118" rx="33" ry="38" fill="#DDA77F"/>
+<path d="M66 96 Q66 52 100 50 Q134 52 134 96 Q120 86 100 86 Q80 86 66 96Z" fill="#2E5E8E"/>
+<path d="M66 96 Q80 84 100 84 Q120 84 134 96 L134 102 Q120 92 100 92 Q80 92 66 102Z" fill="#E8E2D2"/>
+<circle cx="100" cy="46" r="9" fill="#E8E2D2"/>
+<path d="M80 104 L96 108 M120 104 L104 108" stroke="#3A2414" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="89" cy="116" r="3.4" fill="#1E120A"/><circle cx="111" cy="116" r="3.4" fill="#1E120A"/>
+<path d="M98 120 Q94 130 102 132" stroke="#A8704C" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="100" cy="130" rx="8" ry="4" fill="#C8584A" opacity="0.5"/>
+<path d="M72 128 Q74 156 100 158 Q126 156 128 128 Q118 140 100 140 Q82 140 72 128Z" fill="#6A4A2E"/>
+<path d="M88 146 L112 146" stroke="#3A2414" stroke-width="3.4" stroke-linecap="round"/>
+</svg>
