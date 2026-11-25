@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Determined Sarah Josepha Hale with ringlets and a quill, illustration">
+<defs><linearGradient id="hale-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2C46B"/><stop offset="1" stop-color="#A4532A"/></linearGradient></defs>
+<rect width="200" height="250" fill="url(#hale-bg)"/>
+<path d="M18 250 Q26 186 100 178 Q174 186 182 250Z" fill="#2E2433"/>
+<path d="M66 190 Q100 222 134 190 L128 182 Q100 206 72 182Z" fill="#F7F1E6"/>
+<circle cx="100" cy="204" r="6" fill="#C9A24A"/>
+<rect x="89" y="146" width="22" height="36" fill="#EDC6A6"/>
+<ellipse cx="100" cy="114" rx="31" ry="37" fill="#F1CBAB"/>
+<path d="M68 112 Q64 70 100 66 Q136 70 132 112 Q126 84 100 82 Q74 84 68 112Z" fill="#3A2418"/>
+<path d="M100 66 L100 84" stroke="#5A3A28" stroke-width="2"/>
+<g fill="#3A2418">
+<ellipse cx="64" cy="116" rx="8" ry="10"/><ellipse cx="62" cy="134" rx="8" ry="10"/><ellipse cx="64" cy="152" rx="7" ry="9"/>
+<ellipse cx="136" cy="116" rx="8" ry="10"/><ellipse cx="138" cy="134" rx="8" ry="10"/><ellipse cx="136" cy="152" rx="7" ry="9"/>
+</g>
+<path d="M78 100 Q87 95 96 100" stroke="#3A2418" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M104 98 Q113 93 122 98" stroke="#3A2418" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="87" cy="110" rx="6" ry="4" fill="#fff"/><ellipse cx="113" cy="110" rx="6" ry="4" fill="#fff"/>
+<circle cx="88" cy="110" r="2.6" fill="#2A1A10"/><circle cx="114" cy="110" r="2.6" fill="#2A1A10"/>
+<path d="M99 114 Q103 124 97 127" stroke="#C99A7C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M88 136 Q102 144 114 133" stroke="#9A3E3A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="80" cy="128" r="5" fill="#F0A090" opacity=".5"/><circle cx="120" cy="128" r="5" fill="#F0A090" opacity=".5"/>
+<path d="M150 250 L176 150" stroke="#5A3A28" stroke-width="3"/>
+<path d="M176 150 Q196 160 184 196 Q172 178 160 192 Q164 166 176 150Z" fill="#FFFFFF" stroke="#C9B8A0" stroke-width="1.5"/>
+</svg>

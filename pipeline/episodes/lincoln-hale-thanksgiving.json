@@ -1,0 +1,115 @@
+{
+ "slug": "lincoln-hale-thanksgiving",
+ "format": "v3-R",
+ "youtube": {
+  "title": "She bugged 5 presidents for 17 years. Lincoln caved 🦃 #shorts",
+  "caption": "The history of Thanksgiving starts with one woman who would NOT stop writing letters 🦃\n\nWho's the person at YOUR Thanksgiving table who starts the politics talk? 👇\n\nParody · fictional chat. Based on history: Sarah Josepha Hale, editor of Godey's Lady's Book (and author of \"Mary Had a Little Lamb\"), campaigned for about 17 years for a national Thanksgiving, writing to Presidents Taylor, Fillmore, Pierce and Buchanan. In September 1863 she wrote to Abraham Lincoln; on 3 October 1863 he proclaimed a national day of Thanksgiving on the last Thursday of November.\n\n#thanksgiving #thanksgivinghistory #abrahamlincoln #americanhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "thanksgiving history",
+   "history of thanksgiving",
+   "thanksgiving",
+   "abraham lincoln",
+   "sarah josepha hale",
+   "american history",
+   "thanksgiving facts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#3A2010",
+  "glow": "#F2A03C",
+  "footer": "🦃 1863 · WASHINGTON",
+  "footerColor": "#F2A03C",
+  "stamp": "APPROVED",
+  "music": "yankee"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Sarah Hale ✒️",
+  "label": "SARAH HALE",
+  "portrait": "hale.svg",
+  "face": "48 56 104 104",
+  "voice": "bf_emma",
+  "speed": 1.16,
+  "el_voice": "QnYI2oCbco37NvlkNHTK",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Abe Lincoln 🎩",
+  "label": "ABE LINCOLN",
+  "portrait": "lincoln.svg",
+  "face": "50 52 100 100",
+  "voice": "am_adam",
+  "speed": 1.16,
+  "el_voice": "mB6ZkFrKfGXPm8AMkuVl",
+  "el_speed": 1.1,
+  "status": "last seen hiding from his inbox",
+  "subtitle": "President · busy",
+  "about": "one war at a time pls 🎩",
+  "aboutDate": "1863"
+ },
+ "notifications": [
+  "fine. last thursday of november",
+  "wait. so every family eats together"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "WASHINGTON · SEPTEMBER 1863"
+  },
+  {
+   "k": "out",
+   "text": "make thanksgiving a NATIONAL holiday. please 🦃",
+   "say": "Make Thanksgiving a national holiday. Please.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "out",
+   "text": "i've asked 4 presidents. for 17 YEARS 😤",
+   "say": "I've asked four presidents. For seventeen years.",
+   "time": "9:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "fine. last thursday of november. happy?",
+   "say": "Fine. Last Thursday of November. Happy?",
+   "time": "9:05 AM",
+   "typing": 0.4
+  },
+  {
+   "k": "in",
+   "text": "wait. so every family eats together AND argues politics?? 💀",
+   "say": "Wait. So every family eats together, and argues politics?",
+   "time": "9:06 AM",
+   "typing": 0.3,
+   "sfx": "boom"
+  },
+  {
+   "k": "out",
+   "text": "exactly. ur welcome 🦃",
+   "say": "Exactly. You're welcome.",
+   "time": "9:06 AM"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "17 YEARS OF LETTERS",
+  "bottom": "= THANKSGIVING 🦃",
+  "chips": [
+   "Presidents asked: 5 📨",
+   "Also wrote: Mary's lamb 🐑"
+  ],
+  "say": "She also wrote Mary Had a Little Lamb."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.25,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

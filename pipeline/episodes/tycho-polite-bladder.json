@@ -1,0 +1,76 @@
+{
+ "slug": "tycho-polite-bladder",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Tycho Brahe was too polite to pee. It killed him 💀 #shorts",
+  "caption": "Tycho Brahe had a metal nose, a private island and the best star data in Europe. Then he went to a dinner party 💀\n\nWould YOU have left the table? Be honest 👇\n\nParody · fictional chat. Based on history: in October 1601 the astronomer Tycho Brahe attended a banquet in Prague. According to Johannes Kepler's account, he held in his urine rather than leave the table, which he thought would be bad manners. He fell ill, could barely urinate afterwards and died 11 days later. He had lost part of his nose in a 1566 duel and wore a metal replacement. Kepler went on to use Tycho's observations to work out his laws of planetary motion.\n\n#tychobrahe #kepler #weirddeaths #darkhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "tycho brahe",
+   "kepler tycho brahe",
+   "tycho brahe death",
+   "tycho brahe nose",
+   "weird deaths in history",
+   "dark history",
+   "history facts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#121A36",
+  "glow": "#F5D77A",
+  "footer": "🔭 1601 · PRAGUE",
+  "footerColor": "#F5D77A",
+  "stamp": "TOO POLITE",
+  "music": "ode"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "Tycho Brahe 🔭",
+  "label": "TYCHO BRAHE",
+  "portrait": "tycho.svg",
+  "face": "44 56 112 112",
+  "voice": "bm_george",
+  "speed": 1.14,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Kepler 🪐",
+  "label": "KEPLER",
+  "portrait": "kepler.svg",
+  "face": "40 42 120 120",
+  "voice": "am_liam",
+  "speed": 1.18,
+  "el_voice": "2t3wubVNRseKNVjtlWx1",
+  "el_speed": 1.06,
+  "status": "last seen eyeing ur star charts",
+  "subtitle": "Assistant · Prague",
+  "about": "data > drama 🪐",
+  "aboutDate": "1601"
+ },
+ "notifications": [
+  "so get up and GO",
+  "...so about ur star charts 👀"
+ ],
+ "chat": [
+  {"k": "chip", "text": "PRAGUE · OCTOBER 1601"},
+  {"k": "out", "text": "bro. i've needed to pee for HOURS 😰", "say": "Bro. I've needed to pee for hours.", "time": "10:14 PM"},
+  {"k": "in", "text": "so get up and GO", "say": "So get up and go!", "time": "10:14 PM", "typing": 0.6},
+  {"k": "out", "text": "and leave the baron's table?? that's RUDE 🎩", "say": "And leave the baron's table? That's rude.", "time": "10:15 PM"},
+  {"k": "in", "text": "ur bladder doesn't care about manners", "say": "Your bladder doesn't care about manners.", "time": "10:15 PM", "typing": 0.7},
+  {"k": "out", "text": "i lost my NOSE in a duel. i can hold a pee 😤", "say": "I lost my nose in a duel. I can hold a pee.", "time": "10:16 PM"},
+  {"k": "out", "text": "update: home. now i CAN'T pee at all 😶", "say": "Update. Home. Now I can't pee at all.", "time": "1:40 AM", "sfx": "boom"},
+  {"k": "in", "text": "...so about ur star charts 👀", "say": "So. About your star charts.", "time": "1:41 AM", "typing": 1.0}
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "DIED 11 DAYS LATER",
+  "bottom": "KEPLER GOT THE CHARTS",
+  "chips": ["Nose: metal 👃", "Bathroom breaks: 0 🚽"],
+  "say": "Eleven days later. Kepler got the charts."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}
