@@ -33,10 +33,11 @@
 > 2026-11-22: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron denendi, başarısız, kredi düşmedi; 020/021 denenmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 7. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
 > 2026-11-23: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 8. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır (bilgiler bugün NASA / Stanford / PMC kaynaklarıyla yeniden doğrulandı).
 > 2026-11-24: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). elevenlabsusercontent.com erişimi açık; Kervly/YouTube bağlı, takvim boş, hata yok. 9. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
+> 2026-11-25: üretim yapılamadı. ElevenLabs yine "failed or incomplete payment" (019-notron, 020-mavibalina, 021-beyin denendi; üçü de başarısız, kredi düşmedi). Kervly/YouTube bağlı, takvim boş, hata yok. 10. gün üst üste yayın yok — ElevenLabs faturası ödenmeli; 019–021 senaryoları hazır bekliyor.
 
 ## Performans
 
-Son güncelleme: 2026-11-24 09:25 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
+Son güncelleme: 2026-11-25 09:27 (İstanbul). 016–018 ~2 günlük, ortalamalara dahil edilmedi.
 
 | id | kategori | hook tipi | izlenme | beğeni | yorum |
 |---|---|---|---|---|---|
@@ -59,6 +60,7 @@ Son güncelleme: 2026-11-24 09:25 (İstanbul). 016–018 ~2 günlük, ortalamala
 | 017-fatih | tarih | çelişki + kimliği gizli | 1.151 | 2 | 0 |
 | 018-iss | uzay | paradoks / imkânsız sahne | 1.252 | 8 | 0 |
 
+- 25.11: kanal 2.450 abone, 17.344 toplam izlenme — +2/gün, büyüme durdu (kesintinin 10. günü); en çok izlenen 002-venus 1.330, 010-nintendo 1.273, 018-iss 1.246.
 - 24.11: kanal 2.450 abone, 17.342 toplam izlenme — +2/gün, büyüme durdu (kesintinin 9. günü); en çok izlenen 002-venus 1.330, 010-nintendo 1.273, 018-iss 1.246.
 - 23.11: kanal 2.450 abone, 17.340 toplam izlenme — +4/gün, büyüme durdu (kesintinin 8. günü); en çok izlenen 002-venus 1.330, 010-nintendo 1.273, 018-iss 1.246.
 - 22.11: kanal 2.450 abone, 17.336 toplam izlenme — yine yerinde sayıyor (kesintinin 7. günü); en çok izlenen 002-venus 1.329, 010-nintendo 1.273, 018-iss 1.246.
