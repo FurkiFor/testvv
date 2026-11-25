@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 10.03,
-      "sizeMB": 13.09
+      "sizeMB": 13.09,
+      "post_id": "p_N3hrI66mx-Xn",
+      "publish_at": "2026-11-25T12:00:00+04:00"
     },
     {
       "file": "2026-11-25-2-stone-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.03,
-      "sizeMB": 8.45
+      "sizeMB": 8.45,
+      "post_id": "p_99NNG3JWlnSP",
+      "publish_at": "2026-11-25T17:00:00+04:00"
     },
     {
       "file": "2026-11-25-3-marble-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 10.7,
-      "sizeMB": 13.95
+      "sizeMB": 13.95,
+      "post_id": "p_eZljujPLktwK",
+      "publish_at": "2026-11-25T21:00:00+04:00"
     }
   ]
 }
