@@ -1,0 +1,62 @@
+{
+ "slug": "aeschylus-tortoise",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Aeschylus hid from a prophecy. A tortoise found him 🐢 #shorts",
+  "caption": "Aeschylus was told something would fall on him. So he never went indoors again. Smart, right? 🐢\n\nWorst way to go in history? Drop yours 👇\n\nParody · fictional chat. Based on a legend: the Greek tragedian Aeschylus died in 456 BC. The Roman writer Valerius Maximus says an eagle, carrying a tortoise, mistook his bald head for a rock and dropped the tortoise on it to crack the shell. Pliny the Elder adds that he was staying out in the open because of a prophecy that he would be killed by a falling object. Historians treat the story as legend.\n\n#aeschylus #weirddeaths #darkhistory #ancientgreece #historymemes #funnyhistory #shorts",
+  "tags": ["aeschylus", "aeschylus death", "aeschylus tortoise", "weird deaths in history", "ancient greece", "dark history", "history memes", "funny history", "history group chat", "shorts"]
+ },
+ "theme": {
+  "hookBg": "#14344F",
+  "glow": "#6FC3F0",
+  "footer": "🐢 456 BC · OPEN SKY",
+  "footerColor": "#6FC3F0",
+  "stamp": "BONK",
+  "music": "epic"
+ },
+ "hook": {"mode": "none"},
+ "you": {
+  "name": "Aeschylus 🎭",
+  "label": "AESCHYLUS",
+  "portrait": "aeschylus.svg",
+  "face": "44 52 112 112",
+  "voice": "bm_george",
+  "speed": 1.14,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Sophocles 📜",
+  "label": "SOPHOCLES",
+  "portrait": "plato.svg",
+  "face": "44 46 112 112",
+  "voice": "am_liam",
+  "speed": 1.18,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.06,
+  "status": "last seen looking up 👀",
+  "subtitle": "Playwright · Athens",
+  "about": "it's giving tragedy 🎭",
+  "aboutDate": "456 BC"
+ },
+ "notifications": ["there's an eagle over u", "...aeschylus? 👀"],
+ "chat": [
+  {"k": "chip", "text": "456 BC"},
+  {"k": "out", "text": "i'm never going indoors again. EVER 🏛️❌", "say": "I'm never going indoors again. Ever.", "time": "11:02 AM"},
+  {"k": "in", "text": "why tho", "say": "Why though?", "time": "11:02 AM", "typing": 0.6},
+  {"k": "out", "text": "prophecy says something falls on me. roofs fall. sky doesn't 😎", "say": "Prophecy says something falls on me. Roofs fall. Sky doesn't.", "time": "11:03 AM"},
+  {"k": "in", "text": "ok but there's an eagle over u. holding a TORTOISE 🐢", "say": "Okay but there's an eagle over you. Holding a tortoise.", "time": "11:04 AM", "typing": 0.8},
+  {"k": "out", "text": "relax. what's it gonna do", "say": "Relax. What's it gonna do?", "time": "11:04 AM"},
+  {"k": "in", "text": "it thinks ur bald head is a ROCK 💀", "say": "It thinks your bald head is a rock.", "time": "11:04 AM", "typing": 0.7},
+  {"k": "out", "text": "my head is NOT that shiny", "say": "My head is not that shiny.", "time": "11:05 AM"},
+  {"k": "in", "text": "...aeschylus? 👀", "say": "Aeschylus?", "time": "11:07 AM", "typing": 1.2, "sfx": "boom"}
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "LEGEND SAYS IT WAS",
+  "bottom": "THAT SHINY 🐢",
+  "chips": ["Roofs avoided: all 🏛️", "Tortoise 1 · Aeschylus 0"],
+  "say": "Legend says. It was that shiny."
+ },
+ "narrator": {"voice": "am_onyx", "speed": 1.2, "el_voice": "7lJ2JuXZKHyck5zlS7XQ", "el_speed": 1.2}
+}

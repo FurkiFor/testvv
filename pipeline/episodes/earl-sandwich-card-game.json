@@ -1,0 +1,121 @@
+{
+ "slug": "earl-sandwich-card-game",
+ "format": "v3-R",
+ "youtube": {
+  "title": "The Earl of Sandwich wouldn't pause his card game 🥪 #shorts",
+  "caption": "The Earl of Sandwich would NOT leave the card table. So his cook got creative 🥪\n\nLeftover turkey sandwich or cold pie tomorrow? Pick one 👇\n\nParody · fictional chat. Based on history (legend says): a French visitor to London, Pierre-Jean Grosley, wrote that a minister spent 24 hours at a gaming table eating only beef between two slices of toasted bread, and that the dish took his name. That man is usually identified as John Montagu, 4th Earl of Sandwich. His biographer found no evidence for the gambling part and thinks he ate them at his desk. The word \"sandwich\" was already in Edward Gibbon's journal in 1762.\n\n#earlofsandwich #sandwich #thanksgivingleftovers #funnytexts #historymemes #funnyhistory #shorts",
+  "tags": [
+   "earl of sandwich",
+   "sandwich history",
+   "who invented the sandwich",
+   "john montagu",
+   "thanksgiving leftovers",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#0F3320",
+  "glow": "#D9A55A",
+  "footer": "🃏 1760s · LONDON",
+  "footerColor": "#D9A55A",
+  "stamp": "NO PAUSE",
+  "music": "greensleeves"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Earl of Sandwich 🃏",
+  "label": "EARL OF SANDWICH",
+  "portrait": "earl-sandwich.svg",
+  "face": "52 66 96 96",
+  "voice": "bm_lewis",
+  "speed": 1.2,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "The Cook 👨‍🍳",
+  "label": "THE COOK",
+  "portrait": "royal-cook.svg",
+  "face": "44 50 112 112",
+  "voice": "bm_daniel",
+  "speed": 1.2,
+  "el_voice": "U4Y0Z2HmYcQYMkJB8hrg",
+  "el_speed": 1.06,
+  "status": "last seen buttering bread, angrily",
+  "subtitle": "Kitchen · London",
+  "about": "plates exist for a reason 🍽️",
+  "aboutDate": "1762"
+ },
+ "notifications": [
+  "sir u've played for 24 HOURS",
+  "nobody's ever eating that 🙄"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LONDON · 1760s"
+  },
+  {
+   "k": "out",
+   "text": "bring food. i'm on a WIN STREAK 🃏",
+   "say": "Bring food. Win streak.",
+   "time": "3:12 AM"
+  },
+  {
+   "k": "in",
+   "text": "sir. it's been 24 HOURS",
+   "say": "Sir. It's been twenty-four hours.",
+   "time": "3:12 AM",
+   "typing": 0.5
+  },
+  {
+   "k": "out",
+   "text": "meat. between 2 bread. no fork 🃏",
+   "say": "Meat. Between two bread.",
+   "time": "3:13 AM"
+  },
+  {
+   "k": "in",
+   "text": "that's not dinner. that's a gamer snack 😐",
+   "say": "That's not dinner. That's a gamer snack.",
+   "time": "3:13 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "perfect. name it after me 😎",
+   "say": "Perfect. Name it after me.",
+   "time": "3:14 AM"
+  },
+  {
+   "k": "in",
+   "text": "nobody's EVER eating that 🙄",
+   "say": "Nobody's ever eating that.",
+   "time": "3:14 AM",
+   "typing": 0.8,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "260 YEARS LATER",
+  "bottom": "UR THANKSGIVING LEFTOVERS",
+  "chips": [
+   "Card game: 24 hrs 🃏",
+   "Forks used: 0 🍴"
+  ],
+  "say": "Tomorrow: turkey sandwiches."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

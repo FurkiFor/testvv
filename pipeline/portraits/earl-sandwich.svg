@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" role="img" aria-label="Tired 18th-century earl in a powdered wig holding playing cards and a sandwich at a green card table">
+<defs><radialGradient id="earlsandwich-bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#2F7A4A"/><stop offset="1" stop-color="#0F3320"/></radialGradient></defs>
+<rect width="200" height="250" fill="url(#earlsandwich-bg)"/>
+<path d="M12 250 Q20 186 100 174 Q180 186 188 250Z" fill="#7A1F2B"/>
+<path d="M88 176 L100 214 L112 176Z" fill="#FFFFFF"/>
+<path d="M90 180 Q100 196 110 180 Q106 200 100 204 Q94 200 90 180Z" fill="#EDE6D6"/>
+<g fill="#F2EEE4" stroke="#CFC7B4" stroke-width="2"><circle cx="62" cy="96" r="14"/><circle cx="58" cy="122" r="14"/><circle cx="62" cy="148" r="13"/><circle cx="138" cy="96" r="14"/><circle cx="142" cy="122" r="14"/><circle cx="138" cy="148" r="13"/><ellipse cx="100" cy="70" rx="40" ry="20"/></g>
+<ellipse cx="100" cy="114" rx="33" ry="41" fill="#F0C6A4"/>
+<path d="M78 98 Q86 94 94 98 M106 98 Q114 94 122 98" stroke="#9A8A78" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="86" cy="108" rx="7" ry="4" fill="#fff"/><ellipse cx="114" cy="108" rx="7" ry="4" fill="#fff"/>
+<circle cx="86" cy="109" r="2.6" fill="#24160C"/><circle cx="114" cy="109" r="2.6" fill="#24160C"/>
+<path d="M78 104 Q86 101 94 104 M106 104 Q114 101 122 104" stroke="#E0A888" stroke-width="2.4" fill="none"/>
+<path d="M80 116 Q86 120 92 116 M108 116 Q114 120 120 116" stroke="#C99A8A" stroke-width="2" fill="none"/>
+<ellipse cx="100" cy="122" rx="6" ry="7" fill="#E2A886"/>
+<circle cx="80" cy="128" r="6" fill="#F2A0A0" opacity=".5"/><circle cx="120" cy="128" r="6" fill="#F2A0A0" opacity=".5"/>
+<path d="M90 138 Q100 134 110 138" stroke="#8A3A30" stroke-width="3" fill="none" stroke-linecap="round"/>
+<g transform="translate(18 182) rotate(-12)"><rect x="0" y="0" width="22" height="32" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/><path d="M11 9 l5 7 l-5 7 l-5 -7Z" fill="#D02020"/><rect x="14" y="-4" width="22" height="32" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/><path d="M25 6 q-6 6 0 12 q6 -6 0 -12Z M25 17 v6" fill="#111" stroke="#111" stroke-width="1.5"/></g>
+<g transform="translate(132 188) rotate(10)"><path d="M0 8 Q22 -4 44 8 L44 14 L0 14Z" fill="#D9A55A"/><rect x="0" y="14" width="44" height="7" fill="#8A3A2A"/><path d="M-2 21 h48 l-3 5 h-42Z" fill="#6FBF4A"/><rect x="0" y="26" width="44" height="9" rx="3" fill="#D9A55A"/></g>
+</svg>
