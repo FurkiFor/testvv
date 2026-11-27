@@ -1,0 +1,134 @@
+{
+ "slug": "chrysippus-died-laughing",
+ "format": "v3-D",
+ "youtube": {
+  "title": "Greek philosopher died laughing at his own donkey joke 💀 #shorts",
+  "caption": "A Greek philosopher laughed so hard at his own joke that he died 💀\n\nWhat's the funniest way YOU'D want to go? 👇\n\nParody · fictional chat. Based on history: Chrysippus, head of the Stoic school in Athens, died around 206 BC at 73. Diogenes Laërtius records that he saw a donkey eat his figs, told the old woman to give it neat wine to wash them down, and laughed so hard he died. (Diogenes also gives a second version: dizziness after drinking undiluted wine.) He is said to have written 705 works.\n\n#ancientgreece #philosophy #stoicism #darkhistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "chrysippus",
+   "died laughing",
+   "greek philosopher",
+   "stoicism",
+   "ancient greece",
+   "weird deaths in history",
+   "dark history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A2010",
+  "glow": "#F2C46B",
+  "footer": "🐴 206 BC · ATHENS",
+  "footerColor": "#F2C46B",
+  "stamp": "DEAD 💀",
+  "music": "epic"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "His Student 📜",
+  "label": "STUDENT",
+  "portrait": "crito.svg",
+  "face": "48 50 104 104",
+  "voice": "am_eric",
+  "speed": 1.15,
+  "el_voice": "SOYHLrjzK2X1ezoPC6cr",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Chrysippus 🧠",
+  "label": "CHRYSIPPUS",
+  "portrait": "chrysippus.svg",
+  "face": "40 50 120 120",
+  "voice": "bm_george",
+  "speed": 1.12,
+  "el_voice": "fGIZlgPQ75MMlvQ6WxgY",
+  "el_speed": 1.08,
+  "status": "last seen laughing",
+  "subtitle": "Stoic philosopher · Athens",
+  "about": "stay calm. control ur emotions 🧘",
+  "aboutDate": "206 BC"
+ },
+ "notifications": [
+  "lol. let him",
+  "HAHAHAHA"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "ATHENS · 206 BC"
+  },
+  {
+   "k": "out",
+   "text": "sir. a DONKEY is eating ur figs 🐴",
+   "say": "Sir. A donkey is eating your figs.",
+   "time": "4:12 PM"
+  },
+  {
+   "k": "in",
+   "text": "lol. let him",
+   "say": "Lol. Let him.",
+   "time": "4:12 PM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "he ate ALL of them",
+   "say": "He ate all of them!",
+   "time": "4:13 PM"
+  },
+  {
+   "k": "in",
+   "text": "then give him some wine. to wash them down 🍷",
+   "say": "Then give him some wine. To wash them down.",
+   "time": "4:13 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "lmao ok that's actually funny",
+   "say": "Okay, that's actually funny.",
+   "time": "4:14 PM"
+  },
+  {
+   "k": "in",
+   "text": "HAHAHAHAHA 😂😂😂",
+   "say": "Ha ha ha ha ha!",
+   "time": "4:14 PM",
+   "typing": 0.5
+  },
+  {
+   "k": "out",
+   "text": "sir ur stoic. u can stop laughing now",
+   "say": "Sir, you're a stoic. You can stop laughing now.",
+   "time": "4:21 PM"
+  },
+  {
+   "k": "out",
+   "text": "...sir? 👀",
+   "say": "Sir?",
+   "time": "4:30 PM",
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "705 BOOKS ON LOGIC",
+  "bottom": "KILLED BY A DONKEY JOKE",
+  "chips": [
+   "Books written: 705 📜",
+   "Donkeys: 1 🐴"
+  ],
+  "say": "Seven hundred books. One donkey joke."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

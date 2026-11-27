@@ -1,0 +1,122 @@
+{
+ "slug": "napoleon-crowns-himself",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon couldn't wait. So he crowned HIMSELF 👑 #shorts",
+  "caption": "Napoleon didn't wait for anyone. Not even the crown 👑\n\nWhat would YOU have done if you were holding that crown? 👇\n\nParody · fictional chat. Based on history: at his coronation in Notre-Dame on 2 December 1804, with Pope Pius VII present, Napoleon placed the imperial crown on his own head, then crowned Josephine. Historians say the move was agreed in advance, not a sudden grab.\n\n#napoleon #napoleonbonaparte #coronation #historymemes #funnyhistory #funnytexts #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "napoleon coronation",
+   "napoleon crowned himself",
+   "coronation of napoleon",
+   "funny texts",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#1A2230",
+  "glow": "#E2B13C",
+  "footer": "👑 1804 · NOTRE-DAME",
+  "footerColor": "#E2B13C",
+  "stamp": "SELF-MADE",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Master of Ceremonies 🎺",
+  "label": "MASTER OF CEREMONIES",
+  "portrait": "segur.svg",
+  "face": "44 50 112 112",
+  "voice": "bm_lewis",
+  "speed": 1.15,
+  "el_voice": "N2lVS1w4EtoT3dr4eOWO",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08,
+  "status": "last seen rewriting the rules",
+  "subtitle": "Emperor (since yesterday)",
+  "about": "impossible is not french 😎",
+  "aboutDate": "1804"
+ },
+ "notifications": [
+  "i don't kneel",
+  "i don't wait"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "NOTRE-DAME · 2 DEC 1804"
+  },
+  {
+   "k": "out",
+   "text": "sire. kneel and WAIT for the crown 👑",
+   "say": "Sire. Kneel, and wait for the crown.",
+   "time": "10:02 AM"
+  },
+  {
+   "k": "in",
+   "text": "i don't kneel. i don't wait.",
+   "say": "I don't kneel. I don't wait.",
+   "time": "10:02 AM",
+   "typing": 0.5
+  },
+  {
+   "k": "out",
+   "text": "it's a 1000 year TRADITION",
+   "say": "It's a thousand year tradition!",
+   "time": "10:03 AM"
+  },
+  {
+   "k": "in",
+   "text": "tradition is just peer pressure from dead people 😎",
+   "say": "Tradition is just peer pressure from dead people.",
+   "time": "10:03 AM",
+   "typing": 0.6
+  },
+  {
+   "k": "out",
+   "text": "DID U JUST CROWN YOURSELF??",
+   "say": "Did you just crown yourself?!",
+   "time": "12:41 PM",
+   "sfx": "scratch"
+  },
+  {
+   "k": "in",
+   "text": "if u want it done right… 💅",
+   "say": "If you want it done right...",
+   "time": "12:41 PM",
+   "typing": 0.7,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "THEN HE CROWNED HIS WIFE",
+  "bottom": "NOBODY ELSE TOUCHED IT",
+  "chips": [
+   "Crowns placed: 2 👑",
+   "Times he knelt: 0 🙅"
+  ],
+  "say": "Then he crowned his wife too."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
