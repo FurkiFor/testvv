@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 8.77,
-      "sizeMB": 4.39
+      "sizeMB": 4.39,
+      "post_id": "p_iNF2SCrRXdKP",
+      "publish_at": "2026-11-27T12:00:00+04:00"
     },
     {
       "file": "2026-11-27-2-copper-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.33,
-      "sizeMB": 7.53
+      "sizeMB": 7.53,
+      "post_id": "p_emidVKR_u3uR",
+      "publish_at": "2026-11-27T17:00:00+04:00"
     },
     {
       "file": "2026-11-27-3-neon-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 9.43,
-      "sizeMB": 12.4
+      "sizeMB": 12.4,
+      "post_id": "p_iYgBP4yV4Et6",
+      "publish_at": "2026-11-27T21:00:00+04:00"
     }
   ]
 }
