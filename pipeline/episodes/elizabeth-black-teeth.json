@@ -1,0 +1,122 @@
+{
+ "slug": "elizabeth-black-teeth",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Queen Elizabeth I had black teeth. It was a FLEX 💀 #shorts",
+  "caption": "Queen Elizabeth I's teeth were black, and she was NOT sorry 💀\n\nWould YOU ruin your teeth to look rich? 👇\n\nParody · fictional chat. Based on history: in 1598 the German traveler Paul Hentzner saw Elizabeth I and wrote that her teeth were black, \"a defect the English seem subject to, from their too great use of sugar.\" Sugar was an expensive luxury. Legend says some people blackened their own teeth to look rich too.\n\n#queenelizabeth #elizabethi #tudors #tudorhistory #grosshistory #historymemes #funnyhistory #shorts",
+  "tags": [
+   "queen elizabeth",
+   "queen elizabeth i",
+   "elizabeth i teeth",
+   "black teeth",
+   "tudor history",
+   "tudors",
+   "gross history",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#2A1E12",
+  "glow": "#E8C55A",
+  "footer": "🍬 1598 · LONDON",
+  "footerColor": "#E8C55A",
+  "stamp": "EXPOSED",
+  "music": "greensleeves"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Queen Elizabeth 👑",
+  "label": "ELIZABETH I",
+  "portrait": "elizabeth.svg",
+  "face": "40 38 120 120",
+  "voice": "bf_isabella",
+  "speed": 1.12,
+  "el_voice": "QnYI2oCbco37NvlkNHTK",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Bestie (Lady-in-Waiting) 💅",
+  "label": "LADY-IN-WAITING",
+  "portrait": "anne-of-cleves.svg",
+  "face": "38 42 124 124",
+  "voice": "bf_emma",
+  "speed": 1.15,
+  "el_voice": "NPC1Rk3VsPo28KCMJFLI",
+  "el_speed": 1.08,
+  "status": "last seen buying sugar 🍬",
+  "subtitle": "Lady-in-Waiting · Whitehall",
+  "about": "brutally honest 🙃",
+  "aboutDate": "1598"
+ },
+ "notifications": [
+  "...define anything",
+  "maybe chill on the sugar? 🍬"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "LONDON · 1598"
+  },
+  {
+   "k": "out",
+   "text": "be honest. anything in my teeth? 😁",
+   "say": "Be honest. Anything in my teeth?",
+   "time": "10:14 AM"
+  },
+  {
+   "k": "in",
+   "text": "...define anything",
+   "say": "Define anything.",
+   "time": "10:14 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "a tourist said they're BLACK 😤",
+   "say": "A tourist said they're black!",
+   "time": "10:15 AM"
+  },
+  {
+   "k": "in",
+   "text": "maybe chill on the sugar? 🍬",
+   "say": "Maybe chill on the sugar?",
+   "time": "10:15 AM",
+   "typing": 0.7
+  },
+  {
+   "k": "out",
+   "text": "sugar = RICH. it's a flex 💅",
+   "say": "Sugar means rich. It's a flex.",
+   "time": "10:16 AM"
+  },
+  {
+   "k": "in",
+   "text": "say less. painting mine black rn 🖌️",
+   "say": "Say less. Painting mine black right now.",
+   "time": "10:16 AM",
+   "typing": 0.9,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "BLACK TEETH = RICH",
+  "bottom": "THE TUDOR FLEX",
+  "chips": [
+   "Sugar: luxury 🍬",
+   "Dentists: 0 🦷"
+  ],
+  "say": "Black teeth. The Tudor flex."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}

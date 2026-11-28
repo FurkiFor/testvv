@@ -1,0 +1,122 @@
+{
+ "slug": "napoleon-ex-queen",
+ "format": "v3-R",
+ "youtube": {
+  "title": "Napoleon dumped her. She became Queen of Sweden 👑 #shorts",
+  "caption": "Napoleon dumped his fiancée for Josephine. Big mistake 👑\n\nWhat would YOU text an ex after a glow-up like this? 👇\n\nParody · fictional chat. Based on history: Napoleon was engaged to Désirée Clary in 1795, then dropped her and married Josephine in 1796. In 1798 Désirée married Jean-Baptiste Bernadotte, one of Napoleon's generals. Sweden made Bernadotte its crown prince in 1810; in 1813 he led an allied army against Napoleon, and in 1818 he became King of Sweden, with Désirée as his queen.\n\n#napoleon #napoleonbonaparte #exes #glowup #sweden #historymemes #funnyhistory #shorts",
+  "tags": [
+   "napoleon",
+   "napoleon bonaparte",
+   "desiree clary",
+   "napoleon ex fiancee",
+   "bernadotte",
+   "queen of sweden",
+   "napoleon and josephine",
+   "history memes",
+   "funny history",
+   "history group chat",
+   "shorts"
+  ]
+ },
+ "theme": {
+  "hookBg": "#14233A",
+  "glow": "#F4D24A",
+  "footer": "👑 1813 · EUROPE",
+  "footerColor": "#F4D24A",
+  "stamp": "DUMPED",
+  "music": "marseillaise"
+ },
+ "hook": {
+  "mode": "none"
+ },
+ "you": {
+  "name": "Napoleon 🇫🇷",
+  "label": "NAPOLEON",
+  "portrait": "napoleon.svg",
+  "face": "40 46 120 120",
+  "voice": "am_puck",
+  "speed": 1.15,
+  "el_voice": "unWb9iRIK7Xxf4A5Hfis",
+  "el_speed": 1.08
+ },
+ "them": {
+  "name": "Désirée (ex) 👑",
+  "label": "DÉSIRÉE",
+  "portrait": "desiree.svg",
+  "face": "40 44 120 120",
+  "voice": "af_bella",
+  "speed": 1.15,
+  "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+  "el_speed": 1.08,
+  "status": "last seen in stockholm 👑",
+  "subtitle": "Désirée Clary",
+  "about": "healing era ✨",
+  "aboutDate": "1813"
+ },
+ "notifications": [
+  "u dumped me for josephine 💅",
+  "he's helping me get closure 😘"
+ ],
+ "chat": [
+  {
+   "k": "chip",
+   "text": "1813 · EUROPE"
+  },
+  {
+   "k": "out",
+   "text": "u married my GENERAL?? 😤",
+   "say": "You married my general?",
+   "time": "9:02 PM"
+  },
+  {
+   "k": "in",
+   "text": "u dumped me for josephine 💅",
+   "say": "You dumped me for Josephine.",
+   "time": "9:03 PM",
+   "typing": 0.8
+  },
+  {
+   "k": "out",
+   "text": "he works for ME",
+   "say": "He works for me!",
+   "time": "9:03 PM"
+  },
+  {
+   "k": "in",
+   "text": "not anymore. he's prince of SWEDEN now 👑",
+   "say": "Not anymore. He's the prince of Sweden now.",
+   "time": "9:04 PM",
+   "typing": 0.9
+  },
+  {
+   "k": "out",
+   "text": "...so why is his army coming at me",
+   "say": "So why is his army coming at me?",
+   "time": "9:05 PM"
+  },
+  {
+   "k": "in",
+   "text": "he's just helping me get closure 😘",
+   "say": "He's just helping me get closure.",
+   "time": "9:05 PM",
+   "typing": 1.0,
+   "sfx": "boom"
+  }
+ ],
+ "ending": "none",
+ "meme": {
+  "top": "HE DUMPED HER",
+  "bottom": "SHE BECAME A QUEEN",
+  "chips": [
+   "Napoleon: exiled 🏝️",
+   "Ex: Queen of Sweden 👑"
+  ],
+  "say": "He dumped her. She became a queen."
+ },
+ "narrator": {
+  "voice": "am_onyx",
+  "speed": 1.2,
+  "el_voice": "7lJ2JuXZKHyck5zlS7XQ",
+  "el_speed": 1.2
+ }
+}
