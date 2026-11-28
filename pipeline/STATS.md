@@ -2,18 +2,18 @@
 
 Source: vidIQ `vidiq_get_videos_by_ids` (public counts); from 2026-10-27 Kervly `get_youtube_stats` (same public counts, 0 credits) while the Kervly token works. Updated every run. Dates = publish date (Dubai).
 
-## Summary (snapshot 2026-11-27 ~08:50 Dubai, Kervly get_youtube_stats; v1 and pre-2 Nov rows unchanged)
+## Summary (snapshot 2026-11-28 ~08:51 Dubai, Kervly get_youtube_stats; v1 and pre-2 Nov rows unchanged)
 
 | Group | n | avg views | median views | avg likes | comments | 48h-matured n | median (48h-matured) |
 |---|---|---|---|---|---|---|---|
 | v1 (44–59 s) | 23 | 76 | 82 | 0.5 | 1 | 23 | 82 |
-| v2 (all, published) | 42 | 253 | 140.5 | 1.3 | 5 | 42 | 140.5 |
+| v2 (all, published) | 42 | 254 | 140.5 | 1.3 | 5 | 42 | 140.5 |
 | v2-A (hook) | 7 | 161 | 114 | 0.1 | 0 | 7 | 114 |
 | v2-B (cold open) | 35 | 272 | 144 | 1.5 | 5 | 35 | 144 |
 | v2-B Kokoro | 20 | 233 | 125.5 | 1.1 | 4 | 20 | 125.5 |
 | v2-B ElevenLabs | 15 | 323 | 200 | 2.2 | 1 | 15 | 200 |
-| v3-R (relatable) | 16 | 463 | 267.5 | 2.6 | 0 | 14 | 267.5 |
-| v3-D (dark) | 13 | 314 | 189 | 2.2 | 0 | 11 | 206 |
+| v3-R (relatable) | 17 | 448 | 183 | 2.6 | 0 | 15 | 352 |
+| v3-D (dark) | 14 | 330 | 204 | 2.1 | 0 | 12 | 204 |
 
 (v1 counts unchanged from the last snapshot; vidIQ's recent-uploads list stops at 20 Oct.)
 
@@ -22,6 +22,7 @@ v3 rule (12 Nov): once v3-R and v3-D each have ≥ 6 videos past 48 h, the style
 Decision rule: once ≥ 6 v2 videos have 48 h of data, compare A vs B; if one reaches 2× the other's median views, use it for both slots. If the v2 median does not beat the v1 median (79), cut to 12–18 s and 4–6 messages.
 
 Decisions:
+- 2026-11-28: token OK (0 error posts). **Matured medians: v3-R 352 (n=15), v3-D 204 (n=12), v2-B 144 (n=35, 12 Nov benchmark 167). R/D = 1.73× → 1.5× rule MET → both slots go to v3-R today.** Caveat: the R median jumped from 267.5 because lincoln-hale (904) matured and R has a gap between 183 and 352; all-video medians are R 183 vs D 204, and the rule already flipped once (23→24 Nov). Re-checked daily; if R/D falls under 1.5× again, back to 1 R + 1 D. Yesterday: napoleon-crowns-himself (R) 179 @15 h, chrysippus-died-laughing (D) 485 @11 h (best D start ever). Today: napoleon-ex-queen (R, 17.0 s, dumped fiancée Désirée married his general → Sweden → "he's just helping me get closure 😘") at 17:00 and elizabeth-black-teeth (R, 17.8 s, "anything in my teeth?" → sugar flex → "painting mine black rn") at 21:00. ElevenLabs: test line failed again (failed/incomplete payment, 23 credits shown) → Kokoro. storage.googleapis.com 200, elevenlabsusercontent.com 403 at root, upload.wikimedia.org 000. vidIQ: 0 credits (SEO by hand), balance 1725.
 - 2026-11-27: token OK (0 error posts). **Matured medians: v3-R 267.5 (n=14), v3-D 206 (n=11), v2-B 144 (n=35, 12 Nov benchmark 167). R/D = 1.30× → 1.5× rule NOT met → keep 1 R + 1 D. Both v3 styles beat the 167 benchmark.** Yesterday's pair started weak: earl-sandwich-card-game (R) 120 @16 h, aeschylus-tortoise (D) 80 @12 h (vs lincoln-hale 844 @16 h the day before). Today: napoleon-crowns-himself (R, Napoleon = best R character) and chrysippus-died-laughing (D, absurd-death angle like king-14-desserts). ElevenLabs CDN blocked again (403) → Kokoro.
 - 2026-11-26: token OK (0 error posts). **Matured medians: v3-D 242.5 (n=10), v3-R 184 (n=13), v2-B 144 (n=35, 12 Nov benchmark 167). D/R = 1.32× → 1.5× rule NOT met → keep 1 R + 1 D. Both v3 styles beat the 167 benchmark.** Yesterday: lincoln-hale-thanksgiving (R, holiday tie-in) 844 @16 h = 2nd-fastest start ever after napoleon-mom-texts; tycho-polite-bladder (D) 150 @12 h (ok). steininger-beard 197 @36 h, napoleon-mule-painting 631 @40 h. Holiday/calendar tie-ins work → today's R is a Thanksgiving-leftovers angle (earl-sandwich-card-game). ElevenLabs CDN reachable again but the account still has a failed payment (1 test line failed, 0 credits charged) → Kokoro.
 - 2026-11-25: token OK (0 error posts). **Matured medians: v3-D 242.5 (n=10), v3-R 175 (n=11), v2-B 144 (n=35, 12 Nov benchmark 167). D/R = 1.39× → 1.5× rule NOT met → keep 1 R + 1 D. Both v3 styles now beat the 167 benchmark; D overtook R as the gross/absurd-death Ds matured (little-neck 1106, desserts 986, plague 461).** Yesterday: napoleon-mule-painting (R) 305 @16 h, steininger-beard (D) 189 @12 h. Channel 6 subs, 21.7k views. Today: lincoln-hale-thanksgiving (R, 17.7 s, Thanksgiving-eve tie-in: Sarah Hale nagged 4 presidents for 17 years → Lincoln: "so every family eats together AND argues politics??" → "exactly. ur welcome 🦃") at 17:00 and tycho-polite-bladder (D, 23.5 s, dark bank #9: too polite to leave the baron's table → "...so about ur star charts 👀") at 21:00. ElevenLabs: test line failed again (failed/incomplete payment, 38 credits shown) → Kokoro. storage.googleapis.com 200, elevenlabsusercontent.com 403 at root, upload.wikimedia.org 000. vidIQ: 10 credits (2× keyword research), balance 1765 → 1755.
@@ -116,53 +117,55 @@ Note: 48h-view counts are not tracked per video (snapshot only); v1 numbers are 
 | napoleon-elba-escape | v2-B (kokoro) | 19.9 | 2026-11-03 17:00 | 118 (520 h) | 1 | 0 |
 | caesar-calendar | v2-B (kokoro) | 21.2 | 2026-11-03 21:00 | 117 (516 h) | 1 | 0 |
 | alexander-gordian-knot | v2-B (kokoro) | 19.4 | 2026-11-04 17:00 | 109 (496 h) | 0 | 0 |
-| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 20 (492 h) | 0 | 0 |
+| marie-antoinette-warship-hair | v2-B (kokoro) | 22.2 | 2026-11-04 21:00 | 21 (563 h) | 0 | 0 |
 | henry-groom-of-stool | v2-B | 23.7 | 2026-11-05 01:00 | 113 (488 h) | 0 | 0 |
 | washington-whiskey | v2-B short | 17.6 | 2026-11-06 01:00 | 213 (464 h) | 0 | 0 |
-| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1209 (472 h) | 8 | 0 |
-| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 127 (468 h) | 1 | 0 |
-| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 144 (448 h) | 2 | 0 |
-| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 251 (444 h) | 1 | 0 |
-| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (424 h) | 1 | 0 |
-| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 72 (420 h) | 0 | 0 |
-| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 574 (400 h) | 3 | 1 |
-| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 137 (396 h) | 1 | 0 |
-| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 169 (376 h) | 0 | 0 |
-| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 74 (372 h) | 0 | 0 |
-| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 124 (352 h) | 0 | 0 |
-| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 51 (348 h) | 0 | 0 |
-| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 144 (328 h) | 0 | 3 |
-| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 26 (324 h) | 0 | 0 |
-| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 820 (351 h) | 1 | 0 |
-| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 115 (347 h) | 1 | 0 |
-| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1265 (327 h) | 12 | 0 |
-| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 352 (326 h) | 1 | 0 |
-| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (323 h) | 0 | 0 |
-| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 72 (223 h) | 0 | 0 |
-| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 | 64 (199 h) | 0 | 0 |
-| napoleon-dutch-rabbit | v3-R (kokoro) | 16.7 | 2026-11-20 01:00 | 118 (175 h) | 2 | 0 |
-| henry-anne-little-neck | v3-D (kokoro) | 20.3 | 2026-11-21 01:00 | 1107 (151 h) | 7 | 0 |
-| mozart-borrows-money | v3-R (kokoro) | 16.9 | 2026-11-22 01:00 | 814 (127 h) | 2 | 0 |
-| marie-antoinette-pardon-me | v3-D (kokoro) | 22.2 | 2026-11-23 01:00 | 370 (103 h) | 1 | 0 |
-| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 127 (231 h) | 3 | 0 |
-| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 11 (227 h) | 0 | 0 |
-| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 | 183 (207 h) | 0 | 0 |
-| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 | 161 (203 h) | 1 | 0 |
-| lincoln-hat-late-reply | v3-R (kokoro) | 15.6 | 2026-11-19 17:00 | 155 (183 h) | 2 | 0 |
-| guillotin-name | v3-D (kokoro) | 21.4 | 2026-11-19 21:00 | 72 (179 h) | 3 | 0 |
-| newton-lockdown-bread | v3-R (kokoro) | 17.8 | 2026-11-20 17:00 | 156 (159 h) | 4 | 0 |
-| mummy-medicine | v3-D (kokoro) | 22.5 | 2026-11-20 21:00 | 324 (155 h) | 1 | 0 |
-| napoleon-left-on-read | v3-R (kokoro) | 16.0 | 2026-11-21 17:00 | 930 (135 h) | 2 | 0 |
-| king-14-desserts | v3-D (kokoro) | 23.9 | 2026-11-21 21:00 | 988 (131 h) | 7 | 0 |
-| napoleon-moscow-airbnb | v3-R (kokoro) | 17.7 | 2026-11-22 17:00 | 176 (111 h) | 0 | 0 |
-| plague-doctor-beak | v3-D (kokoro) | 23.3 | 2026-11-22 21:00 | 462 (107 h) | 3 | 0 |
-| beethoven-landlord-2am | v3-R (kokoro) | 17.4 | 2026-11-23 17:00 | 656 (87 h) | 3 | 0 |
-| washington-howe-dog | v3-R (kokoro) | 18.0 | 2026-11-23 21:00 | 727 (83 h) | 3 | 0 |
-| napoleon-mule-painting | v3-R (kokoro) | 17.8 | 2026-11-24 17:00 | 659 (63 h) | 4 | 0 |
-| steininger-beard | v3-D (kokoro) | 23.1 | 2026-11-24 21:00 | 206 (59 h) | 2 | 0 |
-| lincoln-hale-thanksgiving | v3-R (kokoro) | 17.7 | 2026-11-25 17:00 | 895 (39 h) | 3 | 0 |
-| tycho-polite-bladder | v3-D (kokoro) | 23.5 | 2026-11-25 21:00 | 189 (35 h) | 1 | 0 |
-| earl-sandwich-card-game | v3-R (kokoro) | 17.6 | 2026-11-26 17:00 | 120 (15 h) | 0 | 0 |
-| aeschylus-tortoise | v3-D (kokoro) | 25.4 | 2026-11-26 21:00 | 80 (11 h) | 2 | 0 |
-| napoleon-crowns-himself | v3-R (kokoro) | 17.3 | 2026-11-27 17:00 (scheduled) | – | – | – |
-| chrysippus-died-laughing | v3-D (kokoro) | 20.9 | 2026-11-27 21:00 (scheduled) | – | – | – |
+| napoleon-sphinx-nose | v2-B (kokoro) | 19.5 | 2026-11-05 17:00 | 1209 (543 h) | 8 | 0 |
+| cleopatra-pearl-bet | v2-B (kokoro) | 20.9 | 2026-11-05 21:00 | 127 (539 h) | 1 | 0 |
+| napoleon-louisiana-sale | v2-B (kokoro) | 23.7 | 2026-11-06 17:00 | 144 (519 h) | 2 | 0 |
+| erik-greenland-scam | v2-B (kokoro) | 20.2 | 2026-11-06 21:00 | 252 (515 h) | 1 | 0 |
+| washington-cherry-tree | v2-B (kokoro) | 20.5 | 2026-11-07 17:00 | 265 (495 h) | 1 | 0 |
+| olympics-naked | v2-B (kokoro) | 18.0 | 2026-11-07 21:00 | 72 (491 h) | 0 | 0 |
+| napoleon-chess-turk | v2-B (kokoro) | 18.7 | 2026-11-08 17:00 | 574 (471 h) | 3 | 1 |
+| egypt-cat-shields | v2-B (kokoro) | 19.1 | 2026-11-08 21:00 | 137 (467 h) | 1 | 0 |
+| napoleon-rosetta-stone | v2-B (kokoro) | 19.0 | 2026-11-09 17:00 | 169 (447 h) | 0 | 0 |
+| beethoven-60-beans | v2-B (kokoro) | 19.9 | 2026-11-09 21:00 | 74 (443 h) | 0 | 0 |
+| napoleon-canned-food | v2-B (kokoro) | 18.9 | 2026-11-10 17:00 | 124 (423 h) | 0 | 0 |
+| lincoln-sword-duel | v2-B (kokoro) | 18.4 | 2026-11-10 21:00 | 51 (419 h) | 0 | 0 |
+| napoleon-hand-coat | v2-B (kokoro) | 22.2 | 2026-11-11 17:00 | 144 (399 h) | 0 | 3 |
+| franklin-air-bath | v2-B (kokoro) | 25.5 | 2026-11-11 21:00 | 26 (395 h) | 0 | 0 |
+| napoleon-renamed-josephine | v2-B (kokoro) | 24.0 | 2026-11-12 17:00 | 820 (375 h) | 1 | 0 |
+| caesar-laurel-bald | v2-B (kokoro) | 24.6 | 2026-11-12 21:00 | 115 (371 h) | 1 | 0 |
+| napoleon-mom-texts | v3-R (kokoro) | 16.7 | 2026-11-13 17:00 | 1266 (351 h) | 12 | 0 |
+| napoleon-grouchy-omw | v3-R (elevenlabs) | 18.0 | 2026-11-13 18:00 | 352 (350 h) | 1 | 0 |
+| washington-bloodletting | v3-D (elevenlabs) | 24.3 | 2026-11-13 21:00 | 48 (347 h) | 0 | 0 |
+| napoleon-kicked-from-europe | v3-R (elevenlabs) | 17.9 | 2026-11-18 01:00 | 72 (247 h) | 0 | 0 |
+| caesar-23-stabs | v3-D (elevenlabs) | 25.4 | 2026-11-19 01:00 | 66 (223 h) | 0 | 0 |
+| napoleon-dutch-rabbit | v3-R (kokoro) | 16.7 | 2026-11-20 01:00 | 118 (199 h) | 2 | 0 |
+| henry-anne-little-neck | v3-D (kokoro) | 20.3 | 2026-11-21 01:00 | 1107 (175 h) | 7 | 0 |
+| mozart-borrows-money | v3-R (kokoro) | 16.9 | 2026-11-22 01:00 | 814 (151 h) | 2 | 0 |
+| marie-antoinette-pardon-me | v3-D (kokoro) | 22.2 | 2026-11-23 01:00 | 370 (127 h) | 1 | 0 |
+| caesar-three-word-update | v3-R (kokoro) | 17.6 | 2026-11-17 17:00 | 127 (255 h) | 3 | 0 |
+| napoleon-green-wallpaper | v3-D (kokoro) | 25.0 | 2026-11-17 21:00 | 11 (251 h) | 0 | 0 |
+| henry-armor-shrank | v3-R (kokoro) | 17.7 | 2026-11-18 17:00 | 183 (231 h) | 0 | 0 |
+| socrates-rooster | v3-D (kokoro) | 24.5 | 2026-11-18 21:00 | 161 (227 h) | 1 | 0 |
+| lincoln-hat-late-reply | v3-R (kokoro) | 15.6 | 2026-11-19 17:00 | 155 (207 h) | 2 | 0 |
+| guillotin-name | v3-D (kokoro) | 21.4 | 2026-11-19 21:00 | 72 (203 h) | 3 | 0 |
+| newton-lockdown-bread | v3-R (kokoro) | 17.8 | 2026-11-20 17:00 | 156 (183 h) | 4 | 0 |
+| mummy-medicine | v3-D (kokoro) | 22.5 | 2026-11-20 21:00 | 324 (179 h) | 1 | 0 |
+| napoleon-left-on-read | v3-R (kokoro) | 16.0 | 2026-11-21 17:00 | 931 (159 h) | 2 | 0 |
+| king-14-desserts | v3-D (kokoro) | 23.9 | 2026-11-21 21:00 | 988 (155 h) | 7 | 0 |
+| napoleon-moscow-airbnb | v3-R (kokoro) | 17.7 | 2026-11-22 17:00 | 176 (135 h) | 0 | 0 |
+| plague-doctor-beak | v3-D (kokoro) | 23.3 | 2026-11-22 21:00 | 462 (131 h) | 3 | 0 |
+| beethoven-landlord-2am | v3-R (kokoro) | 17.4 | 2026-11-23 17:00 | 656 (111 h) | 3 | 0 |
+| washington-howe-dog | v3-R (kokoro) | 18.0 | 2026-11-23 21:00 | 727 (107 h) | 3 | 0 |
+| napoleon-mule-painting | v3-R (kokoro) | 17.8 | 2026-11-24 17:00 | 661 (87 h) | 4 | 0 |
+| steininger-beard | v3-D (kokoro) | 23.1 | 2026-11-24 21:00 | 207 (83 h) | 2 | 0 |
+| lincoln-hale-thanksgiving | v3-R (kokoro) | 17.7 | 2026-11-25 17:00 | 904 (63 h) | 3 | 0 |
+| tycho-polite-bladder | v3-D (kokoro) | 23.5 | 2026-11-25 21:00 | 201 (59 h) | 1 | 0 |
+| earl-sandwich-card-game | v3-R (kokoro) | 17.6 | 2026-11-26 17:00 | 135 (39 h) | 1 | 0 |
+| aeschylus-tortoise | v3-D (kokoro) | 25.4 | 2026-11-26 21:00 | 113 (35 h) | 2 | 0 |
+| napoleon-crowns-himself | v3-R (kokoro) | 17.3 | 2026-11-27 17:00 | 179 (15 h) | 2 | 0 |
+| chrysippus-died-laughing | v3-D (kokoro) | 20.9 | 2026-11-27 21:00 | 485 (11 h) | 1 | 0 |
+| napoleon-ex-queen | v3-R (kokoro) | 17.0 | 2026-11-28 17:00 (scheduled) | – | – | – |
+| elizabeth-black-teeth | v3-R (kokoro) | 17.8 | 2026-11-28 21:00 (scheduled) | – | – | – |
