@@ -24,7 +24,9 @@
         "shorts"
       ],
       "duration": 8,
-      "sizeMB": 4.26
+      "sizeMB": 4.26,
+      "post_id": "p_bHm-bQ2atrwH",
+      "publish_at": "2026-11-28T12:00:00+04:00"
     },
     {
       "file": "2026-11-28-2-candy-marbles.mp4",
@@ -49,7 +51,9 @@
         "shorts"
       ],
       "duration": 10.4,
-      "sizeMB": 9.53
+      "sizeMB": 9.53,
+      "post_id": "p_oXRtDsjpNWxU",
+      "publish_at": "2026-11-28T17:00:00+04:00"
     },
     {
       "file": "2026-11-28-3-matte-domino.mp4",
@@ -74,7 +78,9 @@
         "shorts"
       ],
       "duration": 10.3,
-      "sizeMB": 8.72
+      "sizeMB": 8.72,
+      "post_id": "p_GNon0L2VEqkF",
+      "publish_at": "2026-11-28T21:00:00+04:00"
     }
   ]
 }
